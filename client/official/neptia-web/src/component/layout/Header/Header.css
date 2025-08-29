@@ -1,0 +1,14 @@
+.header-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4); /* 半透明黑 */
+  z-index: 0; /* 比 Navbar.Collapse 的默认值大 */
+}
+.active-tab {
+  color: #6adbd4 !important; /* Bootstrap primary 蓝 */
+  font-weight: 600;
+  /* border-bottom: 2px solid #007bff; */
+}
