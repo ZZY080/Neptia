@@ -118,7 +118,7 @@ const Open = () => {
           </Container>
           {/* 企业文化  */}
           <Container className="px-4">
-            {/* 视频 */}
+            {/* 视频   */}
             <Row className="p-0 mt-0  d-flex flex-column align-items-center">
               <Col
                 className="p-0 m-0 position-relative"
