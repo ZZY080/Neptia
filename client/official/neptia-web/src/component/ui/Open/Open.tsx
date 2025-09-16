@@ -38,7 +38,7 @@ const Open = () => {
     { id: 6, pic: "/src/assets/sale.png", name: "销售" },
     { id: 7, pic: "/src/assets/support.png", name: "职能支持" },
   ]);
-  // 产品介 绍
+  // 产品介  绍
   const [appList] = useState([
     {
       id: "1",
