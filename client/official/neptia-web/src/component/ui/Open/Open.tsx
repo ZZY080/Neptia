@@ -28,7 +28,7 @@ const Open = () => {
       desc: "你不需要花时间找遍全球，我们替你一步到位策划好。从产品、内容、搭配到使用建议，Neptia 是你生活的全球选物管家。好物不只是好用，而是刚刚好地属于你。",
     },
   ]);
-  // 岗位介绍
+  // 岗 位介绍
   const [jobList] = useState([
     { id: 1, pic: "/src/assets/research.png", name: "研发" },
     { id: 2, pic: "/src/assets/product.png", name: "产品" },
