@@ -1,73 +1,72 @@
-import { memo, useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import advertise from '@assets/advertise.mp4';
-import volumnClose from '@assets/volume-close.png';
-import volumnUp from '@assets/volumn-up.png';
-import zengzhiyuan from '@assets/zengzhiyuan.jpg';
+import { memo, useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import volumnClose from "@assets/volume-close.png";
+import volumnUp from "@assets/volumn-up.png";
+import zengzhiyuan from "@assets/zengzhiyuan.jpg";
 
 const Open = () => {
   // 企业价值观
   const [valueList] = useState([
     {
-      id: '1',
-      title: '1.Neptia 不是代购，而是全球生活方式的策划师。',
-      desc: '我们走得更远，只为找到那些与你生活方式真正契合的好物，不跟风、不凑热闹，只做你真正会喜欢、会复购的选择。',
+      id: "1",
+      title: "1.Neptia 不是代购，而是全球生活方式的策划师。",
+      desc: "我们走得更远，只为找到那些与你生活方式真正契合的好物，不跟风、不凑热闹，只做你真正会喜欢、会复购的选择。",
     },
     {
-      id: '2',
-      title: '2.Neptia，灵感来自 Neptune（海王星）+ Utopia（乌托邦）',
-      desc: '代表一种遥远却贴近的理想生活——无论东京、悉尼、首尔、新加坡还是曼谷，我们精选全球好物，让它们成为你生活的一部分。',
+      id: "2",
+      title: "2.Neptia，灵感来自 Neptune（海王星）+ Utopia（乌托邦）",
+      desc: "代表一种遥远却贴近的理想生活——无论东京、悉尼、首尔、新加坡还是曼谷，我们精选全球好物，让它们成为你生活的一部分。",
     },
     {
-      id: '3',
-      title: '3.选得好，比买得多更重要',
-      desc: '我们亲选、亲试、亲测每一款商品，深入全球本地：与药房、实验室、母婴店、主妇市场一线接触。不只带回商品，更带回它在当地真实被使用的生活方式。',
+      id: "3",
+      title: "3.选得好，比买得多更重要",
+      desc: "我们亲选、亲试、亲测每一款商品，深入全球本地：与药房、实验室、母婴店、主妇市场一线接触。不只带回商品，更带回它在当地真实被使用的生活方式。",
     },
     {
-      id: '4',
-      title: '4.生活，是可以被策划的',
-      desc: '你不需要花时间找遍全球，我们替你一步到位策划好。从产品、内容、搭配到使用建议，Neptia 是你生活的全球选物管家。好物不只是好用，而是刚刚好地属于你。',
+      id: "4",
+      title: "4.生活，是可以被策划的",
+      desc: "你不需要花时间找遍全球，我们替你一步到位策划好。从产品、内容、搭配到使用建议，Neptia 是你生活的全球选物管家。好物不只是好用，而是刚刚好地属于你。",
     },
   ]);
   // 岗位介绍
   const [jobList] = useState([
-    { id: 1, pic: '/src/assets/research.png', name: '研发' },
-    { id: 2, pic: '/src/assets/product.png', name: '产品' },
-    { id: 3, pic: '/src/assets/operation.png', name: '运营' },
-    { id: 4, pic: '/src/assets/design.png', name: '设计' },
-    { id: 5, pic: '/src/assets/market.png', name: '市场' },
-    { id: 6, pic: '/src/assets/sale.png', name: '销售' },
-    { id: 7, pic: '/src/assets/support.png', name: '职能支持' },
+    { id: 1, pic: "/src/assets/research.png", name: "研发" },
+    { id: 2, pic: "/src/assets/product.png", name: "产品" },
+    { id: 3, pic: "/src/assets/operation.png", name: "运营" },
+    { id: 4, pic: "/src/assets/design.png", name: "设计" },
+    { id: 5, pic: "/src/assets/market.png", name: "市场" },
+    { id: 6, pic: "/src/assets/sale.png", name: "销售" },
+    { id: 7, pic: "/src/assets/support.png", name: "职能支持" },
   ]);
   // 产品介绍
   const [appList] = useState([
     {
-      id: '1',
-      name: '邻聚里',
+      id: "1",
+      name: "邻聚里",
       appIcon:
-        'https://mass.alipay.com/openpt_developer/afts/file/A*68pAR4EALnMAAAAAAAAAAAAAerF1AQ',
-      appUrl: '',
+        "https://mass.alipay.com/openpt_developer/afts/file/A*68pAR4EALnMAAAAAAAAAAAAAerF1AQ",
+      appUrl: "",
     },
     {
-      id: '2',
-      name: '全球购物',
+      id: "2",
+      name: "全球购物",
       appIcon:
-        'https://lf3-static.bytednsdoc.com/obj/eden-cn/upkhzhreh7lsuhf/hire-fe/protal-midas-materials/BDProductService/assets/page1_icon4_3.png',
-      appUrl: '',
+        "https://lf3-static.bytednsdoc.com/obj/eden-cn/upkhzhreh7lsuhf/hire-fe/protal-midas-materials/BDProductService/assets/page1_icon4_3.png",
+      appUrl: "",
     },
     {
-      id: '3',
-      name: '租房么',
+      id: "3",
+      name: "租房么",
       appIcon:
-        'https://mass.alipay.com/openpt_developer/afts/file/A*ODOCS7Y4HRgAAAAAAAAAAAAAerF1AQ',
-      appUrl: '',
+        "https://mass.alipay.com/openpt_developer/afts/file/A*ODOCS7Y4HRgAAAAAAAAAAAAAerF1AQ",
+      appUrl: "",
     },
     {
-      id: '4',
-      name: '趣聚社',
+      id: "4",
+      name: "趣聚社",
       appIcon:
-        'https://lf3-static.bytednsdoc.com/obj/eden-cn/upkhzhreh7lsuhf/hire-fe/protal-midas-materials/BDProductService/assets/page1_icon4_5.png',
-      appUrl: '',
+        "https://lf3-static.bytednsdoc.com/obj/eden-cn/upkhzhreh7lsuhf/hire-fe/protal-midas-materials/BDProductService/assets/page1_icon4_5.png",
+      appUrl: "",
     },
   ]);
 
@@ -103,10 +102,10 @@ const Open = () => {
                     <div
                       className="d-flex flex-column align-items-left mb-5 py-3 px-3"
                       style={{
-                        borderWidth: '1px',
-                        borderStyle: 'solid',
-                        borderColor: '#6ADBD4',
-                        borderRadius: '5px',
+                        borderWidth: "1px",
+                        borderStyle: "solid",
+                        borderColor: "#6ADBD4",
+                        borderRadius: "5px",
                       }}
                     >
                       <div className="text-left fs-5 fw-bold">{item.title}</div>
@@ -130,15 +129,15 @@ const Open = () => {
                 xxl={12}
               >
                 <video
-                  src={advertise}
+                  src="https://sns-video-hs.xhscdn.com/stream/110/4/01e67e292691e1a201037703905cd42917_4.mp4"
                   autoPlay={true}
                   controls
                   muted={isMuted}
                   loop={true}
                   style={{
-                    width: '100%',
-                    objectFit: 'cover',
-                    borderRadius: '12px',
+                    width: "100%",
+                    objectFit: "cover",
+                    borderRadius: "12px",
                   }}
                 ></video>
                 {/* 控制是否静音的图标 */}
@@ -177,7 +176,7 @@ const Open = () => {
                   >
                     <img
                       src={item.pic}
-                      style={{ width: '100%' }}
+                      style={{ width: "100%" }}
                       alt={item.name}
                       title={item.name}
                     />
@@ -214,28 +213,28 @@ const Open = () => {
                         alt=""
                         className="me-3 "
                         style={{
-                          width: '100px',
-                          height: '100px',
-                          objectFit: 'cover',
-                          borderRadius: '50%',
-                          backgroundColor: '#428dd7',
+                          width: "100px",
+                          height: "100px",
+                          objectFit: "cover",
+                          borderRadius: "50%",
+                          backgroundColor: "#428dd7",
                         }}
                       />
                       <div
                         className="d-flex flex-column align-items-start flex-wrap"
                         style={{
-                          flex: '1',
+                          flex: "1",
                         }}
                       >
                         <div className="text-left fw-bold">Kenny 曾志远</div>
                         <div
                           className="mt-1 text-left fs-9"
                           style={{
-                            fontSize: '10px',
-                            color: '#fff',
-                            padding: '5px 10px 5px 10px',
-                            backgroundColor: '#6ADBD4',
-                            borderRadius: '5px',
+                            fontSize: "10px",
+                            color: "#fff",
+                            padding: "5px 10px 5px 10px",
+                            backgroundColor: "#6ADBD4",
+                            borderRadius: "5px",
                           }}
                         >
                           Neptia创始人兼CEO
@@ -243,17 +242,17 @@ const Open = () => {
                         <div
                           className="mt-2"
                           style={{
-                            width: '100%',
-                            height: '0.8px',
-                            backgroundColor: '#6ADBD4',
+                            width: "100%",
+                            height: "0.8px",
+                            backgroundColor: "#6ADBD4",
                           }}
                         ></div>
                         <div
                           className="mt-2  text-left"
                           style={{
-                            width: '100%',
-                            fontSize: '0.6rem',
-                            color: 'black',
+                            width: "100%",
+                            fontSize: "0.6rem",
+                            color: "black",
                           }}
                         >
                           在全球著名战略公司担任项目经理多说的就是卡的
@@ -287,7 +286,7 @@ const Open = () => {
                       <img
                         className="mb-2"
                         src={item.appIcon}
-                        style={{ width: '88px', height: '88px' }}
+                        style={{ width: "88px", height: "88px" }}
                         alt=""
                       />
                       <div className="text-center fs-6 text-dark fw-bold">
