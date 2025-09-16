@@ -1,0 +1,149 @@
+name: Deploy Frontend & Backend App
+
+on:
+  push:
+    branches:
+      - development
+      - test
+      - production
+
+jobs:
+  # =========================
+  # 前端构建
+  # =========================
+  build-frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "20.19.4"
+
+      - run: npm install -g pnpm
+
+      - name: Build React App
+        run: |
+          cd client/offical/neptia-web
+          pnpm install
+          pnpm run build
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: frontend-build
+          path: client/offical/neptia-web/dist/
+
+  deploy-frontend:
+    runs-on: ubuntu-latest
+    needs: build-frontend
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: frontend-build
+          path: ./build-output
+
+      - name: Setup SSH
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+
+      - name: Sync frontend to server
+        env:
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+        run: |
+          ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no $SSH_USER@$SSH_HOST "mkdir -p /www/project/Neptia/client/offical/neptia-web/dist"
+          rsync -avz --delete -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" ./build-output/ $SSH_USER@$SSH_HOST:/www/project/Neptia/client/offical/neptia-web/dist
+
+  # =========================
+  # 后端构建
+  # =========================
+  # build-backend:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+
+  #     - name: Setup Node.js
+  #       uses: actions/setup-node@v2
+  #       with:
+  #         node-version: "20.19.4"
+
+  #     - run: npm install -g pnpm
+
+  #     - name: Build NestJS App
+  #       run: |
+  #         cd server/snip-nest
+  #         pnpm install
+  #         pnpm run build
+
+  #     - uses: actions/upload-artifact@v4
+  #       with:
+  #         name: backend-build
+  #         path: |
+  #           server/snip-nest/dist/
+  #           server/snip-nest/deploy.sh
+  #           server/snip-nest/ecosystem.config.js
+  #           server/snip-nest/package.json
+
+  # =========================
+  # 后端部署
+  # =========================
+  # deploy-backend:
+  #   runs-on: ubuntu-latest
+  #   needs: build-backend
+  #   steps:
+  #     - uses: actions/download-artifact@v4
+  #       with:
+  #         name: backend-build
+  #         path: ./build-output
+
+  #     - name: Setup SSH
+  #       env:
+  #         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+  #       run: |
+  #         mkdir -p ~/.ssh
+  #         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+  #         chmod 600 ~/.ssh/id_rsa
+
+  #     - name: Deploy backend build
+  #       env:
+  #         SSH_USER: ${{ secrets.SSH_USER }}
+  #         SSH_HOST: ${{ secrets.SSH_HOST }}
+  #         GITHUB_REF_NAME: ${{ github.ref_name }} # 当前分支名 development / test / production
+  #       run: |
+  #         # 1.上传打包文件
+  #         ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no $SSH_USER@$SSH_HOST "mkdir -p /www/project/Snip/server/snip-nest/dist"
+  #         rsync -avz --delete -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" ./build-output/dist/ $SSH_USER@$SSH_HOST:/www/project/Snip/server/snip-nest/dist
+  #         ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no $SSH_USER@$SSH_HOST "mkdir -p /www/project/Snip/server/snip-nest/dist"
+
+  #         # 3. 把 package.json 上传到服务器 /www/project/Snip/server/snip-nest/
+  #         rsync -avz -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" ./build-output/package.json $SSH_USER@$SSH_HOST:/www/project/Snip/server/snip-nest/
+
+  #         # 3. 把 deploy.sh 上传到服务器 /www/project/Snip/server/snip-nest/
+  #         rsync -avz -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" ./build-output/deploy.sh $SSH_USER@$SSH_HOST:/www/project/Snip/server/snip-nest/
+
+  #         # 4. 把 ecosystem.config.js 上传到服务器 /www/project/Snip/server/snip-nest/
+  #         rsync -avz -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" ./build-output/ecosystem.config.js $SSH_USER@$SSH_HOST:/www/project/Snip/server/snip-nest/
+
+  #         # 给 deploy.sh 添加可执行权限
+  #         ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no $SSH_USER@$SSH_HOST "chmod +x /www/project/Snip/server/snip-nest/deploy.sh"
+
+  #     - name: Start/restart backend with pm2 via deploy.sh
+  #       env:
+  #         SSH_USER: ${{ secrets.SSH_USER }}
+  #         SSH_HOST: ${{ secrets.SSH_HOST }}
+  #         GITHUB_REF_NAME: ${{ github.ref_name }}
+  #       run: |
+  #         # 根据分支决定 pm2 应用名
+  #         if [ "$GITHUB_REF_NAME" = "development" ]; then APP_NAME="snip-nest-dev"; fi
+  #         if [ "$GITHUB_REF_NAME" = "test" ]; then APP_NAME="snip-nest-test"; fi
+  #         if [ "$GITHUB_REF_NAME" = "production" ]; then APP_NAME="snip-nest-prod"; fi
+
+  #         ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no $SSH_USER@$SSH_HOST "
+  #           cd /www/project/Snip/server/snip-nest &&
+  #           ./deploy.sh $APP_NAME
+  #         "
