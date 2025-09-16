@@ -2,7 +2,6 @@ import "@component/ui/About/About.css";
 import volumnClose from "@assets/volume-close.png";
 import volumnUp from "@assets/volumn-up.png";
 import zengzhiyuan from "@assets/zengzhiyuan.jpg";
-import advertise from "@assets/advertise.mp4";
 import { memo, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 // import { useNavigate } from "react-router-dom";
@@ -163,7 +162,9 @@ const About = memo(() => {
                 xxl={12}
               >
                 <video
-                  src={advertise}
+                  src={
+                    "https://sns-video-hs.xhscdn.com/stream/110/4/01e67e292691e1a201037703905cd42917_4.mp4"
+                  }
                   autoPlay={true}
                   controls
                   muted={isMuted}
