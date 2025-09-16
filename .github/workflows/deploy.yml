@@ -25,14 +25,14 @@ jobs:
 
       - name: Build React App
         run: |
-          cd client/offical/neptia-web
+          cd client/official/neptia-web
           pnpm install
           pnpm run build
 
       - uses: actions/upload-artifact@v4
         with:
           name: frontend-build
-          path: client/offical/neptia-web/dist/
+          path: client/official/neptia-web/dist/
 
   deploy-frontend:
     runs-on: ubuntu-latest
@@ -56,8 +56,8 @@ jobs:
           SSH_USER: ${{ secrets.SSH_USER }}
           SSH_HOST: ${{ secrets.SSH_HOST }}
         run: |
-          ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no $SSH_USER@$SSH_HOST "mkdir -p /www/project/Neptia/client/offical/neptia-web/dist"
-          rsync -avz --delete -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" ./build-output/ $SSH_USER@$SSH_HOST:/www/project/Neptia/client/offical/neptia-web/dist
+          ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no $SSH_USER@$SSH_HOST "mkdir -p /www/project/Neptia/client/official/neptia-web/dist"
+          rsync -avz --delete -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" ./build-output/ $SSH_USER@$SSH_HOST:/www/project/Neptia/client/official/neptia-web/dist
 
   # =========================
   # 后端构建
