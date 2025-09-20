@@ -19,6 +19,7 @@ export default defineConfig({
       "@component": path.resolve(__dirname, "./src/component"),
       "@router": path.resolve(__dirname, "./src/router"),
       "@util": path.resolve(__dirname, "./src/util"),
+      "@i18n": path.resolve(__dirname, "./src/i18n"),
     },
   },
 });

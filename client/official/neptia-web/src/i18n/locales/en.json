@@ -1,0 +1,235 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "notFound": "Page not found",
+    "backToHome": "Back to Home"
+  },
+  "nav": {
+    "home": "Home",
+    "service": "Service",
+    "about": "About",
+    "contact": "Contact",
+    "brand": "Wayne InsightSpring",
+    "insight": "Insight"
+  },
+  "home": {
+    "hero": {
+      "title": "The Way In, The Way Insight.",
+      "subtitle": "歸因於內，洞見歸真。",
+      "description": "We are a leading B2C consulting company in the medical field, specializing in providing future development consulting services for individuals aspiring to enter the medical industry. We are committed to providing valuable industry insights to help our clients navigate the increasingly complex and dynamic trends in the medical industry.",
+      "cta": "Contact Us"
+    },
+    "services": {
+      "title": "We are your premier consulting company, helping you achieve all your goals:",
+      "personalDevelopment": {
+        "title": "Personal Medical Future Development Planning Consultation",
+        "description": "The normal operation of the medical system relies on professional healthcare workers. Improving medical service coverage and achieving the right of all people to enjoy the highest attainable standard of health depends on the availability, accessibility, acceptability, and quality of medical services. According to World Health Organization estimates, there will be a global shortage of 11 million healthcare workers by 2030.\n\nOur personal medical future development planning consultation is designed for individuals aspiring to advance in the medical industry and children from high-net-worth families. We are committed to providing cutting-edge insights and professional analysis of the medical industry, combining the latest data and evidence to help you make rational decision analysis and stand out in the medical field."
+      },
+      "healthPlanning": {
+        "title": "Personal Health Plan Planning",
+        "description": "Every family needs a customized health protection plan. We will assess your health concerns, analyze potential risks, comprehensively review existing resources, protection needs, and family circumstances to develop a comprehensive plan covering insurance configuration, health management recommendations, and high-end medical resource connections. We will also continuously monitor your health needs and dynamically adjust protection plans based on actual circumstances. (This service does not include any medical advice)"
+      },
+      "marketEntry": {
+        "title": "Overseas Institutions China Market Entry Solutions",
+        "description": "China is the largest and most promising market in the world today. Any overseas enterprise or institution intending to enter China needs to have a deep understanding of the Chinese market and seek professional agents who can build communication bridges. We will thoroughly understand your organization's background, business objectives, and market expectations, and conduct market research, policy analysis, and risk assessment based on your project. Subsequently, we will tailor market entry strategies for you, assist with compliance processing, brand localization, and operational implementation; while connecting with government departments, industry associations, and partners and other quality resources to promote the smooth implementation of cooperation projects. We provide full-process accompanying services, regularly review effectiveness, and flexibly adjust follow-up development plans to help you succeed in the Chinese market."
+      }
+    },
+    "testimonials": {
+      "title": "What Our Clients Say About Us",
+      "client1": {
+        "name": "Client One",
+        "quote": "Meeting Roland was our blessing! We have been following Roland's social media, and after in-depth communication, we were even more convinced that entrusting our development planning to Roland's team was the wisest choice! Roland responds almost 24/7, giving us complete peace of mind. He has been actively helping us save unnecessary expenses and sharing exclusive internal insights to help us prepare response plans in advance. I believe that for individuals or families aspiring to deeply develop in the medical field, my only suggestion is to contact Roland as soon as possible."
+      },
+      "client2": {
+        "name": "Client Two",
+        "quote": "When choosing Wayne InsightSpring, I most valued their professional level and attention to detail. As a transnational family, we have been looking for a consulting company that can provide global medical protection planning for the whole family. The team not only comprehensively reviewed our existing insurance configuration but also helped us discover potential protection blind spots and connected high-end health management resources. The entire service process was very efficient and thoughtful, making us confident about future health protection. Wayne InsightSpring is indeed a partner that can bring peace of mind to families."
+      },
+      "client3": {
+        "name": "Client Three",
+        "quote": "I have always been confused about my child's growth direction, worried that choosing the wrong path would affect his life. Roland's team, through extremely professional interviews and analysis, helped us comprehensively sort out the child's interests, strengths, and personality. The final growth planning route was very scientific and detailed, and fully integrated our family's values and resources. Now we are confident about our child's future development and have a clearer direction for our efforts. This was a very worthwhile consultation experience, thank you for the team's thoughtful companionship."
+      }
+    },
+    "about": {
+      "title": "About Us",
+      "description": "From the beginning of our company's establishment, we have focused on family values.\n\nThe origin comes from Roland's high school and undergraduate experience, which made Roland believe in one point: only by making correct choices in decision-making can one truly stay ahead and avoid many detours. Just like creating Wayne InsightSpring, Roland's original intention was only to serve clients well and provide competitive income for team members. These two points are one to benefit clients, and the other to benefit the team. Roland firmly believes that only by benefiting others can we create real value and give back to society.\n\nMany families actually don't need their children to become outstanding individuals, but hope that their children have the confidence and right to choose, and can live the life they want. Therefore, our consultation is a kind of diagnosis. We comprehensively analyze the problems that currently exist, then provide effective solutions and actionable paths."
+    },
+    "cta": {
+      "title": "Ready to Start Your Medical Career Journey?",
+      "subtitle": "Join hundreds of professionals already consulting with us",
+      "button": "Get Started Now"
+    }
+  },
+  "index": {
+    "hero": {
+      "title": "Connecting the World Shaping the Future",
+      "subtitle": "连接世界，共创未来",
+      "description": "Neptia places information at its core. Through the conveyance and delivery of our products, we enable value to reach every corner of the globe. We believe in the power of information to break down barriers, connect the world, and facilitate the free flow of knowledge, opportunities, and inspiration, allowing every individual’s unique value to be realized.",
+      "cta": "Contact Us"
+    },
+    "services": {
+      "title": "We are your premier consulting company, helping you achieve all your goals:",
+      "personalDevelopment": {
+        "title": "Personal Medical Future Development Planning Consultation",
+        "description": "The normal operation of the medical system relies on professional healthcare workers. Improving medical service coverage and achieving the right of all people to enjoy the highest attainable standard of health depends on the availability, accessibility, acceptability, and quality of medical services. According to World Health Organization estimates, there will be a global shortage of 11 million healthcare workers by 2030.\n\nOur personal medical future development planning consultation is designed for individuals aspiring to advance in the medical industry and children from high-net-worth families. We are committed to providing cutting-edge insights and professional analysis of the medical industry, combining the latest data and evidence to help you make rational decision analysis and stand out in the medical field."
+      },
+      "healthPlanning": {
+        "title": "Personal Health Plan Planning",
+        "description": "Every family needs a customized health protection plan. We will assess your health concerns, analyze potential risks, comprehensively review existing resources, protection needs, and family circumstances to develop a comprehensive plan covering insurance configuration, health management recommendations, and high-end medical resource connections. We will also continuously monitor your health needs and dynamically adjust protection plans based on actual circumstances. (This service does not include any medical advice)"
+      },
+      "marketEntry": {
+        "title": "Overseas Institutions China Market Entry Solutions",
+        "description": "China is the largest and most promising market in the world today. Any overseas enterprise or institution intending to enter China needs to have a deep understanding of the Chinese market and seek professional agents who can build communication bridges. We will thoroughly understand your organization's background, business objectives, and market expectations, and conduct market research, policy analysis, and risk assessment based on your project. Subsequently, we will tailor market entry strategies for you, assist with compliance processing, brand localization, and operational implementation; while connecting with government departments, industry associations, and partners and other quality resources to promote the smooth implementation of cooperation projects. We provide full-process accompanying services, regularly review effectiveness, and flexibly adjust follow-up development plans to help you succeed in the Chinese market."
+      }
+    },
+    "testimonials": {
+      "title": "What Our Clients Say About Us",
+      "client1": {
+        "name": "Client One",
+        "quote": "Meeting Roland was our blessing! We have been following Roland's social media, and after in-depth communication, we were even more convinced that entrusting our development planning to Roland's team was the wisest choice! Roland responds almost 24/7, giving us complete peace of mind. He has been actively helping us save unnecessary expenses and sharing exclusive internal insights to help us prepare response plans in advance. I believe that for individuals or families aspiring to deeply develop in the medical field, my only suggestion is to contact Roland as soon as possible."
+      },
+      "client2": {
+        "name": "Client Two",
+        "quote": "When choosing Wayne InsightSpring, I most valued their professional level and attention to detail. As a transnational family, we have been looking for a consulting company that can provide global medical protection planning for the whole family. The team not only comprehensively reviewed our existing insurance configuration but also helped us discover potential protection blind spots and connected high-end health management resources. The entire service process was very efficient and thoughtful, making us confident about future health protection. Wayne InsightSpring is indeed a partner that can bring peace of mind to families."
+      },
+      "client3": {
+        "name": "Client Three",
+        "quote": "I have always been confused about my child's growth direction, worried that choosing the wrong path would affect his life. Roland's team, through extremely professional interviews and analysis, helped us comprehensively sort out the child's interests, strengths, and personality. The final growth planning route was very scientific and detailed, and fully integrated our family's values and resources. Now we are confident about our child's future development and have a clearer direction for our efforts. This was a very worthwhile consultation experience, thank you for the team's thoughtful companionship."
+      }
+    },
+    "about": {
+      "title": "About Us",
+      "description": "From the beginning of our company's establishment, we have focused on family values.\n\nThe origin comes from Roland's high school and undergraduate experience, which made Roland believe in one point: only by making correct choices in decision-making can one truly stay ahead and avoid many detours. Just like creating Wayne InsightSpring, Roland's original intention was only to serve clients well and provide competitive income for team members. These two points are one to benefit clients, and the other to benefit the team. Roland firmly believes that only by benefiting others can we create real value and give back to society.\n\nMany families actually don't need their children to become outstanding individuals, but hope that their children have the confidence and right to choose, and can live the life they want. Therefore, our consultation is a kind of diagnosis. We comprehensively analyze the problems that currently exist, then provide effective solutions and actionable paths."
+    },
+    "cta": {
+      "title": "Ready to Start Your Medical Career Journey?",
+      "subtitle": "Join hundreds of professionals already consulting with us",
+      "button": "Get Started Now"
+    }
+  },
+  "services": [
+    {
+      "title": "Personal Medical Future Development Planning Consultation",
+      "items": [
+        {
+          "subtitle": "1. Assessment and Planning of Personal Career Development Trends",
+          "desc": "Based on your academic qualifications, professional background, and personal interests, our team integrates the latest global healthcare industry developments and local market needs to provide a comprehensive analysis of career development trends. We employ scientific methods to assess your potential and strengths in the medical sector, combined with industry forecasts and policy directions, to help you formulate a practical and forward-looking career roadmap. Our services include interpreting industry trends, analysing career opportunities, and offering personalised development recommendations, with the goal of assisting you to progress steadily along your medical career path and seize future opportunities."
+        },
+        {
+          "subtitle": "2. Assessment and Planning of International Medical Education Pathways",
+          "desc": "We conduct in-depth analysis of medical education systems and progression pathways around the world, and tailor the most suitable international medical education plan according to your academic performance, language proficiency, and personal aspirations. Our services include comparing entry requirements, curriculum structures, and accreditation systems across different regions, as well as offering professional advice on application procedures, document preparation, and interview techniques. Whether you are pursuing local or overseas medical programmes, our team is dedicated to supporting you in effectively connecting with international resources, enhancing your global competitiveness, and building a solid foundation for your future medical career."
+        },
+        {
+          "subtitle": "3. Personalised Medical Project Design ",
+          "desc": "This service offers bespoke design of diversified medical-related projects based on your personal attributes and development direction, including research programmes, clinical internships, community service, and healthcare innovation. Our professional team assists you in planning and executing impactful individual projects to enhance your academic and practical capabilities, while highlighting your strengths in your CV. Such experience can significantly strengthen your applications to medical schools or in the job market, providing you with more opportunities for advancement and helping you to realise your long-term career goals in the medical profession."
+        }
+      ],
+      "bgSrc": "https://wis-web.oss-cn-shanghai.aliyuncs.com/service/31c1bc1da1bc1125c45913a018c9d8d.jpg"
+    },
+    {
+      "title": "Personal Health Planning and Advisory ",
+      "items": [
+        {
+          "subtitle": "1. Health Risk Assessment and Resource Review ",
+          "desc": "We conduct comprehensive health risk assessments for you and your family members, considering health concerns, lifestyle habits, and medical history, utilising professional tools. Our team reviews your existing insurance, healthcare protection, and accessible resources, and offers expert advice on your current coverage, helping to identify potential risks and gaps. This forms a solid foundation for developing a customised protection plan."
+        },
+        {
+          "subtitle": "2. Integrated Health Protection Solution Design ",
+          "desc": "Based on risk assessment outcomes and family needs, our team tailors a comprehensive health protection plan, including medical insurance configuration, critical illness coverage, and access to international and premium healthcare resources. The solution is designed with cost-effectiveness and flexibility in mind, ensuring appropriate protection at every life stage. All recommendations are grounded in objective analysis and do not involve any medical diagnosis or treatment advice."
+        },
+        {
+          "subtitle": "3. Ongoing Health Management and Plan Optimisation",
+          "desc": "We emphasise continuity in our service by regularly reviewing and updating your health protection plan in response to life changes and new market offerings. Our team provides ongoing support to you and your family, assisting in the flexible adjustment of insurance and related configurations, ensuring your coverage arrangements remain up to date and are well-positioned to address future health challenges."
+        }
+      ],
+      "bgSrc": "https://wis-web.oss-cn-shanghai.aliyuncs.com/service/8794097711e92c61eddda95039b6ed9.jpg"
+    },
+    {
+      "title": "Overseas Institutions China Market Entry Solutions ",
+      "items": [
+        {
+          "subtitle": "Market Research & Policy Risk Analysis ",
+          "desc": "Our team conducts in-depth market research in China tailored to your organisation's sector and development objectives, covering industry landscape, competitive dynamics, and consumer demand trends. We closely monitor relevant laws, regulations, industry policies, and regulatory changes to provide a comprehensive risk assessment. By leveraging professional data analysis, we help clients anticipate market entry barriers, compliance requirements, and potential challenges, offering a solid scientific foundation for subsequent strategy formulation and risk mitigation."
+        },
+        {
+          "subtitle": "Entry Strategy Formulation & Compliance Implementation ",
+          "desc": "Based on market research and policy analysis, we formulate tailored China market entry strategies for your organisation, encompassing business model selection, partner identification, brand localisation, intellectual property protection, and compliance filings. Our expert team facilitates connections with relevant government agencies, industry associations, and local partners, ensuring that business operations are fully compliant and smoothly implemented, supporting efficient project launch and robust operations."
+        },
+        {
+          "subtitle": "End-to-End Management & Ongoing Optimisation Support ",
+          "desc": "We offer end-to-end project management, providing continuous support from initial preparation and implementation to ongoing operations. Our team regularly reviews project progress and outcomes, making agile adjustments to strategies in response to market changes. We also assist in optimising management processes and resource allocation, promoting collaboration and innovation among all stakeholders, ensuring sustainable development and long-term success for overseas organisations in the China market."
+        }
+      ],
+      "bgSrc": "https://wis-web.oss-cn-shanghai.aliyuncs.com/service/bae3cdc3c38ec862fa59a6c47e97767.jpg"
+    }
+  ],
+  "about": {
+    "title": "About Us",
+    "subtitle": "Empowering learners worldwide with quality education",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide accessible, high-quality education that empowers individuals to achieve their career goals and personal growth."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become the leading platform for modern education, connecting learners with the best resources and opportunities worldwide."
+    },
+    "stats": {
+      "students": "Students",
+      "courses": "Courses",
+      "instructors": "Instructors",
+      "countries": "Countries"
+    },
+    "whyChooseUs": "Why Choose Us",
+    "meetTeam": "Meet Our Team"
+  },
+  "insights": [
+    {
+      "title": "Opening! Application Fundamentals: The Three Tracks of US College Applications"
+    },
+    {
+      "title": "UChicago! Application Fundamentals: Spirit and Daily Life in North America's Academic Paradise"
+    },
+    {
+      "title": "Transfer! Special: Everything You Need to Know About US College Transfers"
+    },
+    {
+      "title": "Brown! Application Fundamentals: What Is It Like to Study at the Most Free Ivy?"
+    },
+    {
+      "title": "Filling Forms! Application Fundamentals: How to Fill the US College Activities List?"
+    }
+  ],
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us for any questions or inquiries",
+    "info": {
+      "title": "Contact Information",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Working Hours"
+    },
+    "form": {
+      "title": "Send us a Message",
+      "name": "Full Name",
+      "email": "Email Address",
+      "wechat": "Wechat",
+      "message": "Message",
+      "send": "Send",
+      "sending": "Sending...",
+      "submit-success": "User information submitted successfully!",
+      "warn-success": "User information have already submited!",
+      "error": "Error submitting user information. Please try again."
+    }
+  },
+  "not-found": {},
+
+  "footer": {
+    "brand": "Neptia",
+    "description": "Connecting the World  Shaping the Future.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "copyright": "© 2025 Neptia. All rights reserved."
+  }
+}
