@@ -1,10 +1,10 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
 
 // 导入翻译文件
-import enTranslations from '@i18n/locales/en.json';
-import zhTranslations from '@i18n/locales/zh.json';
+import enTranslations from "@i18n/locales/en.json";
+import zhTranslations from "@i18n/locales/zh.json";
 
 const resources = {
   en: {
@@ -20,7 +20,8 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    fallbackLng: 'en',
+    lng: "en", // 👈 强制默认语言
+    fallbackLng: "en",
     debug: false,
 
     interpolation: {
@@ -28,8 +29,8 @@ i18n
     },
 
     detection: {
-      order: ['localStorage', 'navigator', 'htmlTag'],
-      caches: ['localStorage'],
+      order: ["localStorage", "navigator", "htmlTag"],
+      caches: ["localStorage"],
     },
   });
 
