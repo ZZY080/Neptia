@@ -30,7 +30,7 @@ function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate API call
+    // Simulate.  API call
     try {
       const response = await axios({
         method: "post",
@@ -66,8 +66,8 @@ function Contact() {
     {
       icon: faEnvelope,
       title: t("contact.info.email"),
-      content: "zengzhiyuan@neptia.cn",
-      link: "mailto:zengzhiyuan@neptia.cn",
+      content: "zhiyuanzeng@neptia.net",
+      link: "mailto:zhiyuanzeng@neptia.net",
     },
     // {
     //   icon: faPhone,

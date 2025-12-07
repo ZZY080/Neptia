@@ -144,7 +144,7 @@ function Footer() {
               </h5>
               <ul className="list-unstyled">
                 <li className="mb-2" style={subTextColor}>
-                  Email: zengzhiyuan@neptia.cn
+                  Email: zhiyuanzeng@neptia.net
                 </li>
                 <li className="mb-2" style={subTextColor}>
                   Phone: +86 19376811909
