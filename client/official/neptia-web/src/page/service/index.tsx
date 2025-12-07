@@ -9,7 +9,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 function Service() {
   const { t } = useTranslation();
-  const services = t("services", { returnObjects: true }) as [];
+  const services = t("service", { returnObjects: true }) as [];
   const navigate = useNavigate();
 
   return (

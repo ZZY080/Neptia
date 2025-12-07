@@ -1,61 +1,14 @@
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faUserMd,
-  faHeartbeat,
-  faGlobe,
-  faQuoteLeft,
-  faArrowRight,
-} from "@fortawesome/free-solid-svg-icons";
+import { faQuoteLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-function Home() {
+function Index() {
   const { t } = useTranslation();
   const navigate = useNavigate();
-
-  const services = [
-    {
-      icon: faUserMd,
-      titleKey: "home.services.personalDevelopment.title",
-      descriptionKey: "home.services.personalDevelopment.description",
-      color: "#2E86AB",
-      bgSrc:
-        "https://wis-web.oss-cn-shanghai.aliyuncs.com/4b07f4ba40baa9a70a83e812be80daf.jpg",
-    },
-    {
-      icon: faHeartbeat,
-      titleKey: "home.services.healthPlanning.title",
-      descriptionKey: "home.services.healthPlanning.description",
-      color: "#A23B72",
-      bgSrc:
-        "https://wis-web.oss-cn-shanghai.aliyuncs.com/97917129fbad5b1063ef8a672896e7d.jpg",
-    },
-    {
-      icon: faGlobe,
-      titleKey: "home.services.marketEntry.title",
-      descriptionKey: "home.services.marketEntry.description",
-      color: "#F18F01",
-      bgSrc:
-        "https://wis-web.oss-cn-shanghai.aliyuncs.com/9a541b68a5d0dfa76dbb0638c7c907b.jpg",
-    },
-  ];
-
-  const testimonials = [
-    {
-      nameKey: "home.testimonials.client1.name",
-      quoteKey: "home.testimonials.client1.quote",
-    },
-    {
-      nameKey: "home.testimonials.client2.name",
-      quoteKey: "home.testimonials.client2.quote",
-    },
-    {
-      nameKey: "home.testimonials.client3.name",
-      quoteKey: "home.testimonials.client3.quote",
-    },
-  ];
+  const indexData = t("index", { returnObjects: true }) as Record<string, any>;
 
   return (
     <div className="home-page" style={{ padding: "120px 0 80px 0" }}>
@@ -146,7 +99,7 @@ function Home() {
                     boxShadow: "0 4px 15px rgba(0,0,0,0.2)",
                   }}
                 >
-                  {t("home.hero.cta")}
+                  {t("index.hero.cta")}
                 </Button>
               </motion.div>
             </Col>
@@ -169,15 +122,19 @@ function Home() {
               >
                 <h2
                   className="fw-bold mb-4"
-                  style={{ fontSize: "2.5rem", color: "#2c3e50" }}
+                  style={{
+                    fontSize: "2.5rem",
+                    lineHeight: "3.6rem",
+                    color: "#2c3e50",
+                  }}
                 >
-                  {t("home.services.title")}
+                  {t("index.services.title")}
                 </h2>
               </motion.div>
             </Col>
           </Row>
           <Row className="justify-content-center">
-            {services.map((service, index) => (
+            {indexData.services.list.map((item: any, index: number) => (
               <Col lg={4} md={6} key={index} className="mb-4">
                 <motion.div
                   initial={{ opacity: 0, y: 30 }}
@@ -209,35 +166,12 @@ function Home() {
                         height: "400px",
                         display: "flex",
                         flexDirection: "column",
-                        backgroundImage: `url("${service.bgSrc}")`,
+                        backgroundImage: `url("${item.cover}")`,
                         backgroundSize: "cover", // 确保图片覆盖整个容器
                         backgroundPosition: "center", // 图片居中
                         backgroundRepeat: "no-repeat", // 防止图片重复
                       }}
                     >
-                      {/* <div className="text-center mb-4">
-                        <div
-                          style={{
-                            width: 80,
-                            height: 80,
-                            borderRadius: '50%',
-                            background: service.color,
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            margin: '0 auto',
-                            boxShadow: `0 8px 20px ${service.color}40`,
-                          }}
-                        >
-                          <FontAwesomeIcon
-                            icon={service.icon}
-                            style={{
-                              fontSize: '2rem',
-                              color: 'white',
-                            }}
-                          />
-                        </div>
-                      </div> */}
                       <div style={{ flex: 1 }}></div>
                       <Card.Title
                         className=" mb-3"
@@ -248,7 +182,7 @@ function Home() {
                           fontSize: "1.3rem",
                         }}
                       >
-                        {t(service.titleKey)}
+                        {item.title}
                       </Card.Title>
                       {/* <Card.Text
                         style={{
@@ -286,13 +220,13 @@ function Home() {
                   className="fw-bold mb-4"
                   style={{ fontSize: "2.5rem", color: "#2c3e50" }}
                 >
-                  {t("home.testimonials.title")}
+                  {indexData.evaluates.title}
                 </h2>
               </motion.div>
             </Col>
           </Row>
           <Row className="justify-content-center">
-            {testimonials.map((testimonial, index) => (
+            {indexData.evaluates.list.map((item: any, index: number) => (
               <Col lg={4} md={6} key={index} className="mb-4">
                 <motion.div
                   initial={{ opacity: 0, y: 30 }}
@@ -324,16 +258,13 @@ function Home() {
                         color: "#6c757d",
                         fontSize: "1rem",
                         lineHeight: 1.6,
-                        fontStyle: "italic",
                         marginBottom: "1.5rem",
                       }}
                     >
-                      "{t(testimonial.quoteKey)}"
+                      {item.description}
                     </Card.Text>
                     <div className="text-center">
-                      <strong style={{ color: "#2c3e50" }}>
-                        {t(testimonial.nameKey)}
-                      </strong>
+                      <strong style={{ color: "#2c3e50" }}>{item.title}</strong>
                     </div>
                   </Card>
                 </motion.div>
@@ -361,7 +292,7 @@ function Home() {
                 transition={{ duration: 0.8 }}
               >
                 <h2 className="fw-bold mb-4" style={{ fontSize: "2.5rem" }}>
-                  {t("home.cta.title")}
+                  {t("index.cta.title")}
                 </h2>
                 <p
                   className="lead mb-5"
@@ -370,7 +301,7 @@ function Home() {
                     opacity: 0.9,
                   }}
                 >
-                  {t("home.cta.subtitle")}
+                  {t("index.cta.subtitle")}
                 </p>
                 <Button
                   onClick={() => navigate("/home/contact")}
@@ -385,7 +316,7 @@ function Home() {
                     boxShadow: "0 4px 15px rgba(0,0,0,0.2)",
                   }}
                 >
-                  {t("home.cta.button")}
+                  {t("index.cta.button")}
                   <FontAwesomeIcon icon={faArrowRight} className="ms-2" />
                 </Button>
               </motion.div>
@@ -397,4 +328,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Index;
