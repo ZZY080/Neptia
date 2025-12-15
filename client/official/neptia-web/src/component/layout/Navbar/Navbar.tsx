@@ -10,8 +10,7 @@ function NavigationBar() {
   const [scrolled, setScrolled] = useState(false);
   const [expanded, setExpanded] = useState(false);
   const location = useLocation();
-  const { t, i18n } = useTranslation();
-  const currentLanguage = i18n.language;
+  const { t } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
