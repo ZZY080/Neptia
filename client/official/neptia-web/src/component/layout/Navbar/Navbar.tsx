@@ -54,8 +54,8 @@ function NavigationBar() {
             /> */}
             {/* <img src={logo} alt="" width={"120px"} />
              */}
-            <div className="fw-bold">
-              {currentLanguage === "en" ? "Neptia" : "尼普提亚"}
+            <div className="fw-bold text-3xl">
+              {currentLanguage === "en" ? "Neptia" : "Neptia"}
             </div>
           </Navbar.Brand>
         </motion.div>

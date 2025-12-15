@@ -25,24 +25,12 @@ function Index() {
         <div
           style={{
             position: "absolute",
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            background:
-              'url(\'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="1" fill="white" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>\')',
-            opacity: 0.3,
           }}
         />
         <Container
           style={{
             position: "relative",
             zIndex: 2,
-            // backgroundImage:
-            //   'url("https://img1.baidu.com/it/u=645583569,3263128764&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067")',
-            // backgroundSize: 'contain', // 确保图片覆盖整个容器
-            // backgroundPosition: 'center', // 图片居中
-            // backgroundRepeat: 'no-repeat', // 防止图片重复
           }}
         >
           <Row className="align-items-center justify-content-center">
@@ -53,7 +41,7 @@ function Index() {
                 transition={{ duration: 0.8 }}
               >
                 <h1
-                  className="fw-bold mb-3"
+                  className="fw-bold"
                   style={{
                     fontSize: "3.5rem",
                     letterSpacing: "0.02em",
@@ -65,8 +53,9 @@ function Index() {
                 <h2
                   className="mb-4"
                   style={{
-                    fontSize: "1.8rem",
+                    fontSize: "1.6rem",
                     fontWeight: 300,
+                    lineHeight: 1.4,
                     opacity: 0.9,
                   }}
                 >
