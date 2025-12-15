@@ -48,15 +48,7 @@ function NavigationBar() {
           transition={{ duration: 0.5 }}
         >
           <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
-            {/* <img
-              src={currentLanguage === 'en' ? logo_en : logo_zh}
-              style={{ width: '150px' }}
-            /> */}
-            {/* <img src={logo} alt="" width={"120px"} />
-             */}
-            <div className="fw-bold text-3xl">
-              {currentLanguage === "en" ? "Neptia" : "Neptia"}
-            </div>
+            <div className="fw-bold text-2xl">Neptia</div>
           </Navbar.Brand>
         </motion.div>
 

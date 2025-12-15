@@ -16,7 +16,7 @@ function Index() {
       <section
         className="hero-section"
         style={{
-          padding: "0 0 30px 0",
+          padding: "0 0 20px 0",
           color: "white",
           position: "relative",
           overflow: "hidden",
@@ -74,9 +74,7 @@ function Index() {
                   {t("index.hero.description")}
                 </p>
                 <Button
-                  // as={Link}
                   onClick={() => navigate("/home/contact")}
-                  // to="contact"
                   variant="light"
                   size="lg"
                   style={{
@@ -85,7 +83,7 @@ function Index() {
                     fontSize: "1.1rem",
                     padding: "12px 30px",
                     borderRadius: "50px",
-                    boxShadow: "0 4px 15px rgba(0,0,0,0.2)",
+                    // boxShadow: "0 4px 15px rgba(0,0,0,0.2)",
                   }}
                 >
                   {t("index.hero.cta")}
@@ -99,7 +97,7 @@ function Index() {
       {/* Services Section */}
       <section
         className="services-section"
-        style={{ backgroundColor: "white", padding: "80px 0" }}
+        style={{ backgroundColor: "white", padding: "30px 0" }}
       >
         <Container>
           <Row className="justify-content-center mb-5">
@@ -112,8 +110,8 @@ function Index() {
                 <h2
                   className="fw-bold mb-4"
                   style={{
-                    fontSize: "2.5rem",
-                    lineHeight: "3.6rem",
+                    fontSize: "2.1rem",
+                    lineHeight: "4.0rem",
                     color: "#2c3e50",
                   }}
                 >
@@ -195,7 +193,7 @@ function Index() {
       {/* Testimonials Section */}
       <section
         className="testimonials-section"
-        style={{ background: "#fff", padding: "80px 0" }}
+        style={{ background: "#fff", padding: "30px 0" }}
       >
         <Container>
           <Row className="justify-content-center mb-5">
@@ -223,7 +221,7 @@ function Index() {
                   transition={{ duration: 0.8, delay: index * 0.2 }}
                 >
                   <Card
-                    className="testimonial-card h-100"
+                    className="h-100"
                     style={{
                       borderRadius: 20,
                       border: "none",
@@ -232,16 +230,6 @@ function Index() {
                       padding: "2rem",
                     }}
                   >
-                    <div className="text-center mb-3">
-                      <FontAwesomeIcon
-                        icon={faQuoteLeft}
-                        style={{
-                          fontSize: "2rem",
-                          color: "#667eea",
-                          opacity: 0.3,
-                        }}
-                      />
-                    </div>
                     <Card.Text
                       style={{
                         color: "#6c757d",
@@ -268,7 +256,7 @@ function Index() {
         className="cta-section"
         style={{
           background: "#fff",
-          padding: "80px 0",
+          padding: "30px 0",
           color: "white",
         }}
       >
