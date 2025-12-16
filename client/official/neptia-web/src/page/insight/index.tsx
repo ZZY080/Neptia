@@ -4,7 +4,7 @@ const Insight = () => {
   // const { t } = useTranslation();
   //   const insightsData = t('insights', { returnObjects: true });
   return (
-    <div>
+    <div className="flex-1 flex flex-col justify-center items-center">
       <Lottie
         options={{
           loop: true,

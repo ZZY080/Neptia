@@ -10,9 +10,9 @@ export default function Index() {
   const indexData = t("index", { returnObjects: true }) as Record<string, any>;
 
   return (
-    <div className="home-page pt-[120px] pb-[80px]">
+    <div>
       {/* Hero Section */}
-      <section className="relative overflow-hidden text-white pb-5">
+      <section className="relative overflow-hidden  pb-5">
         <div className="absolute inset-0"></div>
         <div className="container mx-auto relative z-10 px-4">
           <div className="flex justify-center items-center">

@@ -64,7 +64,7 @@ export default function NavigationBar() {
   return (
     <nav
       ref={navRef}
-      className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 bg-white shadow-md`}
+      className={` relative w-full z-50 transition-colors duration-300 bg-white shadow-md`}
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-4 lg:px-0">
         {/* Logo */}
