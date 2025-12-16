@@ -1,7 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import "@page/service/index.css";
 import animationData from "@assets/lottie/dev.json";
-
 import Lottie from "react-lottie";
 
 const Service = () => {

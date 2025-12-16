@@ -55,7 +55,7 @@ function Index() {
                   style={{
                     fontSize: "1.6rem",
                     fontWeight: 300,
-                    lineHeight: 1.4,
+                    lineHeight: 1.8,
                     opacity: 0.9,
                   }}
                 >
@@ -67,7 +67,7 @@ function Index() {
                     fontSize: "1.3rem",
                     maxWidth: "800px",
                     margin: "0 auto",
-                    lineHeight: 1.6,
+                    lineHeight: 1.8,
                     opacity: 0.95,
                   }}
                 >
@@ -169,7 +169,7 @@ function Index() {
                           fontSize: "1.3rem",
                         }}
                       >
-                        {item.title}
+                        {item.description}
                       </Card.Title>
                       {/* <Card.Text
                         style={{

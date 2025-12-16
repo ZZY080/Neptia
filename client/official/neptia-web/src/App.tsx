@@ -28,9 +28,14 @@ function App() {
       <title>Neptia</title>
       <meta
         name="description"
-        content="Neptia 以信息为核心，通过产品的承载与传递，让价值触达全球每一个角落。我们相信信息的力量能够打破壁垒，连接世界，推动知识、机遇与灵感的自由流动，并让每个人的价值得以展现。"
+        content="Neptia 以信息为核心，通过产品承载与传递，让价值触达全球每一个角落。我们为全球企业提供跨境技术服务，同时提供信息服务，包括海外品牌推广中国市场，帮助企业打破壁垒、连接世界，实现知识、机遇与灵感的自由流动，让每个人的价值得以展现。"
       />
-      <meta name="keywords" content="Wis,The Way Insight" />
+
+      <meta
+        name="keywords"
+        content="Neptia, 跨境技术服务, 信息服务, 全球企业, 出海, 国际化解决方案, 海外扩展, 全球市场, 跨境支付, 跨境物流, 海外电商, 全球商业咨询, 企业出海, 跨境运营, 海外落地, 品牌推广, 中国市场, 海外品牌"
+      />
+
       <Router>
         <Routes>
           <Route path="/home" element={<Home />}>

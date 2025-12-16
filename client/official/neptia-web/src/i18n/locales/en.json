@@ -15,27 +15,27 @@
   },
   "index": {
     "hero": {
-      "title": "Technology for everyday life",
-      "subtitle": "不是更复杂的技术，而是更自然的日常体验。",
-      "description": "Neptia 专注于把前沿技术转化为真实、可持续的生活方式解决方案。我们不追逐噱头，只关心长期价值。",
-      "cta": "立即开始"
+      "title": "Empowering Your Global Expansion",
+      "subtitle": "让全球化不只是技术，而是日常体验。",
+      "description": "Neptia 提供跨境出海全流程技术与信息服务，从支付、物流到电商落地，以及海外品牌推广中国市场，助力企业高效拓展全球业务，实现无缝连接。",
+      "cta": "立即咨询"
     },
     "services": {
-      "title": "以技术为基建，以品牌为桥梁。我们赋能行业增长，并运营自有零售品牌 Soptia，共同打造持续向前的未来生态",
+      "title": "以技术为基建，以品牌为桥梁。我们赋能行业增长，同时运营自有零售品牌 Soptia，共同打造可持续发展的全球生态。",
       "list": [
         {
-          "title": "Soptia全球零售出海中东",
-          "description": "",
+          "title": "Soptia 全球零售出海中东",
+          "description": "通过本地化运营和数字化管理，助力 Soptia 成功进入中东市场。",
           "cover": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/index/01.jpg"
         },
         {
-          "title": "Neptia为加拿大医疗器械数字化转型赋能",
-          "description": "",
+          "title": "Neptia 助力加拿大医疗器械数字化转型",
+          "description": "为医疗器械企业提供数字化解决方案，实现业务流程优化与数据驱动增长。",
           "cover": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/index/02.jpg"
         },
         {
           "title": "Neptia 为英国政府提供数字化服务",
-          "description": "",
+          "description": "助力政府机构实现服务数字化、流程智能化与信息高效流通。",
           "cover": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/index/03.jpg"
         }
       ]
@@ -65,9 +65,9 @@
       "description": "我们公司成立之初就注重家庭观念。\n\n缘起，Roland的中学生涯以及本科经历，让Roland确信了一个点，只有在决策上做出正确的选择，才有可能真正走在前列，少走很多弯路。正如创建Wayne InsightSpring一样，Roland的初心只想服务好客户，以及为团队成员提供有竞争力的收入。这两个点，一个是利益客户，另外一个是利益团队。Roland坚信，只有利益他人，才有可能创造真正的价值，并且回馈于社会。\n\n很多家庭，其实需要的，并不是让孩子成为人中龙凤，而是希望孩子有选择底气和权利，能够过上自己想要的生活。因此我们的咨询，是一种诊断，我们全面剖析目前存在的问题，然后提供有效的解决方案和可操作路径。"
     },
     "cta": {
-      "title": "准备开始您的赋能之旅？",
+      "title": "准备开始您的跨境之旅？",
       "subtitle": "加入已经与我们咨询的数百名专业人士",
-      "button": "立即开始"
+      "button": "立即咨询"
     }
   },
   "service": [],
