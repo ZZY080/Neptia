@@ -1,19 +1,24 @@
 import { useState, useEffect, useRef } from "react";
-import { Navbar, Nav, Container } from "react-bootstrap";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import LanguageSwitcher from "@component/ui/LanguageSwitcher/LanguageSwitcher";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-// import logo_en from '@assets/images/logo_en.png';
-// import logo_zh from '@assets/images/logo_zh.png';
-function NavigationBar() {
-  const [scrolled, setScrolled] = useState(false);
+import LanguageSwitcher from "@component/ui/LanguageSwitcher/LanguageSwitcher";
+
+export default function NavigationBar() {
+  const [, setScrolled] = useState(false);
   const [expanded, setExpanded] = useState(false);
   const location = useLocation();
   const { t } = useTranslation();
   const navRef = useRef<HTMLDivElement>(null);
+  const navigate = useNavigate();
+
+  const goToPage = (path: string) => {
+    navigate(path);
+  };
+
+  // 点击外部关闭菜单
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
       if (
@@ -24,28 +29,25 @@ function NavigationBar() {
         setExpanded(false);
       }
     };
-
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [expanded]);
+
+  // 路由变化关闭菜单
   useEffect(() => {
     setExpanded(false);
   }, [location.pathname]);
 
+  // 滚动改变背景
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
+    const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  useEffect(() => {
-    if (expanded) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
 
+  // 移动端打开菜单禁止滚动
+  useEffect(() => {
+    document.body.style.overflow = expanded ? "hidden" : "";
     return () => {
       document.body.style.overflow = "";
     };
@@ -59,65 +61,66 @@ function NavigationBar() {
     { path: "/home/contact", key: "nav.contact" },
   ];
 
-  const handleNavItemClick = () => {
-    setExpanded(false);
-  };
-
   return (
-    <Navbar
+    <nav
       ref={navRef}
-      fixed="top"
-      expand="lg"
-      expanded={expanded}
-      onToggle={(isExpanded) => setExpanded(isExpanded)}
-      className={`navbar-custom ${scrolled ? "scrolled" : ""}`}
+      className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 bg-white shadow-md`}
     >
-      <Container>
+      <div className="container mx-auto flex items-center justify-between py-4 px-4 lg:px-0">
+        {/* Logo */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
+          className="text-2xl font-bold text-gray-900"
+          onClick={() => goToPage("/")}
         >
-          <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
-            <div className="fw-bold text-2xl">Neptia</div>
-          </Navbar.Brand>
+          Neptia
         </motion.div>
 
-        <Navbar.Toggle className="border-0 bg-transparent shadow-none focus:outline-none focus:shadow-none">
+        {/* Mobile Toggle */}
+        <button
+          className="lg:hidden text-gray-900 focus:outline-none"
+          onClick={() => setExpanded(!expanded)}
+        >
           <motion.div
             animate={{ rotate: expanded ? 90 : 0 }}
             transition={{ duration: 0.25 }}
           >
             <FontAwesomeIcon icon={expanded ? faXmark : faBars} size="lg" />
           </motion.div>
-        </Navbar.Toggle>
+        </button>
 
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto align-items-lg-center">
-            {navItems.map((item) => (
-              <motion.div
-                key={item.path}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={handleNavItemClick}
+        {/* Menu */}
+        <div
+          className={`flex-col lg:flex lg:flex-row lg:items-center absolute lg:static top-full left-0 w-full lg:w-auto bg-white lg:bg-transparent transition-transform duration-300 overflow-hidden ${
+            expanded ? "max-h-screen" : "max-h-0 lg:max-h-full"
+          }`}
+        >
+          {navItems.map((item) => (
+            <motion.div
+              key={item.path}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="lg:ml-6"
+            >
+              <Link
+                to={item.path}
+                className={`block py-3 px-4 text-gray-900 hover:text-blue-600 lg:inline ${
+                  location.pathname === item.path ? "font-semibold" : ""
+                }`}
+                onClick={() => setExpanded(false)}
               >
-                <Nav.Link
-                  as={Link}
-                  to={item.path}
-                  className={location.pathname === item.path ? "active" : ""}
-                >
-                  {t(item.key)}
-                </Nav.Link>
-              </motion.div>
-            ))}
-            <div className="ms-lg-3 mt-3 mt-lg-0">
-              <LanguageSwitcher onChange={() => setExpanded(false)} />
-            </div>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+                {t(item.key)}
+              </Link>
+            </motion.div>
+          ))}
+
+          <div className="py-3 px-4 lg:ml-6">
+            <LanguageSwitcher onChange={() => setExpanded(false)} />
+          </div>
+        </div>
+      </div>
+    </nav>
   );
 }
-
-export default NavigationBar;
