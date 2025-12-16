@@ -7,7 +7,6 @@ const Home = () => {
     <>
       <Navbar />
       <main>
-        {/* 子路由的 */}
         <Outlet />
       </main>
       <Footer />

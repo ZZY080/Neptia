@@ -84,167 +84,145 @@ function Contact() {
   ];
 
   return (
-    <div className="contact-page" style={{ padding: "120px 0 80px 0" }}>
-      <Container>
-        {/* Header Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="text-center mb-5"
-        >
-          <h1 className="display-4 mb-4">{t("contact.title")}</h1>
-          <p className="lead">{t("contact.subtitle")}</p>
-        </motion.div>
+    <Container style={{ paddingTop: "100px" }}>
+      {/* Header */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="text-center mb-5"
+      >
+        <h1 className="display-4 mb-4">{t("contact.title")}</h1>
+        <p className="lead">{t("contact.subtitle")}</p>
+      </motion.div>
 
-        <Row className="gy-4">
-          {/* Contact Information */}
-          <Col lg={4}>
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-            >
-              <div className="contact-info p-4 bg-light rounded-3">
-                <h3 className="h4 mb-4">{t("contact.info.title")}</h3>
-                {contactInfo.map((info, index) => (
-                  <motion.div
-                    key={index}
-                    className="contact-item mb-4"
-                    whileHover={{ scale: 1.02 }}
-                  >
-                    <a
-                      href={info.link}
-                      className="text-decoration-none text-dark d-flex align-items-center"
-                    >
-                      <div className="contact-icon me-3">
-                        <FontAwesomeIcon
-                          icon={info.icon}
-                          className="text-primary"
-                        />
-                      </div>
-                      <div>
-                        <h4 className="h6 mb-1">{info.title}</h4>
-                        <p className="mb-0 text-muted">{info.content}</p>
-                      </div>
-                    </a>
-                  </motion.div>
-                ))}
-              </div>
-            </motion.div>
-          </Col>
+      <Row className="gy-4">
+        {/* Contact Info */}
+        <Col lg={4}>
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="h-100"
+          >
+            <div className="p-4 bg-light rounded-3 h-100">
+              <h3 className="h4 mb-4">{t("contact.info.title")}</h3>
 
-          {/* Contact Form */}
-          <Col lg={8}>
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-            >
-              <div className="contact-form p-4 bg-white rounded-3 shadow-sm">
-                <h3 className="h4 mb-4">{t("contact.form.title")}</h3>
-                <Form onSubmit={handleSubmit}>
-                  <Row>
-                    <Col md={6}>
-                      <Form.Group className="mb-3">
-                        <Form.Label>{t("contact.form.name")}</Form.Label>
-                        <Form.Control
-                          type="text"
-                          name="name"
-                          value={formData.name}
-                          onChange={handleChange}
-                          required
-                          placeholder={t("contact.form.name")}
-                        />
-                      </Form.Group>
-                    </Col>
-                    <Col md={6}>
-                      <Form.Group className="mb-3">
-                        <Form.Label>{t("contact.form.email")}</Form.Label>
-                        <Form.Control
-                          type="email"
-                          name="email"
-                          value={formData.email}
-                          onChange={handleChange}
-                          required
-                          placeholder={t("contact.form.email")}
-                        />
-                      </Form.Group>
-                    </Col>
-                  </Row>
-                  <Form.Group className="mb-3">
-                    <Form.Label>{t("contact.form.wechat")}</Form.Label>
-                    <Form.Control
-                      type="text"
-                      name="wechat"
-                      value={formData.wechat}
-                      onChange={handleChange}
-                      required
-                      placeholder={t("contact.form.wechat")}
-                    />
-                  </Form.Group>
-                  <Form.Group className="mb-4">
-                    <Form.Label>{t("contact.form.message")}</Form.Label>
-                    <Form.Control
-                      as="textarea"
-                      name="message"
-                      value={formData.message}
-                      onChange={handleChange}
-                      required
-                      rows={5}
-                      placeholder={t("contact.form.message")}
-                    />
-                  </Form.Group>
-                  <motion.div
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
+              {contactInfo.map((info, index) => (
+                <motion.div
+                  key={index}
+                  whileHover={{ scale: 1.02 }}
+                  className="mb-4"
+                >
+                  <a
+                    href={info.link}
+                    className="d-flex align-items-center text-decoration-none text-dark"
                   >
-                    <Button
-                      type="submit"
-                      variant="primary"
-                      className="d-flex align-items-center"
-                      disabled={isSubmitting}
-                    >
-                      <FontAwesomeIcon icon={faPaperPlane} className="me-2" />
-                      {isSubmitting
-                        ? t("contact.form.sending")
-                        : t("contact.form.send")}
-                    </Button>
+                    <div className="me-3 text-primary">
+                      <FontAwesomeIcon icon={info.icon} />
+                    </div>
+                    <div>
+                      <h4 className="h6 mb-1">{info.title}</h4>
+                      <p className="mb-0 text-muted">{info.content}</p>
+                    </div>
+                  </a>
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
+        </Col>
+
+        {/* Contact Form */}
+        <Col lg={8}>
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            <div className="p-4 bg-white rounded-3 shadow-sm">
+              <h3 className="h4 mb-4">{t("contact.form.title")}</h3>
+
+              <Form onSubmit={handleSubmit}>
+                <Row>
+                  <Col md={6}>
+                    <Form.Group className="mb-3">
+                      <Form.Label>{t("contact.form.name")}</Form.Label>
+                      <Form.Control
+                        type="text"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleChange}
+                        required
+                      />
+                    </Form.Group>
+                  </Col>
+
+                  <Col md={6}>
+                    <Form.Group className="mb-3">
+                      <Form.Label>{t("contact.form.email")}</Form.Label>
+                      <Form.Control
+                        type="email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        required
+                      />
+                    </Form.Group>
+                  </Col>
+                </Row>
+
+                <Form.Group className="mb-3">
+                  <Form.Label>{t("contact.form.wechat")}</Form.Label>
+                  <Form.Control
+                    type="text"
+                    name="wechat"
+                    value={formData.wechat}
+                    onChange={handleChange}
+                    required
+                  />
+                </Form.Group>
+
+                <Form.Group className="mb-4">
+                  <Form.Label>{t("contact.form.message")}</Form.Label>
+                  <Form.Control
+                    as="textarea"
+                    rows={5}
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
+                  />
+                </Form.Group>
+
+                <motion.div
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  <Button type="submit" disabled={isSubmitting}>
+                    <FontAwesomeIcon icon={faPaperPlane} className="me-2" />
+                    {isSubmitting
+                      ? t("contact.form.sending")
+                      : t("contact.form.send")}
+                  </Button>
+                </motion.div>
+
+                {submitStatus && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    className={`mt-3 ${
+                      submitStatus === "error" ? "text-danger" : "text-success"
+                    }`}
+                  >
+                    {t(`contact.form.${submitStatus}`)}
                   </motion.div>
-                  {submitStatus === "submit-success" && (
-                    <motion.div
-                      initial={{ opacity: 0, y: 10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      className="text-success mt-3"
-                    >
-                      {t("contact.form.submit-success")}
-                    </motion.div>
-                  )}
-                  {submitStatus === "warn-success" && (
-                    <motion.div
-                      initial={{ opacity: 0, y: 10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      className="text-success mt-3"
-                    >
-                      {t("contact.form.warn-success")}
-                    </motion.div>
-                  )}
-                  {submitStatus === "error" && (
-                    <motion.div
-                      initial={{ opacity: 0, y: 10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      className="text-danger mt-3"
-                    >
-                      {t("contact.form.error")}
-                    </motion.div>
-                  )}
-                </Form>
-              </div>
-            </motion.div>
-          </Col>
-        </Row>
-      </Container>
-    </div>
+                )}
+              </Form>
+            </div>
+          </motion.div>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

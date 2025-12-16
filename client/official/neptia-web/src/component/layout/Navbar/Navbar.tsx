@@ -1,9 +1,11 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "@component/ui/LanguageSwitcher/LanguageSwitcher";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 // import logo_en from '@assets/images/logo_en.png';
 // import logo_zh from '@assets/images/logo_zh.png';
 function NavigationBar() {
@@ -11,6 +13,24 @@ function NavigationBar() {
   const [expanded, setExpanded] = useState(false);
   const location = useLocation();
   const { t } = useTranslation();
+  const navRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (
+        expanded &&
+        navRef.current &&
+        !navRef.current.contains(e.target as Node)
+      ) {
+        setExpanded(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [expanded]);
+  useEffect(() => {
+    setExpanded(false);
+  }, [location.pathname]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,6 +39,17 @@ function NavigationBar() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+  useEffect(() => {
+    if (expanded) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [expanded]);
 
   const navItems = [
     { path: "/home/index", key: "nav.home" },
@@ -34,8 +65,9 @@ function NavigationBar() {
 
   return (
     <Navbar
-      expand="lg"
+      ref={navRef}
       fixed="top"
+      expand="lg"
       expanded={expanded}
       onToggle={(isExpanded) => setExpanded(isExpanded)}
       className={`navbar-custom ${scrolled ? "scrolled" : ""}`}
@@ -51,7 +83,15 @@ function NavigationBar() {
           </Navbar.Brand>
         </motion.div>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle className="border-0 bg-transparent shadow-none focus:outline-none focus:shadow-none">
+          <motion.div
+            animate={{ rotate: expanded ? 90 : 0 }}
+            transition={{ duration: 0.25 }}
+          >
+            <FontAwesomeIcon icon={expanded ? faXmark : faBars} size="lg" />
+          </motion.div>
+        </Navbar.Toggle>
+
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto align-items-lg-center">
             {navItems.map((item) => (
@@ -71,7 +111,7 @@ function NavigationBar() {
               </motion.div>
             ))}
             <div className="ms-lg-3 mt-3 mt-lg-0">
-              <LanguageSwitcher />
+              <LanguageSwitcher onChange={() => setExpanded(false)} />
             </div>
           </Nav>
         </Navbar.Collapse>

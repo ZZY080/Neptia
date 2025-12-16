@@ -2,12 +2,15 @@ import { useTranslation } from "react-i18next";
 import { Dropdown } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
-
-function LanguageSwitcher() {
+interface IProps {
+  onChange?: () => void;
+}
+const LanguageSwitcher: React.FC<IProps> = ({ onChange }) => {
   const { i18n } = useTranslation();
 
   const changeLanguage = (lang: string) => {
     i18n.changeLanguage(lang);
+    onChange?.();
   };
 
   const getCurrentLanguage = () => {
@@ -41,6 +44,6 @@ function LanguageSwitcher() {
       </Dropdown.Menu>
     </Dropdown>
   );
-}
+};
 
 export default LanguageSwitcher;
