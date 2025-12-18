@@ -3,11 +3,30 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 export default function Index() {
   const { t } = useTranslation();
   const navigate = useNavigate();
+
   const indexData = t("index", { returnObjects: true }) as Record<string, any>;
+  const services = [
+    "公司执照",
+    "签证",
+    "考察选址",
+    "税务行政",
+    "日常财税",
+    "税务筹划",
+    "人事",
+    "知识产权",
+    "法务",
+    "进出口许可证",
+    "产品认证",
+    "建筑工程",
+    "SIRIM",
+    "清真认证",
+    "ISO",
+  ];
 
   return (
     <div>
@@ -39,6 +58,73 @@ export default function Index() {
                 </button>
               </motion.div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="px-4 py-12 bg-white">
+        <h2 className="text-2xl md:text-4xl text-center mb-8">我们的服务</h2>
+
+        <Swiper
+          centeredSlides
+          slidesPerView={1.2}
+          spaceBetween={20}
+          breakpoints={{
+            768: {
+              slidesPerView: 3,
+            },
+            1024: {
+              slidesPerView: 5,
+            },
+          }}
+          className="pb-8"
+        >
+          {[
+            "公司执照",
+            "签证",
+            "考察选址",
+            "税务行政",
+            "日常财税",
+            "税务筹划",
+          ].map((item) => (
+            <SwiperSlide key={item}>
+              <div
+                className="
+              transition-all duration-300
+              rounded-2xl border bg-gray-50
+              flex items-center justify-center
+              h-32 text-base
+              shadow-sm
+              swiper-slide-active:scale-120
+              swiper-slide-active:shadow-lg
+              swiper-slide-active:z-10
+              scale-95
+          
+
+            "
+              >
+                {item}
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </section>
+      <section className="w-full px-4 py-12 md:py-20 bg-white">
+        <div className="max-w-7xl mx-auto">
+          {/* Title */}
+          <h2 className="text-2xl md:text-4xl font-semibold text-gray-900 mb-8 md:mb-12 text-center">
+            我们的服务
+          </h2>
+
+          {/* Service Grid */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6">
+            {services.map((item) => (
+              <div
+                key={item}
+                className="flex items-center justify-center text-center rounded-2xl border border-gray-200 bg-gray-50 px-3 py-6 text-sm md:text-base text-gray-800 shadow-sm hover:shadow-md transition"
+              >
+                {item}
+              </div>
+            ))}
           </div>
         </div>
       </section>
