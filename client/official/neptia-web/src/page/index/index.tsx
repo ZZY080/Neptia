@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 export default function Index() {
   const { t } = useTranslation();
