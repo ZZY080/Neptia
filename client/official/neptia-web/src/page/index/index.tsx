@@ -3,150 +3,256 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  ArrowRight,
+  CheckCircle2,
+  Building2,
+  FileText,
+  Scale,
+  Users,
+  Globe,
+  Shield,
+  TrendingUp,
+  Award,
+  Package,
+  CreditCard,
+  Layout,
+  Server,
+} from "lucide-react";
 import "swiper/css";
 export default function Index() {
   const { t } = useTranslation();
   const navigate = useNavigate();
 
   const indexData = t("index", { returnObjects: true }) as Record<string, any>;
+
   const services = [
     {
-      description: "公司执照",
-      cover:
-        "https://server.shanhaimap.com/apis/jeecg-app/sys/common/static/product-category-files/2023-02-11/公司执照_1676127892861.png",
+      icon: Building2,
+      name: "公司执照信息",
+      color: "from-blue-500 to-cyan-500",
     },
     {
-      description: "签证",
-      cover:
-        "https://server.shanhaimap.com/apis/jeecg-app/sys/common/static/product-category-files/2023-02-11/签证_1676127909436.png",
+      icon: FileText,
+      name: "签证政策资讯",
+      color: "from-purple-500 to-pink-500",
+    },
+    { icon: Users, name: "考察选址建议", color: "from-orange-500 to-red-500" },
+    {
+      icon: Scale,
+      name: "税务行政信息",
+      color: "from-green-500 to-emerald-500",
     },
     {
-      description: "考察选址",
-      cover:
-        "https://server.shanhaimap.com/apis/jeecg-app/sys/common/static/product-category-files/2023-02-11/记账报税_1676127950167.png",
+      icon: TrendingUp,
+      name: "日常财税数据",
+      color: "from-indigo-500 to-blue-500",
+    },
+    { icon: Globe, name: "税务筹划与合规", color: "from-teal-500 to-cyan-500" },
+    { icon: Users, name: "人事管理方案", color: "from-pink-500 to-rose-500" },
+    {
+      icon: Shield,
+      name: "知识产权信息",
+      color: "from-violet-500 to-purple-500",
     },
     {
-      description: "税务行政",
-      cover:
-        "https://server.shanhaimap.com/apis/jeecg-app/sys/common/static/product-category-files/2023-02-11/记账报税_1676127950167.png",
+      icon: Scale,
+      name: "法务信息汇总",
+      color: "from-amber-500 to-orange-500",
     },
     {
-      description: "日常财税",
-      cover:
-        "	https://server.shanhaimap.com/apis/jeecg-app/sys/common/static/product-category-files/2023-02-11/记账报税_1676127950167.png",
+      icon: FileText,
+      name: "进出口许可证资讯",
+      color: "from-lime-500 to-green-500",
+    },
+    { icon: Award, name: "产品认证指南", color: "from-cyan-500 to-blue-500" },
+    {
+      icon: Building2,
+      name: "建筑工程合规信息",
+      color: "from-red-500 to-pink-500",
     },
     {
-      description: "税务筹划",
-      cover:
-        "	https://server.shanhaimap.com/apis/jeecg-app/sys/common/static/product-category-files/2023-02-11/记账报税_1676127950167.png",
+      icon: CheckCircle2,
+      name: "SIRIM / 国际认证",
+      color: "from-emerald-500 to-teal-500",
     },
     {
-      description: "人事",
-      cover:
-        "	https://server.shanhaimap.com/apis/jeecg-app/sys/common/static/product-category-files/2023-02-11/记账报税_1676127950167.png",
+      icon: Award,
+      name: "清真认证指南",
+      color: "from-fuchsia-500 to-purple-500",
     },
     {
-      description: "知识产权",
-      cover:
-        "	https://server.shanhaimap.com/apis/jeecg-app/sys/common/static/product-category-files/2023-02-11/记账报税_1676127950167.png",
+      icon: Shield,
+      name: "ISO / 国际标准",
+      color: "from-sky-500 to-indigo-500",
+    },
+
+    // 软件服务
+    {
+      icon: Server,
+      name: "企业邮箱配置",
+      color: "from-blue-400 to-indigo-500",
+    },
+    { icon: Layout, name: "独立站建设", color: "from-green-400 to-teal-500" },
+    {
+      icon: CreditCard,
+      name: "Stripe 支付集成",
+      color: "from-purple-400 to-pink-500",
+    },
+
+    // 供应链与跨境服务
+    {
+      icon: Package,
+      name: "不同国家供应链信息",
+      color: "from-orange-400 to-red-500",
     },
     {
-      description: "法务",
-      cover:
-        "	https://server.shanhaimap.com/apis/jeecg-app/sys/common/static/product-category-files/2023-02-11/记账报税_1676127950167.png",
-    },
-    {
-      description: "进出口许可证",
-      cover:
-        "	https://server.shanhaimap.com/apis/jeecg-app/sys/common/static/product-category-files/2023-02-11/记账报税_1676127950167.png",
-    },
-    {
-      description: "产品认证",
-      cover:
-        "	https://server.shanhaimap.com/apis/jeecg-app/sys/common/static/product-category-files/2023-02-11/记账报税_1676127950167.png",
-    },
-    {
-      description: "建筑工程",
-      cover:
-        "https://server.shanhaimap.com/apis/jeecg-app/sys/common/static/product-category-files/2023-02-11/记账报税_1676127950167.png",
-    },
-    {
-      description: "SIRIM",
-      cover:
-        "https://server.shanhaimap.com/apis/jeecg-app/sys/common/static/product-category-files/2023-02-11/记账报税_1676127950167.png",
-    },
-    {
-      description: "清真认证",
-      cover:
-        "https://server.shanhaimap.com/apis/jeecg-app/sys/common/static/product-category-files/2023-02-11/记账报税_1676127950167.png",
-    },
-    {
-      description: "ISO",
-      cover:
-        "https://server.shanhaimap.com/apis/jeecg-app/sys/common/static/product-category-files/2023-02-11/记账报税_1676127950167.png",
+      icon: Globe,
+      name: "国际物流与清关资讯",
+      color: "from-teal-400 to-cyan-500",
     },
   ];
-
+  const features = [
+    {
+      icon: CheckCircle2,
+      title: "专业团队",
+      description: "资深顾问提供一对一服务",
+    },
+    {
+      icon: TrendingUp,
+      title: "高效办理",
+      description: "快速响应，流程透明",
+    },
+    {
+      icon: Shield,
+      title: "安全保障",
+      description: "信息保密，合规操作",
+    },
+    {
+      icon: Globe,
+      title: "全程跟踪",
+      description: "实时更新进度，随时沟通",
+    },
+  ];
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative overflow-hidden  pb-5">
-        <div className="absolute inset-0"></div>
-        <div className="container mx-auto relative z-10 px-4">
-          <div className="flex justify-center items-center">
-            <div className="text-center max-w-4xl">
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
+      {/* Hero Section */}
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="text-center max-w-4xl mx-auto"
+          >
+            <h1 className="text-5xl md:text-6xl lg:text-7xl mb-6 tracking-tight">
+              <span className="bg-gradient-to-r from-slate-900 via-indigo-800 to-slate-900 bg-clip-text text-transparent leading-28">
+                {indexData.hero.title}
+              </span>
+            </h1>
+
+            <p className="text-xl md:text-2xl text-slate-600 mb-6">
+              {indexData.hero.subtitle}
+            </p>
+
+            <p className="text-lg text-slate-500 mb-10 max-w-2xl mx-auto leading-8">
+              {indexData.hero.description}
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => navigate("/home/contact")}
+                className="px-8 py-4 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition-colors inline-flex items-center justify-center gap-2 shadow-lg shadow-indigo-200"
               >
-                <h1 className="font-bold text-[3.5rem] tracking-[0.02em] drop-shadow-md">
-                  {t("index.hero.title")}
-                </h1>
-                <h2 className="mb-4 text-[1.6rem] font-light leading-[1.8] opacity-90">
-                  {t("index.hero.subtitle")}
-                </h2>
-                <p className="mb-5 text-[1.3rem] max-w-3xl mx-auto leading-[1.8] opacity-95">
-                  {t("index.hero.description")}
-                </p>
-                <button
-                  onClick={() => navigate("/home/contact")}
-                  className="bg-white text-gray-900 font-semibold text-[1.1rem] px-8 py-3 rounded-[50px] min-w-[200px] hover:shadow-lg transition-shadow duration-300"
-                >
-                  {t("index.hero.cta")}
-                </button>
-              </motion.div>
+                立即开始
+                <ArrowRight className="w-5 h-5" />
+              </motion.button>
+
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="px-8 py-4 bg-white text-slate-900 rounded-xl hover:bg-slate-50 transition-colors border border-slate-200 shadow-sm"
+              >
+                了解更多
+              </motion.button>
             </div>
-          </div>
+          </motion.div>
         </div>
       </section>
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl md:text-5xl mb-4 text-slate-900">
+              我们的服务
+            </h2>
+            <p className="text-xl text-slate-600">全方位企业服务解决方案</p>
+          </motion.div>
 
-      <section className="bg-white py-10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Title */}
-          <h2 className="text-2xl md:text-4xl font-semibold text-gray-900 mb-8 md:mb-12 text-center">
-            我们的服务
-          </h2>
-
-          {/* Service Grid */}
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6">
-            {services.map((item, index) => (
-              <div
-                key={index}
-                className="flex flex-col gap-4  items-center justify-center text-center rounded-2xl border border-gray-200 bg-gray-50 px-3 py-6 text-sm md:text-base text-gray-800 shadow-sm hover:shadow-md transition"
-              >
-                <img
-                  className="w-[60px] h-[60px] sm:w-[60px] sm:h-[60px] mb-2 transition-transform group-hover:scale-80 object-cover"
-                  src={item.cover}
-                  alt=""
-                />
-                <div>{item.description}</div>
-              </div>
-            ))}
+            {services.map((item, index) => {
+              const Icon = item.icon;
+              return (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.05 }}
+                  whileHover={{ y: -8, scale: 1.05 }}
+                  className="group cursor-pointer"
+                >
+                  <div className="bg-gradient-to-br from-white to-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-transparent hover:shadow-xl transition-all duration-300">
+                    <div
+                      className={`w-12 h-12 rounded-xl bg-gradient-to-br ${item.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}
+                    >
+                      <Icon className="w-6 h-6 text-white" />
+                    </div>
+                    <div className="text-slate-700 group-hover:text-slate-900 transition-colors">
+                      {item.name}
+                    </div>
+                  </div>
+                </motion.div>
+              );
+            })}
           </div>
         </div>
       </section>
-
+      {/* Features Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {features.map((feature, index) => {
+              const Icon = feature.icon;
+              return (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                  className="bg-white rounded-2xl p-8 border border-slate-200 hover:shadow-lg transition-shadow"
+                >
+                  <div className="w-14 h-14 rounded-xl bg-indigo-100 flex items-center justify-center mb-4">
+                    <Icon className="w-7 h-7 text-indigo-600" />
+                  </div>
+                  <h3 className="text-xl mb-2 text-slate-900">
+                    {feature.title}
+                  </h3>
+                  <p className="text-slate-600">{feature.description}</p>
+                </motion.div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
       {/* Services Section */}
       <section className="bg-white py-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -188,35 +294,43 @@ export default function Index() {
           </div>
         </div>
       </section>
-
-      {/* Testimonials Section */}
-      <section className="bg-white py-8">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-center mb-12">
-            <motion.h2
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              className="font-bold text-[2.5rem] text-gray-800 text-center max-w-2xl"
-            >
+      {/* Testimonials */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl md:text-5xl mb-4 text-slate-900">
               {indexData.evaluates.title}
-            </motion.h2>
-          </div>
-          <div className="grid gap-8 justify-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+            </h2>
+          </motion.div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {indexData.evaluates.list.map((item: any, index: number) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: index * 0.2 }}
-                className="bg-white p-8 rounded-[20px] shadow-md"
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.2 }}
+                className="bg-white rounded-2xl p-8 border border-slate-200 hover:shadow-lg transition-shadow"
               >
-                <p className="text-gray-500 text-[1rem] leading-[1.6] mb-6">
+                <div className="mb-6">
+                  <svg
+                    className="w-10 h-10 text-indigo-400"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                  </svg>
+                </div>
+                <p className="text-slate-600 text-lg mb-6 leading-relaxed">
                   {item.description}
                 </p>
-                <div className="text-center text-gray-800 font-semibold">
-                  {item.title}
-                </div>
+                <div className="text-slate-900">{item.title}</div>
               </motion.div>
             ))}
           </div>
@@ -224,7 +338,7 @@ export default function Index() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-white py-8">
+      <section className="bg-white py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}

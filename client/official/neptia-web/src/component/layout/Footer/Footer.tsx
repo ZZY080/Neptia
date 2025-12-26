@@ -85,7 +85,7 @@ export default function Footer() {
           >
             <h5 className="mb-4 text-white">{t("footer.contact")}</h5>
             <ul className="space-y-2 text-blue-200">
-              <li>Email: zhiyuanzeng@neptia.net</li>
+              <li>Email: contact@neptia.net</li>
               <li>Phone: +86 19376811909</li>
             </ul>
           </motion.div>
