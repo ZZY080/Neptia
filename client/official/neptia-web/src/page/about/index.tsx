@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { useTranslation } from "react-i18next";
 import {
   Users,
   Globe,
@@ -10,9 +9,6 @@ import {
 } from "lucide-react";
 
 const About = () => {
-  const { t } = useTranslation();
-  const aboutData = t("about", { returnObjects: true }) as Record<string, any>;
-
   const values = [
     {
       icon: Users,

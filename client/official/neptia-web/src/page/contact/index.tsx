@@ -1,7 +1,5 @@
-import animationData from "@assets/lottie/dev.json";
-import Lottie from "react-lottie";
 import { motion } from "framer-motion";
-import { ArrowLeft, Mail, Phone, MapPin, Building2, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { useState } from "react";
 const Contact = () => {
   const [formData, setFormData] = useState({
