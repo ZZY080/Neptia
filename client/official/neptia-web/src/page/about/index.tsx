@@ -45,18 +45,19 @@ const About = () => {
   const teamMembers = [
     {
       name: "Kenny",
-      position: "软件工程师",
+      position: "CEO",
       country: "美国",
       expertise: "跨境软件与信息服务",
-      photo: "https://i.pravatar.cc/150?img=1",
+      photo:
+        "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/01.jpg",
     },
     {
       name: "Lina",
       position: "技术顾问",
-      country: "法国",
+      country: "加拿大",
       expertise: "云计算与企业系统",
       photo:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS_uBA-pJ_3WpxzKUA6Oo-nxypIOJEpsHdWw&s",
+        "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/02.jpg",
     },
     {
       name: "Akira",
@@ -64,29 +65,31 @@ const About = () => {
       country: "英国",
       expertise: "国际市场拓展",
       photo:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLyWAFxvAJX-ktrZkCmWOnfIbiiw8ASZKXgw&s",
+        "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/03.jpg",
     },
     {
       name: "Maria",
       position: "法律顾问",
-      country: "德国",
-      expertise: "跨境法务与合规",
-      photo: "https://i.pravatar.cc/150?img=4",
-    },
-    {
-      name: "Maria",
-      position: "法律顾问",
-      country: "德国",
-      expertise: "跨境法务与合规",
-      photo: "https://i.pravatar.cc/150?img=4",
-    },
-    {
-      name: "Maria",
-      position: "法律顾问",
-      country: "美国",
+      country: "澳大利亚",
       expertise: "跨境法务与合规",
       photo:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8gIFhoIZrYy298riK9tDEgXJ4cwsZWQKR-A&s",
+        "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/04.jpg",
+    },
+    {
+      name: "David", // 改为不同名字
+      position: "运营总监",
+      country: "法国",
+      expertise: "项目管理与运营",
+      photo:
+        "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/05.jpg",
+    },
+    {
+      name: "Sophia", // 改为不同名字
+      position: "跨境商标顾问",
+      country: "美国",
+      expertise: "知识产权跨境",
+      photo:
+        "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/06.jpg",
     },
   ];
 
@@ -104,12 +107,12 @@ const About = () => {
     {
       title: "文化节庆活动",
       image:
-        "https://images.unsplash.com/photo-1542736667-069246bdbc53?auto=format&fit=crop&w=800&q=80",
+        "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/08.jpg",
     },
     {
       title: "线上跨境工作坊",
       image:
-        "https://images.unsplash.com/photo-1581091870620-5d8f03d7c73b?auto=format&fit=crop&w=800&q=80",
+        "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/07.jpg",
     },
   ];
 
@@ -215,7 +218,7 @@ const About = () => {
               <img
                 src={member.photo}
                 alt={member.name}
-                className="w-full h-48 object-cover rounded-2xl mb-4"
+                className="w-full h-48 object-contain rounded-2xl mb-4"
               />
               <div className="text-slate-900 font-semibold mb-1">
                 {member.name}
