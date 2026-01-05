@@ -55,7 +55,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-slate-900 mb-1">邮箱</h3>
-                    <p className="text-slate-600">contact@neptia.net</p>
+                    <p className="text-slate-600">zhiyuanzeng@neptia.net</p>
                   </div>
                 </div>
 
@@ -75,9 +75,9 @@ const Contact = () => {
               <div className="mt-10 pt-10 border-t border-slate-200">
                 <h3 className="text-slate-900 mb-4">工作时间</h3>
                 <p className="text-slate-600">
-                  周一至周五: 9:00 - 18:00
+                  周一至周五: 10:00 - 18:00
                   <br />
-                  周六: 9:00 - 13:00
+                  周六: 休息
                   <br />
                   周日: 休息
                 </p>

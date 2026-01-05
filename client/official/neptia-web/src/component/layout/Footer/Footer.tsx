@@ -19,6 +19,7 @@ export default function Footer() {
       fontSize: "36px",
     },
   ];
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-[#111827] text-white py-12">
@@ -85,7 +86,7 @@ export default function Footer() {
           >
             <h5 className="mb-4 text-white">{t("footer.contact")}</h5>
             <ul className="space-y-2 text-blue-200">
-              <li>Email: contact@neptia.net</li>
+              <li>Email: zhiyuanzeng@neptia.net</li>
               <li>Phone: +86 19376811909</li>
             </ul>
           </motion.div>
@@ -98,7 +99,9 @@ export default function Footer() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="mt-10 pt-4 border-t border-gray-700 text-center space-y-1 text-blue-200 text-sm"
         >
-          <p>{t("footer.copyright")}</p>
+          <p>
+            © {currentYear} {t("footer.copyright")}
+          </p>
           <a
             href="https://beian.miit.gov.cn/#/Integrated/index"
             className="hover:text-white transition-colors"
