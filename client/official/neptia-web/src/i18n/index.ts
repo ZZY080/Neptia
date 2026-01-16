@@ -20,7 +20,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: "zh", // 👈 强制默认语言
+    // lng: "zh", // 👈 强制默认语言
     fallbackLng: "en",
     debug: false,
 

@@ -10,15 +10,18 @@
     "service": "服务",
     "about": "关于我们",
     "contact": "联系我们",
-    "brand": "Wayne InsightSpring",
+    "brand": "Neptia",
     "insight": "洞见"
   },
   "index": {
     "hero": {
-      "title": "Empowering Your Global Expansion",
+      "title": "赋能您的全球业务拓展",
       "subtitle": "开放包容  携手全球  共建未来",
-      "description": "Neptia 提供跨境出海全流程技术与信息服务，从支付、物流到电商落地，以及海外品牌推广中国市场，助力企业高效拓展全球业务，实现无缝连接。",
-      "cta": "立即咨询"
+      "description": "Neptia 提供跨境出海全流程技术与信息服务 从支付、物流到电商落地，以及海外品牌推广中国市场，助力企业高效拓展全球业务，实现无缝连接。",
+      "cta": {
+        "startNow": "立即开始",
+        "learnMore": "了解更多"
+      }
     },
     "services": {
       "title": "以技术为基建，以品牌为桥梁。我们赋能行业增长，同时运营自有零售品牌 Soptia，共同打造可持续发展的全球生态。",
@@ -100,8 +103,10 @@
   "footer": {
     "brand": "Neptia",
     "description": "连接世界，共创未来",
-    "quickLinks": "快速链接",
+    "links": "链接",
     "contact": "联系",
-    "copyright": "Neptia 保留所有权利。"
+    "copyright": "Neptia 保留所有权利。",
+    "email": "邮箱",
+    "phone": "电话"
   }
 }

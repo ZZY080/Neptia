@@ -137,7 +137,6 @@ export default function Index() {
   return (
     <div>
       {/* Hero Section */}
-      {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div
@@ -167,7 +166,7 @@ export default function Index() {
                 onClick={() => navigate("/home/contact")}
                 className="px-8 py-4 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition-colors inline-flex items-center justify-center gap-2 shadow-lg shadow-indigo-200"
               >
-                立即开始
+                {indexData.hero.cta.startNow}
                 <ArrowRight className="w-5 h-5" />
               </motion.button>
 
@@ -176,7 +175,7 @@ export default function Index() {
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-4 bg-white text-slate-900 rounded-xl hover:bg-slate-50 transition-colors border border-slate-200 shadow-sm"
               >
-                了解更多
+                {indexData.hero.cta.learnMore}
               </motion.button>
             </div>
           </motion.div>

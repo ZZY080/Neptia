@@ -75,7 +75,7 @@ export default function NavigationBar() {
           className="text-2xl font-bold text-gray-900"
           onClick={() => goToPage("/")}
         >
-          Neptia
+          {t("nav.brand")}
         </motion.div>
 
         {/* Mobile Toggle */}

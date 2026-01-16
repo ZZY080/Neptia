@@ -8,7 +8,7 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: "icon-in",
-      url: "https://www.linkedin.com/company/wisconsulting",
+      url: "https://www.linkedin.com/in/neptia-global-185ab9397/",
       name: "LinkedIn",
       fontSize: "30px",
     },
@@ -62,7 +62,7 @@ export default function Footer() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="lg:col-span-2 md:col-span-6"
           >
-            <h5 className="mb-4 text-white">{t("footer.quickLinks")}</h5>
+            <h5 className="mb-4 text-white">{t("footer.links")}</h5>
             <ul className="space-y-2">
               {["home", "service", "about", "insight", "contact"].map((nav) => (
                 <li key={nav}>
@@ -86,8 +86,8 @@ export default function Footer() {
           >
             <h5 className="mb-4 text-white">{t("footer.contact")}</h5>
             <ul className="space-y-2 text-blue-200">
-              <li>Email: zhiyuanzeng@neptia.net</li>
-              <li>Phone: +86 19376811909</li>
+              <li>{t("footer.email")}: contact@neptia.net</li>
+              <li>{t("footer.phone")}: +86 19376811909</li>
             </ul>
           </motion.div>
         </div>

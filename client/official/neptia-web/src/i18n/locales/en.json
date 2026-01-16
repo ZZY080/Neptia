@@ -1,24 +1,27 @@
 {
   "common": {
-    "loading": "加载中...",
-    "error": "发生错误",
-    "notFound": "页面未找到",
-    "backToHome": "返回首页"
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "notFound": "Page not found",
+    "backToHome": "Back to Home"
   },
   "nav": {
-    "home": "首页",
-    "service": "服务",
-    "about": "关于我们",
-    "contact": "联系我们",
-    "brand": "Wayne InsightSpring",
-    "insight": "洞见"
+    "home": "Home",
+    "service": "Service",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "brand": "Neptia",
+    "insight": "Insight"
   },
   "index": {
     "hero": {
       "title": "Empowering Your Global Expansion",
-      "subtitle": "开放包容  携手全球  共建未来",
-      "description": "Neptia 提供跨境出海全流程技术与信息服务，从支付、物流到电商落地，以及海外品牌推广中国市场，助力企业高效拓展全球业务，实现无缝连接。",
-      "cta": "立即咨询"
+      "subtitle": "Open and Inclusive, Partnering Globally, Building the Future Together",
+      "description": "Neptia provides end-to-end cross-border solutions and information services—from payments and logistics to e-commerce setup, as well as promoting overseas brands in the Chinese market—helping businesses efficiently expand globally and achieve seamless connections.",
+      "cta": {
+        "startNow": "Get Started",
+        "learnMore": "Learn More"
+      }
     },
     "services": {
       "title": "以技术为基建，以品牌为桥梁。我们赋能行业增长，同时运营自有零售品牌 Soptia，共同打造可持续发展的全球生态。",
@@ -99,9 +102,11 @@
   "not-found": {},
   "footer": {
     "brand": "Neptia",
-    "description": "连接世界，共创未来",
-    "quickLinks": "快速链接",
-    "contact": "联系",
-    "copyright": "© 2025 Neptia。保留所有权利。"
+    "description": "Connecting the world, creating the future together",
+    "links": "Links",
+    "contact": "Contact",
+    "copyright": "Neptia. All rights reserved.",
+    "email": "Email",
+    "phone": "Phone"
   }
 }

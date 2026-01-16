@@ -55,7 +55,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-slate-900 mb-1">邮箱</h3>
-                    <p className="text-slate-600">zhiyuanzeng@neptia.net</p>
+                    <p className="text-slate-600">contact@neptia.net</p>
                   </div>
                 </div>
 
