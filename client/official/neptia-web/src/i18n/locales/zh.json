@@ -23,7 +23,143 @@
         "learnMore": "了解更多"
       }
     },
-    "services": {
+    "service": {
+      "title": "我们的服务",
+      "description": "全方位企业服务解决方案",
+      "list": [
+        {
+          "icon": "Building2",
+          "name": "公司执照信息",
+          "color": "from-blue-500 to-cyan-500"
+        },
+        {
+          "icon": "FileText",
+          "name": "签证政策资讯",
+          "color": "from-purple-500 to-pink-500"
+        },
+        {
+          "icon": "Users",
+          "name": "考察选址建议",
+          "color": "from-orange-500 to-red-500"
+        },
+        {
+          "icon": "Scale",
+          "name": "税务行政信息",
+          "color": "from-green-500 to-emerald-500"
+        },
+        {
+          "icon": "TrendingUp",
+          "name": "日常财税数据",
+          "color": "from-indigo-500 to-blue-500"
+        },
+        {
+          "icon": "Globe",
+          "name": "税务筹划与合规",
+          "color": "from-teal-500 to-cyan-500"
+        },
+        {
+          "icon": "Users",
+          "name": "人事管理方案",
+          "color": "from-pink-500 to-rose-500"
+        },
+        {
+          "icon": "Shield",
+          "name": "知识产权信息",
+          "color": "from-violet-500 to-purple-500"
+        },
+        {
+          "icon": "Scale",
+          "name": "法务信息汇总",
+          "color": "from-amber-500 to-orange-500"
+        },
+        {
+          "icon": "FileText",
+          "name": "进出口许可证资讯",
+          "color": "from-lime-500 to-green-500"
+        },
+        {
+          "icon": "Award",
+          "name": "产品认证指南",
+          "color": "from-cyan-500 to-blue-500"
+        },
+        {
+          "icon": "Building2",
+          "name": "建筑工程合规信息",
+          "color": "from-red-500 to-pink-500"
+        },
+        {
+          "icon": "CheckCircle2",
+          "name": "SIRIM / 国际认证",
+          "color": "from-emerald-500 to-teal-500"
+        },
+        {
+          "icon": "Award",
+          "name": "清真认证指南",
+          "color": "from-fuchsia-500 to-purple-500"
+        },
+        {
+          "icon": "Shield",
+          "name": "ISO / 国际标准",
+          "color": "from-sky-500 to-indigo-500"
+        },
+        {
+          "icon": "Server",
+          "name": "企业邮箱配置",
+          "color": "from-blue-400 to-indigo-500"
+        },
+        {
+          "icon": "Layout",
+          "name": "独立站建设",
+          "color": "from-green-400 to-teal-500"
+        },
+        {
+          "icon": "CreditCard",
+          "name": "Stripe 支付集成",
+          "color": "from-purple-400 to-pink-500"
+        },
+        {
+          "icon": "Package",
+          "name": "不同国家供应链信息",
+          "color": "from-orange-400 to-red-500"
+        },
+        {
+          "icon": "Globe",
+          "name": "国际物流与清关资讯",
+          "color": "from-teal-400 to-cyan-500"
+        }
+      ]
+    },
+    "feature": {
+      "title": "我们的优势",
+      "subtitle": "企业选择我们服务的理由",
+      "list": [
+        {
+          "icon": "CheckCircle2",
+          "title": "专业团队",
+          "description": "资深顾问提供一对一服务",
+          "color": "from-green-400 to-teal-500"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "高效办理",
+          "description": "快速响应，流程透明",
+          "color": "from-teal-400 to-cyan-500"
+        },
+        {
+          "icon": "Shield",
+          "title": "安全保障",
+          "description": "信息保密，合规操作",
+          "color": "from-teal-400 to-cyan-500"
+        },
+        {
+          "icon": "Globe",
+          "title": "全程跟踪",
+          "description": "实时更新进度，随时沟通",
+          "color": "from-teal-400 to-cyan-500"
+        }
+      ]
+    },
+    "case": {
       "title": "以技术为基建，以品牌为桥梁。我们赋能行业增长，同时运营自有零售品牌 Soptia，共同打造可持续发展的全球生态。",
       "list": [
         {
@@ -43,55 +179,627 @@
         }
       ]
     },
-    "evaluates": {
-      "title": "客户对我们的评价",
+    "evaluate": {
+      "title": "全球客户见证",
+      "subtitle": "来自世界各地的企业分享",
       "list": [
         {
-          "title": "王先生",
-          "name": "",
-          "description": "这位买家朋友真的超级棒！非常有礼貌，而且对商品的任何疑问都问得很清楚，让整个交易过程无比顺畅和愉快。真心希望你能在闲鱼上收获更多心仪的宝贝，也欢迎随时再来我的小店逛逛呀🥰。 7. 买家宝宝人超好的😁，交易过程中特别理解人，一点都不挑剔。希望你生活中也天天开心，事事顺意哦😉。如果以后还有什么需要的，记得第一时间来找我哈，一定给你最优惠的价格和最好的服务🤗。8. 买家超棒！交易全程积极沟通，付款迅速，收货后及时确认并给予好评。很开心能与这样爽快又靠谱的买家合作，期待再次相遇😀。9. 这位买家非常好相处，对商品的疑问都很礼貌地询问，理解能力也很强。交易顺利完成，祝买家生活愉快，购"
+          "name": "Alexander Schmidt",
+          "position": "CEO",
+          "company": "Berlin Tech Solutions GmbH",
+          "country": "德国",
+          "flag": "🇩🇪",
+          "description": "Neptia在德国公司设立和GmbH注册方面展现了卓越的专业知识。他们的双语团队在税务优化和欧盟合规方面为我们节省了大量时间和成本，使我们能快速进入欧洲市场。",
+          "rating": 4,
+          "service": "德国公司注册 + 欧盟合规",
+          "duration": "合作2年"
         },
         {
-          "title": "李女士",
-          "name": "",
-          "description": "这位买家朋友真的超级棒！非常有礼貌，而且对商品的任何疑问都问得很清楚，让整个交易过程无比顺畅和愉快。真心希望你能在闲鱼上收获更多心仪的宝贝，也欢迎随时再来我的小店逛逛呀🥰。 7. 买家宝宝人超好的😁，交易过程中特别理解人，一点都不挑剔。希望你生活中也天天开心，事事顺意哦😉。如果以后还有什么需要的，记得第一时间来找我哈，一定给你最优惠的价格和最好的服务🤗。8. 买家超棒！交易全程积极沟通，付款迅速，收货后及时确认并给予好评。很开心能与这样爽快又靠谱的买家合作，期待再次相遇😀。9. 这位买家非常好相处，对商品的疑问都很礼貌地询问，理解能力也很强。交易顺利完成，祝买家生活愉快，购"
+          "name": "Sophia Müller",
+          "position": "International Business Director",
+          "company": "Munich Automotive Innovations",
+          "country": "德国",
+          "flag": "🇩🇪",
+          "description": "我们的电动汽车部件需要欧盟CE认证和德国TÜV认证。Neptia团队不仅高效完成了所有认证，还为我们制定了进入欧洲市场的完整策略，现在我们的产品已进入5个欧盟国家。",
+          "rating": 5,
+          "service": "CE认证 + TÜV认证 + 市场策略",
+          "duration": "合作18个月"
         },
         {
-          "title": "钱先生",
-          "name": "",
-          "description": "这位买家朋友真的超级棒！非常有礼貌，而且对商品的任何疑问都问得很清楚，让整个交易过程无比顺畅和愉快。真心希望你能在闲鱼上收获更多心仪的宝贝，也欢迎随时再来我的小店逛逛呀🥰。 7. 买家宝宝人超好的😁，交易过程中特别理解人，一点都不挑剔。希望你生活中也天天开心，事事顺意哦😉。如果以后还有什么需要的，记得第一时间来找我哈，一定给你最优惠的价格和最好的服务🤗。8. 买家超棒！交易全程积极沟通，付款迅速，收货后及时确认并给予好评。很开心能与这样爽快又靠谱的买家合作，期待再次相遇😀。9. 这位买家非常好相处，对商品的疑问都很礼貌地询问，理解能力也很强。交易顺利完成，祝买家生活愉快，购"
+          "name": "Oliver Johnson",
+          "position": "Managing Partner",
+          "company": "London FinTech Group",
+          "country": "英国",
+          "flag": "🇬🇧",
+          "description": "FCA牌照申请过程极其复杂，但Neptia的专家团队全程指导，确保我们完全符合英国金融监管要求。从申请到获批仅用了4个月，远超我们的预期。",
+          "rating": 5,
+          "service": "FCA金融牌照申请",
+          "duration": "合作2年"
+        },
+        {
+          "name": "Charlotte Williams",
+          "position": "Product Director",
+          "company": "Cambridge Biotech Ltd",
+          "country": "英国",
+          "flag": "🇬🇧",
+          "description": "MHRA医疗器械注册和UKCA认证对时间要求很高。Neptia不仅提前完成所有认证，还为我们制定了英国与欧盟双轨合规策略，现在我们的产品同时在英欧市场销售。",
+          "rating": 3,
+          "service": "MHRA注册 + UKCA认证",
+          "duration": "合作15个月"
+        },
+        {
+          "name": "James Anderson",
+          "position": "Founder & CEO",
+          "company": "Silicon Valley AI Labs",
+          "country": "美国",
+          "flag": "🇺🇸",
+          "description": "Delaware C-Corp设立和专利策略制定是我们在美扩张的关键。Neptia的专家不仅处理了公司注册，还帮我们制定了完善的IP保护方案，确保我们的核心技术在美国市场得到充分保护。",
+          "rating": 5,
+          "service": "美国公司设立 + 知识产权保护",
+          "duration": "合作3年"
+        },
+        {
+          "name": "Emma Thompson",
+          "position": "CFO",
+          "company": "Boston Medical Devices Inc",
+          "country": "美国",
+          "flag": "🇺🇸",
+          "description": "FDA 510(k)认证过程复杂且耗时，但Neptia团队的专业指导让我们少走了很多弯路。他们不仅处理了认证，还为我们提供了美国医保系统(Medicare)的准入策略。",
+          "rating": 5,
+          "service": "FDA认证 + 医保系统准入",
+          "duration": "合作2年半"
+        },
+        {
+          "name": "Lucas Martin",
+          "position": "Director of International Expansion",
+          "company": "Paris Luxury Group",
+          "country": "法国",
+          "flag": "🇫🇷",
+          "description": "Notre expansion en Asie du Sud-Est avec Neptia a été remarquable. Leur équipe francophone a géré parfaitement les certifications de produits et les stratégies de marque pour nos produits de luxe. Résultat : +150% de ventes en 18 mois.",
+          "rating": 5,
+          "service": "奢侈品市场准入 + 品牌策略",
+          "duration": "合作2年"
+        },
+        {
+          "name": "Camille Dubois",
+          "position": "Export Manager",
+          "company": "Lyon Pharmaceutical SAS",
+          "country": "法国",
+          "flag": "🇫🇷",
+          "description": "Neptia handled the complex regulatory requirements for our pharmaceutical products in Southeast Asia. From ASEAN Common Technical Dossier to local market approvals, their expertise was invaluable. We're now in 3 major ASEAN markets.",
+          "rating": 5,
+          "service": "药品注册 + 东盟市场准入",
+          "duration": "合作18个月"
+        },
+        {
+          "name": "Marco Rossi",
+          "position": "CEO",
+          "company": "Milan Fashion House",
+          "country": "意大利",
+          "flag": "🇮🇹",
+          "description": "作为意大利奢侈品牌，进入中国市场需要处理复杂的进口关税和品牌保护。Neptia不仅解决了所有海关问题，还为我们制定了有效的反假冒策略，现在我们在中国已有20家专卖店。",
+          "rating": 5,
+          "service": "奢侈品进口 + 品牌保护",
+          "duration": "合作2年半"
+        },
+        {
+          "name": "Giulia Romano",
+          "position": "Quality Control Director",
+          "company": "Turin Automotive Components",
+          "country": "意大利",
+          "flag": "🇮🇹",
+          "description": "IATF 16949认证和欧盟REACH合规是我们进入德国汽车供应链的关键。Neptia的多语言团队完美协调了所有技术沟通，让我们成功成为BMW和Mercedes的供应商。",
+          "rating": 5,
+          "service": "汽车行业认证 + 供应链准入",
+          "duration": "合作2年"
+        },
+        {
+          "name": "David Lee",
+          "position": "President",
+          "company": "Seoul Tech Innovations",
+          "country": "韩国",
+          "flag": "🇰🇷",
+          "description": "Neptia在韩国公司设立和KFTC（韩国公平贸易委员会）合规方面提供了卓越服务。他们的本地化团队帮助我们快速适应韩国市场，现在我们的产品已进入三星供应链。",
+          "rating": 5,
+          "service": "韩国公司设立 + 市场监管合规",
+          "duration": "合作1年半"
+        },
+        {
+          "name": "Min-ji Park",
+          "position": "Global Expansion Director",
+          "company": "Busan BioTech Corp",
+          "country": "韩国",
+          "flag": "🇰🇷",
+          "description": "韩国MFDS（食品药品安全处）认证和出口许可非常复杂。Neptia不仅高效完成了所有认证，还为我们提供了美国FDA和欧盟EMA的同步申请策略，实现三地同步上市。",
+          "rating": 5,
+          "service": "药品认证 + 全球同步注册",
+          "duration": "合作2年"
+        },
+        {
+          "name": "Jan de Vries",
+          "position": "Managing Director",
+          "company": "Amsterdam FinTech BV",
+          "country": "荷兰",
+          "flag": "🇳🇱",
+          "description": "Dutch BV设立和DNB（荷兰央行）牌照申请是我们在欧洲金融科技扩张的第一步。Neptia的团队不仅专业，还为我们制定了利用荷兰税收优势的完整架构。",
+          "rating": 5,
+          "service": "荷兰公司设立 + 金融牌照",
+          "duration": "合作2年"
+        },
+        {
+          "name": "Anna van den Berg",
+          "position": "Logistics Director",
+          "company": "Rotterdam Trade Hub",
+          "country": "荷兰",
+          "flag": "🇳🇱",
+          "description": "作为欧洲主要港口运营商，我们需要在亚洲建立分支机构。Neptia帮助我们在新加坡和香港设立公司，并处理了所有海关和物流合规问题，现在我们的亚洲业务增长超过200%。",
+          "rating": 5,
+          "service": "跨国物流架构 + 海关合规",
+          "duration": "合作3年"
+        },
+        {
+          "name": "Anders Johansson",
+          "position": "CEO",
+          "company": "Stockholm GreenTech AB",
+          "country": "瑞典",
+          "flag": "🇸🇪",
+          "description": "北欧地区的环保认证标准非常严格。Neptia帮助我们获得了北欧环保标签（Nordic Swan）和欧盟生态标签（EU Ecolabel），使我们的产品在环保意识强的北欧市场大受欢迎。",
+          "rating": 5,
+          "service": "环保认证 + 可持续标准",
+          "duration": "合作1年半"
+        },
+        {
+          "name": "Erika Lindgren",
+          "position": "International Business Manager",
+          "company": "Gothenburg MedTech Solutions",
+          "country": "瑞典",
+          "flag": "🇸🇪",
+          "description": "MDR（欧盟医疗器械法规）合规对我们的新产品上市至关重要。Neptia的专家团队不仅确保我们完全符合新规，还为我们制定了过渡期策略，避免了潜在的市场中断。",
+          "rating": 5,
+          "service": "MDR合规 + 医疗器械上市",
+          "duration": "合作2年"
+        },
+        {
+          "name": "Thomas Wagner",
+          "position": "Board Chairman",
+          "company": "Zurich Private Bank AG",
+          "country": "瑞士",
+          "flag": "🇨🇭",
+          "description": "瑞士金融市场监管（FINMA）的合规要求极其严格。Neptia不仅帮助我们获得了瑞士银行业牌照，还建立了完善的AML（反洗钱）和KYC（了解你的客户）体系。",
+          "rating": 5,
+          "service": "瑞士金融牌照 + 合规体系",
+          "duration": "合作3年"
+        },
+        {
+          "name": "Isabelle Müller",
+          "position": "Pharmaceutical Director",
+          "company": "Basel Pharma Group",
+          "country": "瑞士",
+          "flag": "🇨🇭",
+          "description": "作为世界领先的制药公司，全球药品注册是我们的核心挑战。Neptia帮助我们协调了美国FDA、欧盟EMA和日本PMDA的同步注册，大大缩短了新药上市时间。",
+          "rating": 5,
+          "service": "全球药品注册协调",
+          "duration": "合作4年"
+        },
+        {
+          "name": "William O'Connor",
+          "position": "Managing Director",
+          "company": "Dublin Tech Hub Ltd",
+          "country": "爱尔兰",
+          "flag": "🇮🇪",
+          "description": "利用爱尔兰的低税率和欧盟成员国优势，Neptia帮助我们建立了完美的欧洲总部架构。从公司设立到转让定价策略，每一个细节都处理得完美无缺。",
+          "rating": 5,
+          "service": "欧洲总部架构 + 税务优化",
+          "duration": "合作2年"
+        },
+        {
+          "name": "Siobhan Murphy",
+          "position": "Data Protection Officer",
+          "company": "Cork Data Solutions",
+          "country": "爱尔兰",
+          "flag": "🇮🇪",
+          "description": "GDPR合规和数据跨境传输是我们作为数据中心运营商的最大挑战。Neptia不仅确保我们完全合规，还帮助我们制定了完善的数据主权策略，赢得了欧盟大型客户的信任。",
+          "rating": 5,
+          "service": "GDPR合规 + 数据主权策略",
+          "duration": "合作18个月"
+        },
+        {
+          "name": "Pierre Dubois",
+          "position": "Director of International Business",
+          "company": "Luxe Paris Fashion House",
+          "country": "法国",
+          "flag": "🇫🇷",
+          "description": "L'expansion de notre marque en Asie avec l'aide de Neptia a été un succès. Leur expertise en douane chinoise et en certification de produits nous a permis d'entrer sur le marché chinois en seulement 4 mois.",
+          "rating": 5,
+          "service": "品牌出海中国 + 海关清关",
+          "duration": "合作1年"
+        },
+        {
+          "name": "Marie Laurent",
+          "position": "Quality Assurance Director",
+          "company": "French Wine Exports SAS",
+          "country": "法国",
+          "flag": "🇫🇷",
+          "description": "Neptia handled all export documentation and Chinese food import licenses for our wine. Their understanding of both EU and Asian regulations ensured smooth market entry. Sales have grown 40% since launch.",
+          "rating": 5,
+          "service": "食品出口认证 + 进口许可",
+          "duration": "合作18个月"
+        },
+        {
+          "name": "David Wilson",
+          "position": "Managing Director",
+          "company": "Aussie AgriTech",
+          "country": "澳大利亚",
+          "flag": "🇦🇺",
+          "description": "Setting up our Australian entity and obtaining ACO certification was seamless with Neptia. Their local knowledge of Australian agricultural regulations was invaluable. We've expanded to 3 states within 12 months.",
+          "rating": 5,
+          "service": "澳大利亚公司设立 + 行业认证",
+          "duration": "合作1年"
+        },
+        {
+          "name": "Sophie Brown",
+          "position": "CFO",
+          "company": "FinTech Innovations Pty Ltd",
+          "country": "澳大利亚",
+          "flag": "🇦🇺",
+          "description": "ASIC compliance and AUSTRAC registration were handled professionally by Neptia. Their financial regulatory expertise helped us secure our Australian financial services license much faster than expected.",
+          "rating": 4,
+          "service": "金融合规 + 牌照申请",
+          "duration": "合作9个月"
         }
       ]
     },
-    "about": {
-      "title": "认识我们",
-      "description": "我们公司成立之初就注重家庭观念。\n\n缘起，Roland的中学生涯以及本科经历，让Roland确信了一个点，只有在决策上做出正确的选择，才有可能真正走在前列，少走很多弯路。正如创建Wayne InsightSpring一样，Roland的初心只想服务好客户，以及为团队成员提供有竞争力的收入。这两个点，一个是利益客户，另外一个是利益团队。Roland坚信，只有利益他人，才有可能创造真正的价值，并且回馈于社会。\n\n很多家庭，其实需要的，并不是让孩子成为人中龙凤，而是希望孩子有选择底气和权利，能够过上自己想要的生活。因此我们的咨询，是一种诊断，我们全面剖析目前存在的问题，然后提供有效的解决方案和可操作路径。"
-    },
     "cta": {
-      "title": "准备开始您的跨境之旅？",
-      "subtitle": "加入已经与我们咨询的数百名专业人士",
-      "button": "立即咨询"
+      "title": "开启您的全球业务新篇章",
+      "subtitle": "与全球领先的跨境合规专家一起，安全、高效地拓展国际市场",
+      "button": "获取免费战略咨询"
     }
   },
-  "service": [],
-  "about": {},
-  "insight": [],
+  "service": {
+    "hero": {
+      "title": "Neptia 服务",
+      "description": "Neptia 致力于为全球中小企业提供全方位、跨行业的企业信息与软件服务，覆盖计算机、医疗、零售、企业服务、税务、金融、教育及供应链等多个领域，帮助企业实现高效、数字化和全球化发展。"
+    },
+    "service": {
+      "title": "我们的服务领域",
+      "description": " Neptia 提供跨行业、跨境的专业解决方案，支持企业全球化和数字化转型。",
+      "list": [
+        {
+          "icon": "Server",
+          "name": "计算机与IT服务",
+          "description": "软件开发、系统集成、云服务解决方案、AI与大数据应用"
+        },
+        {
+          "icon": "Cpu",
+          "name": "硬件与网络解决方案",
+          "description": "服务器部署、网络架构设计及维护"
+        },
+        {
+          "icon": "Heart",
+          "name": "医疗健康服务",
+          "description": "远程医疗、医疗信息化、健康数据管理、医疗设备支持"
+        },
+        {
+          "icon": "BookOpen",
+          "name": "教育与培训",
+          "description": "在线教育平台、跨境培训课程、企业培训计划"
+        },
+        {
+          "icon": "ShoppingCart",
+          "name": "零售与电商服务",
+          "description": "跨境电商、供应链管理、独立站建设、市场分析"
+        },
+        {
+          "icon": "Building2",
+          "name": "企业服务",
+          "description": "公司注册、税务咨询、人事管理、法务与合规支持"
+        },
+        {
+          "icon": "FileText",
+          "name": "税务与财务服务",
+          "description": "税务筹划、财务报表、审计、合规咨询、融资方案"
+        },
+        {
+          "icon": "CreditCard",
+          "name": "金融与支付服务",
+          "description": "支付集成、企业融资、跨境结算、数字货币咨询"
+        },
+        {
+          "icon": "Shield",
+          "name": "知识产权与认证",
+          "description": "商标注册、专利申请、产品认证、国际标准认证"
+        },
+        {
+          "icon": "CheckCircle2",
+          "name": "创新与战略咨询",
+          "description": "行业分析、数字化转型、商业策略及企业创新规划"
+        },
+        {
+          "icon": "Globe",
+          "name": "国际市场与物流",
+          "description": "跨境物流、国际市场研究、清关方案、供应链优化"
+        },
+        {
+          "icon": "Activity",
+          "name": "行业培训与支持",
+          "description": "专业培训、工作坊、企业数字化转型支持"
+        },
+        {
+          "icon": "Box",
+          "name": "供应链管理",
+          "description": "全球供应链搭建、仓储物流优化、库存管理方案"
+        },
+        {
+          "icon": "BarChart2",
+          "name": "数据分析与BI",
+          "description": "企业数据分析、商业智能报表、决策支持系统"
+        },
+        {
+          "icon": "Award",
+          "name": "创新与研发",
+          "description": "新技术研发、产品创新、跨境创新项目咨询"
+        }
+      ]
+    },
+    "collaborate": {
+      "title": "全球企业与高校合作案例",
+      "description": "我们与全球顶尖企业和高校合作，推动多元文化交流与跨境业务创新。",
+      "list": [
+        {
+          "title": "跨境电商优化项目",
+          "organization": "Harvard University",
+          "country": "USA",
+          "description": "与全球高校学生合作优化电商供应链系统，提高物流效率30%",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST-vPR7T_rUhWaKMfhZMccvV2f8tv2r9X8XQ&s"
+        },
+        {
+          "title": "企业数字化转型咨询",
+          "organization": "Siemens",
+          "country": "Germany",
+          "description": "为大型企业提供定制化数字化解决方案，提升生产自动化水平",
+          "image": "https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "跨文化教育交流平台",
+          "organization": "University of Melbourne",
+          "country": "Australia",
+          "description": "与全球高校联合搭建在线教育平台，推动多元文化交流与教育创新",
+          "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "国际金融支付整合",
+          "organization": "HSBC",
+          "country": "UK",
+          "description": "为跨境企业提供支付系统整合，优化国际结算流程",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1I1KUkpiTsGW_kuyJttGyVQtKXBPF0Uje9w&s"
+        },
+        {
+          "title": "乡村数字支付扶贫项目",
+          "organization": "World Bank",
+          "country": "Kenya",
+          "description": "通过数字支付系统帮助偏远地区农民获得金融服务，改善生活质量",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxCpTmfYSSFKqzwWC_luZ9K4_Zr017yESRFw&s"
+        },
+        {
+          "title": "偏远地区医疗信息化",
+          "organization": "Médecins Sans Frontières",
+          "country": "India",
+          "description": "在山村地区搭建远程医疗系统，为偏远居民提供健康服务",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtCEg41pvL5JhRzpYFpL7lZ_j81d2VMRO1oA&s"
+        },
+        {
+          "title": "跨国环保教育项目",
+          "organization": "Stanford University",
+          "country": "USA",
+          "description": "联合多国高校开展环境保护教育与可持续发展项目",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7L-QIlYQ7wG_HJGWYHxD76eDjjpeLD6Xd-Q&s"
+        },
+        {
+          "title": "中小企业跨境融资",
+          "organization": "HSBC",
+          "country": "Singapore",
+          "description": "为亚太地区中小企业提供跨境融资与支付解决方案，支持国际化发展",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxiISiPCR0DWuQ1YbhSWvEW4bGLjvLziqI7A&s"
+        }
+      ]
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "关于 Neptia",
+      "p1": "我们秉承",
+      "p2": "开放包容",
+      "p3": "携手全球",
+      "p4": "共建未来",
+      "p5": "的理念，汇聚多元文化与全球人才，致力于为中小企业提供跨境信息与软件服务。"
+    },
+    "value": {
+      "title": "我们的价值观",
+      "description": "在 Neptia，每一位成员和合作伙伴都是全球生态的重要组成部分。",
+      "list": [
+        {
+          "icon": "Users",
+          "title": "多元人才",
+          "description": "汇聚来自全球的专业人才，共同推动创新与发展。"
+        },
+        {
+          "icon": "Globe",
+          "title": "开放包容",
+          "description": "尊重不同文化与观点，打造共融的工作环境。"
+        },
+        {
+          "icon": "Shield",
+          "title": "安全可靠",
+          "description": "保障信息安全与业务合规，建立信任基础。"
+        },
+        {
+          "icon": "Building2",
+          "title": "携手全球",
+          "description": "与合作伙伴共建国际化网络，实现互利共赢。"
+        },
+        {
+          "icon": "CheckCircle2",
+          "title": "专业服务",
+          "description": "提供高效、可靠、定制化的企业信息与软件服务。"
+        },
+        {
+          "icon": "Award",
+          "title": "创新未来",
+          "description": "以创新和远见引领行业发展，共创美好未来。"
+        }
+      ]
+    },
+    "team": {
+      "title": "全球团队",
+      "description": "我们的团队汇聚来自不同国家和文化背景的专家，致力于提供全球化、高效、专业的企业服务。",
+      "list": [
+        {
+          "name": "Kenny",
+          "position": "软件架构师",
+          "country": "美国",
+          "expertise": "跨境软件与信息服务",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/01.jpg"
+        },
+        {
+          "name": "Lina",
+          "position": "技术顾问",
+          "country": "加拿大",
+          "expertise": "云计算与企业系统",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/02.jpg"
+        },
+        {
+          "name": "Akira",
+          "position": "市场策略",
+          "country": "英国",
+          "expertise": "国际市场拓展",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/03.jpg"
+        },
+        {
+          "name": "Maria",
+          "position": "法律顾问",
+          "country": "澳大利亚",
+          "expertise": "跨境法务与合规",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/04.jpg"
+        },
+        {
+          "name": "David",
+          "position": "运营总监",
+          "country": "法国",
+          "expertise": "项目管理与运营",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/05.jpg"
+        },
+        {
+          "name": "Sophia",
+          "position": "跨境商标顾问",
+          "country": "美国",
+          "expertise": "知识产权跨境",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/06.jpg"
+        }
+      ]
+    },
+    "event": {
+      "title": "团队文化与活动",
+      "description": "多元文化的团队不仅在工作中紧密协作，也通过丰富的活动增强凝聚力。",
+      "list": [
+        {
+          "title": "国际美食分享",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "团建登山活动",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "文化节庆活动",
+          "image": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/08.jpg"
+        },
+        {
+          "title": "线上跨境工作坊",
+          "image": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/07.jpg"
+        }
+      ]
+    }
+  },
+  "insight": {
+    "hero": {
+      "title": "企业洞察与分析",
+      "description": "用数据驱动决策，帮助企业快速掌握市场脉搏",
+      "contact": "立即咨询",
+      "detail": "查看详情"
+    },
+    "insight": {
+      "title": "核心洞察",
+      "description": "提供全方位企业分析，帮助您做出明智决策",
+      "list": [
+        {
+          "icon": "BarChart2",
+          "title": "市场趋势分析",
+          "description": "通过数据洞察行业发展趋势，发现潜在机会。",
+          "color": "from-indigo-500 to-purple-500"
+        },
+        {
+          "icon": "PieChart",
+          "title": "用户行为研究",
+          "description": "分析用户行为数据，优化产品与服务体验。",
+          "color": "from-green-400 to-teal-500"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "投资与增长",
+          "description": "评估投资风险与潜力，帮助企业稳健增长。",
+          "color": "from-orange-400 to-red-500"
+        },
+        {
+          "icon": "Users",
+          "title": "团队与组织",
+          "description": "优化组织结构，提高团队协作效率。",
+          "color": "from-pink-400 to-rose-500"
+        },
+        {
+          "icon": "Globe",
+          "title": "全球市场",
+          "description": "跟踪国际市场动态，把握跨境商机。",
+          "color": "from-teal-500 to-cyan-500"
+        },
+        {
+          "icon": "Shield",
+          "title": "风险与合规",
+          "description": "确保运营合规，规避潜在风险。",
+          "color": "from-violet-500 to-purple-500"
+        }
+      ]
+    },
+    "cta": {
+      "title": "想深入了解企业洞察？",
+      "description": "立即联系我们，获取专业分析报告",
+      "contact": "联系我们"
+    }
+  },
   "contact": {
-    "title": "联系我们",
-    "subtitle": "如有任何问题或咨询，请与我们联系",
+    "hero": {
+      "title": "联系我们",
+      "description": "我们随时准备为您提供专业的企业服务"
+    },
     "info": {
       "title": "联系信息",
-      "address": "地址",
       "phone": "电话",
       "email": "邮箱",
-      "hours": "工作时间"
+      "address": "地址",
+      "address_detail": "美国加州 旧金山, 432 Mission St, Apt 21B",
+      "hours": "工作时间",
+      "p1": "周一至周五",
+      "p2": "周六至周日",
+      "p3": "休息"
     },
     "form": {
       "title": "发送消息",
       "name": "姓名",
+      "name_placeholder": "请输入您的姓名",
+      "phone": "电话",
       "email": "邮箱地址",
       "wechat": "微信",
       "message": "留言",
+      "message_placeholder": "请告诉我们您需要什么服务...",
       "send": "发送消息",
       "sending": "发送中...",
       "submit-success": "用户信息提交成功！",

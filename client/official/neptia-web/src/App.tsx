@@ -35,7 +35,12 @@ function App() {
         content="Neptia, 跨境技术服务, 信息服务, 全球企业, 出海, 国际化解决方案, 海外扩展, 全球市场, 跨境支付, 跨境物流, 海外电商, 全球商业咨询, 企业出海, 跨境运营, 海外落地, 品牌推广, 中国市场, 海外品牌"
       />
 
-      <Router>
+      <Router
+        future={{
+          v7_startTransition: true,
+          v7_relativeSplatPath: true,
+        }}
+      >
         <Routes>
           <Route path="/home" element={<Home />}>
             <Route path="index" element={<Index />} />

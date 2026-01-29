@@ -3,109 +3,817 @@
     "loading": "Loading...",
     "error": "An error occurred",
     "notFound": "Page not found",
-    "backToHome": "Back to Home"
+    "backToHome": "Back to home"
   },
   "nav": {
     "home": "Home",
-    "service": "Service",
+    "service": "Services",
     "about": "About Us",
-    "contact": "Contact Us",
+    "contact": "Contact",
     "brand": "Neptia",
-    "insight": "Insight"
+    "insight": "Insights"
   },
   "index": {
     "hero": {
-      "title": "Empowering Your Global Expansion",
-      "subtitle": "Open and Inclusive, Partnering Globally, Building the Future Together",
-      "description": "Neptia provides end-to-end cross-border solutions and information services—from payments and logistics to e-commerce setup, as well as promoting overseas brands in the Chinese market—helping businesses efficiently expand globally and achieve seamless connections.",
+      "title": "Empower Your Global Business Expansion",
+      "subtitle": "Open & Inclusive • Collaborate Globally • Build the Future",
+      "description": "Neptia provides end-to-end cross-border technology and information services. From payments, logistics to e-commerce implementation, and overseas brand promotion in China, we help businesses efficiently expand globally and achieve seamless connectivity.",
       "cta": {
-        "startNow": "Get Started",
+        "startNow": "Get Started Now",
         "learnMore": "Learn More"
       }
     },
-    "services": {
-      "title": "以技术为基建，以品牌为桥梁。我们赋能行业增长，同时运营自有零售品牌 Soptia，共同打造可持续发展的全球生态。",
+    "service": {
+      "title": "Our Services",
+      "description": "Comprehensive Enterprise Service Solutions",
       "list": [
         {
-          "title": "Soptia 全球零售出海中东",
-          "description": "通过本地化运营和数字化管理，助力澳大利亚 Soptia 成功进入中东市场。",
+          "icon": "Building2",
+          "name": "Company License Information",
+          "color": "from-blue-500 to-cyan-500"
+        },
+        {
+          "icon": "FileText",
+          "name": "Visa Policy Information",
+          "color": "from-purple-500 to-pink-500"
+        },
+        {
+          "icon": "Users",
+          "name": "Site Selection Consultation",
+          "color": "from-orange-500 to-red-500"
+        },
+        {
+          "icon": "Scale",
+          "name": "Tax & Administration Information",
+          "color": "from-green-500 to-emerald-500"
+        },
+        {
+          "icon": "TrendingUp",
+          "name": "Daily Financial & Tax Data",
+          "color": "from-indigo-500 to-blue-500"
+        },
+        {
+          "icon": "Globe",
+          "name": "Tax Planning & Compliance",
+          "color": "from-teal-500 to-cyan-500"
+        },
+        {
+          "icon": "Users",
+          "name": "HR Management Solutions",
+          "color": "from-pink-500 to-rose-500"
+        },
+        {
+          "icon": "Shield",
+          "name": "Intellectual Property Information",
+          "color": "from-violet-500 to-purple-500"
+        },
+        {
+          "icon": "Scale",
+          "name": "Legal Information Summary",
+          "color": "from-amber-500 to-orange-500"
+        },
+        {
+          "icon": "FileText",
+          "name": "Import/Export License Information",
+          "color": "from-lime-500 to-green-500"
+        },
+        {
+          "icon": "Award",
+          "name": "Product Certification Guide",
+          "color": "from-cyan-500 to-blue-500"
+        },
+        {
+          "icon": "Building2",
+          "name": "Construction Engineering Compliance Information",
+          "color": "from-red-500 to-pink-500"
+        },
+        {
+          "icon": "CheckCircle2",
+          "name": "SIRIM / International Certification",
+          "color": "from-emerald-500 to-teal-500"
+        },
+        {
+          "icon": "Award",
+          "name": "Halal Certification Guide",
+          "color": "from-fuchsia-500 to-purple-500"
+        },
+        {
+          "icon": "Shield",
+          "name": "ISO / International Standards",
+          "color": "from-sky-500 to-indigo-500"
+        },
+        {
+          "icon": "Server",
+          "name": "Corporate Email Configuration",
+          "color": "from-blue-400 to-indigo-500"
+        },
+        {
+          "icon": "Layout",
+          "name": "Independent Website Development",
+          "color": "from-green-400 to-teal-500"
+        },
+        {
+          "icon": "CreditCard",
+          "name": "Stripe Payment Integration",
+          "color": "from-purple-400 to-pink-500"
+        },
+        {
+          "icon": "Package",
+          "name": "Supply Chain Information by Country",
+          "color": "from-orange-400 to-red-500"
+        },
+        {
+          "icon": "Globe",
+          "name": "International Logistics & Customs Information",
+          "color": "from-teal-400 to-cyan-500"
+        }
+      ]
+    },
+    "feature": {
+      "title": "Our Advantages",
+      "subtitle": "Why Businesses Choose Our Services",
+      "list": [
+        {
+          "icon": "CheckCircle2",
+          "title": "Professional Team",
+          "description": "Experienced consultants provide one-on-one service",
+          "color": "from-green-400 to-teal-500"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Efficient Processing",
+          "description": "Quick response, transparent process",
+          "color": "from-teal-400 to-cyan-500"
+        },
+        {
+          "icon": "Shield",
+          "title": "Security Assurance",
+          "description": "Information confidentiality, compliant operations",
+          "color": "from-teal-400 to-cyan-500"
+        },
+        {
+          "icon": "Globe",
+          "title": "Full Tracking",
+          "description": "Real-time progress updates, constant communication",
+          "color": "from-teal-400 to-cyan-500"
+        }
+      ]
+    },
+    "case": {
+      "title": "Building on technology infrastructure and bridging with brand. We empower industry growth while operating our own retail brand Soptia, jointly creating a sustainable global ecosystem.",
+      "list": [
+        {
+          "title": "Soptia Global Retail Expansion to Middle East",
+          "description": "Helped Australian Soptia successfully enter the Middle East market through localized operations and digital management.",
           "cover": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/index/01.jpg"
         },
         {
-          "title": "Neptia 助力加拿大医疗器械数字化转型",
-          "description": "为加拿大企业提供数字化解决方案，实现业务流程优化与数据驱动增长。",
+          "title": "Neptia Supports Canadian Medical Device Digital Transformation",
+          "description": "Provided digital solutions for Canadian enterprises, achieving business process optimization and data-driven growth.",
           "cover": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/index/02.jpg"
         },
         {
-          "title": "Neptia 为英国政府提供数字化服务",
-          "description": "助力英国政府机构实现服务数字化、流程智能化与信息高效流通。",
+          "title": "Neptia Provides Digital Services for UK Government",
+          "description": "Assisted UK government agencies in achieving service digitalization, process intelligence, and efficient information flow.",
           "cover": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/index/03.jpg"
         }
       ]
     },
-    "evaluates": {
-      "title": "客户对我们的评价",
+    "evaluate": {
+      "title": "Global Client Testimonials",
+      "subtitle": "Success Stories from Businesses Worldwide",
       "list": [
         {
-          "title": "王先生",
-          "name": "",
-          "description": "这位买家朋友真的超级棒！非常有礼貌，而且对商品的任何疑问都问得很清楚，让整个交易过程无比顺畅和愉快。真心希望你能在闲鱼上收获更多心仪的宝贝，也欢迎随时再来我的小店逛逛呀🥰。 7. 买家宝宝人超好的😁，交易过程中特别理解人，一点都不挑剔。希望你生活中也天天开心，事事顺意哦😉。如果以后还有什么需要的，记得第一时间来找我哈，一定给你最优惠的价格和最好的服务🤗。8. 买家超棒！交易全程积极沟通，付款迅速，收货后及时确认并给予好评。很开心能与这样爽快又靠谱的买家合作，期待再次相遇😀。9. 这位买家非常好相处，对商品的疑问都很礼貌地询问，理解能力也很强。交易顺利完成，祝买家生活愉快，购"
+          "name": "Alexander Schmidt",
+          "position": "CEO",
+          "company": "Berlin Tech Solutions GmbH",
+          "country": "Germany",
+          "flag": "🇩🇪",
+          "description": "Neptia demonstrated exceptional expertise in German company setup and GmbH registration. Their bilingual team saved us significant time and costs in tax optimization and EU compliance, enabling us to quickly enter the European market.",
+          "rating": 4,
+          "service": "German Company Registration + EU Compliance",
+          "duration": "2 Years Partnership"
         },
         {
-          "title": "李女士",
-          "name": "",
-          "description": "这位买家朋友真的超级棒！非常有礼貌，而且对商品的任何疑问都问得很清楚，让整个交易过程无比顺畅和愉快。真心希望你能在闲鱼上收获更多心仪的宝贝，也欢迎随时再来我的小店逛逛呀🥰。 7. 买家宝宝人超好的😁，交易过程中特别理解人，一点都不挑剔。希望你生活中也天天开心，事事顺意哦😉。如果以后还有什么需要的，记得第一时间来找我哈，一定给你最优惠的价格和最好的服务🤗。8. 买家超棒！交易全程积极沟通，付款迅速，收货后及时确认并给予好评。很开心能与这样爽快又靠谱的买家合作，期待再次相遇😀。9. 这位买家非常好相处，对商品的疑问都很礼貌地询问，理解能力也很强。交易顺利完成，祝买家生活愉快，购"
+          "name": "Sophia Müller",
+          "position": "International Business Director",
+          "company": "Munich Automotive Innovations",
+          "country": "Germany",
+          "flag": "🇩🇪",
+          "description": "Our electric vehicle components required EU CE certification and German TÜV certification. Neptia not only efficiently completed all certifications but also developed a comprehensive strategy for entering the European market. Our products are now available in 5 EU countries.",
+          "rating": 5,
+          "service": "CE Certification + TÜV Certification + Market Strategy",
+          "duration": "18 Months Partnership"
         },
         {
-          "title": "钱先生",
-          "name": "",
-          "description": "这位买家朋友真的超级棒！非常有礼貌，而且对商品的任何疑问都问得很清楚，让整个交易过程无比顺畅和愉快。真心希望你能在闲鱼上收获更多心仪的宝贝，也欢迎随时再来我的小店逛逛呀🥰。 7. 买家宝宝人超好的😁，交易过程中特别理解人，一点都不挑剔。希望你生活中也天天开心，事事顺意哦😉。如果以后还有什么需要的，记得第一时间来找我哈，一定给你最优惠的价格和最好的服务🤗。8. 买家超棒！交易全程积极沟通，付款迅速，收货后及时确认并给予好评。很开心能与这样爽快又靠谱的买家合作，期待再次相遇😀。9. 这位买家非常好相处，对商品的疑问都很礼貌地询问，理解能力也很强。交易顺利完成，祝买家生活愉快，购"
+          "name": "Oliver Johnson",
+          "position": "Managing Partner",
+          "company": "London FinTech Group",
+          "country": "UK",
+          "flag": "🇬🇧",
+          "description": "The FCA licensing process was extremely complex, but Neptia's expert team guided us through every step, ensuring full compliance with UK financial regulations. The entire process from application to approval took only 4 months, exceeding our expectations.",
+          "rating": 5,
+          "service": "FCA Financial License Application",
+          "duration": "2 Years Partnership"
+        },
+        {
+          "name": "Charlotte Williams",
+          "position": "Product Director",
+          "company": "Cambridge Biotech Ltd",
+          "country": "UK",
+          "flag": "🇬🇧",
+          "description": "MHRA medical device registration and UKCA certification required strict timing. Neptia not only completed all certifications ahead of schedule but also developed a dual-track compliance strategy for both UK and EU markets. Our products are now sold simultaneously in both markets.",
+          "rating": 3,
+          "service": "MHRA Registration + UKCA Certification",
+          "duration": "15 Months Partnership"
+        },
+        {
+          "name": "James Anderson",
+          "position": "Founder & CEO",
+          "company": "Silicon Valley AI Labs",
+          "country": "USA",
+          "flag": "🇺🇸",
+          "description": "Delaware C-Corp setup and patent strategy development were crucial for our US expansion. Neptia experts not only handled company registration but also developed a comprehensive IP protection plan, ensuring our core technology is fully protected in the US market.",
+          "rating": 5,
+          "service": "US Company Setup + Intellectual Property Protection",
+          "duration": "3 Years Partnership"
+        },
+        {
+          "name": "Emma Thompson",
+          "position": "CFO",
+          "company": "Boston Medical Devices Inc",
+          "country": "USA",
+          "flag": "🇺🇸",
+          "description": "The FDA 510(k) certification process was complex and time-consuming, but Neptia's professional guidance saved us many detours. They not only handled the certification but also provided strategies for accessing the US Medicare system.",
+          "rating": 5,
+          "service": "FDA Certification + Medicare System Access",
+          "duration": "2.5 Years Partnership"
+        },
+        {
+          "name": "Lucas Martin",
+          "position": "Director of International Expansion",
+          "company": "Paris Luxury Group",
+          "country": "France",
+          "flag": "🇫🇷",
+          "description": "Our Southeast Asian expansion with Neptia was remarkable. Their French-speaking team perfectly managed product certifications and brand strategies for our luxury products. Result: +150% sales in 18 months.",
+          "rating": 5,
+          "service": "Luxury Market Access + Brand Strategy",
+          "duration": "2 Years Partnership"
+        },
+        {
+          "name": "Camille Dubois",
+          "position": "Export Manager",
+          "company": "Lyon Pharmaceutical SAS",
+          "country": "France",
+          "flag": "🇫🇷",
+          "description": "Neptia handled the complex regulatory requirements for our pharmaceutical products in Southeast Asia. From ASEAN Common Technical Dossier to local market approvals, their expertise was invaluable. We're now in 3 major ASEAN markets.",
+          "rating": 5,
+          "service": "Pharmaceutical Registration + ASEAN Market Access",
+          "duration": "18 Months Partnership"
+        },
+        {
+          "name": "Marco Rossi",
+          "position": "CEO",
+          "company": "Milan Fashion House",
+          "country": "Italy",
+          "flag": "🇮🇹",
+          "description": "As an Italian luxury brand, entering the Chinese market required dealing with complex import tariffs and brand protection. Neptia not only solved all customs issues but also developed effective anti-counterfeiting strategies. We now have 20 boutiques in China.",
+          "rating": 5,
+          "service": "Luxury Import + Brand Protection",
+          "duration": "2.5 Years Partnership"
+        },
+        {
+          "name": "Giulia Romano",
+          "position": "Quality Control Director",
+          "company": "Turin Automotive Components",
+          "country": "Italy",
+          "flag": "🇮🇹",
+          "description": "IATF 16949 certification and EU REACH compliance were crucial for entering the German automotive supply chain. Neptia's multilingual team perfectly coordinated all technical communication, helping us successfully become suppliers to BMW and Mercedes.",
+          "rating": 5,
+          "service": "Automotive Industry Certification + Supply Chain Access",
+          "duration": "2 Years Partnership"
+        },
+        {
+          "name": "David Lee",
+          "position": "President",
+          "company": "Seoul Tech Innovations",
+          "country": "South Korea",
+          "flag": "🇰🇷",
+          "description": "Neptia provided excellent services in Korean company setup and KFTC (Korean Fair Trade Commission) compliance. Their localized team helped us quickly adapt to the Korean market, and our products are now in Samsung's supply chain.",
+          "rating": 5,
+          "service": "Korean Company Setup + Market Regulatory Compliance",
+          "duration": "1.5 Years Partnership"
+        },
+        {
+          "name": "Min-ji Park",
+          "position": "Global Expansion Director",
+          "company": "Busan BioTech Corp",
+          "country": "South Korea",
+          "flag": "🇰🇷",
+          "description": "Korean MFDS (Ministry of Food and Drug Safety) certification and export permits were very complex. Neptia not only efficiently completed all certifications but also provided synchronized application strategies for US FDA and EU EMA, achieving simultaneous market entry in three regions.",
+          "rating": 5,
+          "service": "Pharmaceutical Certification + Global Synchronized Registration",
+          "duration": "2 Years Partnership"
+        },
+        {
+          "name": "Jan de Vries",
+          "position": "Managing Director",
+          "company": "Amsterdam FinTech BV",
+          "country": "Netherlands",
+          "flag": "🇳🇱",
+          "description": "Dutch BV setup and DNB (Dutch Central Bank) license application were the first steps in our European fintech expansion. Neptia's team was not only professional but also developed a complete structure leveraging Dutch tax advantages.",
+          "rating": 5,
+          "service": "Dutch Company Setup + Financial License",
+          "duration": "2 Years Partnership"
+        },
+        {
+          "name": "Anna van den Berg",
+          "position": "Logistics Director",
+          "company": "Rotterdam Trade Hub",
+          "country": "Netherlands",
+          "flag": "🇳🇱",
+          "description": "As a major European port operator, we needed to establish branches in Asia. Neptia helped us set up companies in Singapore and Hong Kong, handling all customs and logistics compliance issues. Our Asian business has grown over 200%.",
+          "rating": 5,
+          "service": "Cross-border Logistics Structure + Customs Compliance",
+          "duration": "3 Years Partnership"
+        },
+        {
+          "name": "Anders Johansson",
+          "position": "CEO",
+          "company": "Stockholm GreenTech AB",
+          "country": "Sweden",
+          "flag": "🇸🇪",
+          "description": "Environmental certification standards in Nordic regions are very strict. Neptia helped us obtain Nordic Swan and EU Ecolabel certifications, making our products highly popular in environmentally conscious Nordic markets.",
+          "rating": 5,
+          "service": "Environmental Certification + Sustainability Standards",
+          "duration": "1.5 Years Partnership"
+        },
+        {
+          "name": "Erika Lindgren",
+          "position": "International Business Manager",
+          "company": "Gothenburg MedTech Solutions",
+          "country": "Sweden",
+          "flag": "🇸🇪",
+          "description": "MDR (EU Medical Device Regulation) compliance was crucial for our new product launch. Neptia's expert team not only ensured full compliance with the new regulations but also developed transition strategies, avoiding potential market disruptions.",
+          "rating": 5,
+          "service": "MDR Compliance + Medical Device Market Entry",
+          "duration": "2 Years Partnership"
+        },
+        {
+          "name": "Thomas Wagner",
+          "position": "Board Chairman",
+          "company": "Zurich Private Bank AG",
+          "country": "Switzerland",
+          "flag": "🇨🇭",
+          "description": "Swiss FINMA compliance requirements are extremely strict. Neptia not only helped us obtain Swiss banking licenses but also established a comprehensive AML and KYC system.",
+          "rating": 5,
+          "service": "Swiss Financial License + Compliance System",
+          "duration": "3 Years Partnership"
+        },
+        {
+          "name": "Isabelle Müller",
+          "position": "Pharmaceutical Director",
+          "company": "Basel Pharma Group",
+          "country": "Switzerland",
+          "flag": "🇨🇭",
+          "description": "As a world-leading pharmaceutical company, global drug registration is our core challenge. Neptia helped coordinate synchronized registration with US FDA, EU EMA, and Japan PMDA, significantly reducing new drug launch timelines.",
+          "rating": 5,
+          "service": "Global Drug Registration Coordination",
+          "duration": "4 Years Partnership"
+        },
+        {
+          "name": "William O'Connor",
+          "position": "Managing Director",
+          "company": "Dublin Tech Hub Ltd",
+          "country": "Ireland",
+          "flag": "🇮🇪",
+          "description": "Leveraging Ireland's low tax rates and EU membership advantages, Neptia helped us establish a perfect European headquarters structure. Every detail from company setup to transfer pricing strategy was handled flawlessly.",
+          "rating": 5,
+          "service": "European Headquarters Structure + Tax Optimization",
+          "duration": "2 Years Partnership"
+        },
+        {
+          "name": "Siobhan Murphy",
+          "position": "Data Protection Officer",
+          "company": "Cork Data Solutions",
+          "country": "Ireland",
+          "flag": "🇮🇪",
+          "description": "GDPR compliance and cross-border data transfer were our biggest challenges as a data center operator. Neptia not only ensured full compliance but also helped develop a robust data sovereignty strategy, earning the trust of major EU clients.",
+          "rating": 5,
+          "service": "GDPR Compliance + Data Sovereignty Strategy",
+          "duration": "18 Months Partnership"
+        },
+        {
+          "name": "Pierre Dubois",
+          "position": "Director of International Business",
+          "company": "Luxe Paris Fashion House",
+          "country": "France",
+          "flag": "🇫🇷",
+          "description": "Our brand expansion in Asia with Neptia's help was a success. Their expertise in Chinese customs and product certification allowed us to enter the Chinese market in just 4 months.",
+          "rating": 5,
+          "service": "Brand Expansion to China + Customs Clearance",
+          "duration": "1 Year Partnership"
+        },
+        {
+          "name": "Marie Laurent",
+          "position": "Quality Assurance Director",
+          "company": "French Wine Exports SAS",
+          "country": "France",
+          "flag": "🇫🇷",
+          "description": "Neptia handled all export documentation and Chinese food import licenses for our wine. Their understanding of both EU and Asian regulations ensured smooth market entry. Sales have grown 40% since launch.",
+          "rating": 5,
+          "service": "Food Export Certification + Import Permits",
+          "duration": "18 Months Partnership"
+        },
+        {
+          "name": "David Wilson",
+          "position": "Managing Director",
+          "company": "Aussie AgriTech",
+          "country": "Australia",
+          "flag": "🇦🇺",
+          "description": "Setting up our Australian entity and obtaining ACO certification was seamless with Neptia. Their local knowledge of Australian agricultural regulations was invaluable. We've expanded to 3 states within 12 months.",
+          "rating": 5,
+          "service": "Australian Company Setup + Industry Certification",
+          "duration": "1 Year Partnership"
+        },
+        {
+          "name": "Sophie Brown",
+          "position": "CFO",
+          "company": "FinTech Innovations Pty Ltd",
+          "country": "Australia",
+          "flag": "🇦🇺",
+          "description": "ASIC compliance and AUSTRAC registration were handled professionally by Neptia. Their financial regulatory expertise helped us secure our Australian financial services license much faster than expected.",
+          "rating": 4,
+          "service": "Financial Compliance + License Application",
+          "duration": "9 Months Partnership"
         }
       ]
     },
-    "about": {
-      "title": "认识我们",
-      "description": "我们公司成立之初就注重家庭观念。\n\n缘起，Roland的中学生涯以及本科经历，让Roland确信了一个点，只有在决策上做出正确的选择，才有可能真正走在前列，少走很多弯路。正如创建Wayne InsightSpring一样，Roland的初心只想服务好客户，以及为团队成员提供有竞争力的收入。这两个点，一个是利益客户，另外一个是利益团队。Roland坚信，只有利益他人，才有可能创造真正的价值，并且回馈于社会。\n\n很多家庭，其实需要的，并不是让孩子成为人中龙凤，而是希望孩子有选择底气和权利，能够过上自己想要的生活。因此我们的咨询，是一种诊断，我们全面剖析目前存在的问题，然后提供有效的解决方案和可操作路径。"
-    },
     "cta": {
-      "title": "准备开始您的跨境之旅？",
-      "subtitle": "加入已经与我们咨询的数百名专业人士",
-      "button": "立即咨询"
+      "title": "Start Your New Global Business Chapter",
+      "subtitle": "Work with the world's leading cross-border compliance experts to safely and efficiently expand into international markets",
+      "button": "Get Free Strategic Consultation"
     }
   },
-  "service": [],
-  "about": {},
-  "insight": [],
+  "service": {
+    "hero": {
+      "title": "Neptia Service Solutions",
+      "description": "Neptia delivers end-to-end, cross-industry enterprise information and software solutions tailored for global small and medium-sized businesses. Our expertise spans computing, healthcare, retail, corporate services, taxation, finance, education, and supply chain management, empowering organizations to achieve operational efficiency, digital transformation, and global expansion."
+    },
+    "service": {
+      "title": "Our Service Areas",
+      "description": "Neptia provides cross-industry, cross-border professional solutions to support business globalization and digital transformation.",
+      "list": [
+        {
+          "icon": "Server",
+          "name": "Computer & IT Services",
+          "description": "Software development, system integration, cloud service solutions, AI & big data applications"
+        },
+        {
+          "icon": "Cpu",
+          "name": "Hardware & Network Solutions",
+          "description": "Server deployment, network architecture design and maintenance"
+        },
+        {
+          "icon": "Heart",
+          "name": "Healthcare Services",
+          "description": "Telemedicine, medical informatization, health data management, medical equipment support"
+        },
+        {
+          "icon": "BookOpen",
+          "name": "Education & Training",
+          "description": "Online education platforms, cross-border training courses, corporate training programs"
+        },
+        {
+          "icon": "ShoppingCart",
+          "name": "Retail & E-commerce Services",
+          "description": "Cross-border e-commerce, supply chain management, independent website development, market analysis"
+        },
+        {
+          "icon": "Building2",
+          "name": "Enterprise Services",
+          "description": "Company registration, tax consultation, human resource management, legal & compliance support"
+        },
+        {
+          "icon": "FileText",
+          "name": "Tax & Financial Services",
+          "description": "Tax planning, financial reporting, auditing, compliance consultation, financing solutions"
+        },
+        {
+          "icon": "CreditCard",
+          "name": "Financial & Payment Services",
+          "description": "Payment integration, corporate financing, cross-border settlement, digital currency consultation"
+        },
+        {
+          "icon": "Shield",
+          "name": "Intellectual Property & Certification",
+          "description": "Trademark registration, patent applications, product certification, international standard certification"
+        },
+        {
+          "icon": "CheckCircle2",
+          "name": "Innovation & Strategic Consulting",
+          "description": "Industry analysis, digital transformation, business strategy, and enterprise innovation planning"
+        },
+        {
+          "icon": "Globe",
+          "name": "International Market & Logistics",
+          "description": "Cross-border logistics, international market research, customs clearance solutions, supply chain optimization"
+        },
+        {
+          "icon": "Activity",
+          "name": "Industry Training & Support",
+          "description": "Professional training, workshops, enterprise digital transformation support"
+        },
+        {
+          "icon": "Box",
+          "name": "Supply Chain Management",
+          "description": "Global supply chain setup, warehouse logistics optimization, inventory management solutions"
+        },
+        {
+          "icon": "BarChart2",
+          "name": "Data Analysis & BI",
+          "description": "Enterprise data analysis, business intelligence reporting, decision support systems"
+        },
+        {
+          "icon": "Award",
+          "name": "Innovation & R&D",
+          "description": "New technology research & development, product innovation, cross-border innovation project consulting"
+        }
+      ]
+    },
+    "collaborate": {
+      "title": "Global Enterprise & University Collaboration Cases",
+      "description": "We collaborate with world-leading enterprises and universities to promote multicultural exchange and cross-border business innovation.",
+      "list": [
+        {
+          "title": "E-commerce Supply Chain Optimization Project",
+          "organization": "Harvard University",
+          "country": "USA",
+          "description": "Collaborated with global university students to optimize e-commerce supply chain systems, improving logistics efficiency by 30%",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST-vPR7T_rUhWaKMfhZMccvV2f8tv2r9X8XQ&s"
+        },
+        {
+          "title": "Enterprise Digital Transformation Consulting",
+          "organization": "Siemens",
+          "country": "Germany",
+          "description": "Provided customized digital solutions for large enterprises, enhancing production automation levels",
+          "image": "https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "Cross-cultural Education Exchange Platform",
+          "organization": "University of Melbourne",
+          "country": "Australia",
+          "description": "Collaborated with global universities to build online education platforms, promoting multicultural exchange and educational innovation",
+          "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "International Financial Payment Integration",
+          "organization": "HSBC",
+          "country": "UK",
+          "description": "Provided payment system integration for cross-border enterprises, optimizing international settlement processes",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1I1KUkpiTsGW_kuyJttGyVQtKXBPF0Uje9w&s"
+        },
+        {
+          "title": "Rural Digital Payment Poverty Alleviation Project",
+          "organization": "World Bank",
+          "country": "Kenya",
+          "description": "Helped farmers in remote areas access financial services through digital payment systems, improving quality of life",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxCpTmfYSSFKqzwWC_luZ9K4_Zr017yESRFw&s"
+        },
+        {
+          "title": "Remote Area Medical Informatization",
+          "organization": "Médecins Sans Frontières",
+          "country": "India",
+          "description": "Built telemedicine systems in mountain village areas, providing health services to remote residents",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtCEg41pvL5JhRzpYFpL7lZ_j81d2VMRO1oA&s"
+        },
+        {
+          "title": "Cross-national Environmental Education Project",
+          "organization": "Stanford University",
+          "country": "USA",
+          "description": "Collaborated with universities from multiple countries to conduct environmental protection education and sustainable development projects",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7L-QIlYQ7wG_HJGWYHxD76eDjjpeLD6Xd-Q&s"
+        },
+        {
+          "title": "SME Cross-border Financing",
+          "organization": "HSBC",
+          "country": "Singapore",
+          "description": "Provided cross-border financing and payment solutions for SMEs in the Asia-Pacific region, supporting international development",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxiISiPCR0DWuQ1YbhSWvEW4bGLjvLziqI7A&s"
+        }
+      ]
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Neptia",
+      "p1": "We uphold the philosophy of",
+      "p2": "Open & Inclusive",
+      "p3": "Collaborate Globally",
+      "p4": "Build the Future",
+      "p5": "bringing together diverse cultures and global talent, committed to providing cross-border information and software services for small and medium-sized enterprises."
+    },
+    "value": {
+      "title": "Our Values",
+      "description": "At Neptia, every member and partner is an important part of our global ecosystem.",
+      "list": [
+        {
+          "icon": "Users",
+          "title": "Diverse Talent",
+          "description": "Gathering professional talent from around the world to jointly drive innovation and development."
+        },
+        {
+          "icon": "Globe",
+          "title": "Open & Inclusive",
+          "description": "Respecting different cultures and perspectives, creating an inclusive work environment."
+        },
+        {
+          "icon": "Shield",
+          "title": "Secure & Reliable",
+          "description": "Ensuring information security and business compliance, building a foundation of trust."
+        },
+        {
+          "icon": "Building2",
+          "title": "Collaborate Globally",
+          "description": "Building an international network with partners to achieve mutual benefit and win-win outcomes."
+        },
+        {
+          "icon": "CheckCircle2",
+          "title": "Professional Services",
+          "description": "Providing efficient, reliable, and customized enterprise information and software services."
+        },
+        {
+          "icon": "Award",
+          "title": "Innovate the Future",
+          "description": "Leading industry development with innovation and vision, creating a better future together."
+        }
+      ]
+    },
+    "team": {
+      "title": "Global Team",
+      "description": "Our team brings together experts from different countries and cultural backgrounds, dedicated to providing globalized, efficient, and professional enterprise services.",
+      "list": [
+        {
+          "name": "Kenny",
+          "position": "Software Architect",
+          "country": "USA",
+          "expertise": "Cross-border Software & Information Services",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/01.jpg"
+        },
+        {
+          "name": "Lina",
+          "position": "Technical Consultant",
+          "country": "Canada",
+          "expertise": "Cloud Computing & Enterprise Systems",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/02.jpg"
+        },
+        {
+          "name": "Akira",
+          "position": "Market Strategy",
+          "country": "UK",
+          "expertise": "International Market Expansion",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/03.jpg"
+        },
+        {
+          "name": "Maria",
+          "position": "Legal Consultant",
+          "country": "Australia",
+          "expertise": "Cross-border Legal & Compliance",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/04.jpg"
+        },
+        {
+          "name": "David",
+          "position": "Operations Director",
+          "country": "France",
+          "expertise": "Project Management & Operations",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/05.jpg"
+        },
+        {
+          "name": "Sophia",
+          "position": "Cross-border Trademark Consultant",
+          "country": "USA",
+          "expertise": "Cross-border Intellectual Property",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/06.jpg"
+        }
+      ]
+    },
+    "event": {
+      "title": "Team Culture & Activities",
+      "description": "Our multicultural team not only collaborates closely at work but also enhances cohesion through diverse activities.",
+      "list": [
+        {
+          "title": "International Food Sharing",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "Team Building Mountain Climbing",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "Cultural Festival Activities",
+          "image": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/08.jpg"
+        },
+        {
+          "title": "Online Cross-border Workshop",
+          "image": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/07.jpg"
+        }
+      ]
+    }
+  },
+  "insight": {
+    "hero": {
+      "title": "Enterprise Insights & Analysis",
+      "description": "Data-driven decision making to help businesses quickly grasp market trends",
+      "contact": "Consult Now",
+      "detail": "View Details"
+    },
+    "insight": {
+      "title": "Core Insights",
+      "description": "Providing comprehensive enterprise analysis to help you make informed decisions",
+      "list": [
+        {
+          "icon": "BarChart2",
+          "title": "Market Trend Analysis",
+          "description": "Gain insights into industry development trends and discover potential opportunities through data.",
+          "color": "from-indigo-500 to-purple-500"
+        },
+        {
+          "icon": "PieChart",
+          "title": "User Behavior Research",
+          "description": "Analyze user behavior data to optimize product and service experiences.",
+          "color": "from-green-400 to-teal-500"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Investment & Growth",
+          "description": "Evaluate investment risks and potential to help businesses grow steadily.",
+          "color": "from-orange-400 to-red-500"
+        },
+        {
+          "icon": "Users",
+          "title": "Team & Organization",
+          "description": "Optimize organizational structure and improve team collaboration efficiency.",
+          "color": "from-pink-400 to-rose-500"
+        },
+        {
+          "icon": "Globe",
+          "title": "Global Markets",
+          "description": "Track international market dynamics and seize cross-border business opportunities.",
+          "color": "from-teal-500 to-cyan-500"
+        },
+        {
+          "icon": "Shield",
+          "title": "Risk & Compliance",
+          "description": "Ensure operational compliance and avoid potential risks.",
+          "color": "from-violet-500 to-purple-500"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want to Deepen Enterprise Insights?",
+      "description": "Contact us immediately for professional analysis reports",
+      "contact": "Contact Us"
+    }
+  },
   "contact": {
-    "title": "联系我们",
-    "subtitle": "如有任何问题或咨询，请与我们联系",
+    "hero": {
+      "title": "Contact Us",
+      "description": "We're always ready to provide professional enterprise services for you"
+    },
     "info": {
-      "title": "联系信息",
-      "address": "地址",
-      "phone": "电话",
-      "email": "邮箱",
-      "hours": "工作时间"
+      "title": "Contact Information",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "address_detail": "432 Mission St, Apt 21B, San Francisco, California, USA",
+      "hours": "Working Hours",
+      "p1": "Monday to Friday",
+      "p2": "Saturday to Sunday",
+      "p3": "Closed"
     },
     "form": {
-      "title": "发送消息",
-      "name": "姓名",
-      "email": "邮箱地址",
-      "wechat": "微信",
-      "message": "留言",
-      "send": "发送消息",
-      "sending": "发送中...",
-      "submit-success": "用户信息提交成功！",
-      "warn-success": "用户信息已提交过！",
-      "error": "用户信息提交出错。请重试。"
+      "title": "Send Message",
+      "name": "Name",
+      "name_placeholder": "Please enter your name",
+      "phone": "Phone",
+      "email": "Email Address",
+      "wechat": "WeChat",
+      "message": "Message",
+      "message_placeholder": "Please tell us what services you need...",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "submit-success": "User information submitted successfully!",
+      "warn-success": "User information has been submitted before!",
+      "error": "Error submitting user information. Please try again."
     }
   },
   "not-found": {},
   "footer": {
     "brand": "Neptia",
-    "description": "Connecting the world, creating the future together",
+    "description": "Connecting the World, Creating the Future Together",
     "links": "Links",
     "contact": "Contact",
-    "copyright": "Neptia. All rights reserved.",
+    "copyright": "All rights reserved by Neptia.",
     "email": "Email",
     "phone": "Phone"
   }

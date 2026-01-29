@@ -20,120 +20,39 @@ import {
   Server,
 } from "lucide-react";
 import "swiper/css";
+
+// 创建图标映射对象
+const iconMap: Record<string, any> = {
+  Building2,
+  FileText,
+  Users,
+  Scale,
+  TrendingUp,
+  Globe,
+  Shield,
+  Award,
+  Package,
+  CreditCard,
+  Layout,
+  Server,
+  CheckCircle2,
+  ArrowRight,
+};
 export default function Index() {
   const { t } = useTranslation();
   const navigate = useNavigate();
 
   const indexData = t("index", { returnObjects: true }) as Record<string, any>;
+  // 使用JSON数据，并映射图标组件
+  const service = indexData.service.list.map((item: any) => ({
+    ...item,
+    icon: iconMap[item.icon], // 将字符串图标名映射为图标组件
+  }));
 
-  const services = [
-    {
-      icon: Building2,
-      name: "公司执照信息",
-      color: "from-blue-500 to-cyan-500",
-    },
-    {
-      icon: FileText,
-      name: "签证政策资讯",
-      color: "from-purple-500 to-pink-500",
-    },
-    { icon: Users, name: "考察选址建议", color: "from-orange-500 to-red-500" },
-    {
-      icon: Scale,
-      name: "税务行政信息",
-      color: "from-green-500 to-emerald-500",
-    },
-    {
-      icon: TrendingUp,
-      name: "日常财税数据",
-      color: "from-indigo-500 to-blue-500",
-    },
-    { icon: Globe, name: "税务筹划与合规", color: "from-teal-500 to-cyan-500" },
-    { icon: Users, name: "人事管理方案", color: "from-pink-500 to-rose-500" },
-    {
-      icon: Shield,
-      name: "知识产权信息",
-      color: "from-violet-500 to-purple-500",
-    },
-    {
-      icon: Scale,
-      name: "法务信息汇总",
-      color: "from-amber-500 to-orange-500",
-    },
-    {
-      icon: FileText,
-      name: "进出口许可证资讯",
-      color: "from-lime-500 to-green-500",
-    },
-    { icon: Award, name: "产品认证指南", color: "from-cyan-500 to-blue-500" },
-    {
-      icon: Building2,
-      name: "建筑工程合规信息",
-      color: "from-red-500 to-pink-500",
-    },
-    {
-      icon: CheckCircle2,
-      name: "SIRIM / 国际认证",
-      color: "from-emerald-500 to-teal-500",
-    },
-    {
-      icon: Award,
-      name: "清真认证指南",
-      color: "from-fuchsia-500 to-purple-500",
-    },
-    {
-      icon: Shield,
-      name: "ISO / 国际标准",
-      color: "from-sky-500 to-indigo-500",
-    },
-
-    // 软件服务
-    {
-      icon: Server,
-      name: "企业邮箱配置",
-      color: "from-blue-400 to-indigo-500",
-    },
-    { icon: Layout, name: "独立站建设", color: "from-green-400 to-teal-500" },
-    {
-      icon: CreditCard,
-      name: "Stripe 支付集成",
-      color: "from-purple-400 to-pink-500",
-    },
-
-    // 供应链与跨境服务
-    {
-      icon: Package,
-      name: "不同国家供应链信息",
-      color: "from-orange-400 to-red-500",
-    },
-    {
-      icon: Globe,
-      name: "国际物流与清关资讯",
-      color: "from-teal-400 to-cyan-500",
-    },
-  ];
-  const features = [
-    {
-      icon: CheckCircle2,
-      title: "专业团队",
-      description: "资深顾问提供一对一服务",
-    },
-    {
-      icon: TrendingUp,
-      title: "高效办理",
-      description: "快速响应，流程透明",
-    },
-    {
-      icon: Shield,
-      title: "安全保障",
-      description: "信息保密，合规操作",
-    },
-    {
-      icon: Globe,
-      title: "全程跟踪",
-      description: "实时更新进度，随时沟通",
-    },
-  ];
+  const feature = indexData.feature.list.map((item: any) => ({
+    ...item,
+    icon: iconMap[item.icon], // 将字符串图标名映射为图标组件
+  }));
   return (
     <div>
       {/* Hero Section */}
@@ -164,7 +83,7 @@ export default function Index() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => navigate("/home/contact")}
-                className="px-8 py-4 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition-colors inline-flex items-center justify-center gap-2 shadow-lg shadow-indigo-200"
+                className="bg-gray-900 text-white font-semibold px-8 py-3 rounded-[50px] text-[1.1rem] min-w-[200px] hover:shadow-lg transition-shadow duration-300 inline-flex items-center justify-center gap-2"
               >
                 {indexData.hero.cta.startNow}
                 <ArrowRight className="w-5 h-5" />
@@ -181,6 +100,7 @@ export default function Index() {
           </motion.div>
         </div>
       </section>
+      {/* Service Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <motion.div
@@ -190,13 +110,15 @@ export default function Index() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl mb-4 text-slate-900">
-              我们的服务
+              {indexData.service.title}
             </h2>
-            <p className="text-xl text-slate-600">全方位企业服务解决方案</p>
+            <p className="text-xl text-slate-600">
+              {indexData.service.description}
+            </p>
           </motion.div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6">
-            {services.map((item, index) => {
+            {service.map((item: any, index: number) => {
               const Icon = item.icon;
               return (
                 <motion.div
@@ -224,12 +146,26 @@ export default function Index() {
           </div>
         </div>
       </section>
-      {/* Features Section */}
+      {/* Feature Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl md:text-5xl mb-4 text-slate-900">
+              {indexData.feature.title}
+            </h2>
+            <p className="text-xl text-slate-600">
+              {indexData.feature.subtitle}
+            </p>
+          </motion.div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {features.map((feature, index) => {
-              const Icon = feature.icon;
+            {feature.map((item: any, index: number) => {
+              const Icon = item.icon;
               return (
                 <motion.div
                   key={index}
@@ -239,20 +175,20 @@ export default function Index() {
                   transition={{ delay: index * 0.1 }}
                   className="bg-white rounded-2xl p-8 border border-slate-200 hover:shadow-lg transition-shadow"
                 >
-                  <div className="w-14 h-14 rounded-xl bg-indigo-100 flex items-center justify-center mb-4">
+                  <div
+                    className={`w-14 h-14 rounded-xl bg-indigo-100  ${item.color} flex items-center justify-center mb-4`}
+                  >
                     <Icon className="w-7 h-7 text-indigo-600" />
                   </div>
-                  <h3 className="text-xl mb-2 text-slate-900">
-                    {feature.title}
-                  </h3>
-                  <p className="text-slate-600">{feature.description}</p>
+                  <h3 className="text-xl mb-2 text-slate-900">{item.title}</h3>
+                  <p className="text-slate-600">{item.description}</p>
                 </motion.div>
               );
             })}
           </div>
         </div>
       </section>
-      {/* Services Section */}
+      {/* Case Section */}
       <section className="bg-white py-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex justify-center mb-12">
@@ -262,11 +198,11 @@ export default function Index() {
               transition={{ duration: 0.8 }}
               className="font-bold text-[2.1rem] leading-[4rem] text-gray-800 text-center max-w-2xl"
             >
-              {t("index.services.title")}
+              {t("index.case.title")}
             </motion.h2>
           </div>
           <div className="grid gap-8 justify-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-            {indexData.services.list.map((item: any, index: number) => (
+            {indexData.case.list.map((item: any, index: number) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 30 }}
@@ -293,46 +229,138 @@ export default function Index() {
           </div>
         </div>
       </section>
-      {/* Testimonials */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
+      {/* Evaluate Section*/}
+      <section className="pt-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl mb-4 text-slate-900">
-              {indexData.evaluates.title}
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-slate-900">
+              {indexData.evaluate.title}
             </h2>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+              {indexData.evaluate.subtitle}
+            </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {indexData.evaluates.list.map((item: any, index: number) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {indexData.evaluate.list.map((item: any, index: number) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.2 }}
-                className="bg-white rounded-2xl p-8 border border-slate-200 hover:shadow-lg transition-shadow"
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className="group"
               >
-                <div className="mb-6">
-                  <svg
-                    className="w-10 h-10 text-indigo-400"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-                  </svg>
+                <div className="bg-white rounded-2xl p-6 h-full border border-slate-200 hover:border-indigo-300 hover:shadow-xl transition-all duration-300 flex flex-col">
+                  {/* 国家和评分 */}
+                  <div className="flex justify-between items-start mb-4">
+                    <div>
+                      {item.flag} {item.country}
+                    </div>
+                    <div className="flex">
+                      {[...Array(5)].map((_, i) => (
+                        <svg
+                          key={i}
+                          className={`w-5 h-5 ${i < item.rating ? "text-amber-400" : "text-slate-300"}`}
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* 评价内容 */}
+                  <p className="text-slate-600 text-base leading-relaxed mb-6 flex-grow line-clamp-5">
+                    {item.description}
+                  </p>
+
+                  {/* 服务标签 */}
+                  <div className="mb-6">
+                    <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-indigo-50 text-indigo-700">
+                      {item.service}
+                    </span>
+                  </div>
+
+                  {/* 用户信息 */}
+                  <div className="flex items-center pt-6 border-t border-slate-100">
+                    <div className="flex-shrink-0">
+                      <div className="w-12 h-12 rounded-full bg-gradient-to-r from-indigo-100 to-blue-100 flex items-center justify-center text-xl">
+                        {item.flag}
+                      </div>
+                    </div>
+                    <div className="ml-4 flex-1">
+                      <div className="flex items-center justify-between">
+                        <div>
+                          <h4 className="font-semibold text-slate-900">
+                            {item.name}
+                          </h4>
+                          <p className="text-sm text-slate-600">
+                            {item.position}
+                          </p>
+                        </div>
+                        <span className="text-xs font-medium text-slate-500 bg-slate-100 px-2 py-1 rounded">
+                          {item.duration}
+                        </span>
+                      </div>
+                      <div className="flex items-center mt-1">
+                        <p className="text-sm text-slate-500">{item.company}</p>
+                        <span className="mx-2 text-slate-300">•</span>
+                        <p className="text-sm text-slate-500">{item.country}</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <p className="text-slate-600 text-lg mb-6 leading-relaxed">
-                  {item.description}
-                </p>
-                <div className="text-slate-900">{item.title}</div>
               </motion.div>
             ))}
           </div>
+
+          {/* 国家统计标签 */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.5 }}
+            className="mt-16 pt-8 border-t border-slate-200"
+          >
+            <div className="flex flex-wrap justify-center gap-4">
+              {Array.from(
+                new Set(
+                  indexData.evaluate.list.map((item: any) => item.country),
+                ),
+              ).map((country: any) => (
+                <div
+                  key={country}
+                  className="flex items-center px-4 py-2 bg-white rounded-lg border border-slate-200"
+                >
+                  <span className="text-xl mr-2">
+                    {
+                      indexData.evaluate.list.find(
+                        (item: any) => item.country === country,
+                      )?.flag
+                    }
+                  </span>
+                  <span className="text-slate-700 font-medium">{country}</span>
+                  <span className="ml-2 text-sm text-slate-500">
+                    (
+                    {
+                      indexData.evaluate.list.filter(
+                        (item: any) => item.country === country,
+                      ).length
+                    }
+                    )
+                  </span>
+                </div>
+              ))}
+            </div>
+          </motion.div>
         </div>
       </section>
 
