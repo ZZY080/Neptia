@@ -12,6 +12,7 @@ import Insight from "@src/page/insight";
 import Home from "@src/page/home";
 import { Navigate } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
+import Product from "@src/page/product";
 
 function App() {
   useEffect(() => {
@@ -44,6 +45,7 @@ function App() {
         <Routes>
           <Route path="/home" element={<Home />}>
             <Route path="index" element={<Index />} />
+            <Route path="product" element={<Product />} />
             <Route path="service" element={<Service />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />

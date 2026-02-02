@@ -55,6 +55,7 @@ export default function NavigationBar() {
 
   const navItems = [
     { path: "/home/index", key: "nav.home" },
+    { path: "/home/product", key: "nav.product" },
     { path: "/home/service", key: "nav.service" },
     { path: "/home/about", key: "nav.about" },
     { path: "/home/insight", key: "nav.insight" },

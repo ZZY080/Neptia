@@ -18,6 +18,12 @@ import {
   CreditCard,
   Layout,
   Server,
+  Waves,
+  Anchor,
+  Fish,
+  Microscope,
+  Gavel,
+  Database,
 } from "lucide-react";
 import "swiper/css";
 
@@ -37,6 +43,12 @@ const iconMap: Record<string, any> = {
   Server,
   CheckCircle2,
   ArrowRight,
+  Waves: Waves,
+  Anchor: Anchor,
+  Fish: Fish,
+  Microscope: Microscope,
+  Database: Database,
+  Gavel: Gavel,
 };
 export default function Index() {
   const { t } = useTranslation();
@@ -188,6 +200,7 @@ export default function Index() {
           </div>
         </div>
       </section>
+
       {/* Case Section */}
       <section className="bg-white py-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
