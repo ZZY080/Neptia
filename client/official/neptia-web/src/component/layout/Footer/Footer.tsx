@@ -64,7 +64,14 @@ export default function Footer() {
           >
             <h5 className="mb-4 text-white">{t("footer.links")}</h5>
             <ul className="space-y-2">
-              {["home", "service", "about", "insight", "contact"].map((nav) => (
+              {[
+                "home",
+                "product",
+                "service",
+                "about",
+                "insight",
+                "contact",
+              ].map((nav) => (
                 <li key={nav}>
                   <Link
                     to={nav === "home" ? "/" : nav}
