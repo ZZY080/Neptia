@@ -1,0 +1,1528 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "notFound": "Page not found",
+    "backToHome": "Back to home"
+  },
+  "nav": {
+    "home": "Home",
+    "product": "Product",
+    "service": "Services",
+    "about": "About Us",
+    "contact": "Contact",
+    "brand": "Neptia",
+    "insight": "Insights"
+  },
+  "index": {
+    "hero": {
+      "title": "Empower Your Global Business Expansion",
+      "subtitle": "Open & Inclusive • Collaborate Globally • Build the Future",
+      "description": "Neptia provides end-to-end cross-border technology and information services. From payments, logistics to e-commerce implementation, and overseas brand promotion in China, we help businesses efficiently expand globally and achieve seamless connectivity.",
+      "cta": {
+        "startNow": "Get Started Now",
+        "learnMore": "Learn More"
+      }
+    },
+    "service": {
+      "title": "Our Services",
+      "description": "Comprehensive Enterprise Service Solutions",
+      "list": [
+        {
+          "icon": "Building2",
+          "name": "Company License Information",
+          "color": "from-blue-500 to-cyan-500"
+        },
+        {
+          "icon": "FileText",
+          "name": "Visa Policy Information",
+          "color": "from-purple-500 to-pink-500"
+        },
+        {
+          "icon": "Users",
+          "name": "Site Selection Consultation",
+          "color": "from-orange-500 to-red-500"
+        },
+        {
+          "icon": "Scale",
+          "name": "Tax & Administration Information",
+          "color": "from-green-500 to-emerald-500"
+        },
+        {
+          "icon": "TrendingUp",
+          "name": "Daily Financial & Tax Data",
+          "color": "from-indigo-500 to-blue-500"
+        },
+        {
+          "icon": "Globe",
+          "name": "Tax Planning & Compliance",
+          "color": "from-teal-500 to-cyan-500"
+        },
+        {
+          "icon": "Users",
+          "name": "HR Management Solutions",
+          "color": "from-pink-500 to-rose-500"
+        },
+        {
+          "icon": "Shield",
+          "name": "Intellectual Property Information",
+          "color": "from-violet-500 to-purple-500"
+        },
+        {
+          "icon": "Scale",
+          "name": "Legal Information Summary",
+          "color": "from-amber-500 to-orange-500"
+        },
+        {
+          "icon": "FileText",
+          "name": "Import/Export License Information",
+          "color": "from-lime-500 to-green-500"
+        },
+        {
+          "icon": "Award",
+          "name": "Product Certification Guide",
+          "color": "from-cyan-500 to-blue-500"
+        },
+        {
+          "icon": "Building2",
+          "name": "Construction Engineering Compliance Information",
+          "color": "from-red-500 to-pink-500"
+        },
+        {
+          "icon": "CheckCircle2",
+          "name": "SIRIM / International Certification",
+          "color": "from-emerald-500 to-teal-500"
+        },
+        {
+          "icon": "Award",
+          "name": "Halal Certification Guide",
+          "color": "from-fuchsia-500 to-purple-500"
+        },
+        {
+          "icon": "Shield",
+          "name": "ISO / International Standards",
+          "color": "from-sky-500 to-indigo-500"
+        },
+        {
+          "icon": "Server",
+          "name": "Corporate Email Configuration",
+          "color": "from-blue-400 to-indigo-500"
+        },
+        {
+          "icon": "Layout",
+          "name": "Independent Website Development",
+          "color": "from-green-400 to-teal-500"
+        },
+        {
+          "icon": "CreditCard",
+          "name": "Stripe Payment Integration",
+          "color": "from-purple-400 to-pink-500"
+        },
+        {
+          "icon": "Package",
+          "name": "Supply Chain Information by Country",
+          "color": "from-orange-400 to-red-500"
+        },
+        {
+          "icon": "Globe",
+          "name": "International Logistics & Customs Information",
+          "color": "from-teal-400 to-cyan-500"
+        }
+      ]
+    },
+    "feature": {
+      "title": "Our Advantages",
+      "subtitle": "Why Businesses Choose Our Services",
+      "list": [
+        {
+          "icon": "CheckCircle2",
+          "title": "Professional Team",
+          "description": "Experienced consultants provide one-on-one service",
+          "color": "from-green-400 to-teal-500"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Efficient Processing",
+          "description": "Quick response, transparent process",
+          "color": "from-teal-400 to-cyan-500"
+        },
+        {
+          "icon": "Shield",
+          "title": "Security Assurance",
+          "description": "Information confidentiality, compliant operations",
+          "color": "from-teal-400 to-cyan-500"
+        },
+        {
+          "icon": "Globe",
+          "title": "Full Tracking",
+          "description": "Real-time progress updates, constant communication",
+          "color": "from-teal-400 to-cyan-500"
+        }
+      ]
+    },
+    "case": {
+      "title": "Building on technology infrastructure and bridging with brand. We empower industry growth while operating our own retail brand Soptia, jointly creating a sustainable global ecosystem.",
+      "list": [
+        {
+          "title": "Soptia Global Retail Expansion to Middle East",
+          "description": "Helped Australian Soptia successfully enter the Middle East market through localized operations and digital management.",
+          "cover": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/index/01.jpg"
+        },
+        {
+          "title": "Neptia Supports Canadian Medical Device Digital Transformation",
+          "description": "Provided digital solutions for Canadian enterprises, achieving business process optimization and data-driven growth.",
+          "cover": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/index/02.jpg"
+        },
+        {
+          "title": "Neptia Provides Digital Services for UK Government",
+          "description": "Assisted UK government agencies in achieving service digitalization, process intelligence, and efficient information flow.",
+          "cover": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/index/03.jpg"
+        }
+      ]
+    },
+    "evaluate": {
+      "title": "Global Client Testimonials",
+      "subtitle": "Success Stories from Businesses Worldwide",
+      "list": [
+        {
+          "name": "Alexander Schmidt",
+          "position": "CEO",
+          "company": "Berlin Tech Solutions GmbH",
+          "country": "Germany",
+          "flag": "🇩🇪",
+          "description": "Neptia demonstrated exceptional expertise in German company setup and GmbH registration. Their bilingual team saved us significant time and costs in tax optimization and EU compliance, enabling us to quickly enter the European market.",
+          "rating": 4,
+          "service": "German Company Registration + EU Compliance",
+          "duration": "2 Years Partnership"
+        },
+        {
+          "name": "Sophia Müller",
+          "position": "International Business Director",
+          "company": "Munich Automotive Innovations",
+          "country": "Germany",
+          "flag": "🇩🇪",
+          "description": "Our electric vehicle components required EU CE certification and German TÜV certification. Neptia not only efficiently completed all certifications but also developed a comprehensive strategy for entering the European market. Our products are now available in 5 EU countries.",
+          "rating": 5,
+          "service": "CE Certification + TÜV Certification + Market Strategy",
+          "duration": "18 Months Partnership"
+        },
+        {
+          "name": "Oliver Johnson",
+          "position": "Managing Partner",
+          "company": "London FinTech Group",
+          "country": "UK",
+          "flag": "🇬🇧",
+          "description": "The FCA licensing process was extremely complex, but Neptia's expert team guided us through every step, ensuring full compliance with UK financial regulations. The entire process from application to approval took only 4 months, exceeding our expectations.",
+          "rating": 5,
+          "service": "FCA Financial License Application",
+          "duration": "2 Years Partnership"
+        },
+        {
+          "name": "Charlotte Williams",
+          "position": "Product Director",
+          "company": "Cambridge Biotech Ltd",
+          "country": "UK",
+          "flag": "🇬🇧",
+          "description": "MHRA medical device registration and UKCA certification required strict timing. Neptia not only completed all certifications ahead of schedule but also developed a dual-track compliance strategy for both UK and EU markets. Our products are now sold simultaneously in both markets.",
+          "rating": 3,
+          "service": "MHRA Registration + UKCA Certification",
+          "duration": "15 Months Partnership"
+        },
+        {
+          "name": "James Anderson",
+          "position": "Founder & CEO",
+          "company": "Silicon Valley AI Labs",
+          "country": "USA",
+          "flag": "🇺🇸",
+          "description": "Delaware C-Corp setup and patent strategy development were crucial for our US expansion. Neptia experts not only handled company registration but also developed a comprehensive IP protection plan, ensuring our core technology is fully protected in the US market.",
+          "rating": 5,
+          "service": "US Company Setup + Intellectual Property Protection",
+          "duration": "3 Years Partnership"
+        },
+        {
+          "name": "Emma Thompson",
+          "position": "CFO",
+          "company": "Boston Medical Devices Inc",
+          "country": "USA",
+          "flag": "🇺🇸",
+          "description": "The FDA 510(k) certification process was complex and time-consuming, but Neptia's professional guidance saved us many detours. They not only handled the certification but also provided strategies for accessing the US Medicare system.",
+          "rating": 5,
+          "service": "FDA Certification + Medicare System Access",
+          "duration": "2.5 Years Partnership"
+        },
+        {
+          "name": "Lucas Martin",
+          "position": "Director of International Expansion",
+          "company": "Paris Luxury Group",
+          "country": "France",
+          "flag": "🇫🇷",
+          "description": "Our Southeast Asian expansion with Neptia was remarkable. Their French-speaking team perfectly managed product certifications and brand strategies for our luxury products. Result: +150% sales in 18 months.",
+          "rating": 5,
+          "service": "Luxury Market Access + Brand Strategy",
+          "duration": "2 Years Partnership"
+        },
+        {
+          "name": "Camille Dubois",
+          "position": "Export Manager",
+          "company": "Lyon Pharmaceutical SAS",
+          "country": "France",
+          "flag": "🇫🇷",
+          "description": "Neptia handled the complex regulatory requirements for our pharmaceutical products in Southeast Asia. From ASEAN Common Technical Dossier to local market approvals, their expertise was invaluable. We're now in 3 major ASEAN markets.",
+          "rating": 5,
+          "service": "Pharmaceutical Registration + ASEAN Market Access",
+          "duration": "18 Months Partnership"
+        },
+        {
+          "name": "Marco Rossi",
+          "position": "CEO",
+          "company": "Milan Fashion House",
+          "country": "Italy",
+          "flag": "🇮🇹",
+          "description": "As an Italian luxury brand, entering the Chinese market required dealing with complex import tariffs and brand protection. Neptia not only solved all customs issues but also developed effective anti-counterfeiting strategies. We now have 20 boutiques in China.",
+          "rating": 5,
+          "service": "Luxury Import + Brand Protection",
+          "duration": "2.5 Years Partnership"
+        },
+        {
+          "name": "Giulia Romano",
+          "position": "Quality Control Director",
+          "company": "Turin Automotive Components",
+          "country": "Italy",
+          "flag": "🇮🇹",
+          "description": "IATF 16949 certification and EU REACH compliance were crucial for entering the German automotive supply chain. Neptia's multilingual team perfectly coordinated all technical communication, helping us successfully become suppliers to BMW and Mercedes.",
+          "rating": 5,
+          "service": "Automotive Industry Certification + Supply Chain Access",
+          "duration": "2 Years Partnership"
+        },
+        {
+          "name": "David Lee",
+          "position": "President",
+          "company": "Seoul Tech Innovations",
+          "country": "South Korea",
+          "flag": "🇰🇷",
+          "description": "Neptia provided excellent services in Korean company setup and KFTC (Korean Fair Trade Commission) compliance. Their localized team helped us quickly adapt to the Korean market, and our products are now in Samsung's supply chain.",
+          "rating": 5,
+          "service": "Korean Company Setup + Market Regulatory Compliance",
+          "duration": "1.5 Years Partnership"
+        },
+        {
+          "name": "Min-ji Park",
+          "position": "Global Expansion Director",
+          "company": "Busan BioTech Corp",
+          "country": "South Korea",
+          "flag": "🇰🇷",
+          "description": "Korean MFDS (Ministry of Food and Drug Safety) certification and export permits were very complex. Neptia not only efficiently completed all certifications but also provided synchronized application strategies for US FDA and EU EMA, achieving simultaneous market entry in three regions.",
+          "rating": 5,
+          "service": "Pharmaceutical Certification + Global Synchronized Registration",
+          "duration": "2 Years Partnership"
+        },
+        {
+          "name": "Jan de Vries",
+          "position": "Managing Director",
+          "company": "Amsterdam FinTech BV",
+          "country": "Netherlands",
+          "flag": "🇳🇱",
+          "description": "Dutch BV setup and DNB (Dutch Central Bank) license application were the first steps in our European fintech expansion. Neptia's team was not only professional but also developed a complete structure leveraging Dutch tax advantages.",
+          "rating": 5,
+          "service": "Dutch Company Setup + Financial License",
+          "duration": "2 Years Partnership"
+        },
+        {
+          "name": "Anna van den Berg",
+          "position": "Logistics Director",
+          "company": "Rotterdam Trade Hub",
+          "country": "Netherlands",
+          "flag": "🇳🇱",
+          "description": "As a major European port operator, we needed to establish branches in Asia. Neptia helped us set up companies in Singapore and Hong Kong, handling all customs and logistics compliance issues. Our Asian business has grown over 200%.",
+          "rating": 5,
+          "service": "Cross-border Logistics Structure + Customs Compliance",
+          "duration": "3 Years Partnership"
+        },
+        {
+          "name": "Anders Johansson",
+          "position": "CEO",
+          "company": "Stockholm GreenTech AB",
+          "country": "Sweden",
+          "flag": "🇸🇪",
+          "description": "Environmental certification standards in Nordic regions are very strict. Neptia helped us obtain Nordic Swan and EU Ecolabel certifications, making our products highly popular in environmentally conscious Nordic markets.",
+          "rating": 5,
+          "service": "Environmental Certification + Sustainability Standards",
+          "duration": "1.5 Years Partnership"
+        },
+        {
+          "name": "Erika Lindgren",
+          "position": "International Business Manager",
+          "company": "Gothenburg MedTech Solutions",
+          "country": "Sweden",
+          "flag": "🇸🇪",
+          "description": "MDR (EU Medical Device Regulation) compliance was crucial for our new product launch. Neptia's expert team not only ensured full compliance with the new regulations but also developed transition strategies, avoiding potential market disruptions.",
+          "rating": 5,
+          "service": "MDR Compliance + Medical Device Market Entry",
+          "duration": "2 Years Partnership"
+        },
+        {
+          "name": "Thomas Wagner",
+          "position": "Board Chairman",
+          "company": "Zurich Private Bank AG",
+          "country": "Switzerland",
+          "flag": "🇨🇭",
+          "description": "Swiss FINMA compliance requirements are extremely strict. Neptia not only helped us obtain Swiss banking licenses but also established a comprehensive AML and KYC system.",
+          "rating": 5,
+          "service": "Swiss Financial License + Compliance System",
+          "duration": "3 Years Partnership"
+        },
+        {
+          "name": "Isabelle Müller",
+          "position": "Pharmaceutical Director",
+          "company": "Basel Pharma Group",
+          "country": "Switzerland",
+          "flag": "🇨🇭",
+          "description": "As a world-leading pharmaceutical company, global drug registration is our core challenge. Neptia helped coordinate synchronized registration with US FDA, EU EMA, and Japan PMDA, significantly reducing new drug launch timelines.",
+          "rating": 5,
+          "service": "Global Drug Registration Coordination",
+          "duration": "4 Years Partnership"
+        },
+        {
+          "name": "William O'Connor",
+          "position": "Managing Director",
+          "company": "Dublin Tech Hub Ltd",
+          "country": "Ireland",
+          "flag": "🇮🇪",
+          "description": "Leveraging Ireland's low tax rates and EU membership advantages, Neptia helped us establish a perfect European headquarters structure. Every detail from company setup to transfer pricing strategy was handled flawlessly.",
+          "rating": 5,
+          "service": "European Headquarters Structure + Tax Optimization",
+          "duration": "2 Years Partnership"
+        },
+        {
+          "name": "Siobhan Murphy",
+          "position": "Data Protection Officer",
+          "company": "Cork Data Solutions",
+          "country": "Ireland",
+          "flag": "🇮🇪",
+          "description": "GDPR compliance and cross-border data transfer were our biggest challenges as a data center operator. Neptia not only ensured full compliance but also helped develop a robust data sovereignty strategy, earning the trust of major EU clients.",
+          "rating": 5,
+          "service": "GDPR Compliance + Data Sovereignty Strategy",
+          "duration": "18 Months Partnership"
+        },
+        {
+          "name": "Pierre Dubois",
+          "position": "Director of International Business",
+          "company": "Luxe Paris Fashion House",
+          "country": "France",
+          "flag": "🇫🇷",
+          "description": "Our brand expansion in Asia with Neptia's help was a success. Their expertise in Chinese customs and product certification allowed us to enter the Chinese market in just 4 months.",
+          "rating": 5,
+          "service": "Brand Expansion to China + Customs Clearance",
+          "duration": "1 Year Partnership"
+        },
+        {
+          "name": "Marie Laurent",
+          "position": "Quality Assurance Director",
+          "company": "French Wine Exports SAS",
+          "country": "France",
+          "flag": "🇫🇷",
+          "description": "Neptia handled all export documentation and Chinese food import licenses for our wine. Their understanding of both EU and Asian regulations ensured smooth market entry. Sales have grown 40% since launch.",
+          "rating": 5,
+          "service": "Food Export Certification + Import Permits",
+          "duration": "18 Months Partnership"
+        },
+        {
+          "name": "David Wilson",
+          "position": "Managing Director",
+          "company": "Aussie AgriTech",
+          "country": "Australia",
+          "flag": "🇦🇺",
+          "description": "Setting up our Australian entity and obtaining ACO certification was seamless with Neptia. Their local knowledge of Australian agricultural regulations was invaluable. We've expanded to 3 states within 12 months.",
+          "rating": 5,
+          "service": "Australian Company Setup + Industry Certification",
+          "duration": "1 Year Partnership"
+        },
+        {
+          "name": "Sophie Brown",
+          "position": "CFO",
+          "company": "FinTech Innovations Pty Ltd",
+          "country": "Australia",
+          "flag": "🇦🇺",
+          "description": "ASIC compliance and AUSTRAC registration were handled professionally by Neptia. Their financial regulatory expertise helped us secure our Australian financial services license much faster than expected.",
+          "rating": 4,
+          "service": "Financial Compliance + License Application",
+          "duration": "9 Months Partnership"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Start Your New Global Business Chapter",
+      "subtitle": "Work with the world's leading cross-border compliance experts to safely and efficiently expand into international markets",
+      "button": "Get Free Strategic Consultation"
+    }
+  },
+  "product": {
+    "hero": {
+      "title": "Neptia Products & Pricing",
+      "description": "Providing end-to-end cross-border services, from company registration, compliance, payments, logistics to brand internationalization strategies, catering to businesses of all sizes.",
+      "contact": "Get Free Consultation"
+    },
+    "category": {
+      "title": "Browse by Category"
+    },
+    "product": {
+      "list": [
+        {
+          "name": "US LLC Registration",
+          "category": "Company Registration",
+          "features": [
+            "Company Formation",
+            "EIN Acquisition",
+            "Registration Documents"
+          ],
+          "price": "$800+",
+          "icon": "🏢"
+        },
+        {
+          "name": "US C-Corp Registration",
+          "category": "Company Registration",
+          "features": [
+            "Company Formation",
+            "Equity Structure Design",
+            "Annual Compliance"
+          ],
+          "price": "$1,200+",
+          "icon": "🏢"
+        },
+        {
+          "name": "UK Company Registration",
+          "category": "Company Registration",
+          "features": [
+            "Company Formation",
+            "Registered Address",
+            "Annual Filing"
+          ],
+          "price": "$900+",
+          "icon": "🏢"
+        },
+        {
+          "name": "Hong Kong Company Registration",
+          "category": "Company Registration",
+          "features": [
+            "Company Formation",
+            "Bank Account Setup",
+            "Tax Registration"
+          ],
+          "price": "$1,000+",
+          "icon": "🏢"
+        },
+        {
+          "name": "EU Cross-Border Registration",
+          "category": "Company Registration",
+          "features": [
+            "Registration Service",
+            "VAT Registration",
+            "Compliance Consulting"
+          ],
+          "price": "$2,000+",
+          "icon": "🏢"
+        },
+        {
+          "name": "US Tax Planning",
+          "category": "Company Registration",
+          "features": [
+            "Tax Consultation",
+            "Annual Reports",
+            "Tax Optimization Advice"
+          ],
+          "price": "$1,500+",
+          "icon": "🧾"
+        },
+        {
+          "name": "EU VAT Registration",
+          "category": "Company Registration",
+          "features": ["VAT Number Issuance", "VAT Filing"],
+          "price": "$600+",
+          "icon": "🧾"
+        },
+        {
+          "name": "Financial License Application (FCA)",
+          "category": "Company Registration",
+          "features": ["License Application", "Compliance Guidance"],
+          "price": "$5,000+",
+          "icon": "🏦"
+        },
+        {
+          "name": "Financial License Application (ASIC)",
+          "category": "Company Registration",
+          "features": ["License Application", "Compliance Guidance"],
+          "price": "$5,500+",
+          "icon": "🏦"
+        },
+        {
+          "name": "Permit Application (Medical/Food)",
+          "category": "Company Registration",
+          "features": ["Registration Documents", "Certification Process"],
+          "price": "$3,000+",
+          "icon": "🩺"
+        },
+        {
+          "name": "Corporate Secretary Services",
+          "category": "Company Registration",
+          "features": ["Document Management", "Annual Reports"],
+          "price": "$500+",
+          "icon": "📜"
+        },
+        {
+          "name": "Data Protection Compliance (GDPR/CCPA)",
+          "category": "Company Registration",
+          "features": ["Policy Development", "Compliance Review"],
+          "price": "$2,500+",
+          "icon": "🛡️"
+        },
+
+        {
+          "name": "Stripe Integration",
+          "category": "Payments & Finance",
+          "features": ["Payment Gateway Setup", "Multi-Currency Settlement"],
+          "price": "$500+",
+          "icon": "💳"
+        },
+        {
+          "name": "PayPal Business Account",
+          "category": "Payments & Finance",
+          "features": ["Account Setup", "Management"],
+          "price": "$400+",
+          "icon": "💳"
+        },
+        {
+          "name": "US Bank Account Setup",
+          "category": "Payments & Finance",
+          "features": ["Consultation", "Document Preparation"],
+          "price": "$800+",
+          "icon": "🏦"
+        },
+        {
+          "name": "Cross-Border Tax Optimization",
+          "category": "Payments & Finance",
+          "features": ["Tax Planning", "Tax Reduction Advice"],
+          "price": "$1,500+",
+          "icon": "🧾"
+        },
+        {
+          "name": "Virtual Card Management",
+          "category": "Payments & Finance",
+          "features": ["Card Issuance", "Fund Management"],
+          "price": "$300+",
+          "icon": "💳"
+        },
+        {
+          "name": "Financial Automation System",
+          "category": "Payments & Finance",
+          "features": ["QuickBooks/Xero Setup", "Report Generation"],
+          "price": "$1,200+",
+          "icon": "💻"
+        },
+        {
+          "name": "Transaction Risk Management",
+          "category": "Payments & Finance",
+          "features": ["Risk Rules", "Monitoring System"],
+          "price": "$1,000+",
+          "icon": "🛡️"
+        },
+        {
+          "name": "Multi-Currency Settlement Solution",
+          "category": "Payments & Finance",
+          "features": ["USD/EUR/GBP", "Settlement Optimization"],
+          "price": "$600+",
+          "icon": "💱"
+        },
+        {
+          "name": "Payment Security Solution",
+          "category": "Payments & Finance",
+          "features": ["PCI DSS Compliance", "Secure Encryption"],
+          "price": "$800+",
+          "icon": "🛡️"
+        },
+        {
+          "name": "Cross-Border Cash Flow Management",
+          "category": "Payments & Finance",
+          "features": ["Fund Collection", "Reconciliation Management"],
+          "price": "$1,200+",
+          "icon": "💰"
+        },
+        {
+          "name": "Corporate Credit Assessment",
+          "category": "Payments & Finance",
+          "features": ["Risk Assessment", "Credit Report"],
+          "price": "$500+",
+          "icon": "📊"
+        },
+        {
+          "name": "Financial Audit Consulting",
+          "category": "Payments & Finance",
+          "features": ["Audit Process", "Tax Compliance"],
+          "price": "$1,500+",
+          "icon": "🧾"
+        },
+
+        {
+          "name": "Overseas Warehousing",
+          "category": "Logistics",
+          "features": ["Warehouse Management", "Inventory Optimization"],
+          "price": "$700+",
+          "icon": "🚚"
+        },
+        {
+          "name": "Cross-Border Transport Solutions",
+          "category": "Logistics",
+          "features": ["Air/Sea/Land Transport", "Customs Clearance"],
+          "price": "$1,200+",
+          "icon": "🚚"
+        },
+        {
+          "name": "Supply Chain Setup",
+          "category": "Logistics",
+          "features": ["Logistics Planning", "Vendor Management"],
+          "price": "$1,500+",
+          "icon": "🚚"
+        },
+        {
+          "name": "Customs & Clearance",
+          "category": "Logistics",
+          "features": ["Export Declaration", "Import Clearance"],
+          "price": "$500+",
+          "icon": "🛃"
+        },
+        {
+          "name": "International Courier Integration",
+          "category": "Logistics",
+          "features": ["DHL/FedEx/UPS", "Cost Optimization"],
+          "price": "$300+",
+          "icon": "✈️"
+        },
+        {
+          "name": "Inventory Management System",
+          "category": "Logistics",
+          "features": ["WMS System", "Inventory Optimization"],
+          "price": "$800+",
+          "icon": "💻"
+        },
+        {
+          "name": "Logistics Insurance",
+          "category": "Logistics",
+          "features": ["Transport Insurance", "Claims Protection"],
+          "price": "$400+",
+          "icon": "🛡️"
+        },
+        {
+          "name": "Order Fulfillment Service",
+          "category": "Logistics",
+          "features": ["Picking", "Packing", "Shipping"],
+          "price": "$600+",
+          "icon": "📦"
+        },
+        {
+          "name": "Cross-Border E-Commerce Fulfillment",
+          "category": "Logistics",
+          "features": ["FBA", "Overseas Warehouse Integration"],
+          "price": "$1,000+",
+          "icon": "🛒"
+        },
+        {
+          "name": "Returns Management",
+          "category": "Logistics",
+          "features": ["Return Process", "Customer Support"],
+          "price": "$500+",
+          "icon": "↩️"
+        },
+        {
+          "name": "Transport Route Optimization",
+          "category": "Logistics",
+          "features": ["Cost Control", "Delivery Speed Optimization"],
+          "price": "$700+",
+          "icon": "🗺️"
+        },
+        {
+          "name": "Logistics Data Analysis",
+          "category": "Logistics",
+          "features": ["BI Analysis", "Report Generation"],
+          "price": "$1,000+",
+          "icon": "📊"
+        },
+
+        {
+          "name": "ERP System Setup",
+          "category": "SaaS/Digital",
+          "features": ["Financial Management", "Inventory Management"],
+          "price": "$2,000+",
+          "icon": "💻"
+        },
+        {
+          "name": "CRM System Setup",
+          "category": "SaaS/Digital",
+          "features": ["Customer Management", "Sales Automation"],
+          "price": "$1,500+",
+          "icon": "💻"
+        },
+        {
+          "name": "BI Data Analytics Platform",
+          "category": "SaaS/Digital",
+          "features": ["Data Visualization", "Report Analysis"],
+          "price": "$1,800+",
+          "icon": "📊"
+        },
+        {
+          "name": "Process Optimization Consulting",
+          "category": "SaaS/Digital",
+          "features": ["Process Audit", "Optimization Plan"],
+          "price": "$1,200+",
+          "icon": "📝"
+        },
+        {
+          "name": "Cloud Storage Services",
+          "category": "SaaS/Digital",
+          "features": ["Secure Storage", "Backup Solutions"],
+          "price": "$500+",
+          "icon": "☁️"
+        },
+        {
+          "name": "API Integration Services",
+          "category": "SaaS/Digital",
+          "features": ["System Integration", "Data Synchronization"],
+          "price": "$800+",
+          "icon": "🔗"
+        },
+        {
+          "name": "ERP/CRM Custom Development",
+          "category": "SaaS/Digital",
+          "features": ["Feature Customization", "API Development"],
+          "price": "$2,500+",
+          "icon": "💻"
+        },
+        {
+          "name": "Data Management & Governance",
+          "category": "SaaS/Digital",
+          "features": ["Data Quality", "Permission Management"],
+          "price": "$1,500+",
+          "icon": "🛡️"
+        },
+        {
+          "name": "Mobile Office Solutions",
+          "category": "SaaS/Digital",
+          "features": ["App Development", "Remote Collaboration"],
+          "price": "$1,200+",
+          "icon": "📱"
+        },
+        {
+          "name": "Automated BI Reporting",
+          "category": "SaaS/Digital",
+          "features": ["Data Visualization", "Automated Reports"],
+          "price": "$1,000+",
+          "icon": "📊"
+        },
+        {
+          "name": "IT System Audit",
+          "category": "SaaS/Digital",
+          "features": ["Security Audit", "Compliance Advice"],
+          "price": "$1,500+",
+          "icon": "🛡️"
+        },
+        {
+          "name": "DevOps Process Setup",
+          "category": "SaaS/Digital",
+          "features": ["CI/CD", "Monitoring & Deployment"],
+          "price": "$1,800+",
+          "icon": "⚙️"
+        },
+
+        {
+          "name": "Market Research",
+          "category": "Brand Expansion",
+          "features": ["Competitive Analysis", "Target Market Study"],
+          "price": "$1,200+",
+          "icon": "🌐"
+        },
+        {
+          "name": "Social Media Management",
+          "category": "Brand Expansion",
+          "features": ["Instagram/TikTok Management", "Content Planning"],
+          "price": "$1,500+",
+          "icon": "📱"
+        },
+        {
+          "name": "Overseas Advertising Campaigns",
+          "category": "Brand Expansion",
+          "features": ["Facebook/Google Ads", "Optimization Reports"],
+          "price": "$2,000+",
+          "icon": "📢"
+        },
+        {
+          "name": "Brand Strategy & Design",
+          "category": "Brand Expansion",
+          "features": ["Brand Positioning", "Visual Design"],
+          "price": "$1,800+",
+          "icon": "🎨"
+        },
+        {
+          "name": "KOL/Influencer Collaboration",
+          "category": "Brand Expansion",
+          "features": ["Influencer Partnerships", "Performance Tracking"],
+          "price": "$1,200+",
+          "icon": "🤝"
+        },
+        {
+          "name": "Content Creation",
+          "category": "Brand Expansion",
+          "features": ["Copywriting", "Video Production"],
+          "price": "$800+",
+          "icon": "✍️"
+        },
+        {
+          "name": "SEO/SEM Optimization",
+          "category": "Brand Expansion",
+          "features": ["Keyword Analysis", "Ad Optimization"],
+          "price": "$900+",
+          "icon": "🔍"
+        },
+        {
+          "name": "Overseas E-Commerce Operations",
+          "category": "Brand Expansion",
+          "features": ["Amazon/Ebay Store Management", "Store Optimization"],
+          "price": "$1,500+",
+          "icon": "🛒"
+        },
+        {
+          "name": "Overseas Customer Support Outsourcing",
+          "category": "Brand Expansion",
+          "features": ["Multilingual Support", "SLA Management"],
+          "price": "$700+",
+          "icon": "☎️"
+        },
+        {
+          "name": "Brand Legal Protection",
+          "category": "Brand Expansion",
+          "features": ["Trademark Registration", "Copyright Protection"],
+          "price": "$1,000+",
+          "icon": "📜"
+        },
+        {
+          "name": "Digital Marketing Strategy",
+          "category": "Brand Expansion",
+          "features": ["Market Strategy", "ROI Analysis"],
+          "price": "$1,200+",
+          "icon": "📊"
+        },
+        {
+          "name": "User Data Analysis",
+          "category": "Brand Expansion",
+          "features": ["Data Collection", "User Behavior Analysis"],
+          "price": "$1,000+",
+          "icon": "📈"
+        },
+
+        {
+          "name": "Trademark Registration (US)",
+          "category": "Intellectual Property",
+          "features": ["Application Documents", "Review Tracking"],
+          "price": "$500+",
+          "icon": "📜"
+        },
+        {
+          "name": "Trademark Registration (EU)",
+          "category": "Intellectual Property",
+          "features": ["Multi-Country Application", "Review Tracking"],
+          "price": "$800+",
+          "icon": "📜"
+        },
+        {
+          "name": "Patent Application (US)",
+          "category": "Intellectual Property",
+          "features": ["Patent Drafting", "Submission"],
+          "price": "$3,000+",
+          "icon": "🛡️"
+        },
+        {
+          "name": "Patent Application (EU)",
+          "category": "Intellectual Property",
+          "features": ["Patent Drafting", "Submission Process"],
+          "price": "$3,500+",
+          "icon": "🛡️"
+        },
+        {
+          "name": "IP Strategy Consulting",
+          "category": "Intellectual Property",
+          "features": ["Risk Analysis", "Protection Strategy"],
+          "price": "$1,500+",
+          "icon": "📊"
+        },
+        {
+          "name": "Copyright Registration",
+          "category": "Intellectual Property",
+          "features": ["Registration Process", "Legal Protection"],
+          "price": "$300+",
+          "icon": "📜"
+        },
+        {
+          "name": "Patent Portfolio Planning",
+          "category": "Intellectual Property",
+          "features": ["Market Analysis", "Technical Protection"],
+          "price": "$2,000+",
+          "icon": "📊"
+        },
+        {
+          "name": "IP Risk Audit",
+          "category": "Intellectual Property",
+          "features": ["Compliance Check", "Risk Advice"],
+          "price": "$1,500+",
+          "icon": "🛡️"
+        },
+        {
+          "name": "Domain Registration & Protection",
+          "category": "Intellectual Property",
+          "features": ["Domain Management", "Dispute Handling"],
+          "price": "$200+",
+          "icon": "🌐"
+        },
+        {
+          "name": "IP Rights Enforcement",
+          "category": "Intellectual Property",
+          "features": ["Infringement Analysis", "Legal Support"],
+          "price": "$1,800+",
+          "icon": "🛡️"
+        },
+
+        {
+          "name": "FDA 510(k) Registration",
+          "category": "Medical/Food",
+          "features": ["Application Documents", "Review Support"],
+          "price": "$5,000+",
+          "icon": "🩺"
+        },
+        {
+          "name": "MHRA Medical Registration",
+          "category": "Medical/Food",
+          "features": ["UK Registration", "Compliance Support"],
+          "price": "$4,500+",
+          "icon": "🩺"
+        },
+        {
+          "name": "UKCA Standard Certification",
+          "category": "Medical/Food",
+          "features": ["Standards Compliance", "Document Preparation"],
+          "price": "$4,000+",
+          "icon": "🩺"
+        },
+        {
+          "name": "Export Permit (Food/Alcohol)",
+          "category": "Medical/Food",
+          "features": ["Application Documents", "Certification Process"],
+          "price": "$3,000+",
+          "icon": "🛃"
+        },
+        {
+          "name": "Medical Device Quality System Setup",
+          "category": "Medical/Food",
+          "features": ["QMS Implementation", "Audit Support"],
+          "price": "$6,000+",
+          "icon": "🩺"
+        },
+        {
+          "name": "Food Safety Certification (HACCP)",
+          "category": "Medical/Food",
+          "features": ["Certification Guidance", "Documentation"],
+          "price": "$3,500+",
+          "icon": "🍴"
+        },
+
+        {
+          "name": "Sustainability & ESG Consulting",
+          "category": "Sustainability",
+          "features": ["ESG Strategy", "Compliance Reporting"],
+          "price": "$2,000+",
+          "icon": "🌱"
+        },
+        {
+          "name": "Carbon Footprint Assessment",
+          "category": "Sustainability",
+          "features": ["Data Analysis", "Reduction Plan"],
+          "price": "$1,500+",
+          "icon": "🌍"
+        },
+        {
+          "name": "Green Supply Chain Setup",
+          "category": "Sustainability",
+          "features": ["Eco-friendly Procurement", "Logistics Planning"],
+          "price": "$2,500+",
+          "icon": "♻️"
+        },
+        {
+          "name": "ESG Report Preparation",
+          "category": "Sustainability",
+          "features": ["Data Collection", "Report Drafting"],
+          "price": "$1,800+",
+          "icon": "📄"
+        },
+        {
+          "name": "Sustainable Packaging Consulting",
+          "category": "Sustainability",
+          "features": ["Material Selection", "Design Advice"],
+          "price": "$1,200+",
+          "icon": "📦"
+        }
+      ],
+      "contact": "Contact Us"
+    },
+    "package": {
+      "title": "Packages & Pricing",
+      "warn": "Delivery Timeline",
+      "list": [
+        {
+          "name": "Startup Internationalization Basic Package",
+          "services": [
+            "US/UK LLC Registration",
+            "EIN Acquisition",
+            "VAT Registration",
+            "Basic Financial Consulting"
+          ],
+          "duration": "2–4 weeks",
+          "price": "$5,000"
+        },
+        {
+          "name": "Cross-Border Payment Starter Package",
+          "services": [
+            "Stripe Integration",
+            "PayPal Business Account",
+            "Multi-Currency Settlement Setup"
+          ],
+          "duration": "1–3 weeks",
+          "price": "$3,500"
+        },
+        {
+          "name": "Logistics Basic Package",
+          "services": [
+            "Overseas Warehouse Consulting",
+            "Courier Integration",
+            "Order Fulfillment Guidance"
+          ],
+          "duration": "2–4 weeks",
+          "price": "$4,000"
+        },
+        {
+          "name": "Digital Office Starter Package",
+          "services": [
+            "ERP/CRM Setup",
+            "Basic BI Reports",
+            "Remote Collaboration Tools"
+          ],
+          "duration": "3–5 weeks",
+          "price": "$5,500"
+        },
+        {
+          "name": "Brand Expansion Starter Package",
+          "services": [
+            "Market Research",
+            "Social Media Setup",
+            "Content Strategy"
+          ],
+          "duration": "2–4 weeks",
+          "price": "$4,500"
+        },
+        {
+          "name": "IP Protection Package",
+          "services": [
+            "Trademark Registration (US/EU)",
+            "Patent Application Consultation",
+            "Copyright Registration"
+          ],
+          "duration": "2–6 weeks",
+          "price": "$6,000"
+        },
+        {
+          "name": "Medical/Food Compliance Package",
+          "services": [
+            "FDA/MHRA/UKCA Registration",
+            "Quality System Setup",
+            "Export Permit Assistance"
+          ],
+          "duration": "4–8 weeks",
+          "price": "$8,000"
+        },
+        {
+          "name": "Sustainability & ESG Package",
+          "services": [
+            "ESG Strategy",
+            "Carbon Assessment",
+            "Green Supply Chain Setup",
+            "ESG Report Drafting"
+          ],
+          "duration": "3–6 weeks",
+          "price": "$6,000"
+        }
+      ],
+      "buy": "Order Now"
+    },
+    "cta": {
+      "title": "Start Your Global Business Journey",
+      "description": "Expand internationally with Neptia efficiently, compliantly, and securely",
+      "contact": "Get Free Strategic Consultation"
+    }
+  },
+  "service": {
+    "hero": {
+      "title": "Neptia Service Solutions",
+      "description": "Neptia delivers end-to-end, cross-industry enterprise information and software solutions tailored for global small and medium-sized businesses. Our expertise spans computing, healthcare, retail, corporate services, taxation, finance, education, and supply chain management, empowering organizations to achieve operational efficiency, digital transformation, and global expansion."
+    },
+    "service": {
+      "title": "Our Service Areas",
+      "description": "Neptia provides cross-industry, cross-border professional solutions to support business globalization and digital transformation.",
+      "list": [
+        {
+          "icon": "Server",
+          "name": "Computer & IT Services",
+          "description": "Software development, system integration, cloud service solutions, AI & big data applications"
+        },
+        {
+          "icon": "Cpu",
+          "name": "Hardware & Network Solutions",
+          "description": "Server deployment, network architecture design and maintenance"
+        },
+        {
+          "icon": "Heart",
+          "name": "Healthcare Services",
+          "description": "Telemedicine, medical informatization, health data management, medical equipment support"
+        },
+        {
+          "icon": "BookOpen",
+          "name": "Education & Training",
+          "description": "Online education platforms, cross-border training courses, corporate training programs"
+        },
+        {
+          "icon": "ShoppingCart",
+          "name": "Retail & E-commerce Services",
+          "description": "Cross-border e-commerce, supply chain management, independent website development, market analysis"
+        },
+        {
+          "icon": "Building2",
+          "name": "Enterprise Services",
+          "description": "Company registration, tax consultation, human resource management, legal & compliance support"
+        },
+        {
+          "icon": "FileText",
+          "name": "Tax & Financial Services",
+          "description": "Tax planning, financial reporting, auditing, compliance consultation, financing solutions"
+        },
+        {
+          "icon": "CreditCard",
+          "name": "Financial & Payment Services",
+          "description": "Payment integration, corporate financing, cross-border settlement, digital currency consultation"
+        },
+        {
+          "icon": "Shield",
+          "name": "Intellectual Property & Certification",
+          "description": "Trademark registration, patent applications, product certification, international standard certification"
+        },
+        {
+          "icon": "CheckCircle2",
+          "name": "Innovation & Strategic Consulting",
+          "description": "Industry analysis, digital transformation, business strategy, and enterprise innovation planning"
+        },
+        {
+          "icon": "Globe",
+          "name": "International Market & Logistics",
+          "description": "Cross-border logistics, international market research, customs clearance solutions, supply chain optimization"
+        },
+        {
+          "icon": "Activity",
+          "name": "Industry Training & Support",
+          "description": "Professional training, workshops, enterprise digital transformation support"
+        },
+        {
+          "icon": "Box",
+          "name": "Supply Chain Management",
+          "description": "Global supply chain setup, warehouse logistics optimization, inventory management solutions"
+        },
+        {
+          "icon": "BarChart2",
+          "name": "Data Analysis & BI",
+          "description": "Enterprise data analysis, business intelligence reporting, decision support systems"
+        },
+        {
+          "icon": "Award",
+          "name": "Innovation & R&D",
+          "description": "New technology research & development, product innovation, cross-border innovation project consulting"
+        }
+      ]
+    },
+    "collaborate": {
+      "title": "Global Enterprise & University Collaboration Cases",
+      "description": "We collaborate with world-leading enterprises and universities to promote multicultural exchange and cross-border business innovation.",
+      "list": [
+        {
+          "title": "E-commerce Supply Chain Optimization Project",
+          "organization": "Harvard University",
+          "country": "USA",
+          "description": "Collaborated with global university students to optimize e-commerce supply chain systems, improving logistics efficiency by 30%",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST-vPR7T_rUhWaKMfhZMccvV2f8tv2r9X8XQ&s"
+        },
+        {
+          "title": "Enterprise Digital Transformation Consulting",
+          "organization": "Siemens",
+          "country": "Germany",
+          "description": "Provided customized digital solutions for large enterprises, enhancing production automation levels",
+          "image": "https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "Cross-cultural Education Exchange Platform",
+          "organization": "University of Melbourne",
+          "country": "Australia",
+          "description": "Collaborated with global universities to build online education platforms, promoting multicultural exchange and educational innovation",
+          "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "International Financial Payment Integration",
+          "organization": "HSBC",
+          "country": "UK",
+          "description": "Provided payment system integration for cross-border enterprises, optimizing international settlement processes",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1I1KUkpiTsGW_kuyJttGyVQtKXBPF0Uje9w&s"
+        },
+        {
+          "title": "Rural Digital Payment Poverty Alleviation Project",
+          "organization": "World Bank",
+          "country": "Kenya",
+          "description": "Helped farmers in remote areas access financial services through digital payment systems, improving quality of life",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxCpTmfYSSFKqzwWC_luZ9K4_Zr017yESRFw&s"
+        },
+        {
+          "title": "Remote Area Medical Informatization",
+          "organization": "Médecins Sans Frontières",
+          "country": "India",
+          "description": "Built telemedicine systems in mountain village areas, providing health services to remote residents",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtCEg41pvL5JhRzpYFpL7lZ_j81d2VMRO1oA&s"
+        },
+        {
+          "title": "Cross-national Environmental Education Project",
+          "organization": "Stanford University",
+          "country": "USA",
+          "description": "Collaborated with universities from multiple countries to conduct environmental protection education and sustainable development projects",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7L-QIlYQ7wG_HJGWYHxD76eDjjpeLD6Xd-Q&s"
+        },
+        {
+          "title": "SME Cross-border Financing",
+          "organization": "HSBC",
+          "country": "Singapore",
+          "description": "Provided cross-border financing and payment solutions for SMEs in the Asia-Pacific region, supporting international development",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxiISiPCR0DWuQ1YbhSWvEW4bGLjvLziqI7A&s"
+        }
+      ]
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Neptia",
+      "p1": "We uphold the philosophy of",
+      "p2": "Open & Inclusive",
+      "p3": "Collaborate Globally",
+      "p4": "Build the Future",
+      "p5": "bringing together diverse cultures and global talent, committed to providing cross-border information and software services for small and medium-sized enterprises."
+    },
+    "value": {
+      "title": "Our Values",
+      "description": "At Neptia, every member and partner is an important part of our global ecosystem.",
+      "list": [
+        {
+          "icon": "Users",
+          "title": "Diverse Talent",
+          "description": "Gathering professional talent from around the world to jointly drive innovation and development."
+        },
+        {
+          "icon": "Globe",
+          "title": "Open & Inclusive",
+          "description": "Respecting different cultures and perspectives, creating an inclusive work environment."
+        },
+        {
+          "icon": "Shield",
+          "title": "Secure & Reliable",
+          "description": "Ensuring information security and business compliance, building a foundation of trust."
+        },
+        {
+          "icon": "Building2",
+          "title": "Collaborate Globally",
+          "description": "Building an international network with partners to achieve mutual benefit and win-win outcomes."
+        },
+        {
+          "icon": "CheckCircle2",
+          "title": "Professional Services",
+          "description": "Providing efficient, reliable, and customized enterprise information and software services."
+        },
+        {
+          "icon": "Award",
+          "title": "Innovate the Future",
+          "description": "Leading industry development with innovation and vision, creating a better future together."
+        }
+      ]
+    },
+    "team": {
+      "title": "Global Team",
+      "description": "Our team brings together experts from different countries and cultural backgrounds, dedicated to providing globalized, efficient, and professional enterprise services.",
+      "list": [
+        {
+          "name": "Kenny",
+          "position": "Software Architect",
+          "country": "USA",
+          "expertise": "Cross-border Software & Information Services",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/01.jpg"
+        },
+        {
+          "name": "Lina",
+          "position": "Technical Consultant",
+          "country": "Canada",
+          "expertise": "Cloud Computing & Enterprise Systems",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/02.jpg"
+        },
+        {
+          "name": "Akira",
+          "position": "Market Strategy",
+          "country": "UK",
+          "expertise": "International Market Expansion",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/03.jpg"
+        },
+        {
+          "name": "Maria",
+          "position": "Legal Consultant",
+          "country": "Australia",
+          "expertise": "Cross-border Legal & Compliance",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/04.jpg"
+        },
+        {
+          "name": "David",
+          "position": "Operations Director",
+          "country": "France",
+          "expertise": "Project Management & Operations",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/05.jpg"
+        },
+        {
+          "name": "Sophia",
+          "position": "Cross-border Trademark Consultant",
+          "country": "USA",
+          "expertise": "Cross-border Intellectual Property",
+          "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/06.jpg"
+        }
+      ]
+    },
+    "event": {
+      "title": "Team Culture & Activities",
+      "description": "Our multicultural team not only collaborates closely at work but also enhances cohesion through diverse activities.",
+      "list": [
+        {
+          "title": "International Food Sharing",
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "Team Building Mountain Climbing",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "Cultural Festival Activities",
+          "image": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/08.jpg"
+        },
+        {
+          "title": "Online Cross-border Workshop",
+          "image": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/07.jpg"
+        }
+      ]
+    }
+  },
+  "insight": {
+    "hero": {
+      "title": "Enterprise Insights & Analysis",
+      "description": "Data-driven decision making to help businesses quickly grasp market trends",
+      "contact": "Consult Now",
+      "detail": "View Details"
+    },
+    "insight": {
+      "title": "Core Insights",
+      "description": "Providing comprehensive enterprise analysis to help you make informed decisions",
+      "list": [
+        {
+          "icon": "BarChart2",
+          "title": "Market Trend Analysis",
+          "description": "Gain insights into industry development trends and discover potential opportunities through data.",
+          "color": "from-indigo-500 to-purple-500"
+        },
+        {
+          "icon": "PieChart",
+          "title": "User Behavior Research",
+          "description": "Analyze user behavior data to optimize product and service experiences.",
+          "color": "from-green-400 to-teal-500"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Investment & Growth",
+          "description": "Evaluate investment risks and potential to help businesses grow steadily.",
+          "color": "from-orange-400 to-red-500"
+        },
+        {
+          "icon": "Users",
+          "title": "Team & Organization",
+          "description": "Optimize organizational structure and improve team collaboration efficiency.",
+          "color": "from-pink-400 to-rose-500"
+        },
+        {
+          "icon": "Globe",
+          "title": "Global Markets",
+          "description": "Track international market dynamics and seize cross-border business opportunities.",
+          "color": "from-teal-500 to-cyan-500"
+        },
+        {
+          "icon": "Shield",
+          "title": "Risk & Compliance",
+          "description": "Ensure operational compliance and avoid potential risks.",
+          "color": "from-violet-500 to-purple-500"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Want to Deepen Enterprise Insights?",
+      "description": "Contact us immediately for professional analysis reports",
+      "contact": "Contact Us"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "description": "We're always ready to provide professional enterprise services for you"
+    },
+    "info": {
+      "title": "Contact Information",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "address_detail": "432 Mission St, Apt 21B, San Francisco, California, USA",
+      "hours": "Working Hours",
+      "p1": "Monday to Friday",
+      "p2": "Saturday to Sunday",
+      "p3": "Closed"
+    },
+    "form": {
+      "title": "Send Message",
+      "name": "Name",
+      "name_placeholder": "Please enter your name",
+      "phone": "Phone",
+      "email": "Email Address",
+      "wechat": "WeChat",
+      "message": "Message",
+      "message_placeholder": "Please tell us what services you need...",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "submit-success": "User information submitted successfully!",
+      "warn-success": "User information has been submitted before!",
+      "error": "Error submitting user information. Please try again."
+    }
+  },
+  "not-found": {},
+  "footer": {
+    "brand": "Neptia",
+    "description": "Connecting the World, Creating the Future Together",
+    "links": "Links",
+    "contact": "Contact",
+    "copyright": "All rights reserved by Neptia.",
+    "email": "Email",
+    "phone": "Phone"
+  }
+}

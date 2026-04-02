@@ -1,9 +1,10 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
+import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), tailwindcss()],
   // 1. 服务配置
   server: {
     host: "0.0.0.0",
@@ -19,6 +20,7 @@ export default defineConfig({
       "@component": path.resolve(__dirname, "./src/component"),
       "@router": path.resolve(__dirname, "./src/router"),
       "@util": path.resolve(__dirname, "./src/util"),
+      "@i18n": path.resolve(__dirname, "./src/i18n"),
     },
   },
 });
