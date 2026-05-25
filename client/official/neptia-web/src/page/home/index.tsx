@@ -4,12 +4,10 @@ import { Outlet } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="h-screen flex flex-col overflow-hidden">
-      {/* 顶部导航 */}
+    <div className="flex h-screen flex-col overflow-hidden">
       <Navbar />
 
-      {/* 中间内容区域 */}
-      <main className="flex flex-1 overflow-y-auto  flex-col">
+      <main className="flex-1 overflow-y-auto">
         <Outlet />
         <Footer />
       </main>

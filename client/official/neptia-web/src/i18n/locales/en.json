@@ -12,7 +12,9 @@
     "about": "About Us",
     "contact": "Contact",
     "brand": "Neptia",
-    "insight": "Insights"
+    "insight": "Insights",
+    "tagline": "Global Expansion Studio",
+    "cta": "Free Consultation"
   },
   "index": {
     "hero": {
@@ -454,6 +456,14 @@
       "title": "Start Your New Global Business Chapter",
       "subtitle": "Work with the world's leading cross-border compliance experts to safely and efficiently expand into international markets",
       "button": "Get Free Strategic Consultation"
+    },
+    "ui": {
+      "partner": "Global Expansion Partner",
+      "explore": "Explore More"
+    },
+    "metrics": {
+      "countries": "Countries",
+      "rating": "Avg. Rating"
     }
   },
   "product": {
@@ -536,532 +546,751 @@
         {
           "name": "EU VAT Registration",
           "category": "Company Registration",
-          "features": ["VAT Number Issuance", "VAT Filing"],
+          "features": [
+            "VAT Number Issuance",
+            "VAT Filing"
+          ],
           "price": "$600+",
           "icon": "🧾"
         },
         {
           "name": "Financial License Application (FCA)",
           "category": "Company Registration",
-          "features": ["License Application", "Compliance Guidance"],
+          "features": [
+            "License Application",
+            "Compliance Guidance"
+          ],
           "price": "$5,000+",
           "icon": "🏦"
         },
         {
           "name": "Financial License Application (ASIC)",
           "category": "Company Registration",
-          "features": ["License Application", "Compliance Guidance"],
+          "features": [
+            "License Application",
+            "Compliance Guidance"
+          ],
           "price": "$5,500+",
           "icon": "🏦"
         },
         {
           "name": "Permit Application (Medical/Food)",
           "category": "Company Registration",
-          "features": ["Registration Documents", "Certification Process"],
+          "features": [
+            "Registration Documents",
+            "Certification Process"
+          ],
           "price": "$3,000+",
           "icon": "🩺"
         },
         {
           "name": "Corporate Secretary Services",
           "category": "Company Registration",
-          "features": ["Document Management", "Annual Reports"],
+          "features": [
+            "Document Management",
+            "Annual Reports"
+          ],
           "price": "$500+",
           "icon": "📜"
         },
         {
           "name": "Data Protection Compliance (GDPR/CCPA)",
           "category": "Company Registration",
-          "features": ["Policy Development", "Compliance Review"],
+          "features": [
+            "Policy Development",
+            "Compliance Review"
+          ],
           "price": "$2,500+",
           "icon": "🛡️"
         },
-
         {
           "name": "Stripe Integration",
           "category": "Payments & Finance",
-          "features": ["Payment Gateway Setup", "Multi-Currency Settlement"],
+          "features": [
+            "Payment Gateway Setup",
+            "Multi-Currency Settlement"
+          ],
           "price": "$500+",
           "icon": "💳"
         },
         {
           "name": "PayPal Business Account",
           "category": "Payments & Finance",
-          "features": ["Account Setup", "Management"],
+          "features": [
+            "Account Setup",
+            "Management"
+          ],
           "price": "$400+",
           "icon": "💳"
         },
         {
           "name": "US Bank Account Setup",
           "category": "Payments & Finance",
-          "features": ["Consultation", "Document Preparation"],
+          "features": [
+            "Consultation",
+            "Document Preparation"
+          ],
           "price": "$800+",
           "icon": "🏦"
         },
         {
           "name": "Cross-Border Tax Optimization",
           "category": "Payments & Finance",
-          "features": ["Tax Planning", "Tax Reduction Advice"],
+          "features": [
+            "Tax Planning",
+            "Tax Reduction Advice"
+          ],
           "price": "$1,500+",
           "icon": "🧾"
         },
         {
           "name": "Virtual Card Management",
           "category": "Payments & Finance",
-          "features": ["Card Issuance", "Fund Management"],
+          "features": [
+            "Card Issuance",
+            "Fund Management"
+          ],
           "price": "$300+",
           "icon": "💳"
         },
         {
           "name": "Financial Automation System",
           "category": "Payments & Finance",
-          "features": ["QuickBooks/Xero Setup", "Report Generation"],
+          "features": [
+            "QuickBooks/Xero Setup",
+            "Report Generation"
+          ],
           "price": "$1,200+",
           "icon": "💻"
         },
         {
           "name": "Transaction Risk Management",
           "category": "Payments & Finance",
-          "features": ["Risk Rules", "Monitoring System"],
+          "features": [
+            "Risk Rules",
+            "Monitoring System"
+          ],
           "price": "$1,000+",
           "icon": "🛡️"
         },
         {
           "name": "Multi-Currency Settlement Solution",
           "category": "Payments & Finance",
-          "features": ["USD/EUR/GBP", "Settlement Optimization"],
+          "features": [
+            "USD/EUR/GBP",
+            "Settlement Optimization"
+          ],
           "price": "$600+",
           "icon": "💱"
         },
         {
           "name": "Payment Security Solution",
           "category": "Payments & Finance",
-          "features": ["PCI DSS Compliance", "Secure Encryption"],
+          "features": [
+            "PCI DSS Compliance",
+            "Secure Encryption"
+          ],
           "price": "$800+",
           "icon": "🛡️"
         },
         {
           "name": "Cross-Border Cash Flow Management",
           "category": "Payments & Finance",
-          "features": ["Fund Collection", "Reconciliation Management"],
+          "features": [
+            "Fund Collection",
+            "Reconciliation Management"
+          ],
           "price": "$1,200+",
           "icon": "💰"
         },
         {
           "name": "Corporate Credit Assessment",
           "category": "Payments & Finance",
-          "features": ["Risk Assessment", "Credit Report"],
+          "features": [
+            "Risk Assessment",
+            "Credit Report"
+          ],
           "price": "$500+",
           "icon": "📊"
         },
         {
           "name": "Financial Audit Consulting",
           "category": "Payments & Finance",
-          "features": ["Audit Process", "Tax Compliance"],
+          "features": [
+            "Audit Process",
+            "Tax Compliance"
+          ],
           "price": "$1,500+",
           "icon": "🧾"
         },
-
         {
           "name": "Overseas Warehousing",
           "category": "Logistics",
-          "features": ["Warehouse Management", "Inventory Optimization"],
+          "features": [
+            "Warehouse Management",
+            "Inventory Optimization"
+          ],
           "price": "$700+",
           "icon": "🚚"
         },
         {
           "name": "Cross-Border Transport Solutions",
           "category": "Logistics",
-          "features": ["Air/Sea/Land Transport", "Customs Clearance"],
+          "features": [
+            "Air/Sea/Land Transport",
+            "Customs Clearance"
+          ],
           "price": "$1,200+",
           "icon": "🚚"
         },
         {
           "name": "Supply Chain Setup",
           "category": "Logistics",
-          "features": ["Logistics Planning", "Vendor Management"],
+          "features": [
+            "Logistics Planning",
+            "Vendor Management"
+          ],
           "price": "$1,500+",
           "icon": "🚚"
         },
         {
           "name": "Customs & Clearance",
           "category": "Logistics",
-          "features": ["Export Declaration", "Import Clearance"],
+          "features": [
+            "Export Declaration",
+            "Import Clearance"
+          ],
           "price": "$500+",
           "icon": "🛃"
         },
         {
           "name": "International Courier Integration",
           "category": "Logistics",
-          "features": ["DHL/FedEx/UPS", "Cost Optimization"],
+          "features": [
+            "DHL/FedEx/UPS",
+            "Cost Optimization"
+          ],
           "price": "$300+",
           "icon": "✈️"
         },
         {
           "name": "Inventory Management System",
           "category": "Logistics",
-          "features": ["WMS System", "Inventory Optimization"],
+          "features": [
+            "WMS System",
+            "Inventory Optimization"
+          ],
           "price": "$800+",
           "icon": "💻"
         },
         {
           "name": "Logistics Insurance",
           "category": "Logistics",
-          "features": ["Transport Insurance", "Claims Protection"],
+          "features": [
+            "Transport Insurance",
+            "Claims Protection"
+          ],
           "price": "$400+",
           "icon": "🛡️"
         },
         {
           "name": "Order Fulfillment Service",
           "category": "Logistics",
-          "features": ["Picking", "Packing", "Shipping"],
+          "features": [
+            "Picking",
+            "Packing",
+            "Shipping"
+          ],
           "price": "$600+",
           "icon": "📦"
         },
         {
           "name": "Cross-Border E-Commerce Fulfillment",
           "category": "Logistics",
-          "features": ["FBA", "Overseas Warehouse Integration"],
+          "features": [
+            "FBA",
+            "Overseas Warehouse Integration"
+          ],
           "price": "$1,000+",
           "icon": "🛒"
         },
         {
           "name": "Returns Management",
           "category": "Logistics",
-          "features": ["Return Process", "Customer Support"],
+          "features": [
+            "Return Process",
+            "Customer Support"
+          ],
           "price": "$500+",
           "icon": "↩️"
         },
         {
           "name": "Transport Route Optimization",
           "category": "Logistics",
-          "features": ["Cost Control", "Delivery Speed Optimization"],
+          "features": [
+            "Cost Control",
+            "Delivery Speed Optimization"
+          ],
           "price": "$700+",
           "icon": "🗺️"
         },
         {
           "name": "Logistics Data Analysis",
           "category": "Logistics",
-          "features": ["BI Analysis", "Report Generation"],
+          "features": [
+            "BI Analysis",
+            "Report Generation"
+          ],
           "price": "$1,000+",
           "icon": "📊"
         },
-
         {
           "name": "ERP System Setup",
           "category": "SaaS/Digital",
-          "features": ["Financial Management", "Inventory Management"],
+          "features": [
+            "Financial Management",
+            "Inventory Management"
+          ],
           "price": "$2,000+",
           "icon": "💻"
         },
         {
           "name": "CRM System Setup",
           "category": "SaaS/Digital",
-          "features": ["Customer Management", "Sales Automation"],
+          "features": [
+            "Customer Management",
+            "Sales Automation"
+          ],
           "price": "$1,500+",
           "icon": "💻"
         },
         {
           "name": "BI Data Analytics Platform",
           "category": "SaaS/Digital",
-          "features": ["Data Visualization", "Report Analysis"],
+          "features": [
+            "Data Visualization",
+            "Report Analysis"
+          ],
           "price": "$1,800+",
           "icon": "📊"
         },
         {
           "name": "Process Optimization Consulting",
           "category": "SaaS/Digital",
-          "features": ["Process Audit", "Optimization Plan"],
+          "features": [
+            "Process Audit",
+            "Optimization Plan"
+          ],
           "price": "$1,200+",
           "icon": "📝"
         },
         {
           "name": "Cloud Storage Services",
           "category": "SaaS/Digital",
-          "features": ["Secure Storage", "Backup Solutions"],
+          "features": [
+            "Secure Storage",
+            "Backup Solutions"
+          ],
           "price": "$500+",
           "icon": "☁️"
         },
         {
           "name": "API Integration Services",
           "category": "SaaS/Digital",
-          "features": ["System Integration", "Data Synchronization"],
+          "features": [
+            "System Integration",
+            "Data Synchronization"
+          ],
           "price": "$800+",
           "icon": "🔗"
         },
         {
           "name": "ERP/CRM Custom Development",
           "category": "SaaS/Digital",
-          "features": ["Feature Customization", "API Development"],
+          "features": [
+            "Feature Customization",
+            "API Development"
+          ],
           "price": "$2,500+",
           "icon": "💻"
         },
         {
           "name": "Data Management & Governance",
           "category": "SaaS/Digital",
-          "features": ["Data Quality", "Permission Management"],
+          "features": [
+            "Data Quality",
+            "Permission Management"
+          ],
           "price": "$1,500+",
           "icon": "🛡️"
         },
         {
           "name": "Mobile Office Solutions",
           "category": "SaaS/Digital",
-          "features": ["App Development", "Remote Collaboration"],
+          "features": [
+            "App Development",
+            "Remote Collaboration"
+          ],
           "price": "$1,200+",
           "icon": "📱"
         },
         {
           "name": "Automated BI Reporting",
           "category": "SaaS/Digital",
-          "features": ["Data Visualization", "Automated Reports"],
+          "features": [
+            "Data Visualization",
+            "Automated Reports"
+          ],
           "price": "$1,000+",
           "icon": "📊"
         },
         {
           "name": "IT System Audit",
           "category": "SaaS/Digital",
-          "features": ["Security Audit", "Compliance Advice"],
+          "features": [
+            "Security Audit",
+            "Compliance Advice"
+          ],
           "price": "$1,500+",
           "icon": "🛡️"
         },
         {
           "name": "DevOps Process Setup",
           "category": "SaaS/Digital",
-          "features": ["CI/CD", "Monitoring & Deployment"],
+          "features": [
+            "CI/CD",
+            "Monitoring & Deployment"
+          ],
           "price": "$1,800+",
           "icon": "⚙️"
         },
-
         {
           "name": "Market Research",
           "category": "Brand Expansion",
-          "features": ["Competitive Analysis", "Target Market Study"],
+          "features": [
+            "Competitive Analysis",
+            "Target Market Study"
+          ],
           "price": "$1,200+",
           "icon": "🌐"
         },
         {
           "name": "Social Media Management",
           "category": "Brand Expansion",
-          "features": ["Instagram/TikTok Management", "Content Planning"],
+          "features": [
+            "Instagram/TikTok Management",
+            "Content Planning"
+          ],
           "price": "$1,500+",
           "icon": "📱"
         },
         {
           "name": "Overseas Advertising Campaigns",
           "category": "Brand Expansion",
-          "features": ["Facebook/Google Ads", "Optimization Reports"],
+          "features": [
+            "Facebook/Google Ads",
+            "Optimization Reports"
+          ],
           "price": "$2,000+",
           "icon": "📢"
         },
         {
           "name": "Brand Strategy & Design",
           "category": "Brand Expansion",
-          "features": ["Brand Positioning", "Visual Design"],
+          "features": [
+            "Brand Positioning",
+            "Visual Design"
+          ],
           "price": "$1,800+",
           "icon": "🎨"
         },
         {
           "name": "KOL/Influencer Collaboration",
           "category": "Brand Expansion",
-          "features": ["Influencer Partnerships", "Performance Tracking"],
+          "features": [
+            "Influencer Partnerships",
+            "Performance Tracking"
+          ],
           "price": "$1,200+",
           "icon": "🤝"
         },
         {
           "name": "Content Creation",
           "category": "Brand Expansion",
-          "features": ["Copywriting", "Video Production"],
+          "features": [
+            "Copywriting",
+            "Video Production"
+          ],
           "price": "$800+",
           "icon": "✍️"
         },
         {
           "name": "SEO/SEM Optimization",
           "category": "Brand Expansion",
-          "features": ["Keyword Analysis", "Ad Optimization"],
+          "features": [
+            "Keyword Analysis",
+            "Ad Optimization"
+          ],
           "price": "$900+",
           "icon": "🔍"
         },
         {
           "name": "Overseas E-Commerce Operations",
           "category": "Brand Expansion",
-          "features": ["Amazon/Ebay Store Management", "Store Optimization"],
+          "features": [
+            "Amazon/Ebay Store Management",
+            "Store Optimization"
+          ],
           "price": "$1,500+",
           "icon": "🛒"
         },
         {
           "name": "Overseas Customer Support Outsourcing",
           "category": "Brand Expansion",
-          "features": ["Multilingual Support", "SLA Management"],
+          "features": [
+            "Multilingual Support",
+            "SLA Management"
+          ],
           "price": "$700+",
           "icon": "☎️"
         },
         {
           "name": "Brand Legal Protection",
           "category": "Brand Expansion",
-          "features": ["Trademark Registration", "Copyright Protection"],
+          "features": [
+            "Trademark Registration",
+            "Copyright Protection"
+          ],
           "price": "$1,000+",
           "icon": "📜"
         },
         {
           "name": "Digital Marketing Strategy",
           "category": "Brand Expansion",
-          "features": ["Market Strategy", "ROI Analysis"],
+          "features": [
+            "Market Strategy",
+            "ROI Analysis"
+          ],
           "price": "$1,200+",
           "icon": "📊"
         },
         {
           "name": "User Data Analysis",
           "category": "Brand Expansion",
-          "features": ["Data Collection", "User Behavior Analysis"],
+          "features": [
+            "Data Collection",
+            "User Behavior Analysis"
+          ],
           "price": "$1,000+",
           "icon": "📈"
         },
-
         {
           "name": "Trademark Registration (US)",
           "category": "Intellectual Property",
-          "features": ["Application Documents", "Review Tracking"],
+          "features": [
+            "Application Documents",
+            "Review Tracking"
+          ],
           "price": "$500+",
           "icon": "📜"
         },
         {
           "name": "Trademark Registration (EU)",
           "category": "Intellectual Property",
-          "features": ["Multi-Country Application", "Review Tracking"],
+          "features": [
+            "Multi-Country Application",
+            "Review Tracking"
+          ],
           "price": "$800+",
           "icon": "📜"
         },
         {
           "name": "Patent Application (US)",
           "category": "Intellectual Property",
-          "features": ["Patent Drafting", "Submission"],
+          "features": [
+            "Patent Drafting",
+            "Submission"
+          ],
           "price": "$3,000+",
           "icon": "🛡️"
         },
         {
           "name": "Patent Application (EU)",
           "category": "Intellectual Property",
-          "features": ["Patent Drafting", "Submission Process"],
+          "features": [
+            "Patent Drafting",
+            "Submission Process"
+          ],
           "price": "$3,500+",
           "icon": "🛡️"
         },
         {
           "name": "IP Strategy Consulting",
           "category": "Intellectual Property",
-          "features": ["Risk Analysis", "Protection Strategy"],
+          "features": [
+            "Risk Analysis",
+            "Protection Strategy"
+          ],
           "price": "$1,500+",
           "icon": "📊"
         },
         {
           "name": "Copyright Registration",
           "category": "Intellectual Property",
-          "features": ["Registration Process", "Legal Protection"],
+          "features": [
+            "Registration Process",
+            "Legal Protection"
+          ],
           "price": "$300+",
           "icon": "📜"
         },
         {
           "name": "Patent Portfolio Planning",
           "category": "Intellectual Property",
-          "features": ["Market Analysis", "Technical Protection"],
+          "features": [
+            "Market Analysis",
+            "Technical Protection"
+          ],
           "price": "$2,000+",
           "icon": "📊"
         },
         {
           "name": "IP Risk Audit",
           "category": "Intellectual Property",
-          "features": ["Compliance Check", "Risk Advice"],
+          "features": [
+            "Compliance Check",
+            "Risk Advice"
+          ],
           "price": "$1,500+",
           "icon": "🛡️"
         },
         {
           "name": "Domain Registration & Protection",
           "category": "Intellectual Property",
-          "features": ["Domain Management", "Dispute Handling"],
+          "features": [
+            "Domain Management",
+            "Dispute Handling"
+          ],
           "price": "$200+",
           "icon": "🌐"
         },
         {
           "name": "IP Rights Enforcement",
           "category": "Intellectual Property",
-          "features": ["Infringement Analysis", "Legal Support"],
+          "features": [
+            "Infringement Analysis",
+            "Legal Support"
+          ],
           "price": "$1,800+",
           "icon": "🛡️"
         },
-
         {
           "name": "FDA 510(k) Registration",
           "category": "Medical/Food",
-          "features": ["Application Documents", "Review Support"],
+          "features": [
+            "Application Documents",
+            "Review Support"
+          ],
           "price": "$5,000+",
           "icon": "🩺"
         },
         {
           "name": "MHRA Medical Registration",
           "category": "Medical/Food",
-          "features": ["UK Registration", "Compliance Support"],
+          "features": [
+            "UK Registration",
+            "Compliance Support"
+          ],
           "price": "$4,500+",
           "icon": "🩺"
         },
         {
           "name": "UKCA Standard Certification",
           "category": "Medical/Food",
-          "features": ["Standards Compliance", "Document Preparation"],
+          "features": [
+            "Standards Compliance",
+            "Document Preparation"
+          ],
           "price": "$4,000+",
           "icon": "🩺"
         },
         {
           "name": "Export Permit (Food/Alcohol)",
           "category": "Medical/Food",
-          "features": ["Application Documents", "Certification Process"],
+          "features": [
+            "Application Documents",
+            "Certification Process"
+          ],
           "price": "$3,000+",
           "icon": "🛃"
         },
         {
           "name": "Medical Device Quality System Setup",
           "category": "Medical/Food",
-          "features": ["QMS Implementation", "Audit Support"],
+          "features": [
+            "QMS Implementation",
+            "Audit Support"
+          ],
           "price": "$6,000+",
           "icon": "🩺"
         },
         {
           "name": "Food Safety Certification (HACCP)",
           "category": "Medical/Food",
-          "features": ["Certification Guidance", "Documentation"],
+          "features": [
+            "Certification Guidance",
+            "Documentation"
+          ],
           "price": "$3,500+",
           "icon": "🍴"
         },
-
         {
           "name": "Sustainability & ESG Consulting",
           "category": "Sustainability",
-          "features": ["ESG Strategy", "Compliance Reporting"],
+          "features": [
+            "ESG Strategy",
+            "Compliance Reporting"
+          ],
           "price": "$2,000+",
           "icon": "🌱"
         },
         {
           "name": "Carbon Footprint Assessment",
           "category": "Sustainability",
-          "features": ["Data Analysis", "Reduction Plan"],
+          "features": [
+            "Data Analysis",
+            "Reduction Plan"
+          ],
           "price": "$1,500+",
           "icon": "🌍"
         },
         {
           "name": "Green Supply Chain Setup",
           "category": "Sustainability",
-          "features": ["Eco-friendly Procurement", "Logistics Planning"],
+          "features": [
+            "Eco-friendly Procurement",
+            "Logistics Planning"
+          ],
           "price": "$2,500+",
           "icon": "♻️"
         },
         {
           "name": "ESG Report Preparation",
           "category": "Sustainability",
-          "features": ["Data Collection", "Report Drafting"],
+          "features": [
+            "Data Collection",
+            "Report Drafting"
+          ],
           "price": "$1,800+",
           "icon": "📄"
         },
         {
           "name": "Sustainable Packaging Consulting",
           "category": "Sustainability",
-          "features": ["Material Selection", "Design Advice"],
+          "features": [
+            "Material Selection",
+            "Design Advice"
+          ],
           "price": "$1,200+",
           "icon": "📦"
         }
@@ -1161,6 +1390,19 @@
       "title": "Start Your Global Business Journey",
       "description": "Expand internationally with Neptia efficiently, compliantly, and securely",
       "contact": "Get Free Strategic Consultation"
+    },
+    "ui": {
+      "all": "All",
+      "catalog": "Global Service Catalog",
+      "explore": "Explore Catalog",
+      "services": "Service Items",
+      "packages": "Packages",
+      "categories": "Categories",
+      "filtered": "Filtered Results",
+      "hint": "Filter by business stage or industry first, then let us tailor the most effective plan for you.",
+      "filterDesc": "Current filtered results: {{count}} items",
+      "startAt": "Starting at",
+      "packageDesc": "Standard packages help you launch fast, while complex goals can be delivered as custom bundles."
     }
   },
   "service": {
@@ -1310,6 +1552,20 @@
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxiISiPCR0DWuQ1YbhSWvEW4bGLjvLziqI7A&s"
         }
       ]
+    },
+    "ui": {
+      "tag": "Global Industry Service Network",
+      "cta": "Get Tailored Plan",
+      "explore": "Explore Service Areas",
+      "hint": "From compliance and technology to growth strategy, we deliver an executable end-to-end cross-border service system.",
+      "bottomTitle": "Turn Services Into Your Global Growth Engine",
+      "bottomDesc": "Share your stage, industry, and target markets, and we will map a clear, practical service path.",
+      "metrics": {
+        "areas": "Service Areas",
+        "cases": "Case Studies",
+        "countries": "Countries",
+        "teams": "Response Teams"
+      }
     }
   },
   "about": {
@@ -1426,6 +1682,19 @@
           "image": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/07.jpg"
         }
       ]
+    },
+    "ui": {
+      "tag": "Our Global Story",
+      "cta": "Talk With Us",
+      "hint": "We deliver not only services, but long-term, trusted cross-border growth partnership.",
+      "bottomTitle": "Global Growth Should Never Be a Solo Journey",
+      "bottomDesc": "From first-step strategy to long-term execution, the Neptia team helps turn complexity into clarity.",
+      "metrics": {
+        "values": "Core Values",
+        "team": "Global Team",
+        "events": "Culture Events",
+        "support": "Response Speed"
+      }
     }
   },
   "insight": {
@@ -1481,6 +1750,19 @@
       "title": "Want to Deepen Enterprise Insights?",
       "description": "Contact us immediately for professional analysis reports",
       "contact": "Contact Us"
+    },
+    "ui": {
+      "tag": "Data-Driven Growth Intelligence",
+      "explore": "Explore Core Insights",
+      "hint": "Turn fragmented information into executable strategy so your team can make better decisions faster in complex markets.",
+      "bottomTitle": "Turn Insights Into Real Business Growth",
+      "bottomDesc": "We provide a full loop from analytics to actionable recommendations, helping you validate and iterate your growth path continuously.",
+      "metrics": {
+        "dimensions": "Insight Dimensions",
+        "modules": "Analysis Modules",
+        "support": "Support Speed",
+        "updated": "Update Cycle"
+      }
     }
   },
   "contact": {
@@ -1513,6 +1795,31 @@
       "submit-success": "User information submitted successfully!",
       "warn-success": "User information has been submitted before!",
       "error": "Error submitting user information. Please try again."
+    },
+    "ui": {
+      "tag": "Professional Team, Fast Response",
+      "primary": "Submit Service Request",
+      "secondary": "Email Our Team",
+      "hint": "We usually respond within 24 hours, and your request is followed directly by an industry consultant.",
+      "promiseTitle": "Our Professional Commitment",
+      "promises": [
+        "Cross-border compliance procedures are strictly executed with security first.",
+        "One-on-one consultant support with clear and actionable plans.",
+        "Milestone-based progress updates to keep communication transparent."
+      ],
+      "bottomTitle": "Let a Professional Team Accelerate Your Global Expansion",
+      "bottomDesc": "Share your target market and current business stage, and we will provide a clear, executable next-step plan.",
+      "metrics": {
+        "response": "First Response",
+        "availability": "Availability",
+        "coverage": "Coverage",
+        "security": "Compliance"
+      },
+      "placeholders": {
+        "email": "you@company.com",
+        "phone": "+1 650 000 0000",
+        "wechat": "WeChat ID (optional)"
+      }
     }
   },
   "not-found": {},
@@ -1523,6 +1830,22 @@
     "contact": "Contact",
     "copyright": "All rights reserved by Neptia.",
     "email": "Email",
-    "phone": "Phone"
+    "phone": "Phone",
+    "ui": {
+      "title": "Ready to Launch Your Cross-Border Growth Plan?",
+      "description": "From strategy evaluation to execution, Neptia delivers end-to-end professional support.",
+      "cta": "Book Free Consultation",
+      "badges": {
+        "compliance": "Compliance & Security First",
+        "response": "24h Rapid Response"
+      }
+    }
+  },
+  "shell": {
+    "trust": [
+      "Cross-border compliance and information security first",
+      "Professional consultant response within 24 hours",
+      "Global service network across multiple industries"
+    ]
   }
 }

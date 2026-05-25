@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import {
   ArrowRight,
   CheckCircle2,
@@ -24,10 +22,10 @@ import {
   Microscope,
   Gavel,
   Database,
+  Sparkles,
+  Compass,
 } from "lucide-react";
-import "swiper/css";
 
-// 创建图标映射对象
 const iconMap: Record<string, any> = {
   Building2,
   FileText,
@@ -43,157 +41,219 @@ const iconMap: Record<string, any> = {
   Server,
   CheckCircle2,
   ArrowRight,
-  Waves: Waves,
-  Anchor: Anchor,
-  Fish: Fish,
-  Microscope: Microscope,
-  Database: Database,
-  Gavel: Gavel,
+  Waves,
+  Anchor,
+  Fish,
+  Microscope,
+  Database,
+  Gavel,
 };
+
 export default function Index() {
   const { t } = useTranslation();
   const navigate = useNavigate();
-
   const indexData = t("index", { returnObjects: true }) as Record<string, any>;
-  // 使用JSON数据，并映射图标组件
+
   const service = indexData.service.list.map((item: any) => ({
     ...item,
-    icon: iconMap[item.icon], // 将字符串图标名映射为图标组件
+    icon: iconMap[item.icon],
   }));
-
   const feature = indexData.feature.list.map((item: any) => ({
     ...item,
-    icon: iconMap[item.icon], // 将字符串图标名映射为图标组件
+    icon: iconMap[item.icon],
   }));
+
+  const testimonials = indexData.evaluate.list as any[];
+  const countryCount = new Set(testimonials.map((item) => item.country)).size;
+  const avgRating = testimonials.length
+    ? (
+        testimonials.reduce((sum, item) => sum + (item.rating || 0), 0) /
+        testimonials.length
+      ).toFixed(1)
+    : "5.0";
+
+  const heroStats = [
+    {
+      label: t("index.service.title"),
+      value: `${service.length}+`,
+    },
+    {
+      label: t("index.evaluate.title"),
+      value: `${testimonials.length}+`,
+    },
+    {
+      label: t("index.metrics.countries"),
+      value: `${countryCount}+`,
+    },
+    {
+      label: t("index.metrics.rating"),
+      value: avgRating,
+    },
+  ];
+
   return (
-    <div>
-      {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
+    <div className="relative overflow-x-hidden bg-[var(--home-bg)] [font-family:var(--font-display)]">
+      <div className="pointer-events-none absolute inset-x-0 -top-32 z-0 h-[32rem] bg-[radial-gradient(circle_at_top,rgba(8,145,178,0.22),transparent_58%)]" />
+      <div className="pointer-events-none absolute -left-24 top-48 z-0 h-72 w-72 rounded-full bg-cyan-200/50 blur-3xl" />
+      <div className="pointer-events-none absolute -right-24 top-72 z-0 h-72 w-72 rounded-full bg-blue-200/60 blur-3xl" />
+
+      <section className="relative z-10 flex min-h-[64vh] items-center px-4 pb-20 pt-20 sm:px-6 lg:px-8">
+        <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:items-end">
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 32 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-5xl md:text-6xl lg:text-7xl mb-6 tracking-tight">
-              <span className="bg-gradient-to-r from-slate-900 via-indigo-800 to-slate-900 bg-clip-text text-transparent leading-28">
+            <div className="mb-6 inline-flex items-center rounded-full border border-cyan-200 bg-white/85 px-4 py-2 text-sm font-medium text-cyan-700 shadow-sm backdrop-blur">
+              <Sparkles className="mr-2 h-4 w-4" />
+              {t("index.ui.partner")}
+            </div>
+            <h1 className="text-4xl font-semibold leading-tight text-slate-900 sm:text-5xl lg:text-7xl">
+              <span className="bg-gradient-to-r from-slate-900 via-cyan-700 to-blue-800 bg-clip-text text-transparent">
                 {indexData.hero.title}
               </span>
             </h1>
-
-            <p className="text-xl md:text-2xl text-slate-600 mb-6">
+            <p className="mt-6 max-w-2xl text-lg text-slate-600 sm:text-xl">
               {indexData.hero.subtitle}
             </p>
-
-            <p className="text-lg text-slate-500 mb-10 max-w-2xl mx-auto leading-8">
+            <p className="mt-4 max-w-2xl text-base leading-8 text-slate-500 sm:text-lg">
               {indexData.hero.description}
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
+                whileHover={{ y: -2, scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
                 onClick={() => navigate("/home/contact")}
-                className="bg-gray-900 text-white font-semibold px-8 py-3 rounded-[50px] text-[1.1rem] min-w-[200px] hover:shadow-lg transition-shadow duration-300 inline-flex items-center justify-center gap-2"
+                className="inline-flex min-w-[220px] items-center justify-center gap-2 rounded-full bg-slate-900 px-8 py-4 text-[1.04rem] font-semibold text-white shadow-[0_14px_30px_rgba(15,23,42,0.24)] transition-shadow hover:shadow-[0_16px_34px_rgba(15,23,42,0.3)]"
               >
                 {indexData.hero.cta.startNow}
-                <ArrowRight className="w-5 h-5" />
+                <ArrowRight className="h-5 w-5" />
               </motion.button>
-
               <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="px-8 py-4 bg-white text-slate-900 rounded-xl hover:bg-slate-50 transition-colors border border-slate-200 shadow-sm"
+                whileHover={{ y: -2 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={() => navigate("/home/service")}
+                className="inline-flex min-w-[220px] items-center justify-center gap-2 rounded-full border border-slate-300 bg-white px-8 py-4 text-[1.02rem] font-medium text-slate-800 transition hover:border-cyan-500 hover:text-cyan-700"
               >
                 {indexData.hero.cta.learnMore}
+                <Compass className="h-5 w-5" />
               </motion.button>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, x: 24 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.85, delay: 0.15 }}
+            className="rounded-3xl border border-white/80 bg-white/80 p-6 shadow-[0_24px_45px_rgba(15,23,42,0.14)] backdrop-blur lg:p-8"
+          >
+            <div className="grid grid-cols-2 gap-4">
+              {heroStats.map((stat, index) => (
+                <motion.div
+                  key={stat.label}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.28 + index * 0.08 }}
+                  className="rounded-2xl border border-slate-200 bg-white p-4"
+                >
+                  <p className="text-3xl font-semibold text-slate-900">{stat.value}</p>
+                  <p className="mt-1 text-sm text-slate-500">{stat.label}</p>
+                </motion.div>
+              ))}
+            </div>
+            <div className="mt-6 rounded-2xl border border-cyan-100 bg-gradient-to-r from-cyan-50 via-blue-50 to-slate-50 p-5">
+              <p className="text-sm text-slate-600">{indexData.cta.subtitle}</p>
             </div>
           </motion.div>
         </div>
       </section>
-      {/* Service Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto">
+
+      <section className="relative z-10 border-y border-slate-200/70 bg-white/90 px-4 py-18 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
+            viewport={{ once: true, margin: "-80px" }}
+            className="mb-12 flex items-end justify-between gap-6"
           >
-            <h2 className="text-4xl md:text-5xl mb-4 text-slate-900">
-              {indexData.service.title}
-            </h2>
-            <p className="text-xl text-slate-600">
-              {indexData.service.description}
-            </p>
+            <div>
+              <h2 className="text-3xl font-semibold text-slate-900 sm:text-4xl">
+                {indexData.service.title}
+              </h2>
+              <p className="mt-3 text-lg text-slate-600">
+                {indexData.service.description}
+              </p>
+            </div>
+            <button
+              onClick={() => navigate("/home/service")}
+              className="hidden rounded-full border border-cyan-600 px-5 py-2 text-sm font-medium text-cyan-700 transition hover:bg-cyan-50 md:block"
+            >
+              {t("index.ui.explore")}
+            </button>
           </motion.div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6">
-            {service.map((item: any, index: number) => {
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {service.slice(0, 8).map((item: any, index: number) => {
               const Icon = item.icon;
               return (
                 <motion.div
-                  key={index}
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.05 }}
-                  whileHover={{ y: -8, scale: 1.05 }}
-                  className="group cursor-pointer"
+                  key={item.name}
+                  initial={{ opacity: 0, y: 24 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-80px" }}
+                  transition={{ delay: index * 0.06 }}
+                  whileHover={{ y: -6 }}
+                  className="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition-shadow hover:shadow-lg"
                 >
-                  <div className="bg-gradient-to-br from-white to-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-transparent hover:shadow-xl transition-all duration-300">
-                    <div
-                      className={`w-12 h-12 rounded-xl bg-gradient-to-br ${item.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}
-                    >
-                      <Icon className="w-6 h-6 text-white" />
-                    </div>
-                    <div className="text-slate-700 group-hover:text-slate-900 transition-colors">
-                      {item.name}
-                    </div>
+                  <div
+                    className={`mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br ${item.color}`}
+                  >
+                    <Icon className="h-5 w-5 text-white" />
                   </div>
+                  <p className="text-base font-medium text-slate-700 transition-colors group-hover:text-slate-900">
+                    {item.name}
+                  </p>
                 </motion.div>
               );
             })}
           </div>
         </div>
       </section>
-      {/* Feature Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
+
+      <section className="relative z-10 px-4 py-18 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
+            viewport={{ once: true, margin: "-80px" }}
+            className="mb-12 text-center"
           >
-            <h2 className="text-4xl md:text-5xl mb-4 text-slate-900">
+            <h2 className="text-3xl font-semibold text-slate-900 sm:text-4xl">
               {indexData.feature.title}
             </h2>
-            <p className="text-xl text-slate-600">
-              {indexData.feature.subtitle}
-            </p>
+            <p className="mt-3 text-lg text-slate-600">{indexData.feature.subtitle}</p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {feature.map((item: any, index: number) => {
               const Icon = item.icon;
               return (
                 <motion.div
-                  key={index}
+                  key={item.title}
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.1 }}
-                  className="bg-white rounded-2xl p-8 border border-slate-200 hover:shadow-lg transition-shadow"
+                  viewport={{ once: true, margin: "-80px" }}
+                  transition={{ delay: index * 0.08 }}
+                  className="rounded-2xl border border-slate-200 bg-white/85 p-6 shadow-sm backdrop-blur"
                 >
                   <div
-                    className={`w-14 h-14 rounded-xl bg-indigo-100  ${item.color} flex items-center justify-center mb-4`}
+                    className={`mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br ${item.color}`}
                   >
-                    <Icon className="w-7 h-7 text-indigo-600" />
+                    <Icon className="h-6 w-6 text-white" />
                   </div>
-                  <h3 className="text-xl mb-2 text-slate-900">{item.title}</h3>
-                  <p className="text-slate-600">{item.description}</p>
+                  <h3 className="text-xl font-semibold text-slate-900">{item.title}</h3>
+                  <p className="mt-2 text-slate-600">{item.description}</p>
                 </motion.div>
               );
             })}
@@ -201,202 +261,108 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Case Section */}
-      <section className="bg-white py-8">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-center mb-12">
-            <motion.h2
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              className="font-bold text-[2.1rem] leading-[4rem] text-gray-800 text-center max-w-2xl"
-            >
-              {t("index.case.title")}
-            </motion.h2>
-          </div>
-          <div className="grid gap-8 justify-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <section className="relative z-10 bg-slate-900 px-4 py-20 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-80px" }}
+            className="mx-auto mb-12 max-w-3xl text-center text-3xl font-semibold leading-relaxed text-white sm:text-4xl"
+          >
+            {indexData.case.title}
+          </motion.h2>
+
+          <div className="grid gap-6 md:grid-cols-3">
             {indexData.case.list.map((item: any, index: number) => (
               <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: index * 0.2 }}
-                className="cursor-pointer"
-                whileHover={{ y: -10 }}
-              >
-                <div
-                  className="relative h-[400px] flex flex-col justify-end p-4 rounded-[20px] overflow-hidden"
-                  style={{
-                    backgroundImage: `url("${item.cover}")`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat",
-                  }}
-                >
-                  <h3 className="text-white font-bold text-[1.3rem]">
-                    {item.description}
-                  </h3>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-      {/* Evaluate Section*/}
-      <section className="pt-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
-        <div className="max-w-7xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-slate-900">
-              {indexData.evaluate.title}
-            </h2>
-            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              {indexData.evaluate.subtitle}
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {indexData.evaluate.list.map((item: any, index: number) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
+                key={item.title}
+                initial={{ opacity: 0, y: 26 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="group"
+                viewport={{ once: true, margin: "-80px" }}
+                transition={{ delay: index * 0.1 }}
+                whileHover={{ y: -6 }}
+                className="group relative h-[360px] overflow-hidden rounded-3xl"
               >
-                <div className="bg-white rounded-2xl p-6 h-full border border-slate-200 hover:border-indigo-300 hover:shadow-xl transition-all duration-300 flex flex-col">
-                  {/* 国家和评分 */}
-                  <div className="flex justify-between items-start mb-4">
-                    <div>
-                      {item.flag} {item.country}
-                    </div>
-                    <div className="flex">
-                      {[...Array(5)].map((_, i) => (
-                        <svg
-                          key={i}
-                          className={`w-5 h-5 ${i < item.rating ? "text-amber-400" : "text-slate-300"}`}
-                          fill="currentColor"
-                          viewBox="0 0 20 20"
-                        >
-                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                        </svg>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* 评价内容 */}
-                  <p className="text-slate-600 text-base leading-relaxed mb-6 flex-grow line-clamp-5">
+                <img
+                  src={item.cover}
+                  alt={item.title}
+                  className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-900/35 to-slate-950/85" />
+                <div className="absolute bottom-0 p-6">
+                  <h3 className="text-lg font-semibold text-white">{item.title}</h3>
+                  <p className="mt-2 text-sm leading-6 text-slate-200">
                     {item.description}
                   </p>
-
-                  {/* 服务标签 */}
-                  <div className="mb-6">
-                    <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-indigo-50 text-indigo-700">
-                      {item.service}
-                    </span>
-                  </div>
-
-                  {/* 用户信息 */}
-                  <div className="flex items-center pt-6 border-t border-slate-100">
-                    <div className="flex-shrink-0">
-                      <div className="w-12 h-12 rounded-full bg-gradient-to-r from-indigo-100 to-blue-100 flex items-center justify-center text-xl">
-                        {item.flag}
-                      </div>
-                    </div>
-                    <div className="ml-4 flex-1">
-                      <div className="flex items-center justify-between">
-                        <div>
-                          <h4 className="font-semibold text-slate-900">
-                            {item.name}
-                          </h4>
-                          <p className="text-sm text-slate-600">
-                            {item.position}
-                          </p>
-                        </div>
-                        <span className="text-xs font-medium text-slate-500 bg-slate-100 px-2 py-1 rounded">
-                          {item.duration}
-                        </span>
-                      </div>
-                      <div className="flex items-center mt-1">
-                        <p className="text-sm text-slate-500">{item.company}</p>
-                        <span className="mx-2 text-slate-300">•</span>
-                        <p className="text-sm text-slate-500">{item.country}</p>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </motion.div>
             ))}
           </div>
-
-          {/* 国家统计标签 */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.5 }}
-            className="mt-16 pt-8 border-t border-slate-200"
-          >
-            <div className="flex flex-wrap justify-center gap-4">
-              {Array.from(
-                new Set(
-                  indexData.evaluate.list.map((item: any) => item.country),
-                ),
-              ).map((country: any) => (
-                <div
-                  key={country}
-                  className="flex items-center px-4 py-2 bg-white rounded-lg border border-slate-200"
-                >
-                  <span className="text-xl mr-2">
-                    {
-                      indexData.evaluate.list.find(
-                        (item: any) => item.country === country,
-                      )?.flag
-                    }
-                  </span>
-                  <span className="text-slate-700 font-medium">{country}</span>
-                  <span className="ml-2 text-sm text-slate-500">
-                    (
-                    {
-                      indexData.evaluate.list.filter(
-                        (item: any) => item.country === country,
-                      ).length
-                    }
-                    )
-                  </span>
-                </div>
-              ))}
-            </div>
-          </motion.div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="bg-white py-24">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative z-10 bg-white px-4 py-20 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl">
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-80px" }}
+            className="mb-12 text-center"
           >
-            <h2 className="font-bold text-[2.5rem] mb-4">
+            <h2 className="text-3xl font-semibold text-slate-900 sm:text-4xl">
+              {indexData.evaluate.title}
+            </h2>
+            <p className="mt-3 text-lg text-slate-600">{indexData.evaluate.subtitle}</p>
+          </motion.div>
+
+          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+            {testimonials.slice(0, 6).map((item: any, index: number) => (
+              <motion.div
+                key={`${item.name}-${index}`}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-80px" }}
+                transition={{ delay: index * 0.08 }}
+                className="rounded-2xl border border-slate-200 bg-slate-50/70 p-6"
+              >
+                <div className="mb-3 flex items-center justify-between">
+                  <p className="text-sm text-slate-500">
+                    {item.flag} {item.country}
+                  </p>
+                  <p className="text-xs font-medium text-slate-600">{item.duration}</p>
+                </div>
+                <p className="line-clamp-4 text-sm leading-7 text-slate-600">
+                  {item.description}
+                </p>
+                <div className="mt-4 border-t border-slate-200 pt-4">
+                  <p className="font-medium text-slate-900">{item.name}</p>
+                  <p className="text-sm text-slate-600">{item.company}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="relative z-10 px-4 pb-24 pt-10 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-6xl rounded-[2rem] border border-cyan-100 bg-[linear-gradient(120deg,#ecfeff_0%,#dbeafe_45%,#f8fafc_100%)] p-10 text-center shadow-[0_25px_60px_rgba(6,78,99,0.16)]">
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-80px" }}
+          >
+            <h2 className="text-3xl font-semibold text-slate-900 sm:text-4xl">
               {t("index.cta.title")}
             </h2>
-            <p className="text-[1.3rem] mb-5 opacity-90">
+            <p className="mx-auto mt-4 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg">
               {t("index.cta.subtitle")}
             </p>
             <button
               onClick={() => navigate("/home/contact")}
-              className="bg-gray-900 text-white font-semibold px-8 py-3 rounded-[50px] text-[1.1rem] min-w-[200px] hover:shadow-lg transition-shadow duration-300 inline-flex items-center justify-center gap-2"
+              className="mt-8 inline-flex items-center justify-center gap-2 rounded-full bg-slate-900 px-8 py-4 text-base font-semibold text-white shadow-[0_12px_30px_rgba(15,23,42,0.3)] transition hover:translate-y-[-2px]"
             >
               {t("index.cta.button")}
-              <FontAwesomeIcon icon={faArrowRight} />
+              <ArrowRight className="h-5 w-5" />
             </button>
           </motion.div>
         </div>
