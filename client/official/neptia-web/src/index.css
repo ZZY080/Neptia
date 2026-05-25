@@ -1,1 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=Space+Grotesk:wght@400;500;700&display=swap");
 @import "tailwindcss";
+
+:root {
+  --font-display: "Space Grotesk", "Noto Sans SC", "PingFang SC", sans-serif;
+  --home-bg: #f3f7fd;
+}

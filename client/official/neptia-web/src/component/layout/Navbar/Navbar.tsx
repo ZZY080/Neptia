@@ -1,51 +1,23 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { Globe } from "lucide-react";
+import { createPortal } from "react-dom";
 import LanguageSwitcher from "@component/ui/LanguageSwitcher/LanguageSwitcher";
 
 export default function NavigationBar() {
-  const [, setScrolled] = useState(false);
   const [expanded, setExpanded] = useState(false);
   const location = useLocation();
-  const { t } = useTranslation();
-  const navRef = useRef<HTMLDivElement>(null);
+  const { t, i18n } = useTranslation();
   const navigate = useNavigate();
 
-  const goToPage = (path: string) => {
-    navigate(path);
-  };
-
-  // 点击外部关闭菜单
-  useEffect(() => {
-    const handleClickOutside = (e: MouseEvent) => {
-      if (
-        expanded &&
-        navRef.current &&
-        !navRef.current.contains(e.target as Node)
-      ) {
-        setExpanded(false);
-      }
-    };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, [expanded]);
-
-  // 路由变化关闭菜单
   useEffect(() => {
     setExpanded(false);
   }, [location.pathname]);
 
-  // 滚动改变背景
-  useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 50);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  // 移动端打开菜单禁止滚动
   useEffect(() => {
     document.body.style.overflow = expanded ? "hidden" : "";
     return () => {
@@ -62,66 +34,147 @@ export default function NavigationBar() {
     { path: "/home/contact", key: "nav.contact" },
   ];
 
+  const isActive = (path: string) => location.pathname.startsWith(path);
+
   return (
-    <nav
-      ref={navRef}
-      className={` relative w-full z-50 transition-colors duration-300 bg-white shadow-md`}
-    >
-      <div className="container mx-auto flex items-center justify-between py-4 px-4 lg:px-0">
-        {/* Logo */}
-        <motion.div
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
-          className="text-2xl font-bold text-gray-900"
-          onClick={() => goToPage("/")}
-        >
-          {t("nav.brand")}
-        </motion.div>
-
-        {/* Mobile Toggle */}
-        <button
-          className="lg:hidden text-gray-900 focus:outline-none"
-          onClick={() => setExpanded(!expanded)}
-        >
-          <motion.div
-            animate={{ rotate: expanded ? 90 : 0 }}
-            transition={{ duration: 0.25 }}
+    <>
+      <header className="relative z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur">
+        <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
+          <motion.button
+            initial={{ opacity: 0, x: -16 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.45 }}
+            onClick={() => navigate("/home/index")}
+            className="text-left"
           >
-            <FontAwesomeIcon icon={expanded ? faXmark : faBars} size="lg" />
-          </motion.div>
-        </button>
+            <div className="text-3xl font-semibold leading-none text-slate-900">
+              {t("nav.brand")}
+            </div>
+          </motion.button>
 
-        {/* Menu */}
-        <div
-          className={`flex-col lg:flex lg:flex-row lg:items-center absolute lg:static top-full left-0 w-full lg:w-auto bg-white lg:bg-transparent transition-transform duration-300 overflow-hidden ${
-            expanded ? "max-h-screen" : "max-h-0 lg:max-h-full"
-          }`}
-        >
-          {navItems.map((item) => (
+          <button
+            className="rounded-xl border border-slate-200 bg-white p-2 text-slate-900 shadow-sm transition hover:bg-slate-50 lg:hidden"
+            onClick={() => setExpanded((v) => !v)}
+            aria-label="menu"
+          >
             <motion.div
-              key={item.path}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="lg:ml-6"
+              animate={{ rotate: expanded ? 90 : 0 }}
+              transition={{ duration: 0.22 }}
             >
+              <FontAwesomeIcon icon={expanded ? faXmark : faBars} size="lg" />
+            </motion.div>
+          </button>
+
+          <div className="hidden items-center gap-2 lg:flex">
+            {navItems.map((item) => (
               <Link
+                key={item.path}
                 to={item.path}
-                className={`block py-3 px-4 text-gray-900 hover:text-blue-600 lg:inline ${
-                  location.pathname === item.path ? "font-semibold" : ""
+                className={`rounded-full px-4 py-2 text-sm font-medium transition ${
+                  isActive(item.path)
+                    ? "bg-slate-900 text-white"
+                    : "text-slate-700 hover:bg-slate-100 hover:text-slate-900"
                 }`}
-                onClick={() => setExpanded(false)}
               >
                 {t(item.key)}
               </Link>
-            </motion.div>
-          ))}
+            ))}
+          </div>
 
-          <div className="py-3 px-4 lg:ml-6">
-            <LanguageSwitcher onChange={() => setExpanded(false)} />
+          <div className="hidden items-center gap-3 lg:flex">
+            <LanguageSwitcher />
           </div>
         </div>
-      </div>
-    </nav>
+      </header>
+
+      {typeof document !== "undefined" &&
+        createPortal(
+          <AnimatePresence>
+            {expanded && (
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.2 }}
+                className="fixed inset-0 z-[120] lg:hidden"
+              >
+                <button
+                  aria-label="close menu backdrop"
+                  onClick={() => setExpanded(false)}
+                  className="absolute inset-0 bg-slate-950/25 backdrop-blur-[2px]"
+                />
+
+                <motion.aside
+                  initial={{ x: "100%" }}
+                  animate={{ x: 0 }}
+                  exit={{ x: "100%" }}
+                  transition={{ duration: 0.24, ease: "easeOut" }}
+                  className="absolute right-0 top-0 h-full w-[86vw] max-w-[360px] border-l border-slate-200 bg-white p-5 shadow-[0_20px_45px_rgba(15,23,42,0.22)]"
+                >
+                  <div className="mb-7 flex items-center justify-between">
+                    <div className="text-2xl font-semibold text-slate-900">
+                      {t("nav.brand")}
+                    </div>
+                    <button
+                      onClick={() => setExpanded(false)}
+                      className="rounded-lg border border-slate-200 p-2 text-slate-700"
+                      aria-label="close menu"
+                    >
+                      <FontAwesomeIcon icon={faXmark} size="lg" />
+                    </button>
+                  </div>
+
+                  <nav className="space-y-1">
+                    {navItems.map((item) => (
+                      <Link
+                        key={item.path}
+                        to={item.path}
+                        onClick={() => setExpanded(false)}
+                        className={`block rounded-xl px-4 py-3 text-lg font-medium transition ${
+                          isActive(item.path)
+                            ? "bg-slate-900 text-white"
+                            : "text-slate-700 hover:bg-slate-100"
+                        }`}
+                      >
+                        {t(item.key)}
+                      </Link>
+                    ))}
+                  </nav>
+
+                  <div className="mt-6 rounded-xl border border-slate-200 bg-slate-50 p-3">
+                    <div className="mb-2 flex items-center gap-2 text-xs text-slate-500">
+                      <Globe className="h-3.5 w-3.5" />
+                      Language
+                    </div>
+                    <div className="grid grid-cols-2 gap-2">
+                      <button
+                        onClick={() => i18n.changeLanguage("zh")}
+                        className={`rounded-lg px-3 py-2 text-sm font-medium transition ${
+                          i18n.language === "zh"
+                            ? "bg-slate-900 text-white"
+                            : "bg-white text-slate-700"
+                        }`}
+                      >
+                        中文
+                      </button>
+                      <button
+                        onClick={() => i18n.changeLanguage("en")}
+                        className={`rounded-lg px-3 py-2 text-sm font-medium transition ${
+                          i18n.language === "en"
+                            ? "bg-slate-900 text-white"
+                            : "bg-white text-slate-700"
+                        }`}
+                      >
+                        English
+                      </button>
+                    </div>
+                  </div>
+                </motion.aside>
+              </motion.div>
+            )}
+          </AnimatePresence>,
+          document.body,
+        )}
+    </>
   );
 }
