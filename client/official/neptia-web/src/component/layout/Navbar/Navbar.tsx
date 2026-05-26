@@ -38,8 +38,8 @@ export default function NavigationBar() {
 
   return (
     <>
-      <header className="relative z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur">
-        <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
+      <header className="fixed left-0 right-0 top-0 z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur">
+        <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-4 py-5 sm:px-6 lg:px-8">
           <motion.button
             initial={{ opacity: 0, x: -16 }}
             animate={{ opacity: 1, x: 0 }}
