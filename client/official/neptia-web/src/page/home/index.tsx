@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="flex h-screen flex-col overflow-hidden">
+    <div className="flex min-h-screen min-h-[100dvh] flex-col overflow-hidden">
       <Navbar />
 
       <main className="flex-1 overflow-y-auto">

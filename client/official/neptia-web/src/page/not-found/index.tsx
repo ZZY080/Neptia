@@ -7,8 +7,9 @@ const NotFound = () => {
     <div
       className="not-found-page"
       style={{
-        height: "100vh",
-        width: "100vw",
+        height: "100dvh",
+        minHeight: "100vh",
+        width: "100%",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
