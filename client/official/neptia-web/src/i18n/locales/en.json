@@ -1402,7 +1402,26 @@
       "hint": "Filter by business stage or industry first, then let us tailor the most effective plan for you.",
       "filterDesc": "Current filtered results: {{count}} items",
       "startAt": "Starting at",
-      "packageDesc": "Standard packages help you launch fast, while complex goals can be delivered as custom bundles."
+      "packageDesc": "Standard packages help you launch fast, while complex goals can be delivered as custom bundles.",
+      "payWithPayPal": "Pay with PayPal"
+    }
+  },
+  "paymentSuccess": {
+    "title": "Payment Successful",
+    "description": "We have received your payment and your order is now being processed. Thank you for your trust.",
+    "labels": {
+      "item": "Item",
+      "amount": "Amount",
+      "orderId": "Order ID"
+    },
+    "actions": {
+      "backToProduct": "Back to Products",
+      "contact": "Contact Consultant"
+    },
+    "fallback": {
+      "item": "Neptia Service Order",
+      "amount": "0.00",
+      "orderId": "N/A"
     }
   },
   "service": {

@@ -1696,7 +1696,26 @@
       "hint": "可按业务阶段或行业快速筛选，先选方向，再让我们给你最优方案。",
       "filterDesc": "当前筛选结果：{{count}} 项",
       "startAt": "起始价格",
-      "packageDesc": "标准套餐可快速启动，复杂需求支持定制化组合交付。"
+      "packageDesc": "标准套餐可快速启动，复杂需求支持定制化组合交付。",
+      "payWithPayPal": "PayPal 支付"
+    }
+  },
+  "paymentSuccess": {
+    "title": "支付成功",
+    "description": "我们已收到您的支付，订单正在处理中。感谢您的信任，我们会尽快与您联系。",
+    "labels": {
+      "item": "支付项目",
+      "amount": "支付金额",
+      "orderId": "订单号"
+    },
+    "actions": {
+      "backToProduct": "返回产品页",
+      "contact": "联系顾问"
+    },
+    "fallback": {
+      "item": "Neptia 服务订单",
+      "amount": "0.00",
+      "orderId": "N/A"
     }
   },
   "service": {

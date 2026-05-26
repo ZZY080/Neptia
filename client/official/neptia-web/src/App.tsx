@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -13,8 +13,12 @@ import Home from "@src/page/home";
 import { Navigate } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Product from "@src/page/product";
+import PaymentSuccess from "@src/page/payment-success";
 
 function App() {
+  const RouterComponent =
+    import.meta.env.VITE_USE_HASH_ROUTER === "true" ? HashRouter : BrowserRouter;
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -36,7 +40,7 @@ function App() {
         content="Neptia, 跨境技术服务, 信息服务, 全球企业, 出海, 国际化解决方案, 海外扩展, 全球市场, 跨境支付, 跨境物流, 海外电商, 全球商业咨询, 企业出海, 跨境运营, 海外落地, 品牌推广, 中国市场, 海外品牌"
       />
 
-      <Router
+      <RouterComponent
         future={{
           v7_startTransition: true,
           v7_relativeSplatPath: true,
@@ -46,6 +50,7 @@ function App() {
           <Route path="/home" element={<Home />}>
             <Route path="index" element={<Index />} />
             <Route path="product" element={<Product />} />
+            <Route path="payment-success" element={<PaymentSuccess />} />
             <Route path="service" element={<Service />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
@@ -60,7 +65,7 @@ function App() {
           <Route path="/not-found" element={<NotFound />} />
           <Route path="*" element={<Navigate to={"/not-found"} replace />} />
         </Routes>
-      </Router>
+      </RouterComponent>
     </HelmetProvider>
   );
 }
