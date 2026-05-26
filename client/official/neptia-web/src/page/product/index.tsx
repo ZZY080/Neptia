@@ -135,7 +135,7 @@ const ProductPage: React.FC = () => {
         <div className="pointer-events-none absolute -left-24 top-48 h-72 w-72 rounded-full bg-cyan-200/50 blur-3xl" />
         <div className="pointer-events-none absolute -right-24 top-80 h-72 w-72 rounded-full bg-blue-200/50 blur-3xl" />
 
-      <section className="relative z-10 flex min-h-[64vh] items-center px-4 pb-20 pt-20 sm:px-6 lg:px-8">
+      <section className="relative z-10 flex min-h-[64vh] items-center px-4 pb-20 pt-28 sm:px-6 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.1fr_0.9fr]">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
