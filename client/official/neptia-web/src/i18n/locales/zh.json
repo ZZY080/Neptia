@@ -474,907 +474,630 @@
         {
           "name": "美国 LLC 注册",
           "category": "企业注册",
-          "features": [
-            "公司注册",
-            "EIN获取",
-            "注册文件"
-          ],
+          "features": ["公司注册", "EIN获取", "注册文件"],
           "price": "$800 起",
           "icon": "🏢"
         },
         {
           "name": "美国 C-Corp 注册",
           "category": "企业注册",
-          "features": [
-            "公司注册",
-            "股权设计",
-            "年度合规"
-          ],
+          "features": ["公司注册", "股权设计", "年度合规"],
           "price": "$1,200 起",
           "icon": "🏢"
         },
         {
           "name": "英国公司注册",
           "category": "企业注册",
-          "features": [
-            "公司注册",
-            "注册地址",
-            "年报提交"
-          ],
+          "features": ["公司注册", "注册地址", "年报提交"],
           "price": "$900 起",
           "icon": "🏢"
         },
         {
           "name": "香港公司注册",
           "category": "企业注册",
-          "features": [
-            "公司注册",
-            "银行开户",
-            "税务登记"
-          ],
+          "features": ["公司注册", "银行开户", "税务登记"],
           "price": "$1,000 起",
           "icon": "🏢"
         },
         {
           "name": "欧盟跨国注册",
           "category": "企业注册",
-          "features": [
-            "注册服务",
-            "VAT注册",
-            "合规咨询"
-          ],
+          "features": ["注册服务", "VAT注册", "合规咨询"],
           "price": "$2,000 起",
           "icon": "🏢"
         },
         {
           "name": "美国税务筹划",
           "category": "企业注册",
-          "features": [
-            "税务咨询",
-            "年度报表",
-            "节税建议"
-          ],
+          "features": ["税务咨询", "年度报表", "节税建议"],
           "price": "$1,500 起",
           "icon": "🧾"
         },
         {
           "name": "VAT注册（欧盟）",
           "category": "企业注册",
-          "features": [
-            "VAT号码获取",
-            "VAT申报"
-          ],
+          "features": ["VAT号码获取", "VAT申报"],
           "price": "$600 起",
           "icon": "🧾"
         },
         {
           "name": "金融牌照申请（FCA）",
           "category": "企业注册",
-          "features": [
-            "牌照申请",
-            "合规指导"
-          ],
+          "features": ["牌照申请", "合规指导"],
           "price": "$5,000 起",
           "icon": "🏦"
         },
         {
           "name": "金融牌照申请（ASIC）",
           "category": "企业注册",
-          "features": [
-            "牌照申请",
-            "合规指导"
-          ],
+          "features": ["牌照申请", "合规指导"],
           "price": "$5,500 起",
           "icon": "🏦"
         },
         {
           "name": "许可申请（医疗/食品）",
           "category": "企业注册",
-          "features": [
-            "注册文件",
-            "认证流程"
-          ],
+          "features": ["注册文件", "认证流程"],
           "price": "$3,000 起",
           "icon": "🩺"
         },
         {
           "name": "公司秘书服务",
           "category": "企业注册",
-          "features": [
-            "文件管理",
-            "年度报告"
-          ],
+          "features": ["文件管理", "年度报告"],
           "price": "$500 起",
           "icon": "📜"
         },
         {
           "name": "数据保护合规（GDPR/CCPA）",
           "category": "企业注册",
-          "features": [
-            "政策制定",
-            "合规审查"
-          ],
+          "features": ["政策制定", "合规审查"],
           "price": "$2,500 起",
           "icon": "🛡️"
         },
         {
           "name": "Stripe 集成",
           "category": "支付与金融",
-          "features": [
-            "支付接入",
-            "多币种结算"
-          ],
+          "features": ["支付接入", "多币种结算"],
           "price": "$500 起",
           "icon": "💳"
         },
         {
           "name": "PayPal 企业账户",
           "category": "支付与金融",
-          "features": [
-            "收款设置",
-            "账户管理"
-          ],
+          "features": ["收款设置", "账户管理"],
           "price": "$400 起",
           "icon": "💳"
         },
         {
           "name": "银行账户开设（美国）",
           "category": "支付与金融",
-          "features": [
-            "开户咨询",
-            "文件准备"
-          ],
+          "features": ["开户咨询", "文件准备"],
           "price": "$800 起",
           "icon": "🏦"
         },
         {
           "name": "跨境税务优化",
           "category": "支付与金融",
-          "features": [
-            "税务筹划",
-            "节税建议"
-          ],
+          "features": ["税务筹划", "节税建议"],
           "price": "$1,500 起",
           "icon": "🧾"
         },
         {
           "name": "虚拟卡管理",
           "category": "支付与金融",
-          "features": [
-            "虚拟卡开通",
-            "资金管理"
-          ],
+          "features": ["虚拟卡开通", "资金管理"],
           "price": "$300 起",
           "icon": "💳"
         },
         {
           "name": "财务自动化系统",
           "category": "支付与金融",
-          "features": [
-            "QuickBooks/Xero",
-            "报表生成"
-          ],
+          "features": ["QuickBooks/Xero", "报表生成"],
           "price": "$1,200 起",
           "icon": "💻"
         },
         {
           "name": "交易风控配置",
           "category": "支付与金融",
-          "features": [
-            "风控规则",
-            "监控系统"
-          ],
+          "features": ["风控规则", "监控系统"],
           "price": "$1,000 起",
           "icon": "🛡️"
         },
         {
           "name": "多币种结算方案",
           "category": "支付与金融",
-          "features": [
-            "美元/欧元/英镑",
-            "结算优化"
-          ],
+          "features": ["美元/欧元/英镑", "结算优化"],
           "price": "$600 起",
           "icon": "💱"
         },
         {
           "name": "支付安全方案",
           "category": "支付与金融",
-          "features": [
-            "PCI DSS",
-            "安全加密"
-          ],
+          "features": ["PCI DSS", "安全加密"],
           "price": "$800 起",
           "icon": "🛡️"
         },
         {
           "name": "跨境资金流管理",
           "category": "支付与金融",
-          "features": [
-            "资金归集",
-            "对账管理"
-          ],
+          "features": ["资金归集", "对账管理"],
           "price": "$1,200 起",
           "icon": "💰"
         },
         {
           "name": "企业信用评估",
           "category": "支付与金融",
-          "features": [
-            "风险评估",
-            "信用报告"
-          ],
+          "features": ["风险评估", "信用报告"],
           "price": "$500 起",
           "icon": "📊"
         },
         {
           "name": "财务审计咨询",
           "category": "支付与金融",
-          "features": [
-            "审计流程",
-            "税务合规"
-          ],
+          "features": ["审计流程", "税务合规"],
           "price": "$1,500 起",
           "icon": "🧾"
         },
         {
           "name": "海外仓储服务",
           "category": "物流",
-          "features": [
-            "仓储管理",
-            "库存优化"
-          ],
+          "features": ["仓储管理", "库存优化"],
           "price": "$700 起",
           "icon": "🚚"
         },
         {
           "name": "跨境运输方案",
           "category": "物流",
-          "features": [
-            "空运/海运/陆运",
-            "关务清关"
-          ],
+          "features": ["空运/海运/陆运", "关务清关"],
           "price": "$1,200 起",
           "icon": "🚚"
         },
         {
           "name": "供应链搭建",
           "category": "物流",
-          "features": [
-            "物流设计",
-            "供应商管理"
-          ],
+          "features": ["物流设计", "供应商管理"],
           "price": "$1,500 起",
           "icon": "🚚"
         },
         {
           "name": "清关与报关",
           "category": "物流",
-          "features": [
-            "出口报关",
-            "进口清关"
-          ],
+          "features": ["出口报关", "进口清关"],
           "price": "$500 起",
           "icon": "🛃"
         },
         {
           "name": "国际快递集成",
           "category": "物流",
-          "features": [
-            "DHL/FedEx/UPS",
-            "价格优化"
-          ],
+          "features": ["DHL/FedEx/UPS", "价格优化"],
           "price": "$300 起",
           "icon": "✈️"
         },
         {
           "name": "库存管理系统",
           "category": "物流",
-          "features": [
-            "WMS系统",
-            "库存优化"
-          ],
+          "features": ["WMS系统", "库存优化"],
           "price": "$800 起",
           "icon": "💻"
         },
         {
           "name": "物流保险",
           "category": "物流",
-          "features": [
-            "运输保险",
-            "赔付保障"
-          ],
+          "features": ["运输保险", "赔付保障"],
           "price": "$400 起",
           "icon": "🛡️"
         },
         {
           "name": "订单履约服务",
           "category": "物流",
-          "features": [
-            "拣货",
-            "打包",
-            "发货"
-          ],
+          "features": ["拣货", "打包", "发货"],
           "price": "$600 起",
           "icon": "📦"
         },
         {
           "name": "跨境电商仓配方案",
           "category": "物流",
-          "features": [
-            "FBA",
-            "海外仓整合"
-          ],
+          "features": ["FBA", "海外仓整合"],
           "price": "$1,000 起",
           "icon": "🛒"
         },
         {
           "name": "返货管理",
           "category": "物流",
-          "features": [
-            "退货流程",
-            "客户支持"
-          ],
+          "features": ["退货流程", "客户支持"],
           "price": "$500 起",
           "icon": "↩️"
         },
         {
           "name": "运输路线优化",
           "category": "物流",
-          "features": [
-            "成本控制",
-            "时效优化"
-          ],
+          "features": ["成本控制", "时效优化"],
           "price": "$700 起",
           "icon": "🗺️"
         },
         {
           "name": "物流数据分析",
           "category": "物流",
-          "features": [
-            "BI分析",
-            "报告生成"
-          ],
+          "features": ["BI分析", "报告生成"],
           "price": "$1,000 起",
           "icon": "📊"
         },
         {
           "name": "ERP系统搭建",
           "category": "SaaS/数字化",
-          "features": [
-            "财务管理",
-            "库存管理"
-          ],
+          "features": ["财务管理", "库存管理"],
           "price": "$2,000 起",
           "icon": "💻"
         },
         {
           "name": "CRM系统搭建",
           "category": "SaaS/数字化",
-          "features": [
-            "客户管理",
-            "销售自动化"
-          ],
+          "features": ["客户管理", "销售自动化"],
           "price": "$1,500 起",
           "icon": "💻"
         },
         {
           "name": "BI数据分析平台",
           "category": "SaaS/数字化",
-          "features": [
-            "数据可视化",
-            "报表分析"
-          ],
+          "features": ["数据可视化", "报表分析"],
           "price": "$1,800 起",
           "icon": "📊"
         },
         {
           "name": "流程优化咨询",
           "category": "SaaS/数字化",
-          "features": [
-            "流程审计",
-            "优化方案"
-          ],
+          "features": ["流程审计", "优化方案"],
           "price": "$1,200 起",
           "icon": "📝"
         },
         {
           "name": "云存储服务",
           "category": "SaaS/数字化",
-          "features": [
-            "安全存储",
-            "备份方案"
-          ],
+          "features": ["安全存储", "备份方案"],
           "price": "$500 起",
           "icon": "☁️"
         },
         {
           "name": "API集成服务",
           "category": "SaaS/数字化",
-          "features": [
-            "系统对接",
-            "数据同步"
-          ],
+          "features": ["系统对接", "数据同步"],
           "price": "$800 起",
           "icon": "🔗"
         },
         {
           "name": "ERP/CRM定制化开发",
           "category": "SaaS/数字化",
-          "features": [
-            "功能定制",
-            "接口开发"
-          ],
+          "features": ["功能定制", "接口开发"],
           "price": "$2,500 起",
           "icon": "💻"
         },
         {
           "name": "数据管理与治理",
           "category": "SaaS/数字化",
-          "features": [
-            "数据质量",
-            "权限管理"
-          ],
+          "features": ["数据质量", "权限管理"],
           "price": "$1,500 起",
           "icon": "🛡️"
         },
         {
           "name": "移动办公解决方案",
           "category": "SaaS/数字化",
-          "features": [
-            "App开发",
-            "远程协作"
-          ],
+          "features": ["App开发", "远程协作"],
           "price": "$1,200 起",
           "icon": "📱"
         },
         {
           "name": "BI报表自动化",
           "category": "SaaS/数字化",
-          "features": [
-            "数据可视化",
-            "自动化报表"
-          ],
+          "features": ["数据可视化", "自动化报表"],
           "price": "$1,000 起",
           "icon": "📊"
         },
         {
           "name": "IT系统审计",
           "category": "SaaS/数字化",
-          "features": [
-            "安全审计",
-            "合规建议"
-          ],
+          "features": ["安全审计", "合规建议"],
           "price": "$1,500 起",
           "icon": "🛡️"
         },
         {
           "name": "DevOps流程搭建",
           "category": "SaaS/数字化",
-          "features": [
-            "CI/CD",
-            "监控部署"
-          ],
+          "features": ["CI/CD", "监控部署"],
           "price": "$1,800 起",
           "icon": "⚙️"
         },
         {
           "name": "市场调研",
           "category": "品牌出海",
-          "features": [
-            "竞争分析",
-            "目标市场分析"
-          ],
+          "features": ["竞争分析", "目标市场分析"],
           "price": "$1,200 起",
           "icon": "🌐"
         },
         {
           "name": "社交媒体运营",
           "category": "品牌出海",
-          "features": [
-            "Instagram/TikTok运营",
-            "内容策划"
-          ],
+          "features": ["Instagram/TikTok运营", "内容策划"],
           "price": "$1,500 起",
           "icon": "📱"
         },
         {
           "name": "海外广告投放",
           "category": "品牌出海",
-          "features": [
-            "Facebook/Google Ads",
-            "优化报告"
-          ],
+          "features": ["Facebook/Google Ads", "优化报告"],
           "price": "$2,000 起",
           "icon": "📢"
         },
         {
           "name": "品牌策划",
           "category": "品牌出海",
-          "features": [
-            "品牌定位",
-            "视觉设计"
-          ],
+          "features": ["品牌定位", "视觉设计"],
           "price": "$1,800 起",
           "icon": "🎨"
         },
         {
           "name": "KOL/Influencer合作",
           "category": "品牌出海",
-          "features": [
-            "达人合作",
-            "效果监控"
-          ],
+          "features": ["达人合作", "效果监控"],
           "price": "$1,200 起",
           "icon": "🤝"
         },
         {
           "name": "内容创作",
           "category": "品牌出海",
-          "features": [
-            "文案撰写",
-            "视频制作"
-          ],
+          "features": ["文案撰写", "视频制作"],
           "price": "$800 起",
           "icon": "✍️"
         },
         {
           "name": "SEO/SEM优化",
           "category": "品牌出海",
-          "features": [
-            "关键词分析",
-            "广告投放优化"
-          ],
+          "features": ["关键词分析", "广告投放优化"],
           "price": "$900 起",
           "icon": "🔍"
         },
         {
           "name": "海外电商平台运营",
           "category": "品牌出海",
-          "features": [
-            "Amazon/Ebay管理",
-            "店铺优化"
-          ],
+          "features": ["Amazon/Ebay管理", "店铺优化"],
           "price": "$1,500 起",
           "icon": "🛒"
         },
         {
           "name": "海外客服外包",
           "category": "品牌出海",
-          "features": [
-            "多语言客服",
-            "SLA管理"
-          ],
+          "features": ["多语言客服", "SLA管理"],
           "price": "$700 起",
           "icon": "☎️"
         },
         {
           "name": "品牌法律保护",
           "category": "品牌出海",
-          "features": [
-            "商标注册",
-            "版权保护"
-          ],
+          "features": ["商标注册", "版权保护"],
           "price": "$1,000 起",
           "icon": "📜"
         },
         {
           "name": "数字营销策略",
           "category": "品牌出海",
-          "features": [
-            "市场策略",
-            "ROI分析"
-          ],
+          "features": ["市场策略", "ROI分析"],
           "price": "$1,200 起",
           "icon": "📊"
         },
         {
           "name": "用户数据分析",
           "category": "品牌出海",
-          "features": [
-            "数据收集",
-            "用户行为分析"
-          ],
+          "features": ["数据收集", "用户行为分析"],
           "price": "$1,000 起",
           "icon": "📈"
         },
         {
           "name": "商标注册（美国）",
           "category": "知识产权",
-          "features": [
-            "申请文件",
-            "审查跟踪"
-          ],
+          "features": ["申请文件", "审查跟踪"],
           "price": "$500 起",
           "icon": "📜"
         },
         {
           "name": "商标注册（欧盟）",
           "category": "知识产权",
-          "features": [
-            "多国申请",
-            "审查跟踪"
-          ],
+          "features": ["多国申请", "审查跟踪"],
           "price": "$800 起",
           "icon": "📜"
         },
         {
           "name": "专利申请（美国）",
           "category": "知识产权",
-          "features": [
-            "专利撰写",
-            "申请提交"
-          ],
+          "features": ["专利撰写", "申请提交"],
           "price": "$3,000 起",
           "icon": "🛡️"
         },
         {
           "name": "专利申请（欧洲）",
           "category": "知识产权",
-          "features": [
-            "专利撰写",
-            "提交流程"
-          ],
+          "features": ["专利撰写", "提交流程"],
           "price": "$3,500 起",
           "icon": "🛡️"
         },
         {
           "name": "IP策略咨询",
           "category": "知识产权",
-          "features": [
-            "风险分析",
-            "保护策略"
-          ],
+          "features": ["风险分析", "保护策略"],
           "price": "$1,500 起",
           "icon": "📊"
         },
         {
           "name": "版权登记",
           "category": "知识产权",
-          "features": [
-            "登记流程",
-            "法律保护"
-          ],
+          "features": ["登记流程", "法律保护"],
           "price": "$300 起",
           "icon": "📜"
         },
         {
           "name": "专利布局规划",
           "category": "知识产权",
-          "features": [
-            "市场分析",
-            "技术保护"
-          ],
+          "features": ["市场分析", "技术保护"],
           "price": "$2,000 起",
           "icon": "📊"
         },
         {
           "name": "IP风险审计",
           "category": "知识产权",
-          "features": [
-            "合规检查",
-            "风险提示"
-          ],
+          "features": ["合规检查", "风险提示"],
           "price": "$1,500 起",
           "icon": "🛡️"
         },
         {
           "name": "域名注册与保护",
           "category": "知识产权",
-          "features": [
-            "注册管理",
-            "纠纷处理"
-          ],
+          "features": ["注册管理", "纠纷处理"],
           "price": "$200 起",
           "icon": "🌐"
         },
         {
           "name": "知识产权维权",
           "category": "知识产权",
-          "features": [
-            "侵权分析",
-            "法律支持"
-          ],
+          "features": ["侵权分析", "法律支持"],
           "price": "$1,800 起",
           "icon": "🛡️"
         },
         {
           "name": "FDA 510(k) 注册",
           "category": "医疗/食品",
-          "features": [
-            "申请文件",
-            "审查支持"
-          ],
+          "features": ["申请文件", "审查支持"],
           "price": "$5,000 起",
           "icon": "🩺"
         },
         {
           "name": "MHRA 医疗注册",
           "category": "医疗/食品",
-          "features": [
-            "UK注册",
-            "合规支持"
-          ],
+          "features": ["UK注册", "合规支持"],
           "price": "$4,500 起",
           "icon": "🩺"
         },
         {
           "name": "UKCA 标准认证",
           "category": "医疗/食品",
-          "features": [
-            "标准符合性",
-            "文件准备"
-          ],
+          "features": ["标准符合性", "文件准备"],
           "price": "$4,000 起",
           "icon": "🩺"
         },
         {
           "name": "出口许可（食品/酒类）",
           "category": "医疗/食品",
-          "features": [
-            "FDA/欧盟许可",
-            "文件准备"
-          ],
+          "features": ["FDA/欧盟许可", "文件准备"],
           "price": "$3,500 起",
           "icon": "🍷"
         },
         {
           "name": "ISO13485 质量管理",
           "category": "医疗/食品",
-          "features": [
-            "体系建立",
-            "内部审核"
-          ],
+          "features": ["体系建立", "内部审核"],
           "price": "$4,000 起",
           "icon": "🛡️"
         },
         {
           "name": "食品安全认证（HACCP）",
           "category": "医疗/食品",
-          "features": [
-            "流程审核",
-            "文件指导"
-          ],
+          "features": ["流程审核", "文件指导"],
           "price": "$3,000 起",
           "icon": "🛡️"
         },
         {
           "name": "GMP认证支持",
           "category": "医疗/食品",
-          "features": [
-            "工厂审核",
-            "认证指导"
-          ],
+          "features": ["工厂审核", "认证指导"],
           "price": "$3,500 起",
           "icon": "🏭"
         },
         {
           "name": "出口检验检疫",
           "category": "医疗/食品",
-          "features": [
-            "文件准备",
-            "物流配合"
-          ],
+          "features": ["文件准备", "物流配合"],
           "price": "$1,500 起",
           "icon": "🛃"
         },
         {
           "name": "药品注册咨询",
           "category": "医疗/食品",
-          "features": [
-            "FDA/EMA文件",
-            "流程指导"
-          ],
+          "features": ["FDA/EMA文件", "流程指导"],
           "price": "$4,000 起",
           "icon": "💊"
         },
         {
           "name": "营养补充品注册",
           "category": "医疗/食品",
-          "features": [
-            "标签审核",
-            "合规指导"
-          ],
+          "features": ["标签审核", "合规指导"],
           "price": "$2,500 起",
           "icon": "🥗"
         },
         {
           "name": "食品配方备案",
           "category": "医疗/食品",
-          "features": [
-            "配方审查",
-            "备案支持"
-          ],
+          "features": ["配方审查", "备案支持"],
           "price": "$2,000 起",
           "icon": "🥫"
         },
         {
           "name": "酒类出口认证",
           "category": "医疗/食品",
-          "features": [
-            "标签/配方审核",
-            "出口许可"
-          ],
+          "features": ["标签/配方审核", "出口许可"],
           "price": "$3,500 起",
           "icon": "🍷"
         },
         {
           "name": "ISO14001 体系建立",
           "category": "环保/可持续",
-          "features": [
-            "管理体系",
-            "内部审核"
-          ],
+          "features": ["管理体系", "内部审核"],
           "price": "$3,000 起",
           "icon": "🌱"
         },
         {
           "name": "EU Ecolabel 认证",
           "category": "环保/可持续",
-          "features": [
-            "环境审核",
-            "文件准备"
-          ],
+          "features": ["环境审核", "文件准备"],
           "price": "$2,500 起",
           "icon": "🌱"
         },
         {
           "name": "Nordic Swan 认证",
           "category": "环保/可持续",
-          "features": [
-            "产品审核",
-            "标准指导"
-          ],
+          "features": ["产品审核", "标准指导"],
           "price": "$2,500 起",
           "icon": "🌱"
         },
         {
           "name": "碳排放评估",
           "category": "环保/可持续",
-          "features": [
-            "企业排放评估",
-            "报告生成"
-          ],
+          "features": ["企业排放评估", "报告生成"],
           "price": "$2,000 起",
           "icon": "🌍"
         },
         {
           "name": "可持续供应链咨询",
           "category": "环保/可持续",
-          "features": [
-            "供应链分析",
-            "优化方案"
-          ],
+          "features": ["供应链分析", "优化方案"],
           "price": "$2,500 起",
           "icon": "🌍"
         },
         {
           "name": "ESG报告编制",
           "category": "环保/可持续",
-          "features": [
-            "数据收集",
-            "报告撰写"
-          ],
+          "features": ["数据收集", "报告撰写"],
           "price": "$2,000 起",
           "icon": "📊"
         },
         {
           "name": "绿色产品认证",
           "category": "环保/可持续",
-          "features": [
-            "标准符合性",
-            "文件准备"
-          ],
+          "features": ["标准符合性", "文件准备"],
           "price": "$2,500 起",
           "icon": "🌱"
         },
         {
           "name": "环保标签设计",
           "category": "环保/可持续",
-          "features": [
-            "产品标识",
-            "宣传方案"
-          ],
+          "features": ["产品标识", "宣传方案"],
           "price": "$1,500 起",
           "icon": "🌱"
         }
@@ -1398,31 +1121,19 @@
         },
         {
           "name": "跨境支付入门包",
-          "services": [
-            "Stripe 集成",
-            "PayPal 企业账户",
-            "多币种结算配置"
-          ],
+          "services": ["Stripe 集成", "PayPal 企业账户", "多币种结算配置"],
           "duration": "1–3 周",
           "price": "$3,500"
         },
         {
           "name": "物流基础包",
-          "services": [
-            "海外仓储咨询",
-            "快递集成",
-            "订单履约指导"
-          ],
+          "services": ["海外仓储咨询", "快递集成", "订单履约指导"],
           "duration": "2–4 周",
           "price": "$4,000"
         },
         {
           "name": "数字化办公基础包",
-          "services": [
-            "ERP/CRM系统搭建",
-            "BI报表基础",
-            "远程协作工具"
-          ],
+          "services": ["ERP/CRM系统搭建", "BI报表基础", "远程协作工具"],
           "duration": "3–5 周",
           "price": "$5,500"
         },
@@ -1439,11 +1150,7 @@
         },
         {
           "name": "社交媒体启动包",
-          "services": [
-            "Instagram/TikTok账号搭建",
-            "内容策划",
-            "初期广告投放"
-          ],
+          "services": ["Instagram/TikTok账号搭建", "内容策划", "初期广告投放"],
           "duration": "3–6 周",
           "price": "$6,500"
         },
@@ -1473,12 +1180,7 @@
         },
         {
           "name": "企业品牌加速包",
-          "services": [
-            "市场调研",
-            "KOL合作",
-            "社交媒体广告",
-            "SEO/SEM优化"
-          ],
+          "services": ["市场调研", "KOL合作", "社交媒体广告", "SEO/SEM优化"],
           "duration": "4–8 周",
           "price": "$12,000+"
         },
@@ -1495,94 +1197,55 @@
         },
         {
           "name": "医疗器械注册包（FDA）",
-          "services": [
-            "FDA 510(k)注册",
-            "质量管理体系审核",
-            "出口许可"
-          ],
+          "services": ["FDA 510(k)注册", "质量管理体系审核", "出口许可"],
           "duration": "6–12 周",
           "price": "$15,000+"
         },
         {
           "name": "医疗器械注册包（MHRA/UKCA）",
-          "services": [
-            "UKCA注册",
-            "MHRA注册",
-            "GMP认证指导"
-          ],
+          "services": ["UKCA注册", "MHRA注册", "GMP认证指导"],
           "duration": "6–12 周",
           "price": "$14,000+"
         },
         {
           "name": "医疗器械全流程包",
-          "services": [
-            "注册认证",
-            "出口许可",
-            "市场准入咨询",
-            "法规合规审核"
-          ],
+          "services": ["注册认证", "出口许可", "市场准入咨询", "法规合规审核"],
           "duration": "8–16 周",
           "price": "$25,000+"
         },
         {
           "name": "食品出口包（欧盟）",
-          "services": [
-            "CE认证",
-            "出口许可",
-            "HACCP审核"
-          ],
+          "services": ["CE认证", "出口许可", "HACCP审核"],
           "duration": "4–8 周",
           "price": "$8,500+"
         },
         {
           "name": "酒类出口包",
-          "services": [
-            "标签审核",
-            "出口许可",
-            "市场策略咨询"
-          ],
+          "services": ["标签审核", "出口许可", "市场策略咨询"],
           "duration": "4–8 周",
           "price": "$9,500+"
         },
         {
           "name": "食品饮料全链路包",
-          "services": [
-            "注册/许可",
-            "物流方案",
-            "品牌推广",
-            "质量管理"
-          ],
+          "services": ["注册/许可", "物流方案", "品牌推广", "质量管理"],
           "duration": "6–12 周",
           "price": "$15,000+"
         },
         {
           "name": "跨境金融合规包",
-          "services": [
-            "FCA/ASIC牌照申请",
-            "AML/KYC体系搭建",
-            "合规培训"
-          ],
+          "services": ["FCA/ASIC牌照申请", "AML/KYC体系搭建", "合规培训"],
           "duration": "6–10 周",
           "price": "$20,000+"
         },
         {
           "name": "金融科技出海包",
-          "services": [
-            "支付方案搭建",
-            "风控系统配置",
-            "跨境资金流管理"
-          ],
+          "services": ["支付方案搭建", "风控系统配置", "跨境资金流管理"],
           "duration": "4–8 周",
           "price": "$12,000+"
         },
         {
           "name": "金融全流程定制包",
-          "services": [
-            "牌照申请",
-            "税务筹划",
-            "支付系统集成",
-            "风控合规"
-          ],
+          "services": ["牌照申请", "税务筹划", "支付系统集成", "风控合规"],
           "duration": "8–16 周",
           "price": "$30,000+"
         },
@@ -1598,53 +1261,31 @@
         },
         {
           "name": "ESG报告与可持续咨询包",
-          "services": [
-            "碳排放评估",
-            "供应链可持续优化",
-            "ESG报告编制"
-          ],
+          "services": ["碳排放评估", "供应链可持续优化", "ESG报告编制"],
           "duration": "4–8 周",
           "price": "$7,500+"
         },
         {
           "name": "全球商标保护包",
-          "services": [
-            "美国/欧盟商标注册",
-            "商标监控",
-            "维权支持"
-          ],
+          "services": ["美国/欧盟商标注册", "商标监控", "维权支持"],
           "duration": "3–6 周",
           "price": "$5,000+"
         },
         {
           "name": "专利保护包",
-          "services": [
-            "美国/欧洲专利申请",
-            "专利布局规划",
-            "IP策略咨询"
-          ],
+          "services": ["美国/欧洲专利申请", "专利布局规划", "IP策略咨询"],
           "duration": "6–12 周",
           "price": "$12,000+"
         },
         {
           "name": "知识产权全流程包",
-          "services": [
-            "商标注册",
-            "专利申请",
-            "版权登记",
-            "IP风险审计"
-          ],
+          "services": ["商标注册", "专利申请", "版权登记", "IP风险审计"],
           "duration": "6–12 周",
           "price": "$15,000+"
         },
         {
           "name": "企业全定制战略包",
-          "services": [
-            "全行业服务定制",
-            "专属顾问",
-            "全流程执行",
-            "项目管理"
-          ],
+          "services": ["全行业服务定制", "专属顾问", "全流程执行", "项目管理"],
           "duration": "项目制",
           "price": "面议"
         },
@@ -1662,12 +1303,7 @@
         },
         {
           "name": "行业顶级定制包",
-          "services": [
-            "全链路项目",
-            "专属团队",
-            "专属法律顾问",
-            "定期审计"
-          ],
+          "services": ["全链路项目", "专属团队", "专属法律顾问", "定期审计"],
           "duration": "项目制",
           "price": "面议"
         }
@@ -1810,35 +1446,35 @@
           "organization": "Neptia 核心自研",
           "country": "AEROSPACE",
           "description": "贯通航天器、卫星、地面站与任务中心，实现从任务设计到在轨运营的全链路智能协同。",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST-vPR7T_rUhWaKMfhZMccvV2f8tv2r9X8XQ&s"
+          "image": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/service/HA3AQoBaAAQs698.jpeg"
         },
         {
           "title": "城市低空智能运行网络",
           "organization": "Neptia 核心自研",
           "country": "LOW ALTITUDE",
           "description": "融合空域数字孪生、飞行服务与运营调度，支撑物流、巡检、救援和文旅等规模化场景。",
-          "image": "https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=800&q=80"
+          "image": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/service/GNmYmMNa8AAVtom.jpeg"
         },
         {
           "title": "深空科学智能基础设施",
           "organization": "Neptia 核心自研",
           "country": "DEEP SPACE",
           "description": "面向月球、火星与小行星探索，连接任务规划、科学数据治理和跨任务联合分析。",
-          "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80"
+          "image": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/service/HORgGTxWAAEBoSV.jpeg"
         },
         {
           "title": "智慧医疗协同网络",
           "organization": "Neptia 数字健康",
           "country": "HEALTHTECH",
           "description": "连接机构、医生、设备与健康数据，以可信数据和智能辅助提升医疗服务可及性。",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1I1KUkpiTsGW_kuyJttGyVQtKXBPF0Uje9w&s"
+          "image": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/service/Fai5PfGagAErOMK.jpeg"
         },
         {
           "title": "全球品牌智慧零售生态",
           "organization": "Neptia · Soptia",
           "country": "GLOBAL RETAIL",
           "description": "以商品、消费者、供应链和渠道数据为核心，驱动品牌全球运营与本地化增长。",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxCpTmfYSSFKqzwWC_luZ9K4_Zr017yESRFw&s"
+          "image": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/service/FKqVv5xagAU24W6.jpeg"
         }
       ]
     },
@@ -1999,38 +1635,38 @@
       "list": [
         {
           "icon": "BarChart2",
-        "title": "航空航天前沿",
-        "description": "追踪航天任务系统、卫星遥感、测控网络与数字孪生的技术演进。",
+          "title": "航空航天前沿",
+          "description": "追踪航天任务系统、卫星遥感、测控网络与数字孪生的技术演进。",
           "color": "from-indigo-500 to-purple-500"
         },
         {
           "icon": "PieChart",
-        "title": "低空经济图谱",
-        "description": "研判低空基础设施、飞行服务、城市应用与商业运营的新范式。",
+          "title": "低空经济图谱",
+          "description": "研判低空基础设施、飞行服务、城市应用与商业运营的新范式。",
           "color": "from-green-400 to-teal-500"
         },
         {
           "icon": "TrendingUp",
-        "title": "深空探索趋势",
-        "description": "关注月球、火星与小行星任务中的科学目标、工程挑战与数据价值。",
+          "title": "深空探索趋势",
+          "description": "关注月球、火星与小行星任务中的科学目标、工程挑战与数据价值。",
           "color": "from-orange-400 to-red-500"
         },
         {
           "icon": "Users",
-        "title": "医疗科技进化",
-        "description": "洞察智慧医疗、生命数据、智能设备与远程协作的融合创新。",
+          "title": "医疗科技进化",
+          "description": "洞察智慧医疗、生命数据、智能设备与远程协作的融合创新。",
           "color": "from-pink-400 to-rose-500"
         },
         {
           "icon": "Globe",
-        "title": "全球零售智能",
-        "description": "解析消费者、商品、供应链与渠道数据驱动的全球品牌增长。",
+          "title": "全球零售智能",
+          "description": "解析消费者、商品、供应链与渠道数据驱动的全球品牌增长。",
           "color": "from-teal-500 to-cyan-500"
         },
         {
           "icon": "Shield",
-        "title": "跨产业技术融合",
-        "description": "探索人工智能、数字孪生与数据基础设施在五大产业间的协同价值。",
+          "title": "跨产业技术融合",
+          "description": "探索人工智能、数字孪生与数据基础设施在五大产业间的协同价值。",
           "color": "from-violet-500 to-purple-500"
         }
       ]

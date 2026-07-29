@@ -34,8 +34,6 @@ export default function Footer() {
 
   return (
     <footer className="relative mt-0 overflow-hidden border-t border-slate-700 bg-slate-950 text-white">
-      <div className="pointer-events-none absolute inset-x-0 -top-20 h-52 bg-[radial-gradient(circle_at_top,rgba(8,145,178,0.22),transparent_65%)]" />
-
       <div className="relative mx-auto max-w-7xl px-4 pb-12 pt-12 sm:px-6 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-12">
           <motion.div
