@@ -19,6 +19,9 @@ import {
   ArrowRight,
   Sparkles,
   Compass,
+  Rocket,
+  Satellite,
+  Database,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
@@ -40,6 +43,9 @@ const iconMap: Record<string, any> = {
   Box,
   BarChart2,
   Users,
+  Rocket,
+  Satellite,
+  Database,
 };
 
 const Service = () => {
@@ -53,7 +59,7 @@ const Service = () => {
 
   const services = serviceData.service.list.map((item: any) => ({
     ...item,
-    icon: iconMap[item.icon],
+    icon: iconMap[item.icon] ?? Cpu,
   }));
 
   const collaborationList = serviceData.collaborate.list as any[];

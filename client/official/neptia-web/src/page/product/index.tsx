@@ -2,18 +2,7 @@ import React, { useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-import { PayPalButtons, PayPalScriptProvider } from "@paypal/react-paypal-js";
 import { ArrowRight, Check, Compass, Sparkles } from "lucide-react";
-
-type CheckoutItem = {
-  amount: string;
-  name: string;
-  price: string;
-};
-
-const PAYPAL_SANDBOX_CLIENT_ID =
-  "AXv7irNWKdSMlCod7_Zl4Qv50tJtjlU8PA4ybAWAwsHcS1ADLjaeZfnP2_lxQAC4kwxSvyCyw0YMrsqI";
-const PAYPAL_CURRENCY = "USD";
 
 const ProductPage: React.FC = () => {
   const { t } = useTranslation();
@@ -22,34 +11,51 @@ const ProductPage: React.FC = () => {
     string,
     any
   >;
+  const servicePortfolio = t("service.service.list", {
+    returnObjects: true,
+  }) as Array<{ name: string; description: string }>;
+  const pillarLabels = t("product.ui.pillars", {
+    returnObjects: true,
+  }) as string[];
+  const portfolioProducts = servicePortfolio.map((item, index) => ({
+    name: item.name,
+    category: pillarLabels[Math.min(Math.floor(index / 3), 4)],
+    features: [item.description],
+    price: t("product.ui.custom"),
+    icon: ["🚀", "✈️", "🪐", "🩺", "🛍️"][Math.min(Math.floor(index / 3), 4)],
+  }));
+  const portfolioPackages = pillarLabels.map((pillar, index) => ({
+    name: pillar,
+    services: servicePortfolio
+      .slice(index * 3, index * 3 + 3)
+      .map((item) => item.name),
+    duration: t("product.ui.projectCycle"),
+    price: t("product.ui.custom"),
+  }));
 
   const allLabel = t("product.ui.all");
   const [filter, setFilter] = useState<string>(allLabel);
-  const [selectedCheckout, setSelectedCheckout] = useState<CheckoutItem | null>(
-    null,
-  );
-  const [paymentStatus, setPaymentStatus] = useState<string>("");
 
   const categories = useMemo<string[]>(
     () => [
       allLabel,
       ...Array.from(
-        new Set<string>(productData.product.list.map((p: any) => p.category)),
+        new Set<string>(portfolioProducts.map((p) => p.category)),
       ),
     ],
-    [allLabel, productData.product.list],
+    [allLabel, portfolioProducts],
   );
 
   const filteredProducts = useMemo(
     () =>
       filter === allLabel
-        ? productData.product.list
-        : productData.product.list.filter((p: any) => p.category === filter),
-    [allLabel, filter, productData.product.list],
+        ? portfolioProducts
+        : portfolioProducts.filter((p) => p.category === filter),
+    [allLabel, filter, portfolioProducts],
   );
 
-  const productCount = productData.product.list.length;
-  const packageCount = productData.package.list.length;
+  const productCount = portfolioProducts.length;
+  const packageCount = portfolioPackages.length;
   const categoryCount = categories.length - 1;
 
   const categoryPalette = [
@@ -77,60 +83,13 @@ const ProductPage: React.FC = () => {
   const topProducts = [
     ...Array.from(
       new Map(
-        productData.product.list.map((item: any) => [item.category, item]),
+        portfolioProducts.map((item) => [item.category, item]),
       ).values(),
     ),
   ].slice(0, 4);
 
-  const parseAmountFromPrice = (price: string) => {
-    const normalized = price.replace(/,/g, "");
-    const matched = normalized.match(/(\d+(\.\d+)?)/);
-    const value = matched ? Number(matched[1]) : 1;
-
-    if (!Number.isFinite(value) || value <= 0) {
-      return "1.00";
-    }
-
-    return value.toFixed(2);
-  };
-
-  const openPayPalCheckout = (name: string, price: string) => {
-    setPaymentStatus("");
-    setSelectedCheckout({
-      amount: parseAmountFromPrice(price),
-      name,
-      price,
-    });
-  };
-
-  const navigateToSuccessPage = (payload: {
-    amount: string;
-    item: string;
-    currency: string;
-    orderId?: string;
-  }) => {
-    const search = new URLSearchParams({
-      item: payload.item,
-      amount: payload.amount,
-      currency: payload.currency,
-      orderId: payload.orderId || "",
-    }).toString();
-
-    navigate(`/home/payment-success?${search}`);
-  };
-
-  const paypalScriptOptions = useMemo(
-    () => ({
-      clientId: PAYPAL_SANDBOX_CLIENT_ID,
-      components: "buttons",
-      currency: PAYPAL_CURRENCY,
-    }),
-    [],
-  );
-
   return (
-    <PayPalScriptProvider options={paypalScriptOptions}>
-      <div className="relative overflow-x-hidden bg-[var(--home-bg)] pb-8 [font-family:var(--font-display)]">
+    <div className="relative overflow-x-hidden bg-[var(--home-bg)] pb-8 [font-family:var(--font-display)]">
         <div className="pointer-events-none absolute inset-x-0 -top-28 h-[26rem] bg-[radial-gradient(circle_at_top,rgba(6,182,212,0.2),transparent_60%)]" />
         <div className="pointer-events-none absolute -left-24 top-48 h-72 w-72 rounded-full bg-cyan-200/50 blur-3xl" />
         <div className="pointer-events-none absolute -right-24 top-80 h-72 w-72 rounded-full bg-blue-200/50 blur-3xl" />
@@ -313,12 +272,6 @@ const ProductPage: React.FC = () => {
                   </div>
                   <div className="flex flex-col items-end gap-2">
                     <button
-                      onClick={() => openPayPalCheckout(p.name, p.price)}
-                      className="rounded-full bg-[#0070BA] px-4 py-2 text-sm font-medium text-white transition hover:bg-[#005ea6]"
-                    >
-                      {t("product.ui.payWithPayPal")}
-                    </button>
-                    <button
                       onClick={() => navigate("/home/contact")}
                       className="rounded-full bg-slate-900 px-4 py-2 text-sm font-medium text-white transition group-hover:bg-cyan-700"
                     >
@@ -347,7 +300,7 @@ const ProductPage: React.FC = () => {
           </motion.div>
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
-            {productData.package.list.map((pkg: any, idx: number) => (
+            {portfolioPackages.map((pkg, idx: number) => (
               <motion.div
                 key={`${pkg.name}-${idx}`}
                 initial={{ opacity: 0, y: 20 }}
@@ -375,14 +328,8 @@ const ProductPage: React.FC = () => {
 
                 <div className="mt-6 grid grid-cols-1 gap-2 sm:grid-cols-2">
                   <button
-                    onClick={() => openPayPalCheckout(pkg.name, pkg.price)}
-                    className="rounded-full bg-[#0070BA] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#005ea6]"
-                  >
-                    {t("product.ui.payWithPayPal")}
-                  </button>
-                  <button
                     onClick={() => navigate("/home/contact")}
-                    className="rounded-full bg-cyan-500 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400"
+                    className="rounded-full bg-cyan-500 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400 sm:col-span-2"
                   >
                     {productData.package.buy}
                   </button>
@@ -417,67 +364,7 @@ const ProductPage: React.FC = () => {
         </div>
       </section>
 
-        {selectedCheckout && (
-          <div className="fixed inset-0 z-[120] flex items-center justify-center bg-slate-950/65 px-4">
-            <div className="w-full max-w-md rounded-2xl bg-white p-5 shadow-2xl">
-              <h3 className="text-lg font-semibold text-slate-900">
-                {t("product.ui.payWithPayPal")}
-              </h3>
-              <p className="mt-2 text-sm text-slate-600">{selectedCheckout.name}</p>
-              <p className="mt-1 text-sm text-slate-500">
-                {t("product.ui.startAt")}: {selectedCheckout.price}
-              </p>
-              <p className="mt-4 rounded-lg bg-cyan-50 px-3 py-2 text-xs text-cyan-700">
-                Sandbox Test Amount: ${selectedCheckout.amount} {PAYPAL_CURRENCY}
-              </p>
-
-              <div className="mt-4">
-                <PayPalButtons
-                  forceReRender={[selectedCheckout.amount, selectedCheckout.name]}
-                  createOrder={(_data, actions) =>
-                    actions.order.create({
-                      intent: "CAPTURE",
-                      purchase_units: [
-                        {
-                          amount: {
-                            currency_code: PAYPAL_CURRENCY,
-                            value: selectedCheckout.amount,
-                          },
-                          description: selectedCheckout.name,
-                        },
-                      ],
-                    })
-                  }
-                  onApprove={async (_data, actions) => {
-                    const captured = await actions.order?.capture();
-                    setSelectedCheckout(null);
-                    navigateToSuccessPage({
-                      amount: selectedCheckout.amount,
-                      item: selectedCheckout.name,
-                      currency: PAYPAL_CURRENCY,
-                      orderId: _data.orderID || captured?.id,
-                    });
-                  }}
-                  onError={() => setPaymentStatus("error")}
-                />
-              </div>
-              {paymentStatus === "error" && (
-                <p className="mt-3 rounded-lg bg-rose-50 px-3 py-2 text-sm text-rose-700">
-                  PayPal payment failed. Please retry.
-                </p>
-              )}
-
-              <button
-                onClick={() => setSelectedCheckout(null)}
-                className="mt-4 w-full rounded-lg border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-50"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        )}
-      </div>
-    </PayPalScriptProvider>
+    </div>
   );
 };
 
