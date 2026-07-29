@@ -13,243 +13,237 @@
     "contact": "联系我们",
     "brand": "Neptia",
     "insight": "洞见",
-    "tagline": "Global Expansion Studio",
+    "tagline": "Future Industry Technology",
     "cta": "免费咨询"
   },
   "index": {
     "hero": {
-      "title": "赋能您的全球业务拓展",
-      "subtitle": "开放包容  携手全球  共建未来",
-      "description": "Neptia 提供跨境出海全流程技术与信息服务 从支付、物流到电商落地，以及海外品牌推广中国市场，助力企业高效拓展全球业务，实现无缝连接。",
+      "title": "探索天空之上，重塑地面生活",
+      "subtitle": "航空航天 · 低空经济 · 深空探索 · 医疗科技 · 全球零售",
+      "description": "Neptia 由 CEO 曾志远领衔，以核心自研技术连接天空、深空与真实世界，构建从航天任务系统、低空智能网络到医疗数字化与全球零售生态的未来产业矩阵。",
       "cta": {
         "startNow": "立即开始",
         "learnMore": "了解更多"
       }
     },
     "service": {
-      "title": "我们的服务",
-      "description": "全方位企业服务解决方案",
+      "title": "五大核心业务",
+      "description": "以自主技术为引擎，构建空、天、地一体化的产业能力",
       "list": [
         {
-          "icon": "Building2",
-          "name": "公司执照信息",
-          "color": "from-blue-500 to-cyan-500"
+          "icon": "Rocket",
+          "name": "航天任务智能系统",
+          "color": "from-sky-500 to-blue-700"
         },
         {
-          "icon": "FileText",
-          "name": "签证政策资讯",
-          "color": "from-purple-500 to-pink-500"
+          "icon": "Satellite",
+          "name": "卫星遥感与测控",
+          "color": "from-cyan-500 to-sky-700"
         },
         {
-          "icon": "Users",
-          "name": "考察选址建议",
-          "color": "from-orange-500 to-red-500"
+          "icon": "RadioTower",
+          "name": "低空智能基础设施",
+          "color": "from-emerald-500 to-cyan-600"
         },
         {
-          "icon": "Scale",
-          "name": "税务行政信息",
-          "color": "from-green-500 to-emerald-500"
+          "icon": "Activity",
+          "name": "低空飞行运营平台",
+          "color": "from-teal-500 to-emerald-700"
         },
         {
-          "icon": "TrendingUp",
-          "name": "日常财税数据",
-          "color": "from-indigo-500 to-blue-500"
+          "icon": "Orbit",
+          "name": "深空任务规划",
+          "color": "from-indigo-500 to-violet-800"
         },
         {
-          "icon": "Globe",
-          "name": "税务筹划与合规",
-          "color": "from-teal-500 to-cyan-500"
+          "icon": "Database",
+          "name": "深空科学数据平台",
+          "color": "from-violet-500 to-purple-800"
         },
         {
-          "icon": "Users",
-          "name": "人事管理方案",
-          "color": "from-pink-500 to-rose-500"
+          "icon": "Heart",
+          "name": "智慧医疗与生命数据",
+          "color": "from-rose-500 to-pink-700"
         },
         {
-          "icon": "Shield",
-          "name": "知识产权信息",
-          "color": "from-violet-500 to-purple-500"
+          "icon": "Cpu",
+          "name": "医疗设备智能化",
+          "color": "from-pink-500 to-rose-700"
         },
         {
-          "icon": "Scale",
-          "name": "法务信息汇总",
-          "color": "from-amber-500 to-orange-500"
+          "icon": "ShoppingCart",
+          "name": "全球智慧零售",
+          "color": "from-orange-500 to-amber-700"
         },
         {
-          "icon": "FileText",
-          "name": "进出口许可证资讯",
-          "color": "from-lime-500 to-green-500"
-        },
-        {
-          "icon": "Award",
-          "name": "产品认证指南",
-          "color": "from-cyan-500 to-blue-500"
-        },
-        {
-          "icon": "Building2",
-          "name": "建筑工程合规信息",
-          "color": "from-red-500 to-pink-500"
-        },
-        {
-          "icon": "CheckCircle2",
-          "name": "SIRIM / 国际认证",
-          "color": "from-emerald-500 to-teal-500"
-        },
-        {
-          "icon": "Award",
-          "name": "清真认证指南",
-          "color": "from-fuchsia-500 to-purple-500"
-        },
-        {
-          "icon": "Shield",
-          "name": "ISO / 国际标准",
-          "color": "from-sky-500 to-indigo-500"
-        },
-        {
-          "icon": "Server",
-          "name": "企业邮箱配置",
-          "color": "from-blue-400 to-indigo-500"
-        },
-        {
-          "icon": "Layout",
-          "name": "独立站建设",
-          "color": "from-green-400 to-teal-500"
-        },
-        {
-          "icon": "CreditCard",
-          "name": "Stripe 支付集成",
-          "color": "from-purple-400 to-pink-500"
-        },
-        {
-          "icon": "Package",
-          "name": "不同国家供应链信息",
-          "color": "from-orange-400 to-red-500"
-        },
-        {
-          "icon": "Globe",
-          "name": "国际物流与清关资讯",
-          "color": "from-teal-400 to-cyan-500"
+          "icon": "BarChart2",
+          "name": "零售数据与品牌增长",
+          "color": "from-amber-500 to-orange-700"
         }
       ]
     },
     "feature": {
-      "title": "我们的优势",
-      "subtitle": "企业选择我们服务的理由",
+      "title": "面向未来的硬核能力",
+      "subtitle": "从底层技术研发到产业规模化落地",
       "list": [
         {
           "icon": "CheckCircle2",
-          "title": "专业团队",
-          "description": "资深顾问提供一对一服务",
+          "title": "核心自主研发",
+          "description": "关键平台、算法与数据能力自主构建",
           "color": "from-green-400 to-teal-500"
         },
         {
           "icon": "TrendingUp",
-          "title": "高效办理",
-          "description": "快速响应，流程透明",
+          "title": "空天地协同",
+          "description": "贯通航天器、低空网络与地面应用",
           "color": "from-teal-400 to-cyan-500"
         },
         {
           "icon": "Shield",
-          "title": "安全保障",
-          "description": "信息保密，合规操作",
+          "title": "高可靠架构",
+          "description": "面向任务关键场景打造稳定可信系统",
           "color": "from-teal-400 to-cyan-500"
         },
         {
           "icon": "Globe",
-          "title": "全程跟踪",
-          "description": "实时更新进度，随时沟通",
+          "title": "全球产业落地",
+          "description": "让前沿技术形成可持续商业价值",
           "color": "from-teal-400 to-cyan-500"
         }
       ]
     },
-    "case": {
-      "title": "以技术为基建，以品牌为桥梁。我们赋能行业增长，同时运营自有零售品牌 Soptia，共同打造可持续发展的全球生态。",
+    "aerospace": {
+      "eyebrow": "CORE BUSINESS · IN-HOUSE R&D",
+      "title": "航空航天与深空探索，是 Neptia 的核心自研方向",
+      "description": "由 CEO 曾志远领衔，Neptia 聚焦航天软件、任务数据智能与地面应用系统的自主研发，把关键技术能力贯穿任务设计、飞行测控、遥感处理与深空科学应用全链路。",
+      "highlights": ["主营核心业务", "自主研发", "CEO 曾志远领衔"],
       "list": [
         {
-          "title": "Soptia 全球零售出海中东",
-          "description": "通过本地化运营和数字化管理，助力澳大利亚 Soptia 成功进入中东市场。",
+          "icon": "Orbit",
+          "title": "深空任务规划平台",
+          "description": "例如：为月球、火星及小行星探测任务提供轨迹方案管理、任务窗口分析、载荷计划编排与多团队协同工作台。",
+          "capabilities": ["轨迹方案管理", "任务窗口分析", "载荷计划"]
+        },
+        {
+          "icon": "Rocket",
+          "title": "火箭遥测与飞行诊断",
+          "description": "例如：实时接入姿态、速度、温度与推进系统遥测数据，自动识别异常趋势，并通过飞行态势大屏辅助工程团队快速研判。",
+          "capabilities": ["实时遥测", "异常识别", "飞行态势"]
+        },
+        {
+          "icon": "Satellite",
+          "title": "卫星遥感智能处理",
+          "description": "例如：对多光谱与高分辨率影像进行校正、拼接、目标识别和变化检测，服务农业监测、灾害评估及环境观测。",
+          "capabilities": ["遥感影像处理", "目标识别", "变化检测"]
+        },
+        {
+          "icon": "RadioTower",
+          "title": "地面站与测控系统",
+          "description": "例如：统一管理天线资源、测控计划、指令上下行和任务日志，为多星、多站协同运行提供自动化调度能力。",
+          "capabilities": ["测控调度", "指令管理", "多站协同"]
+        },
+        {
+          "icon": "Telescope",
+          "title": "深空科学数据平台",
+          "description": "例如：沉淀探测器与科学载荷数据，建立可检索、可追溯的数据资产目录，支持科研人员开展跨任务联合分析。",
+          "capabilities": ["科学数据治理", "资产目录", "联合分析"]
+        },
+        {
+          "icon": "Cpu",
+          "title": "航天器数字孪生",
+          "description": "例如：在数字环境中复现航天器关键系统状态，开展任务推演、故障注入和在轨运维仿真，降低试验与决策成本。",
+          "capabilities": ["任务推演", "故障仿真", "在轨运维"]
+        }
+      ]
+    },
+    "case": {
+      "title": "从航天探索到生命健康，从低空网络到全球消费，Neptia 让前沿科技进入每一个真实场景。",
+      "list": [
+        {
+          "title": "Neptia 深空任务智能平台",
+          "description": "以自主研发的任务规划、遥测分析与数字孪生能力，构建面向月球、火星及小行星探索的深空任务智能基础设施。",
           "cover": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/index/01.jpg"
         },
         {
-          "title": "Neptia 助力加拿大医疗器械数字化转型",
-          "description": "为加拿大企业提供数字化解决方案，实现业务流程优化与数据驱动增长。",
+          "title": "Neptia 构建低空经济数字底座",
+          "description": "融合低空数字孪生、航路规划、飞行监视与智能调度，为城市物流、巡检及应急救援提供一体化运行能力。",
           "cover": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/index/02.jpg"
         },
         {
-          "title": "Neptia 为英国政府提供数字化服务",
-          "description": "助力英国政府机构实现服务数字化、流程智能化与信息高效流通。",
+          "title": "Soptia 全球智慧零售网络",
+          "description": "以消费者洞察、智能选品、全球履约与本地化运营，推动 Neptia 自有零售品牌 Soptia 连接多元消费市场。",
           "cover": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/index/03.jpg"
         }
       ]
     },
     "evaluate": {
-      "title": "全球客户见证",
-      "subtitle": "来自世界各地的企业分享",
+      "title": "全球产业伙伴见证",
+      "subtitle": "前沿科技正在世界各地转化为真实产业价值",
       "list": [
         {
           "name": "Alexander Schmidt",
           "position": "CEO",
-          "company": "Berlin Tech Solutions GmbH",
+          "company": "Berlin Orbital Systems GmbH",
           "country": "德国",
           "flag": "🇩🇪",
-          "description": "Neptia在德国公司设立和GmbH注册方面展现了卓越的专业知识。他们的双语团队在税务优化和欧盟合规方面为我们节省了大量时间和成本，使我们能快速进入欧洲市场。",
+          "description": "Neptia 的航天任务智能中枢把遥测、飞行态势与异常诊断汇聚到统一平台，让工程团队能够更快理解任务状态，并以数据驱动关键决策。",
           "rating": 4,
-          "service": "德国公司注册 + 欧盟合规",
+          "service": "航天任务系统 + 遥测智能",
           "duration": "合作2年"
         },
         {
           "name": "Sophia Müller",
           "position": "International Business Director",
-          "company": "Munich Automotive Innovations",
+          "company": "Munich Urban Air Mobility",
           "country": "德国",
           "flag": "🇩🇪",
-          "description": "我们的电动汽车部件需要欧盟CE认证和德国TÜV认证。Neptia团队不仅高效完成了所有认证，还为我们制定了进入欧洲市场的完整策略，现在我们的产品已进入5个欧盟国家。",
+          "description": "通过 Neptia 的低空数字孪生与飞行运营平台，我们能够在同一视图中完成航路推演、容量评估和动态风险预警，为规模化低空运营建立数字基础。",
           "rating": 5,
-          "service": "CE认证 + TÜV认证 + 市场策略",
+          "service": "低空数字孪生 + 飞行运营",
           "duration": "合作18个月"
         },
         {
           "name": "Oliver Johnson",
-          "position": "Managing Partner",
-          "company": "London FinTech Group",
+          "position": "Mission Programme Director",
+          "company": "London Deep Space Research",
           "country": "英国",
           "flag": "🇬🇧",
-          "description": "FCA牌照申请过程极其复杂，但Neptia的专家团队全程指导，确保我们完全符合英国金融监管要求。从申请到获批仅用了4个月，远超我们的预期。",
+          "description": "Neptia 将任务窗口、轨迹方案、载荷计划与科学数据资产连接起来，显著提升了跨学科团队开展深空任务协同设计与联合分析的效率。",
           "rating": 5,
-          "service": "FCA金融牌照申请",
+          "service": "深空任务设计 + 科学数据平台",
           "duration": "合作2年"
         },
         {
           "name": "Charlotte Williams",
           "position": "Product Director",
-          "company": "Cambridge Biotech Ltd",
+          "company": "Cambridge Digital Health Lab",
           "country": "英国",
           "flag": "🇬🇧",
-          "description": "MHRA医疗器械注册和UKCA认证对时间要求很高。Neptia不仅提前完成所有认证，还为我们制定了英国与欧盟双轨合规策略，现在我们的产品同时在英欧市场销售。",
+          "description": "Neptia 帮助我们连接诊疗、影像与设备数据，并建立可信的数据协作流程，让临床团队和科研人员能够更高效地开展智能辅助研究。",
           "rating": 3,
-          "service": "MHRA注册 + UKCA认证",
+          "service": "智慧医疗数据 + 临床智能",
           "duration": "合作15个月"
         },
         {
           "name": "James Anderson",
           "position": "Founder & CEO",
-          "company": "Silicon Valley AI Labs",
+          "company": "Silicon Valley Space Robotics",
           "country": "美国",
           "flag": "🇺🇸",
-          "description": "Delaware C-Corp设立和专利策略制定是我们在美扩张的关键。Neptia的专家不仅处理了公司注册，还帮我们制定了完善的IP保护方案，确保我们的核心技术在美国市场得到充分保护。",
+          "description": "航天器数字孪生让我们能够在任务执行前进行系统级推演、故障注入与健康预测，把复杂在轨运维转化为可观察、可验证的工程过程。",
           "rating": 5,
-          "service": "美国公司设立 + 知识产权保护",
+          "service": "航天器数字孪生 + 在轨运维",
           "duration": "合作3年"
         },
         {
           "name": "Emma Thompson",
-          "position": "CFO",
-          "company": "Boston Medical Devices Inc",
+          "position": "Global Operations Director",
+          "company": "Boston Future Retail Inc",
           "country": "美国",
           "flag": "🇺🇸",
-          "description": "FDA 510(k)认证过程复杂且耗时，但Neptia团队的专业指导让我们少走了很多弯路。他们不仅处理了认证，还为我们提供了美国医保系统(Medicare)的准入策略。",
+          "description": "Neptia 的全球智慧零售平台统一了商品、库存、消费者与渠道数据，使我们能够快速洞察区域需求，并在多个市场保持一致而灵活的品牌体验。",
           "rating": 5,
-          "service": "FDA认证 + 医保系统准入",
+          "service": "智慧零售 + 全球履约",
           "duration": "合作2年半"
         },
         {
@@ -453,27 +447,27 @@
       ]
     },
     "cta": {
-      "title": "开启您的全球业务新篇章",
-      "subtitle": "与全球领先的跨境合规专家一起，安全、高效地拓展国际市场",
+      "title": "共同定义未来产业新边界",
+      "subtitle": "让航空航天、低空经济、深空探索、医疗科技与全球零售的宏大构想成为现实",
       "button": "获取免费战略咨询"
     },
     "ui": {
-      "partner": "全球拓展合作伙伴",
+      "partner": "未来产业技术伙伴",
       "explore": "查看更多"
     },
     "metrics": {
-      "countries": "覆盖国家",
-      "rating": "平均评分"
+      "countries": "全球产业网络",
+      "rating": "伙伴满意度"
     }
   },
   "product": {
     "hero": {
-      "title": "Neptia 产品与价格",
-      "description": "提供跨境出海全流程服务，从企业注册、合规、支付、物流到品牌出海方案，满足不同规模企业需求。",
+      "title": "Neptia 未来产业产品矩阵",
+      "description": "面向航空航天、低空经济、深空探索、医疗科技与全球零售，提供可组合、可扩展、可规模化的核心技术平台。",
       "contact": "获取免费咨询"
     },
     "category": {
-      "title": "按类别浏览产品"
+      "title": "按未来产业方向浏览"
     },
     "product": {
       "list": [
@@ -1388,8 +1382,8 @@
       "contact": "立即咨询"
     },
     "package": {
-      "title": "套餐与价格",
-      "warn": "交付周期",
+      "title": "五大产业旗舰方案",
+      "warn": "项目周期",
       "list": [
         {
           "name": "初创出海基础包",
@@ -1678,25 +1672,28 @@
           "price": "面议"
         }
       ],
-      "buy": "立即订购"
+      "buy": "洽谈合作"
     },
     "cta": {
-      "title": "开启您的全球业务新篇章",
-      "description": "与 Neptia 一起，高效、合规、安全地拓展国际市场",
+      "title": "让未来产业从蓝图走向现实",
+      "description": "与 Neptia 共建核心平台、旗舰场景与可持续产业生态",
       "contact": "获取免费战略咨询"
     },
     "ui": {
       "all": "全部",
-      "catalog": "全球服务目录",
-      "explore": "查看产品目录",
-      "services": "服务项目",
-      "packages": "套餐数量",
-      "categories": "服务类别",
+      "catalog": "未来产业产品矩阵",
+      "explore": "查看核心产品",
+      "services": "核心产品",
+      "packages": "产业方案",
+      "categories": "产业方向",
       "filtered": "筛选结果",
-      "hint": "可按业务阶段或行业快速筛选，先选方向，再让我们给你最优方案。",
+      "hint": "五大产业方向、十五项核心产品，以自主技术支撑从概念验证到规模化运营。",
       "filterDesc": "当前筛选结果：{{count}} 项",
-      "startAt": "起始价格",
-      "packageDesc": "标准套餐可快速启动，复杂需求支持定制化组合交付。",
+      "startAt": "合作方式",
+      "packageDesc": "围绕产业目标组合核心产品，形成从底层技术到场景运营的一体化方案。",
+      "custom": "战略合作定制",
+      "projectCycle": "按项目目标规划",
+      "pillars": ["航空航天", "低空经济", "深空探索", "医疗科技", "全球零售"],
       "payWithPayPal": "PayPal 支付"
     }
   },
@@ -1720,159 +1717,138 @@
   },
   "service": {
     "hero": {
-      "title": "Neptia 服务",
-      "description": "Neptia 致力于为全球中小企业提供全方位、跨行业的企业信息与软件服务，覆盖计算机、医疗、零售、企业服务、税务、金融、教育及供应链等多个领域，帮助企业实现高效、数字化和全球化发展。"
+      "title": "Neptia 未来产业能力",
+      "description": "由 CEO 曾志远领衔，Neptia 围绕航空航天、低空经济、深空探索、医疗科技与全球零售五大产业方向，以自主研发的平台、算法和数据智能推动未来技术规模化落地。"
     },
     "service": {
-      "title": "我们的服务领域",
-      "description": " Neptia 提供跨行业、跨境的专业解决方案，支持企业全球化和数字化转型。",
+      "title": "未来产业解决方案矩阵",
+      "description": "围绕航空航天、低空经济、深空探索、医疗科技与全球零售五大方向，Neptia 提供从核心研发、平台建设到产业运营的一体化能力。",
       "list": [
         {
+          "icon": "Rocket",
+          "name": "航天任务智能中枢",
+          "description": "面向运载火箭与航天器，构建任务规划、遥测处理、异常诊断和飞行态势感知的一体化指挥平台"
+        },
+        {
+          "icon": "Satellite",
+          "name": "卫星遥感智能引擎",
+          "description": "融合多光谱、高分辨率与时序影像，实现智能解译、目标识别、变化检测与行业决策"
+        },
+        {
           "icon": "Server",
-          "name": "计算机与IT服务",
-          "description": "软件开发、系统集成、云服务解决方案、AI与大数据应用"
-        },
-        {
-          "icon": "Cpu",
-          "name": "硬件与网络解决方案",
-          "description": "服务器部署、网络架构设计及维护"
-        },
-        {
-          "icon": "Heart",
-          "name": "医疗健康服务",
-          "description": "远程医疗、医疗信息化、健康数据管理、医疗设备支持"
-        },
-        {
-          "icon": "BookOpen",
-          "name": "教育与培训",
-          "description": "在线教育平台、跨境培训课程、企业培训计划"
-        },
-        {
-          "icon": "ShoppingCart",
-          "name": "零售与电商服务",
-          "description": "跨境电商、供应链管理、独立站建设、市场分析"
-        },
-        {
-          "icon": "Building2",
-          "name": "企业服务",
-          "description": "公司注册、税务咨询、人事管理、法务与合规支持"
-        },
-        {
-          "icon": "FileText",
-          "name": "税务与财务服务",
-          "description": "税务筹划、财务报表、审计、合规咨询、融资方案"
-        },
-        {
-          "icon": "CreditCard",
-          "name": "金融与支付服务",
-          "description": "支付集成、企业融资、跨境结算、数字货币咨询"
-        },
-        {
-          "icon": "Shield",
-          "name": "知识产权与认证",
-          "description": "商标注册、专利申请、产品认证、国际标准认证"
-        },
-        {
-          "icon": "CheckCircle2",
-          "name": "创新与战略咨询",
-          "description": "行业分析、数字化转型、商业策略及企业创新规划"
-        },
-        {
-          "icon": "Globe",
-          "name": "国际市场与物流",
-          "description": "跨境物流、国际市场研究、清关方案、供应链优化"
+          "name": "地面站与测控网络",
+          "description": "统一编排天线、测控计划、指令链路与任务日志，支撑多星多站协同和自动化运行"
         },
         {
           "icon": "Activity",
-          "name": "行业培训与支持",
-          "description": "专业培训、工作坊、企业数字化转型支持"
+          "name": "低空飞行服务平台",
+          "description": "为无人机与电动垂直起降航空器提供航路规划、动态空域、飞行监视和运营调度"
         },
         {
-          "icon": "Box",
-          "name": "供应链管理",
-          "description": "全球供应链搭建、仓储物流优化、库存管理方案"
+          "icon": "Cpu",
+          "name": "低空数字孪生",
+          "description": "实时映射城市低空环境、飞行器和基础设施，支持容量推演、风险预警与应急指挥"
+        },
+        {
+          "icon": "Globe",
+          "name": "低空产业运营",
+          "description": "赋能物流配送、城市巡检、应急救援、文旅观光等场景，形成可复制的低空商业网络"
+        },
+        {
+          "icon": "Rocket",
+          "name": "深空任务设计",
+          "description": "面向月球、火星及小行星探测，提供任务窗口分析、轨迹方案管理、载荷编排与协同推演"
+        },
+        {
+          "icon": "Database",
+          "name": "深空科学数据基础设施",
+          "description": "建设跨任务、跨载荷的科学数据湖与知识图谱，让珍贵探测数据可发现、可追溯、可计算"
+        },
+        {
+          "icon": "Cpu",
+          "name": "航天器数字孪生",
+          "description": "复现航天器关键系统状态，支持任务推演、故障注入、健康预测与在轨智能运维"
+        },
+        {
+          "icon": "Activity",
+          "name": "智慧医疗数据平台",
+          "description": "打通诊疗、影像、设备与健康数据，构建面向机构和科研的可信医疗数据底座"
+        },
+        {
+          "icon": "Heart",
+          "name": "远程医疗与智能辅助",
+          "description": "以远程协作、AI 辅助分析和连续健康管理，延伸优质医疗资源的服务半径"
+        },
+        {
+          "icon": "Cpu",
+          "name": "医疗设备智能化",
+          "description": "提供设备连接、边缘计算、状态监测与预测性维护，让医疗装备更智能、更可靠"
+        },
+        {
+          "icon": "ShoppingCart",
+          "name": "全球智慧零售平台",
+          "description": "统一商品、订单、库存、会员与渠道运营，支撑品牌在多国家、多市场规模化增长"
         },
         {
           "icon": "BarChart2",
-          "name": "数据分析与BI",
-          "description": "企业数据分析、商业智能报表、决策支持系统"
+          "name": "零售智能决策",
+          "description": "以需求预测、智能选品、动态定价和消费者洞察驱动商品效率与经营增长"
         },
         {
-          "icon": "Award",
-          "name": "创新与研发",
-          "description": "新技术研发、产品创新、跨境创新项目咨询"
+          "icon": "Box",
+          "name": "全球履约与品牌生态",
+          "description": "连接供应链、仓配网络与本地化运营，并以 Soptia 等品牌实践验证全球零售能力"
         }
       ]
     },
     "collaborate": {
-      "title": "全球企业与高校合作案例",
-      "description": "我们与全球顶尖企业和高校合作，推动多元文化交流与跨境业务创新。",
+      "title": "五大产业旗舰场景",
+      "description": "以核心自研平台贯穿天空、深空、生命健康与全球消费，形成可持续进化的产业生态。",
       "list": [
         {
-          "title": "跨境电商优化项目",
-          "organization": "Harvard University",
-          "country": "USA",
-          "description": "与全球高校学生合作优化电商供应链系统，提高物流效率30%",
+          "title": "空天地一体化任务运营",
+          "organization": "Neptia 核心自研",
+          "country": "AEROSPACE",
+          "description": "贯通航天器、卫星、地面站与任务中心，实现从任务设计到在轨运营的全链路智能协同。",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST-vPR7T_rUhWaKMfhZMccvV2f8tv2r9X8XQ&s"
         },
         {
-          "title": "企业数字化转型咨询",
-          "organization": "Siemens",
-          "country": "Germany",
-          "description": "为大型企业提供定制化数字化解决方案，提升生产自动化水平",
+          "title": "城市低空智能运行网络",
+          "organization": "Neptia 核心自研",
+          "country": "LOW ALTITUDE",
+          "description": "融合空域数字孪生、飞行服务与运营调度，支撑物流、巡检、救援和文旅等规模化场景。",
           "image": "https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=800&q=80"
         },
         {
-          "title": "跨文化教育交流平台",
-          "organization": "University of Melbourne",
-          "country": "Australia",
-          "description": "与全球高校联合搭建在线教育平台，推动多元文化交流与教育创新",
+          "title": "深空科学智能基础设施",
+          "organization": "Neptia 核心自研",
+          "country": "DEEP SPACE",
+          "description": "面向月球、火星与小行星探索，连接任务规划、科学数据治理和跨任务联合分析。",
           "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80"
         },
         {
-          "title": "国际金融支付整合",
-          "organization": "HSBC",
-          "country": "UK",
-          "description": "为跨境企业提供支付系统整合，优化国际结算流程",
+          "title": "智慧医疗协同网络",
+          "organization": "Neptia 数字健康",
+          "country": "HEALTHTECH",
+          "description": "连接机构、医生、设备与健康数据，以可信数据和智能辅助提升医疗服务可及性。",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1I1KUkpiTsGW_kuyJttGyVQtKXBPF0Uje9w&s"
         },
         {
-          "title": "乡村数字支付扶贫项目",
-          "organization": "World Bank",
-          "country": "Kenya",
-          "description": "通过数字支付系统帮助偏远地区农民获得金融服务，改善生活质量",
+          "title": "全球品牌智慧零售生态",
+          "organization": "Neptia · Soptia",
+          "country": "GLOBAL RETAIL",
+          "description": "以商品、消费者、供应链和渠道数据为核心，驱动品牌全球运营与本地化增长。",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxCpTmfYSSFKqzwWC_luZ9K4_Zr017yESRFw&s"
-        },
-        {
-          "title": "偏远地区医疗信息化",
-          "organization": "Médecins Sans Frontières",
-          "country": "India",
-          "description": "在山村地区搭建远程医疗系统，为偏远居民提供健康服务",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtCEg41pvL5JhRzpYFpL7lZ_j81d2VMRO1oA&s"
-        },
-        {
-          "title": "跨国环保教育项目",
-          "organization": "Stanford University",
-          "country": "USA",
-          "description": "联合多国高校开展环境保护教育与可持续发展项目",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7L-QIlYQ7wG_HJGWYHxD76eDjjpeLD6Xd-Q&s"
-        },
-        {
-          "title": "中小企业跨境融资",
-          "organization": "HSBC",
-          "country": "Singapore",
-          "description": "为亚太地区中小企业提供跨境融资与支付解决方案，支持国际化发展",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxiISiPCR0DWuQ1YbhSWvEW4bGLjvLziqI7A&s"
         }
       ]
     },
     "ui": {
-      "tag": "全球行业服务网络",
+      "tag": "未来产业 · 核心自研",
       "cta": "获取专属方案",
       "explore": "查看服务领域",
-      "hint": "从合规、技术到增长策略，我们提供可执行、可落地的跨境服务闭环。",
-      "bottomTitle": "让服务成为你的全球增长引擎",
-      "bottomDesc": "告诉我们你的阶段、行业和目标市场，我们会给出清晰可执行的服务路径。",
+      "hint": "五大产业方向、十五项核心能力，由技术平台贯通研发、数据与规模化运营。",
+      "bottomTitle": "与 Neptia 共建下一个未来产业标杆",
+      "bottomDesc": "从概念验证到平台建设与规模化运营，我们以自主技术和产业能力推动宏大愿景落地。",
       "metrics": {
         "areas": "服务领域",
         "cases": "合作案例",
@@ -1888,7 +1864,7 @@
       "p2": "开放包容",
       "p3": "携手全球",
       "p4": "共建未来",
-      "p5": "的理念，汇聚多元文化与全球人才，致力于为中小企业提供跨境信息与软件服务。"
+      "p5": "的理念，汇聚全球科技人才，致力于打造航空航天、低空经济、深空探索、医疗科技与全球零售的核心技术平台。"
     },
     "value": {
       "title": "我们的价值观",
@@ -1907,7 +1883,7 @@
         {
           "icon": "Shield",
           "title": "安全可靠",
-          "description": "保障信息安全与业务合规，建立信任基础。"
+          "description": "以任务级可靠性与数据安全建立长期信任。"
         },
         {
           "icon": "Building2",
@@ -1928,48 +1904,48 @@
     },
     "team": {
       "title": "全球团队",
-      "description": "我们的团队汇聚来自不同国家和文化背景的专家，致力于提供全球化、高效、专业的企业服务。",
+      "description": "我们的团队汇聚航天工程、人工智能、生命科学与全球零售领域人才，共同研发面向未来产业的关键平台。",
       "list": [
         {
           "name": "Kenny",
           "position": "软件架构师",
           "country": "美国",
-          "expertise": "跨境软件与信息服务",
+          "expertise": "航天任务软件与系统架构",
           "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/01.jpg"
         },
         {
           "name": "Lina",
           "position": "技术顾问",
           "country": "加拿大",
-          "expertise": "云计算与企业系统",
+          "expertise": "低空数字孪生与云平台",
           "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/02.jpg"
         },
         {
           "name": "Akira",
           "position": "市场策略",
           "country": "英国",
-          "expertise": "国际市场拓展",
+          "expertise": "深空任务与产业战略",
           "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/03.jpg"
         },
         {
           "name": "Maria",
           "position": "法律顾问",
           "country": "澳大利亚",
-          "expertise": "跨境法务与合规",
+          "expertise": "智慧医疗与生命数据",
           "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/04.jpg"
         },
         {
           "name": "David",
           "position": "运营总监",
           "country": "法国",
-          "expertise": "项目管理与运营",
+          "expertise": "全球零售与品牌运营",
           "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/05.jpg"
         },
         {
           "name": "Sophia",
           "position": "跨境商标顾问",
           "country": "美国",
-          "expertise": "知识产权跨境",
+          "expertise": "低空场景与生态运营",
           "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/06.jpg"
         }
       ]
@@ -1991,7 +1967,7 @@
           "image": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/08.jpg"
         },
         {
-          "title": "线上跨境工作坊",
+          "title": "未来产业技术工作坊",
           "image": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/07.jpg"
         }
       ]
@@ -1999,7 +1975,7 @@
     "ui": {
       "tag": "关于我们的全球故事",
       "cta": "与我们聊聊",
-      "hint": "我们不仅提供服务，更提供长期可信赖的跨境增长伙伴关系。",
+      "hint": "我们不仅研发技术，更与伙伴共同构建长期演进的未来产业生态。",
       "bottomTitle": "你的全球增长，不该是孤军作战",
       "bottomDesc": "从第一步策略到长期落地执行，Neptia 团队会和你一起把复杂问题变简单。",
       "metrics": {
@@ -2012,64 +1988,64 @@
   },
   "insight": {
     "hero": {
-      "title": "企业洞察与分析",
-      "description": "用数据驱动决策，帮助企业快速掌握市场脉搏",
+      "title": "未来产业洞察",
+      "description": "洞察航空航天、低空经济、深空探索、医疗科技与全球零售的技术跃迁",
       "contact": "立即咨询",
       "detail": "查看详情"
     },
     "insight": {
-      "title": "核心洞察",
-      "description": "提供全方位企业分析，帮助您做出明智决策",
+      "title": "五大产业前沿",
+      "description": "以技术、数据与产业视角研判未来发展方向",
       "list": [
         {
           "icon": "BarChart2",
-          "title": "市场趋势分析",
-          "description": "通过数据洞察行业发展趋势，发现潜在机会。",
+        "title": "航空航天前沿",
+        "description": "追踪航天任务系统、卫星遥感、测控网络与数字孪生的技术演进。",
           "color": "from-indigo-500 to-purple-500"
         },
         {
           "icon": "PieChart",
-          "title": "用户行为研究",
-          "description": "分析用户行为数据，优化产品与服务体验。",
+        "title": "低空经济图谱",
+        "description": "研判低空基础设施、飞行服务、城市应用与商业运营的新范式。",
           "color": "from-green-400 to-teal-500"
         },
         {
           "icon": "TrendingUp",
-          "title": "投资与增长",
-          "description": "评估投资风险与潜力，帮助企业稳健增长。",
+        "title": "深空探索趋势",
+        "description": "关注月球、火星与小行星任务中的科学目标、工程挑战与数据价值。",
           "color": "from-orange-400 to-red-500"
         },
         {
           "icon": "Users",
-          "title": "团队与组织",
-          "description": "优化组织结构，提高团队协作效率。",
+        "title": "医疗科技进化",
+        "description": "洞察智慧医疗、生命数据、智能设备与远程协作的融合创新。",
           "color": "from-pink-400 to-rose-500"
         },
         {
           "icon": "Globe",
-          "title": "全球市场",
-          "description": "跟踪国际市场动态，把握跨境商机。",
+        "title": "全球零售智能",
+        "description": "解析消费者、商品、供应链与渠道数据驱动的全球品牌增长。",
           "color": "from-teal-500 to-cyan-500"
         },
         {
           "icon": "Shield",
-          "title": "风险与合规",
-          "description": "确保运营合规，规避潜在风险。",
+        "title": "跨产业技术融合",
+        "description": "探索人工智能、数字孪生与数据基础设施在五大产业间的协同价值。",
           "color": "from-violet-500 to-purple-500"
         }
       ]
     },
     "cta": {
-      "title": "想深入了解企业洞察？",
-      "description": "立即联系我们，获取专业分析报告",
+      "title": "想深入了解未来产业？",
+      "description": "联系我们，共同研判技术方向与旗舰应用场景",
       "contact": "联系我们"
     },
     "ui": {
-      "tag": "数据驱动的增长洞察",
+      "tag": "面向未来的产业情报",
       "explore": "查看核心洞察",
       "hint": "把碎片化信息转化为可执行策略，让团队在复杂市场中更快做对决策。",
-      "bottomTitle": "让洞察真正变成业务增长",
-      "bottomDesc": "我们提供从数据分析到行动建议的完整闭环，帮助你持续验证和迭代增长路径。",
+      "bottomTitle": "让产业洞察驱动技术跃迁",
+      "bottomDesc": "从趋势研判到技术路线和场景验证，Neptia 让前沿洞察转化为可执行的产业行动。",
       "metrics": {
         "dimensions": "洞察维度",
         "modules": "分析模块",
@@ -2081,7 +2057,7 @@
   "contact": {
     "hero": {
       "title": "联系我们",
-      "description": "我们随时准备为您提供专业的企业服务"
+      "description": "与 Neptia 探讨航空航天、低空经济、深空探索、医疗科技与全球零售合作"
     },
     "info": {
       "title": "联系信息",
@@ -2116,17 +2092,17 @@
       "hint": "我们通常在 24 小时内响应，并由对应行业顾问直接跟进。",
       "promiseTitle": "我们的专业承诺",
       "promises": [
-        "跨境合规流程严格执行，信息安全优先",
+        "核心平台、算法与数据能力坚持自主研发",
         "由行业顾问一对一对接，方案清晰可执行",
         "提供阶段性进度同步，保证沟通透明"
       ],
-      "bottomTitle": "让专业团队加速你的全球业务推进",
-      "bottomDesc": "留下你的目标市场与业务阶段，我们会给出明确、可落地的下一步建议。",
+      "bottomTitle": "共同启动你的未来产业计划",
+      "bottomDesc": "告诉我们你的产业方向、应用场景和技术目标，我们将规划清晰可落地的合作路径。",
       "metrics": {
         "response": "首次响应",
         "availability": "服务时段",
-        "coverage": "覆盖范围",
-        "security": "合规保障"
+        "coverage": "产业覆盖",
+        "security": "技术保障"
       },
       "placeholders": {
         "email": "you@company.com",
@@ -2145,11 +2121,11 @@
     "email": "邮箱",
     "phone": "电话",
     "ui": {
-      "title": "准备开始你的跨境增长计划？",
-      "description": "从策略评估到落地执行，Neptia 提供端到端专业支持。",
+      "title": "准备共建下一个未来产业标杆？",
+      "description": "从核心研发到平台建设与规模化运营，Neptia 提供全链路产业能力。",
       "cta": "预约免费咨询",
       "badges": {
-        "compliance": "合规与安全优先",
+        "compliance": "核心技术自主研发",
         "response": "24小时快速响应"
       }
     }

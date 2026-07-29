@@ -13,243 +13,237 @@
     "contact": "Contact",
     "brand": "Neptia",
     "insight": "Insights",
-    "tagline": "Global Expansion Studio",
+    "tagline": "Future Industry Technology",
     "cta": "Free Consultation"
   },
   "index": {
     "hero": {
-      "title": "Empower Your Global Business Expansion",
-      "subtitle": "Open & Inclusive • Collaborate Globally • Build the Future",
-      "description": "Neptia provides end-to-end cross-border technology and information services. From payments, logistics to e-commerce implementation, and overseas brand promotion in China, we help businesses efficiently expand globally and achieve seamless connectivity.",
+      "title": "Explore Beyond the Sky. Reinvent Life on Earth.",
+      "subtitle": "Aerospace · Low-Altitude Economy · Deep Space · HealthTech · Global Retail",
+      "description": "Led by CEO Zeng Zhiyuan, Neptia connects the sky, deep space, and the real world through proprietary technology—building a future-industry portfolio spanning space mission systems, intelligent low-altitude networks, digital healthcare, and global retail.",
       "cta": {
         "startNow": "Get Started Now",
         "learnMore": "Learn More"
       }
     },
     "service": {
-      "title": "Our Services",
-      "description": "Comprehensive Enterprise Service Solutions",
+      "title": "Five Core Businesses",
+      "description": "Proprietary technology powering an integrated space, air, and ground ecosystem",
       "list": [
         {
-          "icon": "Building2",
-          "name": "Company License Information",
-          "color": "from-blue-500 to-cyan-500"
+          "icon": "Rocket",
+          "name": "Intelligent Space Mission Systems",
+          "color": "from-sky-500 to-blue-700"
         },
         {
-          "icon": "FileText",
-          "name": "Visa Policy Information",
-          "color": "from-purple-500 to-pink-500"
+          "icon": "Satellite",
+          "name": "Satellite Sensing & TT&C",
+          "color": "from-cyan-500 to-sky-700"
         },
         {
-          "icon": "Users",
-          "name": "Site Selection Consultation",
-          "color": "from-orange-500 to-red-500"
+          "icon": "RadioTower",
+          "name": "Low-Altitude Digital Infrastructure",
+          "color": "from-emerald-500 to-cyan-600"
         },
         {
-          "icon": "Scale",
-          "name": "Tax & Administration Information",
-          "color": "from-green-500 to-emerald-500"
+          "icon": "Activity",
+          "name": "Low-Altitude Flight Operations",
+          "color": "from-teal-500 to-emerald-700"
         },
         {
-          "icon": "TrendingUp",
-          "name": "Daily Financial & Tax Data",
-          "color": "from-indigo-500 to-blue-500"
+          "icon": "Orbit",
+          "name": "Deep-Space Mission Planning",
+          "color": "from-indigo-500 to-violet-800"
         },
         {
-          "icon": "Globe",
-          "name": "Tax Planning & Compliance",
-          "color": "from-teal-500 to-cyan-500"
+          "icon": "Database",
+          "name": "Deep-Space Science Data",
+          "color": "from-violet-500 to-purple-800"
         },
         {
-          "icon": "Users",
-          "name": "HR Management Solutions",
-          "color": "from-pink-500 to-rose-500"
+          "icon": "Heart",
+          "name": "Smart Healthcare & Life Data",
+          "color": "from-rose-500 to-pink-700"
         },
         {
-          "icon": "Shield",
-          "name": "Intellectual Property Information",
-          "color": "from-violet-500 to-purple-500"
+          "icon": "Cpu",
+          "name": "Intelligent Medical Devices",
+          "color": "from-pink-500 to-rose-700"
         },
         {
-          "icon": "Scale",
-          "name": "Legal Information Summary",
-          "color": "from-amber-500 to-orange-500"
+          "icon": "ShoppingCart",
+          "name": "Global Intelligent Retail",
+          "color": "from-orange-500 to-amber-700"
         },
         {
-          "icon": "FileText",
-          "name": "Import/Export License Information",
-          "color": "from-lime-500 to-green-500"
-        },
-        {
-          "icon": "Award",
-          "name": "Product Certification Guide",
-          "color": "from-cyan-500 to-blue-500"
-        },
-        {
-          "icon": "Building2",
-          "name": "Construction Engineering Compliance Information",
-          "color": "from-red-500 to-pink-500"
-        },
-        {
-          "icon": "CheckCircle2",
-          "name": "SIRIM / International Certification",
-          "color": "from-emerald-500 to-teal-500"
-        },
-        {
-          "icon": "Award",
-          "name": "Halal Certification Guide",
-          "color": "from-fuchsia-500 to-purple-500"
-        },
-        {
-          "icon": "Shield",
-          "name": "ISO / International Standards",
-          "color": "from-sky-500 to-indigo-500"
-        },
-        {
-          "icon": "Server",
-          "name": "Corporate Email Configuration",
-          "color": "from-blue-400 to-indigo-500"
-        },
-        {
-          "icon": "Layout",
-          "name": "Independent Website Development",
-          "color": "from-green-400 to-teal-500"
-        },
-        {
-          "icon": "CreditCard",
-          "name": "Stripe Payment Integration",
-          "color": "from-purple-400 to-pink-500"
-        },
-        {
-          "icon": "Package",
-          "name": "Supply Chain Information by Country",
-          "color": "from-orange-400 to-red-500"
-        },
-        {
-          "icon": "Globe",
-          "name": "International Logistics & Customs Information",
-          "color": "from-teal-400 to-cyan-500"
+          "icon": "BarChart2",
+          "name": "Retail Data & Brand Growth",
+          "color": "from-amber-500 to-orange-700"
         }
       ]
     },
     "feature": {
-      "title": "Our Advantages",
-      "subtitle": "Why Businesses Choose Our Services",
+      "title": "Deep Technology for the Future",
+      "subtitle": "From foundational R&D to industrial-scale deployment",
       "list": [
         {
           "icon": "CheckCircle2",
-          "title": "Professional Team",
-          "description": "Experienced consultants provide one-on-one service",
+          "title": "Proprietary R&D",
+          "description": "Independently built platforms, algorithms, and data capabilities",
           "color": "from-green-400 to-teal-500"
         },
         {
           "icon": "TrendingUp",
-          "title": "Efficient Processing",
-          "description": "Quick response, transparent process",
+          "title": "Space-Air-Ground Integration",
+          "description": "Connecting spacecraft, low-altitude networks, and ground applications",
           "color": "from-teal-400 to-cyan-500"
         },
         {
           "icon": "Shield",
-          "title": "Security Assurance",
-          "description": "Information confidentiality, compliant operations",
+          "title": "Mission-Grade Reliability",
+          "description": "Stable, trusted systems for mission-critical environments",
           "color": "from-teal-400 to-cyan-500"
         },
         {
           "icon": "Globe",
-          "title": "Full Tracking",
-          "description": "Real-time progress updates, constant communication",
+          "title": "Global Industrialization",
+          "description": "Turning frontier technologies into sustainable business value",
           "color": "from-teal-400 to-cyan-500"
         }
       ]
     },
-    "case": {
-      "title": "Building on technology infrastructure and bridging with brand. We empower industry growth while operating our own retail brand Soptia, jointly creating a sustainable global ecosystem.",
+    "aerospace": {
+      "eyebrow": "CORE BUSINESS · IN-HOUSE R&D",
+      "title": "Aerospace and Deep-Space Exploration Are Core Neptia R&D Priorities",
+      "description": "Led by CEO Zeng Zhiyuan, Neptia independently develops aerospace software, mission-data intelligence, and ground application systems spanning mission design, flight telemetry, remote-sensing processing, and deep-space science.",
+      "highlights": ["Core Business", "In-house R&D", "Led by CEO Zeng Zhiyuan"],
       "list": [
         {
-          "title": "Soptia Global Retail Expansion to Middle East",
-          "description": "Helped Australian Soptia successfully enter the Middle East market through localized operations and digital management.",
+          "icon": "Orbit",
+          "title": "Deep-Space Mission Planning",
+          "description": "Example: trajectory-plan management, launch-window analysis, payload scheduling, and cross-team workspaces for lunar, Mars, and asteroid exploration missions.",
+          "capabilities": ["Trajectory Plans", "Window Analysis", "Payload Scheduling"]
+        },
+        {
+          "icon": "Rocket",
+          "title": "Rocket Telemetry & Diagnostics",
+          "description": "Example: real-time ingestion of attitude, velocity, thermal, and propulsion telemetry, automated anomaly detection, and flight dashboards for rapid engineering assessment.",
+          "capabilities": ["Live Telemetry", "Anomaly Detection", "Flight Awareness"]
+        },
+        {
+          "icon": "Satellite",
+          "title": "Intelligent Satellite Remote Sensing",
+          "description": "Example: correction, mosaicking, object detection, and change analysis for multispectral and high-resolution imagery used in agriculture, disaster response, and environmental monitoring.",
+          "capabilities": ["Image Processing", "Object Detection", "Change Analysis"]
+        },
+        {
+          "icon": "RadioTower",
+          "title": "Ground Stations & TT&C",
+          "description": "Example: unified antenna resources, tracking schedules, command uplink/downlink, and mission logs with automated orchestration across multiple satellites and stations.",
+          "capabilities": ["TT&C Scheduling", "Command Control", "Multi-station Ops"]
+        },
+        {
+          "icon": "Telescope",
+          "title": "Deep-Space Science Data",
+          "description": "Example: searchable, traceable catalogs for spacecraft and scientific-payload data, enabling researchers to perform joint analysis across multiple missions.",
+          "capabilities": ["Science Data", "Asset Catalog", "Joint Analysis"]
+        },
+        {
+          "icon": "Cpu",
+          "title": "Spacecraft Digital Twins",
+          "description": "Example: reproducing critical spacecraft states in a digital environment for mission rehearsal, fault injection, and in-orbit operations simulation.",
+          "capabilities": ["Mission Rehearsal", "Fault Simulation", "In-orbit Ops"]
+        }
+      ]
+    },
+    "case": {
+      "title": "From space exploration to human health, and from low-altitude networks to global commerce, Neptia brings frontier technology into the real world.",
+      "list": [
+        {
+          "title": "Neptia Deep-Space Mission Intelligence",
+          "description": "Proprietary mission planning, telemetry analytics, and digital-twin capabilities for lunar, Mars, and asteroid exploration infrastructure.",
           "cover": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/index/01.jpg"
         },
         {
-          "title": "Neptia Supports Canadian Medical Device Digital Transformation",
-          "description": "Provided digital solutions for Canadian enterprises, achieving business process optimization and data-driven growth.",
+          "title": "Neptia Low-Altitude Digital Foundation",
+          "description": "An integrated operating capability for urban logistics, inspection, and emergency response through airspace twins, route planning, flight surveillance, and intelligent orchestration.",
           "cover": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/index/02.jpg"
         },
         {
-          "title": "Neptia Provides Digital Services for UK Government",
-          "description": "Assisted UK government agencies in achieving service digitalization, process intelligence, and efficient information flow.",
+          "title": "Soptia Global Intelligent Retail Network",
+          "description": "Connecting diverse consumer markets through customer intelligence, intelligent assortment, global fulfillment, and localized operations for Neptia's retail brand Soptia.",
           "cover": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/index/03.jpg"
         }
       ]
     },
     "evaluate": {
-      "title": "Global Client Testimonials",
-      "subtitle": "Success Stories from Businesses Worldwide",
+      "title": "Global Industry Partner Perspectives",
+      "subtitle": "Frontier technologies becoming real industrial value around the world",
       "list": [
         {
           "name": "Alexander Schmidt",
           "position": "CEO",
-          "company": "Berlin Tech Solutions GmbH",
+          "company": "Berlin Orbital Systems GmbH",
           "country": "Germany",
           "flag": "🇩🇪",
-          "description": "Neptia demonstrated exceptional expertise in German company setup and GmbH registration. Their bilingual team saved us significant time and costs in tax optimization and EU compliance, enabling us to quickly enter the European market.",
+          "description": "Neptia's intelligent mission core unifies telemetry, flight awareness, and anomaly diagnostics, enabling our engineering teams to understand mission state faster and make critical decisions with data.",
           "rating": 4,
-          "service": "German Company Registration + EU Compliance",
+          "service": "Space Mission Systems + Telemetry Intelligence",
           "duration": "2 Years Partnership"
         },
         {
           "name": "Sophia Müller",
           "position": "International Business Director",
-          "company": "Munich Automotive Innovations",
+          "company": "Munich Urban Air Mobility",
           "country": "Germany",
           "flag": "🇩🇪",
-          "description": "Our electric vehicle components required EU CE certification and German TÜV certification. Neptia not only efficiently completed all certifications but also developed a comprehensive strategy for entering the European market. Our products are now available in 5 EU countries.",
+          "description": "With Neptia's low-altitude digital twin and flight operations platform, we can rehearse routes, evaluate capacity, and monitor dynamic risk in one view—the digital foundation for scaled operations.",
           "rating": 5,
-          "service": "CE Certification + TÜV Certification + Market Strategy",
+          "service": "Low-Altitude Digital Twin + Flight Operations",
           "duration": "18 Months Partnership"
         },
         {
           "name": "Oliver Johnson",
-          "position": "Managing Partner",
-          "company": "London FinTech Group",
+          "position": "Mission Programme Director",
+          "company": "London Deep Space Research",
           "country": "UK",
           "flag": "🇬🇧",
-          "description": "The FCA licensing process was extremely complex, but Neptia's expert team guided us through every step, ensuring full compliance with UK financial regulations. The entire process from application to approval took only 4 months, exceeding our expectations.",
+          "description": "Neptia connects mission windows, trajectory plans, payload schedules, and scientific data assets, dramatically improving collaborative deep-space mission design and cross-disciplinary analysis.",
           "rating": 5,
-          "service": "FCA Financial License Application",
+          "service": "Deep-Space Mission Design + Science Data",
           "duration": "2 Years Partnership"
         },
         {
           "name": "Charlotte Williams",
           "position": "Product Director",
-          "company": "Cambridge Biotech Ltd",
+          "company": "Cambridge Digital Health Lab",
           "country": "UK",
           "flag": "🇬🇧",
-          "description": "MHRA medical device registration and UKCA certification required strict timing. Neptia not only completed all certifications ahead of schedule but also developed a dual-track compliance strategy for both UK and EU markets. Our products are now sold simultaneously in both markets.",
+          "description": "Neptia connected our clinical, imaging, and device data through trusted collaboration workflows, enabling clinical and research teams to advance intelligent-assistance studies more efficiently.",
           "rating": 3,
-          "service": "MHRA Registration + UKCA Certification",
+          "service": "Healthcare Data + Clinical Intelligence",
           "duration": "15 Months Partnership"
         },
         {
           "name": "James Anderson",
           "position": "Founder & CEO",
-          "company": "Silicon Valley AI Labs",
+          "company": "Silicon Valley Space Robotics",
           "country": "USA",
           "flag": "🇺🇸",
-          "description": "Delaware C-Corp setup and patent strategy development were crucial for our US expansion. Neptia experts not only handled company registration but also developed a comprehensive IP protection plan, ensuring our core technology is fully protected in the US market.",
+          "description": "The spacecraft digital twin enables system-level rehearsal, fault injection, and health prediction before execution, turning complex in-orbit operations into an observable and verifiable engineering process.",
           "rating": 5,
-          "service": "US Company Setup + Intellectual Property Protection",
+          "service": "Spacecraft Digital Twins + In-orbit Operations",
           "duration": "3 Years Partnership"
         },
         {
           "name": "Emma Thompson",
-          "position": "CFO",
-          "company": "Boston Medical Devices Inc",
+          "position": "Global Operations Director",
+          "company": "Boston Future Retail Inc",
           "country": "USA",
           "flag": "🇺🇸",
-          "description": "The FDA 510(k) certification process was complex and time-consuming, but Neptia's professional guidance saved us many detours. They not only handled the certification but also provided strategies for accessing the US Medicare system.",
+          "description": "Neptia's global intelligent retail platform unified product, inventory, customer, and channel data, helping us identify regional demand quickly while delivering a consistent yet locally relevant brand experience.",
           "rating": 5,
-          "service": "FDA Certification + Medicare System Access",
+          "service": "Intelligent Retail + Global Fulfillment",
           "duration": "2.5 Years Partnership"
         },
         {
@@ -453,27 +447,27 @@
       ]
     },
     "cta": {
-      "title": "Start Your New Global Business Chapter",
-      "subtitle": "Work with the world's leading cross-border compliance experts to safely and efficiently expand into international markets",
+      "title": "Define the Next Frontier of Future Industries",
+      "subtitle": "Turn ambitious ideas into reality across aerospace, the low-altitude economy, deep space, health technology, and global retail",
       "button": "Get Free Strategic Consultation"
     },
     "ui": {
-      "partner": "Global Expansion Partner",
+      "partner": "Future Industry Technology Partner",
       "explore": "Explore More"
     },
     "metrics": {
-      "countries": "Countries",
-      "rating": "Avg. Rating"
+      "countries": "Global Industry Network",
+      "rating": "Partner Satisfaction"
     }
   },
   "product": {
     "hero": {
-      "title": "Neptia Products & Pricing",
-      "description": "Providing end-to-end cross-border services, from company registration, compliance, payments, logistics to brand internationalization strategies, catering to businesses of all sizes.",
+      "title": "Neptia Future Industry Product Portfolio",
+      "description": "Composable, scalable core technology platforms for aerospace, the low-altitude economy, deep-space exploration, health technology, and global retail.",
       "contact": "Get Free Consultation"
     },
     "category": {
-      "title": "Browse by Category"
+      "title": "Browse by Future Industry"
     },
     "product": {
       "list": [
@@ -1298,8 +1292,8 @@
       "contact": "Contact Us"
     },
     "package": {
-      "title": "Packages & Pricing",
-      "warn": "Delivery Timeline",
+      "title": "Five Flagship Industry Solutions",
+      "warn": "Project Timeline",
       "list": [
         {
           "name": "Startup Internationalization Basic Package",
@@ -1384,25 +1378,28 @@
           "price": "$6,000"
         }
       ],
-      "buy": "Order Now"
+      "buy": "Discuss Partnership"
     },
     "cta": {
-      "title": "Start Your Global Business Journey",
-      "description": "Expand internationally with Neptia efficiently, compliantly, and securely",
+      "title": "Turn Future-Industry Blueprints Into Reality",
+      "description": "Build core platforms, flagship scenarios, and sustainable industry ecosystems with Neptia",
       "contact": "Get Free Strategic Consultation"
     },
     "ui": {
       "all": "All",
-      "catalog": "Global Service Catalog",
-      "explore": "Explore Catalog",
-      "services": "Service Items",
-      "packages": "Packages",
-      "categories": "Categories",
+      "catalog": "Future Industry Product Portfolio",
+      "explore": "Explore Core Products",
+      "services": "Core Products",
+      "packages": "Industry Solutions",
+      "categories": "Industry Pillars",
       "filtered": "Filtered Results",
-      "hint": "Filter by business stage or industry first, then let us tailor the most effective plan for you.",
+      "hint": "Five strategic industries and fifteen core products, powered by proprietary technology from proof of concept to scaled operations.",
       "filterDesc": "Current filtered results: {{count}} items",
-      "startAt": "Starting at",
-      "packageDesc": "Standard packages help you launch fast, while complex goals can be delivered as custom bundles.",
+      "startAt": "Engagement",
+      "packageDesc": "Core products composed around industry goals, creating integrated solutions from foundational technology to scenario operations.",
+      "custom": "Strategic Partnership",
+      "projectCycle": "Planned by project goals",
+      "pillars": ["Aerospace", "Low-Altitude Economy", "Deep Space", "HealthTech", "Global Retail"],
       "payWithPayPal": "Pay with PayPal"
     }
   },
@@ -1426,159 +1423,138 @@
   },
   "service": {
     "hero": {
-      "title": "Neptia Service Solutions",
-      "description": "Neptia delivers end-to-end, cross-industry enterprise information and software solutions tailored for global small and medium-sized businesses. Our expertise spans computing, healthcare, retail, corporate services, taxation, finance, education, and supply chain management, empowering organizations to achieve operational efficiency, digital transformation, and global expansion."
+      "title": "Neptia Future Industry Capabilities",
+      "description": "Led by CEO Zeng Zhiyuan, Neptia advances five strategic industries—aerospace, the low-altitude economy, deep-space exploration, health technology, and global retail—scaling future technologies through proprietary platforms, algorithms, and data intelligence."
     },
     "service": {
-      "title": "Our Service Areas",
-      "description": "Neptia provides cross-industry, cross-border professional solutions to support business globalization and digital transformation.",
+      "title": "Future Industry Solutions Portfolio",
+      "description": "Across aerospace, the low-altitude economy, deep-space exploration, health technology, and global retail, Neptia delivers integrated capabilities from core R&D and platform engineering to industrial operations.",
       "list": [
         {
+          "icon": "Rocket",
+          "name": "Intelligent Space Mission Core",
+          "description": "An integrated command platform for launch vehicles and spacecraft, combining mission planning, telemetry, anomaly diagnostics, and flight awareness"
+        },
+        {
+          "icon": "Satellite",
+          "name": "Satellite Intelligence Engine",
+          "description": "Fusing multispectral, high-resolution, and time-series imagery for intelligent interpretation, object detection, change analysis, and industry decisions"
+        },
+        {
           "icon": "Server",
-          "name": "Computer & IT Services",
-          "description": "Software development, system integration, cloud service solutions, AI & big data applications"
-        },
-        {
-          "icon": "Cpu",
-          "name": "Hardware & Network Solutions",
-          "description": "Server deployment, network architecture design and maintenance"
-        },
-        {
-          "icon": "Heart",
-          "name": "Healthcare Services",
-          "description": "Telemedicine, medical informatization, health data management, medical equipment support"
-        },
-        {
-          "icon": "BookOpen",
-          "name": "Education & Training",
-          "description": "Online education platforms, cross-border training courses, corporate training programs"
-        },
-        {
-          "icon": "ShoppingCart",
-          "name": "Retail & E-commerce Services",
-          "description": "Cross-border e-commerce, supply chain management, independent website development, market analysis"
-        },
-        {
-          "icon": "Building2",
-          "name": "Enterprise Services",
-          "description": "Company registration, tax consultation, human resource management, legal & compliance support"
-        },
-        {
-          "icon": "FileText",
-          "name": "Tax & Financial Services",
-          "description": "Tax planning, financial reporting, auditing, compliance consultation, financing solutions"
-        },
-        {
-          "icon": "CreditCard",
-          "name": "Financial & Payment Services",
-          "description": "Payment integration, corporate financing, cross-border settlement, digital currency consultation"
-        },
-        {
-          "icon": "Shield",
-          "name": "Intellectual Property & Certification",
-          "description": "Trademark registration, patent applications, product certification, international standard certification"
-        },
-        {
-          "icon": "CheckCircle2",
-          "name": "Innovation & Strategic Consulting",
-          "description": "Industry analysis, digital transformation, business strategy, and enterprise innovation planning"
-        },
-        {
-          "icon": "Globe",
-          "name": "International Market & Logistics",
-          "description": "Cross-border logistics, international market research, customs clearance solutions, supply chain optimization"
+          "name": "Ground Station & TT&C Network",
+          "description": "Unified orchestration of antennas, tracking schedules, command links, and mission logs for automated multi-satellite, multi-station operations"
         },
         {
           "icon": "Activity",
-          "name": "Industry Training & Support",
-          "description": "Professional training, workshops, enterprise digital transformation support"
+          "name": "Low-Altitude Flight Services",
+          "description": "Route planning, dynamic airspace, flight surveillance, and operations scheduling for drones and electric vertical-takeoff aircraft"
         },
         {
-          "icon": "Box",
-          "name": "Supply Chain Management",
-          "description": "Global supply chain setup, warehouse logistics optimization, inventory management solutions"
+          "icon": "Cpu",
+          "name": "Low-Altitude Digital Twin",
+          "description": "A live digital model of urban airspace, vehicles, and infrastructure for capacity simulation, risk alerts, and emergency command"
+        },
+        {
+          "icon": "Globe",
+          "name": "Low-Altitude Industry Operations",
+          "description": "Scalable commercial networks for logistics, urban inspection, emergency response, and aerial tourism"
+        },
+        {
+          "icon": "Rocket",
+          "name": "Deep-Space Mission Design",
+          "description": "Launch-window analysis, trajectory-plan management, payload scheduling, and collaborative simulation for lunar, Mars, and asteroid missions"
+        },
+        {
+          "icon": "Database",
+          "name": "Deep-Space Science Infrastructure",
+          "description": "Cross-mission scientific data lakes and knowledge graphs that make precious exploration data discoverable, traceable, and computable"
+        },
+        {
+          "icon": "Cpu",
+          "name": "Spacecraft Digital Twins",
+          "description": "High-fidelity spacecraft states for mission rehearsal, fault injection, health prediction, and intelligent in-orbit operations"
+        },
+        {
+          "icon": "Activity",
+          "name": "Smart Healthcare Data Platform",
+          "description": "Connecting clinical, imaging, device, and wellness data into a trusted foundation for care providers and research"
+        },
+        {
+          "icon": "Heart",
+          "name": "Telehealth & Clinical Intelligence",
+          "description": "Extending high-quality care through remote collaboration, AI-assisted analysis, and continuous health management"
+        },
+        {
+          "icon": "Cpu",
+          "name": "Intelligent Medical Devices",
+          "description": "Device connectivity, edge computing, condition monitoring, and predictive maintenance for smarter, more reliable medical equipment"
+        },
+        {
+          "icon": "ShoppingCart",
+          "name": "Global Intelligent Retail",
+          "description": "Unified product, order, inventory, customer, and channel operations for brand growth across countries and markets"
         },
         {
           "icon": "BarChart2",
-          "name": "Data Analysis & BI",
-          "description": "Enterprise data analysis, business intelligence reporting, decision support systems"
+          "name": "Retail Decision Intelligence",
+          "description": "Demand forecasting, intelligent assortment, dynamic pricing, and consumer insight that drive merchandise productivity and growth"
         },
         {
-          "icon": "Award",
-          "name": "Innovation & R&D",
-          "description": "New technology research & development, product innovation, cross-border innovation project consulting"
+          "icon": "Box",
+          "name": "Global Fulfillment & Brand Ecosystem",
+          "description": "Connecting supply chains, fulfillment networks, and localized operations, validated through brand practices including Soptia"
         }
       ]
     },
     "collaborate": {
-      "title": "Global Enterprise & University Collaboration Cases",
-      "description": "We collaborate with world-leading enterprises and universities to promote multicultural exchange and cross-border business innovation.",
+      "title": "Five Flagship Industry Scenarios",
+      "description": "A proprietary technology foundation spanning the sky, deep space, human health, and global commerce.",
       "list": [
         {
-          "title": "E-commerce Supply Chain Optimization Project",
-          "organization": "Harvard University",
-          "country": "USA",
-          "description": "Collaborated with global university students to optimize e-commerce supply chain systems, improving logistics efficiency by 30%",
+          "title": "Integrated Space-Air-Ground Operations",
+          "organization": "Neptia In-house R&D",
+          "country": "AEROSPACE",
+          "description": "Connecting spacecraft, satellites, ground stations, and mission centers for intelligent collaboration from mission design through in-orbit operations.",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST-vPR7T_rUhWaKMfhZMccvV2f8tv2r9X8XQ&s"
         },
         {
-          "title": "Enterprise Digital Transformation Consulting",
-          "organization": "Siemens",
-          "country": "Germany",
-          "description": "Provided customized digital solutions for large enterprises, enhancing production automation levels",
+          "title": "Urban Low-Altitude Intelligence Network",
+          "organization": "Neptia In-house R&D",
+          "country": "LOW ALTITUDE",
+          "description": "Combining airspace digital twins, flight services, and operational orchestration for logistics, inspection, emergency response, and tourism.",
           "image": "https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=800&q=80"
         },
         {
-          "title": "Cross-cultural Education Exchange Platform",
-          "organization": "University of Melbourne",
-          "country": "Australia",
-          "description": "Collaborated with global universities to build online education platforms, promoting multicultural exchange and educational innovation",
+          "title": "Deep-Space Science Intelligence",
+          "organization": "Neptia In-house R&D",
+          "country": "DEEP SPACE",
+          "description": "Connecting mission planning, scientific data governance, and cross-mission analytics for lunar, Mars, and asteroid exploration.",
           "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80"
         },
         {
-          "title": "International Financial Payment Integration",
-          "organization": "HSBC",
-          "country": "UK",
-          "description": "Provided payment system integration for cross-border enterprises, optimizing international settlement processes",
+          "title": "Smart Healthcare Collaboration Network",
+          "organization": "Neptia Digital Health",
+          "country": "HEALTHTECH",
+          "description": "Connecting providers, clinicians, devices, and health data to expand access through trusted data and intelligent assistance.",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1I1KUkpiTsGW_kuyJttGyVQtKXBPF0Uje9w&s"
         },
         {
-          "title": "Rural Digital Payment Poverty Alleviation Project",
-          "organization": "World Bank",
-          "country": "Kenya",
-          "description": "Helped farmers in remote areas access financial services through digital payment systems, improving quality of life",
+          "title": "Global Intelligent Retail Ecosystem",
+          "organization": "Neptia · Soptia",
+          "country": "GLOBAL RETAIL",
+          "description": "Using product, consumer, supply-chain, and channel intelligence to power global brand operations and localized growth.",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxCpTmfYSSFKqzwWC_luZ9K4_Zr017yESRFw&s"
-        },
-        {
-          "title": "Remote Area Medical Informatization",
-          "organization": "Médecins Sans Frontières",
-          "country": "India",
-          "description": "Built telemedicine systems in mountain village areas, providing health services to remote residents",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtCEg41pvL5JhRzpYFpL7lZ_j81d2VMRO1oA&s"
-        },
-        {
-          "title": "Cross-national Environmental Education Project",
-          "organization": "Stanford University",
-          "country": "USA",
-          "description": "Collaborated with universities from multiple countries to conduct environmental protection education and sustainable development projects",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7L-QIlYQ7wG_HJGWYHxD76eDjjpeLD6Xd-Q&s"
-        },
-        {
-          "title": "SME Cross-border Financing",
-          "organization": "HSBC",
-          "country": "Singapore",
-          "description": "Provided cross-border financing and payment solutions for SMEs in the Asia-Pacific region, supporting international development",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxiISiPCR0DWuQ1YbhSWvEW4bGLjvLziqI7A&s"
         }
       ]
     },
     "ui": {
-      "tag": "Global Industry Service Network",
+      "tag": "Future Industries · In-house R&D",
       "cta": "Get Tailored Plan",
       "explore": "Explore Service Areas",
-      "hint": "From compliance and technology to growth strategy, we deliver an executable end-to-end cross-border service system.",
-      "bottomTitle": "Turn Services Into Your Global Growth Engine",
-      "bottomDesc": "Share your stage, industry, and target markets, and we will map a clear, practical service path.",
+      "hint": "Five strategic industries and fifteen core capabilities, unified by technology across R&D, data, and scaled operations.",
+      "bottomTitle": "Build the Next Future-Industry Landmark with Neptia",
+      "bottomDesc": "From proof of concept to platform engineering and scaled operations, we turn ambitious visions into industrial reality.",
       "metrics": {
         "areas": "Service Areas",
         "cases": "Case Studies",
@@ -1594,7 +1570,7 @@
       "p2": "Open & Inclusive",
       "p3": "Collaborate Globally",
       "p4": "Build the Future",
-      "p5": "bringing together diverse cultures and global talent, committed to providing cross-border information and software services for small and medium-sized enterprises."
+      "p5": "bringing together global technology talent to build core platforms for aerospace, the low-altitude economy, deep-space exploration, health technology, and global retail."
     },
     "value": {
       "title": "Our Values",
@@ -1613,7 +1589,7 @@
         {
           "icon": "Shield",
           "title": "Secure & Reliable",
-          "description": "Ensuring information security and business compliance, building a foundation of trust."
+          "description": "Building long-term trust through mission-grade reliability and data security."
         },
         {
           "icon": "Building2",
@@ -1634,48 +1610,48 @@
     },
     "team": {
       "title": "Global Team",
-      "description": "Our team brings together experts from different countries and cultural backgrounds, dedicated to providing globalized, efficient, and professional enterprise services.",
+      "description": "Our team brings together talent across space engineering, artificial intelligence, life sciences, and global retail to build critical platforms for future industries.",
       "list": [
         {
           "name": "Kenny",
           "position": "Software Architect",
           "country": "USA",
-          "expertise": "Cross-border Software & Information Services",
+          "expertise": "Space Mission Software & Architecture",
           "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/01.jpg"
         },
         {
           "name": "Lina",
           "position": "Technical Consultant",
           "country": "Canada",
-          "expertise": "Cloud Computing & Enterprise Systems",
+          "expertise": "Low-Altitude Digital Twins & Cloud",
           "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/02.jpg"
         },
         {
           "name": "Akira",
           "position": "Market Strategy",
           "country": "UK",
-          "expertise": "International Market Expansion",
+          "expertise": "Deep-Space Mission & Industry Strategy",
           "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/03.jpg"
         },
         {
           "name": "Maria",
           "position": "Legal Consultant",
           "country": "Australia",
-          "expertise": "Cross-border Legal & Compliance",
+          "expertise": "Smart Healthcare & Life Data",
           "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/04.jpg"
         },
         {
           "name": "David",
           "position": "Operations Director",
           "country": "France",
-          "expertise": "Project Management & Operations",
+          "expertise": "Global Retail & Brand Operations",
           "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/05.jpg"
         },
         {
           "name": "Sophia",
           "position": "Cross-border Trademark Consultant",
           "country": "USA",
-          "expertise": "Cross-border Intellectual Property",
+          "expertise": "Low-Altitude Scenarios & Ecosystem Operations",
           "photo": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/06.jpg"
         }
       ]
@@ -1697,7 +1673,7 @@
           "image": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/08.jpg"
         },
         {
-          "title": "Online Cross-border Workshop",
+          "title": "Future Industry Technology Workshop",
           "image": "https://neptia-common.oss-cn-shanghai.aliyuncs.com/official/about/07.jpg"
         }
       ]
@@ -1705,7 +1681,7 @@
     "ui": {
       "tag": "Our Global Story",
       "cta": "Talk With Us",
-      "hint": "We deliver not only services, but long-term, trusted cross-border growth partnership.",
+      "hint": "We build more than technology—we co-create future-industry ecosystems designed to evolve over time.",
       "bottomTitle": "Global Growth Should Never Be a Solo Journey",
       "bottomDesc": "From first-step strategy to long-term execution, the Neptia team helps turn complexity into clarity.",
       "metrics": {
@@ -1718,64 +1694,64 @@
   },
   "insight": {
     "hero": {
-      "title": "Enterprise Insights & Analysis",
-      "description": "Data-driven decision making to help businesses quickly grasp market trends",
+      "title": "Future Industry Insights",
+      "description": "Tracking technology shifts across aerospace, the low-altitude economy, deep space, health technology, and global retail",
       "contact": "Consult Now",
       "detail": "View Details"
     },
     "insight": {
-      "title": "Core Insights",
-      "description": "Providing comprehensive enterprise analysis to help you make informed decisions",
+      "title": "Five Industry Frontiers",
+      "description": "Understanding the future through technology, data, and industrial intelligence",
       "list": [
         {
           "icon": "BarChart2",
-          "title": "Market Trend Analysis",
-          "description": "Gain insights into industry development trends and discover potential opportunities through data.",
+        "title": "Aerospace Frontiers",
+        "description": "Tracking advances in mission systems, satellite sensing, TT&C networks, and digital twins.",
           "color": "from-indigo-500 to-purple-500"
         },
         {
           "icon": "PieChart",
-          "title": "User Behavior Research",
-          "description": "Analyze user behavior data to optimize product and service experiences.",
+        "title": "Low-Altitude Economy Map",
+        "description": "Understanding new models in infrastructure, flight services, urban applications, and commercial operations.",
           "color": "from-green-400 to-teal-500"
         },
         {
           "icon": "TrendingUp",
-          "title": "Investment & Growth",
-          "description": "Evaluate investment risks and potential to help businesses grow steadily.",
+        "title": "Deep-Space Exploration",
+        "description": "Following scientific goals, engineering challenges, and data value across lunar, Mars, and asteroid missions.",
           "color": "from-orange-400 to-red-500"
         },
         {
           "icon": "Users",
-          "title": "Team & Organization",
-          "description": "Optimize organizational structure and improve team collaboration efficiency.",
+        "title": "Health Technology Evolution",
+        "description": "Exploring the convergence of smart healthcare, life data, intelligent devices, and remote collaboration.",
           "color": "from-pink-400 to-rose-500"
         },
         {
           "icon": "Globe",
-          "title": "Global Markets",
-          "description": "Track international market dynamics and seize cross-border business opportunities.",
+        "title": "Global Retail Intelligence",
+        "description": "Decoding global brand growth through consumer, product, supply-chain, and channel intelligence.",
           "color": "from-teal-500 to-cyan-500"
         },
         {
           "icon": "Shield",
-          "title": "Risk & Compliance",
-          "description": "Ensure operational compliance and avoid potential risks.",
+        "title": "Cross-Industry Convergence",
+        "description": "Exploring shared value from AI, digital twins, and data infrastructure across all five industries.",
           "color": "from-violet-500 to-purple-500"
         }
       ]
     },
     "cta": {
-      "title": "Want to Deepen Enterprise Insights?",
-      "description": "Contact us immediately for professional analysis reports",
+      "title": "Want to Explore Future Industries?",
+      "description": "Contact us to shape technology roadmaps and flagship application scenarios",
       "contact": "Contact Us"
     },
     "ui": {
-      "tag": "Data-Driven Growth Intelligence",
+      "tag": "Intelligence for the Future",
       "explore": "Explore Core Insights",
       "hint": "Turn fragmented information into executable strategy so your team can make better decisions faster in complex markets.",
-      "bottomTitle": "Turn Insights Into Real Business Growth",
-      "bottomDesc": "We provide a full loop from analytics to actionable recommendations, helping you validate and iterate your growth path continuously.",
+      "bottomTitle": "Turn Industry Insight Into Technology Leaps",
+      "bottomDesc": "From trend intelligence to technology roadmaps and scenario validation, Neptia turns insight into executable industrial action.",
       "metrics": {
         "dimensions": "Insight Dimensions",
         "modules": "Analysis Modules",
@@ -1787,7 +1763,7 @@
   "contact": {
     "hero": {
       "title": "Contact Us",
-      "description": "We're always ready to provide professional enterprise services for you"
+      "description": "Talk with Neptia about aerospace, the low-altitude economy, deep space, health technology, and global retail"
     },
     "info": {
       "title": "Contact Information",
@@ -1822,7 +1798,7 @@
       "hint": "We usually respond within 24 hours, and your request is followed directly by an industry consultant.",
       "promiseTitle": "Our Professional Commitment",
       "promises": [
-        "Cross-border compliance procedures are strictly executed with security first.",
+        "Core platforms, algorithms, and data capabilities are developed in house.",
         "One-on-one consultant support with clear and actionable plans.",
         "Milestone-based progress updates to keep communication transparent."
       ],
@@ -1831,8 +1807,8 @@
       "metrics": {
         "response": "First Response",
         "availability": "Availability",
-        "coverage": "Coverage",
-        "security": "Compliance"
+        "coverage": "Industry Coverage",
+        "security": "Technology Assurance"
       },
       "placeholders": {
         "email": "you@company.com",
@@ -1851,11 +1827,11 @@
     "email": "Email",
     "phone": "Phone",
     "ui": {
-      "title": "Ready to Launch Your Cross-Border Growth Plan?",
-      "description": "From strategy evaluation to execution, Neptia delivers end-to-end professional support.",
+      "title": "Ready to Build the Next Future-Industry Landmark?",
+      "description": "From core R&D and platform engineering to scaled operations, Neptia delivers end-to-end industrial capability.",
       "cta": "Book Free Consultation",
       "badges": {
-        "compliance": "Compliance & Security First",
+        "compliance": "Proprietary Core Technology",
         "response": "24h Rapid Response"
       }
     }

@@ -24,6 +24,16 @@ import {
   Database,
   Sparkles,
   Compass,
+  Rocket,
+  Satellite,
+  Orbit,
+  RadioTower,
+  Telescope,
+  Cpu,
+  Activity,
+  Heart,
+  ShoppingCart,
+  BarChart2,
 } from "lucide-react";
 
 const iconMap: Record<string, any> = {
@@ -47,6 +57,23 @@ const iconMap: Record<string, any> = {
   Microscope,
   Database,
   Gavel,
+  Rocket,
+  Satellite,
+  Orbit,
+  RadioTower,
+  Telescope,
+  Cpu,
+  Activity,
+  Heart,
+  ShoppingCart,
+  BarChart2,
+};
+
+type AerospaceItem = {
+  icon: string;
+  title: string;
+  description: string;
+  capabilities: string[];
 };
 
 export default function Index() {
@@ -255,6 +282,76 @@ export default function Index() {
                   <h3 className="text-xl font-semibold text-slate-900">{item.title}</h3>
                   <p className="mt-2 text-slate-600">{item.description}</p>
                 </motion.div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      <section className="relative z-10 overflow-hidden bg-slate-950 px-4 py-20 sm:px-6 lg:px-8">
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_75%_20%,rgba(14,165,233,0.18),transparent_30%),radial-gradient(circle_at_20%_80%,rgba(99,102,241,0.16),transparent_34%)]" />
+        <div className="relative mx-auto max-w-7xl">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-80px" }}
+            className="mb-12 max-w-3xl"
+          >
+            <p className="mb-4 text-sm font-semibold uppercase tracking-[0.24em] text-cyan-300">
+              {indexData.aerospace.eyebrow}
+            </p>
+            <h2 className="text-3xl font-semibold leading-tight text-white sm:text-4xl">
+              {indexData.aerospace.title}
+            </h2>
+            <p className="mt-4 text-base leading-8 text-slate-300 sm:text-lg">
+              {indexData.aerospace.description}
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              {indexData.aerospace.highlights.map((highlight: string) => (
+                <span
+                  key={highlight}
+                  className="rounded-full border border-cyan-300/25 bg-cyan-300/10 px-4 py-2 text-sm font-medium text-cyan-100"
+                >
+                  {highlight}
+                </span>
+              ))}
+            </div>
+          </motion.div>
+
+          <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+            {(indexData.aerospace.list as AerospaceItem[]).map((item, index) => {
+              const Icon = iconMap[item.icon];
+              return (
+                <motion.article
+                  key={item.title}
+                  initial={{ opacity: 0, y: 28 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-80px" }}
+                  transition={{ delay: index * 0.12 }}
+                  whileHover={{ y: -6 }}
+                  className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.06] p-7 backdrop-blur sm:p-9"
+                >
+                  <div className="absolute -right-16 -top-16 h-44 w-44 rounded-full bg-cyan-400/10 blur-2xl transition group-hover:bg-cyan-400/20" />
+                  <div className="relative">
+                    <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl border border-cyan-300/20 bg-gradient-to-br from-cyan-400/20 to-blue-500/20">
+                      <Icon className="h-7 w-7 text-cyan-200" />
+                    </div>
+                    <h3 className="text-2xl font-semibold text-white">{item.title}</h3>
+                    <p className="mt-3 text-base leading-8 text-slate-300">
+                      {item.description}
+                    </p>
+                    <div className="mt-6 flex flex-wrap gap-2">
+                      {item.capabilities.map((capability: string) => (
+                        <span
+                          key={capability}
+                          className="rounded-full border border-white/10 bg-white/[0.06] px-3 py-1.5 text-xs font-medium text-cyan-100"
+                        >
+                          {capability}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </motion.article>
               );
             })}
           </div>
